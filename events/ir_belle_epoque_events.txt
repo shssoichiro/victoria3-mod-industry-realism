@@ -68,7 +68,7 @@ belle_epoque_events.14 = {
 						this = root
 					}
 					has_journal_entry = je_belle_epoque
-					has_building = building_tailoring_workshop
+					has_building = building_tailoring_workshops
 				}
 			}
 			has_building = building_railway
@@ -111,7 +111,7 @@ belle_epoque_events.14 = {
 		name = belle_epoque_events.14.b
 		random_scope_state = {
 			limit = {
-				has_building = building_tailoring_workshop
+				has_building = building_tailoring_workshops
 			}
 			add_modifier = {
 				name = modifier_haute_couture_competition

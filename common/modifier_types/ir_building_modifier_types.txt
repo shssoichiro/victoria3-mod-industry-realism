@@ -17,3 +17,8 @@ building_pottery_mills_throughput_add = {
 	good = yes
 	percent = yes
 }
+
+building_rayon_plants_throughput_add = {
+	good = yes
+	percent = yes
+}

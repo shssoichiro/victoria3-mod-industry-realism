@@ -3,7 +3,7 @@ has_industry_building = {
 		has_building = building_food_industry
 		has_building = building_distillery
 		has_building = building_textile_mills
-		has_building = building_tailoring_workshop
+		has_building = building_tailoring_workshops
 		has_building = building_furniture_manufacturies
 		has_building = building_luxury_furniture_manufacturies
 		has_building = building_glassworks
@@ -18,13 +18,39 @@ is_industry_building = {
 		is_building_type = building_food_industry
 		is_building_type = building_distillery
 		is_building_type = building_textile_mills
-		is_building_type = building_tailoring_workshop
+		is_building_type = building_tailoring_workshops
 		is_building_type = building_furniture_manufacturies
 		is_building_type = building_luxury_furniture_manufacturies
 		is_building_type = building_glassworks
 		is_building_type = building_pottery_mills
 		is_building_type = building_tooling_workshops
 		is_building_type = building_paper_mills
+	}
+}
+
+has_heavy_industry_building = {
+	OR = {
+		has_building = building_chemical_plants
+		has_building = building_synthetics_plants
+		has_building = building_steel_mills
+		has_building = building_motor_industry
+		has_building = building_war_machine_industry
+		has_building = building_electrics_industry
+		has_building = building_munition_plants
+		has_building = building_power_plant
+	}
+}
+
+is_heavy_industry_building = {
+	OR = {
+		is_building_type = building_chemical_plants
+		is_building_type = building_synthetics_plants
+		is_building_type = building_steel_mills
+		is_building_type = building_motor_industry
+		is_building_type = building_war_machine_industry
+		is_building_type = building_electrics_industry
+		is_building_type = building_munition_plants
+		is_building_type = building_power_plant
 	}
 }
 
@@ -56,7 +82,7 @@ is_production_building = {
 		is_building_type = building_food_industry
 		is_building_type = building_distillery
 		is_building_type = building_textile_mills
-		is_building_type = building_tailoring_workshop
+		is_building_type = building_tailoring_workshops
 		is_building_type = building_furniture_manufacturies
 		is_building_type = building_luxury_furniture_manufacturies
 		is_building_type = building_glassworks
@@ -65,6 +91,7 @@ is_production_building = {
 		is_building_type = building_paper_mills
 		is_building_type = building_chemical_plants
 		is_building_type = building_synthetics_plants
+		is_building_type = building_rayon_plants
 		is_building_type = building_steel_mills
 		is_building_type = building_motor_industry
 		is_building_type = building_shipyards
@@ -91,11 +118,11 @@ has_industrialized_pm = {
 		}
 		# Tailoring Workshop
 		is_production_method_active = {
-			building_type = building_tailoring_workshop
+			building_type = building_tailoring_workshops
 			production_method = pm_mechanized_looms
 		}
 		is_production_method_active = {
-			building_type = building_tailoring_workshop
+			building_type = building_tailoring_workshops
 			production_method = pm_automatic_power_looms
 		}
 		# Furniture Manufacturies

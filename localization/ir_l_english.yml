@@ -1,8 +1,10 @@
 ﻿l_english:
   building_distillery: Distillery
-  building_tailoring_workshop: Tailoring Workshop
+  building_tailoring_workshops: Tailoring Workshop
   building_luxury_furniture_manufacturies: Luxury Furniture Manufacturies
   building_pottery_mills: Pottery Mills
+  building_synthetics_plants: Dye Plants
+  building_rayon_plants: Rayon Plants
   pmg_base_building_distillery_type: Production Type
   pm_rum: Rum
   pm_vodka: Grain Alcohol

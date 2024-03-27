@@ -109,7 +109,7 @@ ai_strategy_default = {
 			trigger = {
 				OR = {
 					has_building = building_textile_mills
-					has_building = building_tailoring_workshop
+					has_building = building_tailoring_workshops
 				}
 				has_technology_researched = lathe
 			}
@@ -117,7 +117,7 @@ ai_strategy_default = {
 		silk = {
 			stance = wants_high_supply
 			trigger = {
-				has_building = building_tailoring_workshop
+				has_building = building_tailoring_workshops
 				total_population >= 1000000
 			}
 		}

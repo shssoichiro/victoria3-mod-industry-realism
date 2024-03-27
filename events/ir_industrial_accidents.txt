@@ -15,7 +15,7 @@ industrial_accident_events.2 = {
 		any_scope_state = {
 			OR = {
 				has_building = building_textile_mills
-				has_building = building_tailoring_workshop
+				has_building = building_tailoring_workshops
 			}
 		}
 		NOT = {
@@ -33,7 +33,7 @@ industrial_accident_events.2 = {
 			limit = {
 				OR = {
 					has_building = building_textile_mills
-					has_building = building_tailoring_workshop
+					has_building = building_tailoring_workshops
 				}
 			}
 			save_scope_as = dyeworks_state

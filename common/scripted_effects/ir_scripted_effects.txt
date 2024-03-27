@@ -18,15 +18,15 @@ save_industrialized_pm_building_and_state = {
 					}
 				}
 				AND = {
-					is_building_type = building_tailoring_workshop
+					is_building_type = building_tailoring_workshops
 					state = {
 						OR = {
 							is_production_method_active = {
-								building_type = building_tailoring_workshop
+								building_type = building_tailoring_workshops
 								production_method = pm_mechanized_looms
 							}
 							is_production_method_active = {
-								building_type = building_tailoring_workshop
+								building_type = building_tailoring_workshops
 								production_method = pm_automatic_power_looms
 							}
 						}
