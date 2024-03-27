@@ -18,6 +18,8 @@ Full list of changes:
 - Tailoring Workshop: new building produces luxury clothing
 - Furniture Manufacturies: now only produces normal furniture
 - Luxury Furniture Manufacturies: new building produces luxury furniture
+- Glassworks: now only produces glass
+- Pottery Mills: new building produces porcelain
 
 TODO:
 

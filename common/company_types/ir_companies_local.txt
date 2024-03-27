@@ -67,3 +67,42 @@ company_vodka_monopoly = {
 		value = 3		# Higher base value for flavored companies
 	}
 }
+
+# Jingdezhen Porcelain
+company_jingdezhen = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/chinese_jingdezhen_kilns.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	flavored_company = yes
+	building_types = {
+		building_pottery_mills
+	}
+	potential = {
+		has_interest_marker_in_region = region_south_china
+	}
+	attainable = {
+		hidden_trigger = {
+			# Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_JIANGXI
+			}
+		}
+	}
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_JIANGXI
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_pottery_mills
+				level >= 3
+			}
+		}
+		has_technology_researched = chemical_bleaching
+	}
+	prosperity_modifier = {
+		country_prestige_mult = 0.15
+		building_lead_mine_throughput_add = 0.05
+	}
+	ai_weight = {
+		value = 3		# Higher base value for flavored companies
+	}
+}

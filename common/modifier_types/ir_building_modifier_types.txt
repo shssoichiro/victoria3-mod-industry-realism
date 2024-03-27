@@ -12,3 +12,8 @@ building_luxury_furniture_manufacturies_throughput_add = {
 	good = yes
 	percent = yes
 }
+
+building_pottery_mills_throughput_add = {
+	good = yes
+	percent = yes
+}

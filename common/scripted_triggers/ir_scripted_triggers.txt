@@ -7,6 +7,7 @@ has_industry_building = {
 		has_building = building_furniture_manufacturies
 		has_building = building_luxury_furniture_manufacturies
 		has_building = building_glassworks
+		has_building = building_pottery_mills
 		has_building = building_tooling_workshops
 		has_building = building_paper_mills
 	}
@@ -21,6 +22,7 @@ is_industry_building = {
 		is_building_type = building_furniture_manufacturies
 		is_building_type = building_luxury_furniture_manufacturies
 		is_building_type = building_glassworks
+		is_building_type = building_pottery_mills
 		is_building_type = building_tooling_workshops
 		is_building_type = building_paper_mills
 	}
@@ -58,6 +60,7 @@ is_production_building = {
 		is_building_type = building_furniture_manufacturies
 		is_building_type = building_luxury_furniture_manufacturies
 		is_building_type = building_glassworks
+		is_building_type = building_pottery_mills
 		is_building_type = building_tooling_workshops
 		is_building_type = building_paper_mills
 		is_building_type = building_chemical_plants

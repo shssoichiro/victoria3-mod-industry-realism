@@ -81,7 +81,7 @@ building_furniture_manufacturies = {
 
 building_luxury_furniture_manufacturies = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/furniture_manufacturies.dds"
+	texture = "gfx/interface/icons/building_icons/luxury_furniture_manufacturies.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -91,6 +91,37 @@ building_luxury_furniture_manufacturies = {
 		pmg_luxury_building_furniture_manufacturies
 		pmg_automation_building_furniture_manufacturies
 		pmg_ownership_capital_building_furniture_manufacturies
+	}
+	required_construction = construction_cost_high
+}
+
+building_glassworks = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/glassworks.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		manufacturies
+	}
+	production_method_groups = {
+		pmg_base_building_glassworks
+		pmg_glassblowing
+		pmg_ownership_capital_building_glassworks
+	}
+	required_construction = construction_cost_high
+}
+
+building_pottery_mills = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/pottery_mills.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		manufacturies
+	}
+	production_method_groups = {
+		pmg_luxury_building_glassworks
+		pmg_ownership_capital_building_glassworks
 	}
 	required_construction = construction_cost_high
 }
