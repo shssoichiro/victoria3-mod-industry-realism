@@ -48,6 +48,12 @@ law_industry_banned = {
 				}
 				if = {
 					limit = {
+						has_building = building_automobile_factories
+					}
+					remove_building = building_automobile_factories
+				}
+				if = {
+					limit = {
 						has_building = building_war_machine_industry
 					}
 					remove_building = building_war_machine_industry

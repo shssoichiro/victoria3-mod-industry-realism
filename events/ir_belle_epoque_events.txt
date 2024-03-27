@@ -1,3 +1,100 @@
+# Peugeot Serpollet
+belle_epoque_events.8 = {
+	type = country_event
+	placement = scope:belle_epoque_state
+	title = {
+		first_valid = {
+			triggered_desc = {
+				desc = belle_epoque_events.8.t
+				trigger = {
+					country_has_primary_culture = cu:french
+				}
+			}
+			triggered_desc = {
+				desc = belle_epoque_events.8.t2
+				trigger = {
+					NOT = {
+						country_has_primary_culture = cu:french
+					}
+				}
+			}
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = belle_epoque_events.8.d
+				trigger = {
+					country_has_primary_culture = cu:french
+				}
+			}
+			triggered_desc = {
+				desc = belle_epoque_events.8.d2
+				trigger = {
+					NOT = {
+						country_has_primary_culture = cu:french
+					}
+				}
+			}
+		}
+	}
+	flavor = {
+		first_valid = {
+			triggered_desc = {
+				desc = belle_epoque_events.8.f
+				trigger = {
+					country_has_primary_culture = cu:french
+				}
+			}
+			triggered_desc = {
+				desc = belle_epoque_events.8.f2
+				trigger = {
+					NOT = {
+						country_has_primary_culture = cu:french
+					}
+				}
+			}
+		}
+	}
+	duration = 3
+	cooldown = {
+		months = very_long_modifier_time
+	}
+	event_image = {
+		video = "unspecific_gears_pistons"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+	trigger = {
+		any_scope_state = {
+			has_building = building_automobile_factories
+		}
+	}
+	immediate = {
+	}
+	option = {
+		name = belle_epoque_events.8.a
+		default_option = yes
+		set_variable = steam_car_variable
+		scope:belle_epoque_state = {
+			add_modifier = {
+				name = modifier_steam_car
+				months = normal_modifier_time
+			}
+		}
+	}
+	option = {
+		name = belle_epoque_events.8.b
+		trigger = {
+			NOT = {
+				has_consumption_tax = g:automobiles
+			}
+		}
+		set_variable = steam_car_variable
+		add_taxed_goods = g:automobiles
+	}
+}
+
 #Haute Couture - Foreign Country
 belle_epoque_events.14 = {
 	type = country_event

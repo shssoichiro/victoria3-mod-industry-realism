@@ -4,3 +4,18 @@ pmg_synthetic_silk = {
 		pm_rayon
 	}
 }
+
+pmg_automobile_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_automobile_production
+	}
+}
+
+pmg_automation_building_automobile_factories = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled
+		pm_assembly_lines_building_motor_industry
+	}
+}

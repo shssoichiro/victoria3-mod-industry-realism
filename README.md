@@ -23,6 +23,8 @@ Full list of changes:
 - Pottery Mills: new building produces porcelain
 - Synthetics Plants: now called dye plants, they produce dye from coal
 - Rayon Plants: new building, produces synthetic silk from wood
+- Motor Industry: now only makes engines
+- Automobile Factory: new building, makes automobiles from engines, oil, rubber, and steel
 
 TODO:
 
