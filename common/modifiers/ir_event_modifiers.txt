@@ -2,3 +2,8 @@ modifier_bg_diminished_rum_production = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	building_distillery_throughput_add = -0.5
 }
+
+modifier_haute_couture_competition = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_tailoring_workshop_throughput_add = 0.25
+}

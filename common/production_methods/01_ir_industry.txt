@@ -146,3 +146,88 @@ pm_worker_cooperative_building_distillery = {
 		}
 	}
 }
+
+pm_handsewn_clothes_luxury = {
+	texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_fabric_add = 10
+			goods_input_silk_add = 30
+			# output goods
+			goods_output_luxury_clothes_add = 35
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4500
+		}
+	}
+}
+
+pm_dye_workshops_luxury = {
+	texture = "gfx/interface/icons/production_method_icons/dye_workshops.dds"
+	unlocking_technologies = {
+		lathe
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_fabric_add = 10
+			goods_input_silk_add = 30
+			goods_input_dye_add = 5
+			# output goods
+			goods_output_luxury_clothes_add = 50
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+		}
+	}
+}
+
+pm_sewing_machines_luxury = {
+	texture = "gfx/interface/icons/production_method_icons/sewing_machines.dds"
+	unlocking_technologies = {
+		mechanized_workshops
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_fabric_add = 30
+			goods_input_silk_add = 30
+			goods_input_dye_add = 10
+			goods_input_tools_add = 5
+			# output goods
+			goods_output_luxury_clothes_add = 80
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3500
+			building_employment_machinists_add = 750
+			building_employment_engineers_add = 250
+		}
+	}
+}
+
+pm_electric_sewing_machines_luxury = {
+	texture = "gfx/interface/icons/production_method_icons/electric_sewing_machines.dds"
+	unlocking_technologies = {
+		electrical_capacitors
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_fabric_add = 30
+			goods_input_silk_add = 30
+			goods_input_dye_add = 20
+			goods_input_tools_add = 10
+			goods_input_electricity_add = 10
+			# output goods
+			goods_output_luxury_clothes_add = 120
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+	required_input_goods = electricity
+}

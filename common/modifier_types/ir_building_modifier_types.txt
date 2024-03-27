@@ -2,3 +2,8 @@ building_distillery_throughput_add = {
 	good = yes
 	percent = yes
 }
+
+building_tailoring_workshop_throughput_add = {
+	good = yes
+	percent = yes
+}

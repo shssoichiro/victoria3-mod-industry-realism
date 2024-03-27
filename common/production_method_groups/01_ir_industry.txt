@@ -14,13 +14,12 @@ pmg_base_building_distillery_type = {
 	}
 }
 
-pmg_ownership_capital_building_distillery = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+pmg_luxury_building_textile_mills = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
-		pm_merchant_guilds_building_distillery
-		pm_privately_owned_building_distillery
-		pm_publicly_traded_building_distillery
-		pm_government_run_building_distillery
-		pm_worker_cooperative_building_distillery
+		pm_handsewn_clothes_luxury
+		pm_dye_workshops_luxury
+		pm_sewing_machines_luxury
+		pm_electric_sewing_machines_luxury
 	}
 }
