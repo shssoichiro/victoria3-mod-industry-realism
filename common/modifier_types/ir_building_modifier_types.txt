@@ -7,3 +7,8 @@ building_tailoring_workshop_throughput_add = {
 	good = yes
 	percent = yes
 }
+
+building_luxury_furniture_manufacturies_throughput_add = {
+	good = yes
+	percent = yes
+}

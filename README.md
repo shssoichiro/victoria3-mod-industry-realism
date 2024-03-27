@@ -16,6 +16,8 @@ Full list of changes:
 - Distillery: new building uses sugar to produce rum, or grain to produce grain alcohol (vodka, beer, sake, etc.), both represented by generic "liquor" good
 - Textile Mills: now only produces normal clothing
 - Tailoring Workshop: new building produces luxury clothing
+- Furniture Manufacturies: now only produces normal furniture
+- Luxury Furniture Manufacturies: new building produces luxury furniture
 
 TODO:
 
