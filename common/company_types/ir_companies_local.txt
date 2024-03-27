@@ -1,0 +1,69 @@
+# San Miguel
+company_san_miguel = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/manila_la_fabrica_de_cerveza_san_miguel.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
+	flavored_company = yes
+	building_types = {
+		building_distillery
+	}
+	potential = {
+		has_interest_marker_in_region = region_indonesia
+	}
+	attainable = {
+		hidden_trigger = {
+			# Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				region = sr:region_indonesia
+			}
+		}
+	}
+	possible = {
+		any_scope_state = {
+			region = sr:region_indonesia
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_distillery
+				level >= 3
+			}
+		}
+		has_technology_researched = corporate_charters
+	}
+	prosperity_modifier = {
+		state_radicals_from_sol_change_mult = -0.1
+	}
+	ai_weight = {
+		value = 3		# Higher base value for flavored companies
+	}
+}
+
+# Vinnaia Monopoliia
+company_vodka_monopoly = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/russian_vodka_monopoly.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
+	flavored_company = yes
+	building_types = {
+		building_distillery
+		building_vineyard_plantation
+	}
+	potential = {
+		country_has_primary_culture = cu:russian
+	}
+	possible = {
+		NOT = {
+			has_law = law_type:law_laissez_faire
+		}
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_distillery
+				level >= 5
+			}
+		}
+	}
+	prosperity_modifier = {
+		state_radicals_from_sol_change_mult = -0.15
+	}
+	ai_weight = {
+		value = 3		# Higher base value for flavored companies
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Industry Realism",
+  "id": "",
+  "version": "",
+  "supported_game_version": "",
+  "short_description": "",
+  "tags": [],
+  "relationships": [],
+  "game_custom_data": {
+    "multiplayer_synchronized": true
+  },
+  "picture": "thumbnail.png"
+}

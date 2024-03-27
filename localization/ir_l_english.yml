@@ -1,0 +1,12 @@
+﻿l_english:
+  building_distillery: Distillery
+  pmg_base_building_distillery_type: "Production Type"
+  pm_rum: Rum
+  pm_vodka: Grain Alcohol
+  pmg_base_building_distillery: "$pm_base$"
+  pmg_ownership_capital_building_distillery: "$pmg_ownership$"
+  pm_merchant_guilds_building_distillery: "$pm_merchant_guilds$"
+  pm_privately_owned_building_distillery: "$pm_privately_owned$"
+  pm_publicly_traded_building_distillery: "$pm_publicly_traded$"
+  pm_government_run_building_distillery: "$pm_government_run$"
+  pm_worker_cooperative_building_distillery: "$pm_worker_cooperative$"

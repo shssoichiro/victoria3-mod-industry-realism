@@ -1,0 +1,23 @@
+has_industry_building = {
+	OR = {
+		has_building = building_food_industry
+		has_building = building_distillery
+		has_building = building_textile_mills
+		has_building = building_furniture_manufacturies
+		has_building = building_glassworks
+		has_building = building_tooling_workshops
+		has_building = building_paper_mills
+	}
+}
+
+is_industry_building = {
+	OR = {
+		is_building_type = building_food_industry
+		is_building_type = building_distillery
+		is_building_type = building_textile_mills
+		is_building_type = building_furniture_manufacturies
+		is_building_type = building_glassworks
+		is_building_type = building_tooling_workshops
+		is_building_type = building_paper_mills
+	}
+}
