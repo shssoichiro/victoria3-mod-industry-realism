@@ -402,7 +402,6 @@
 					"pm_handcrafted_furniture"
 					"pm_merchant_guilds_building_furniture_manufacturies"
 					"pm_automation_disabled"
-					"pm_luxury_furniture"
 				}
 			}
 			create_building = {
@@ -577,7 +576,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handcrafted_furniture"
-					"pm_no_luxuries"
 					"pm_automation_disabled"
 					"pm_merchant_guilds_building_furniture_manufacturies"
 				}
@@ -764,7 +762,6 @@
 					"pm_handcrafted_furniture"
 					"pm_merchant_guilds_building_furniture_manufacturies"
 					"pm_automation_disabled"
-					"pm_luxury_furniture"
 				}
 			}
 			create_building = {
@@ -1294,7 +1291,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handcrafted_furniture"
-					"pm_no_luxuries"
 					"pm_automation_disabled"
 					"pm_merchant_guilds_building_furniture_manufacturies"
 				}
@@ -2022,7 +2018,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handcrafted_furniture"
-					"pm_no_luxuries"
 					"pm_automation_disabled"
 					"pm_merchant_guilds_building_furniture_manufacturies"
 				}

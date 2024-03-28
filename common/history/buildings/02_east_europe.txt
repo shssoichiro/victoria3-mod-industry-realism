@@ -152,20 +152,29 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_handsewn_clothes"
+					"pm_handsewn_clothes_luxury"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
 				}
 			}
 			create_building = {
 				building = "building_furniture_manufacturies"
-				level = 6
+				level = 4
 				reserves = 1
 				activate_production_methods = {
 					"pm_handcrafted_furniture"
 					"pm_merchant_guilds_building_furniture_manufacturies"
 					"pm_automation_disabled"
-					"pm_luxury_furniture"
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_handcrafted_furniture_luxury"
+					"pm_automation_disabled"
+					"pm_merchant_guilds_building_furniture_manufacturies"
 				}
 			}
 			create_building = {
@@ -820,7 +829,6 @@
 					"pm_handcrafted_furniture"
 					"pm_merchant_guilds_building_furniture_manufacturies"
 					"pm_automation_disabled"
-					"pm_no_luxuries"
 				}
 			}
 			create_building = {
@@ -1076,7 +1084,6 @@
 					"pm_handcrafted_furniture"
 					"pm_merchant_guilds_building_furniture_manufacturies"
 					"pm_automation_disabled"
-					"pm_luxury_furniture"
 				}
 			}
 			create_building = {
@@ -1842,7 +1849,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_lathe"
-					"pm_luxury_furniture"
 					"pm_automation_disabled"
 					"pm_privately_owned_building_furniture_manufacturies"
 				}
@@ -1973,7 +1979,6 @@
 					"pm_handcrafted_furniture"
 					"pm_merchant_guilds_building_furniture_manufacturies"
 					"pm_automation_disabled"
-					"pm_no_luxuries"
 				}
 			}
 			create_building = {

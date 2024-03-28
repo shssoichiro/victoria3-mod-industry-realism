@@ -209,7 +209,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_handsewn_clothes"
+					"pm_handsewn_clothes_luxury"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
 				}
@@ -333,13 +333,22 @@
 		region_state:BIC = {
 			create_building = {
 				building = "building_furniture_manufacturies"
-				level = 3
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_handcrafted_furniture"
 					"pm_merchant_guilds_building_furniture_manufacturies"
 					"pm_automation_disabled"
-					"pm_luxury_furniture"
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_handcrafted_furniture_luxury"
+					"pm_merchant_guilds_building_furniture_manufacturies"
+					"pm_automation_disabled"
 				}
 			}
 			create_building = {
@@ -384,7 +393,6 @@
 					"pm_handcrafted_furniture"
 					"pm_merchant_guilds_building_furniture_manufacturies"
 					"pm_automation_disabled"
-					"pm_luxury_furniture"
 				}
 			}
 			create_building = {
@@ -705,7 +713,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_handsewn_clothes"
+					"pm_handsewn_clothes_luxury"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
 				}
@@ -716,7 +724,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handcrafted_furniture"
-					"pm_no_luxuries"
 					"pm_automation_disabled"
 					"pm_merchant_guilds_building_furniture_manufacturies"
 				}
@@ -965,7 +972,7 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = {
-					"pm_handsewn_clothes"
+					"pm_handsewn_clothes_luxury"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
 				}
@@ -1324,7 +1331,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_handsewn_clothes"
+					"pm_handsewn_clothes_luxury"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
 				}
@@ -1551,7 +1558,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_handsewn_clothes"
+					"pm_handsewn_clothes_luxury"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
 				}
@@ -1746,7 +1753,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_handsewn_clothes"
+					"pm_handsewn_clothes_luxury"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
 				}
