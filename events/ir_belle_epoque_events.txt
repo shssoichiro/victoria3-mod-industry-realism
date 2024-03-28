@@ -1,3 +1,99 @@
+#Sortie de l'usine Lumière de Lyon
+belle_epoque_events.6 = {
+	type = country_event
+	placement = scope:belle_epoque_state
+	title = {
+		first_valid = {
+			triggered_desc = {
+				desc = belle_epoque_events.6.t
+				trigger = {
+					country_has_primary_culture = cu:french
+				}
+			}
+			triggered_desc = {
+				desc = belle_epoque_events.6.t2
+				trigger = {
+					NOT = {
+						country_has_primary_culture = cu:french
+					}
+				}
+			}
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = belle_epoque_events.6.d
+				trigger = {
+					country_has_primary_culture = cu:french
+				}
+			}
+			triggered_desc = {
+				desc = belle_epoque_events.6.d2
+				trigger = {
+					NOT = {
+						country_has_primary_culture = cu:french
+					}
+				}
+			}
+		}
+	}
+	flavor = belle_epoque_events.6.f
+	duration = 3
+	cooldown = {
+		months = very_long_modifier_time
+	}
+	event_image = {
+		video = "europenorthamerica_london_center"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+	trigger = {
+		has_technology_researched = film
+		any_scope_state = {
+			is_incorporated = yes
+			has_building = building_electrics_industry
+		}
+	}
+	immediate = {
+		random_scope_state = {
+			limit = {
+				is_incorporated = yes
+				has_building = building_electrics_industry
+			}
+			save_scope_as = lumiere_state
+		}
+	}
+	option = {
+		name = belle_epoque_events.6.a
+		default_option = yes
+		set_variable = photoachygraphe_var
+		scope:lumiere_state = {
+			add_modifier = {
+				name = modifier_film_industry_bonus
+				months = normal_modifier_time
+			}
+		}
+	}
+	option = {
+		name = belle_epoque_events.6.b
+		trigger = {
+			any_scope_state = {
+				has_building = building_arts_academy
+			}
+		}
+		random_scope_state = {
+			limit = {
+				has_building = building_arts_academy
+			}
+			add_modifier = {
+				name = modifier_trad_arts_bonus
+				months = normal_modifier_time
+			}
+		}
+	}
+}
+
 # Peugeot Serpollet
 belle_epoque_events.8 = {
 	type = country_event

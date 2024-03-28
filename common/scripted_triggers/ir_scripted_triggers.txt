@@ -38,6 +38,7 @@ has_heavy_industry_building = {
 		has_building = building_war_machine_industry
 		has_building = building_aircraft_industry
 		has_building = building_electrics_industry
+		has_building = building_radio_industry
 		has_building = building_munition_plants
 		has_building = building_power_plant
 	}
@@ -53,6 +54,7 @@ is_heavy_industry_building = {
 		is_building_type = building_war_machine_industry
 		is_building_type = building_aircraft_industry
 		is_building_type = building_electrics_industry
+		is_building_type = building_radio_industry
 		is_building_type = building_munition_plants
 		is_building_type = building_power_plant
 	}
@@ -101,6 +103,7 @@ is_production_building = {
 		is_building_type = building_automobile_factories
 		is_building_type = building_shipyards
 		is_building_type = building_electrics_industry
+		is_building_type = building_radio_industry
 		is_building_type = building_war_machine_industry
 		is_building_type = building_aircraft_industry
 		is_building_type = building_arms_industry

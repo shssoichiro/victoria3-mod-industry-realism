@@ -32,3 +32,8 @@ building_aircraft_industry_throughput_add = {
 	good = yes
 	percent = yes
 }
+
+building_radio_industry_throughput_add = {
+	good = yes
+	percent = yes
+}

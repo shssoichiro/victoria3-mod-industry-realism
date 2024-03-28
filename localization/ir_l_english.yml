@@ -7,6 +7,8 @@
   building_rayon_plants: Rayon Plants
   building_automobile_factories: Automobile Factories
   building_aircraft_industry: Aircraft Industry
+  building_electrics_industry: Telephone Industry
+  building_radio_industry: Radio Industry
   pmg_base_building_distillery_type: Production Type
   pm_rum: Rum
   pm_vodka: Grain Alcohol

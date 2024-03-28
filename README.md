@@ -28,6 +28,8 @@ Full list of changes:
 - Automobile Factory: new building, makes automobiles from engines, oil, rubber, and steel
 - War Machines Industry: now only makes tanks
 - Aircraft Industry: new building, makes aeroplanes
+- Electrics Industry: renamed to Telephone Industry, now only makes telephones
+- Radio Industry: new building, makes radios
 
 TODO:
 
