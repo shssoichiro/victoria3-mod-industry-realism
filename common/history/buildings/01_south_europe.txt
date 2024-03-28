@@ -25,7 +25,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 					"pm_merchant_guilds_building_textile_mills"
 				}
@@ -149,7 +148,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 					"pm_merchant_guilds_building_textile_mills"
 				}
@@ -462,7 +460,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 					"pm_merchant_guilds_building_textile_mills"
 				}
@@ -836,7 +833,6 @@
 					"pm_handsewn_clothes"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
-					"pm_craftsman_sewing"
 				}
 			}
 			create_building = {
@@ -932,7 +928,6 @@
 					"pm_handsewn_clothes"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
-					"pm_craftsman_sewing"
 				}
 			}
 			create_building = {
@@ -1017,7 +1012,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 					"pm_merchant_guilds_building_textile_mills"
 				}
@@ -1178,13 +1172,22 @@
 			}
 			create_building = {
 				building = "building_textile_mills"
-				level = 8
+				level = 6
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
-					"pm_craftsman_sewing"
+				}
+			}
+			create_building = {
+				building = "building_luxury_textile_mills"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_handsewn_clothes"
+					"pm_merchant_guilds_building_textile_mills"
+					"pm_traditional_looms"
 				}
 			}
 			create_building = {
@@ -1538,13 +1541,22 @@
 			}
 			create_building = {
 				building = "building_textile_mills"
-				level = 3
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
-					"pm_craftsman_sewing"
+				}
+			}
+			create_building = {
+				building = "building_luxury_textile_mills"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_handsewn_clothes"
+					"pm_merchant_guilds_building_textile_mills"
+					"pm_traditional_looms"
 				}
 			}
 			create_building = {
@@ -1815,7 +1827,6 @@
 					"pm_handsewn_clothes"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
-					"pm_no_luxury_clothes"
 				}
 			}
 			create_building = {
@@ -2067,7 +2078,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 					"pm_merchant_guilds_building_textile_mills"
 				}
@@ -2161,7 +2171,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 					"pm_merchant_guilds_building_textile_mills"
 				}
@@ -2529,7 +2538,6 @@
 					"pm_handsewn_clothes"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
-					"pm_craftsman_sewing"
 				}
 			}
 			create_building = {
@@ -2659,7 +2667,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_craftsman_sewing"
 					"pm_traditional_looms"
 					"pm_merchant_guilds_building_textile_mills"
 				}
@@ -2784,7 +2791,6 @@
 					"pm_handsewn_clothes"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
-					"pm_no_luxury_clothes"
 				}
 			}
 			create_building = {
@@ -3416,7 +3422,6 @@
 					"pm_handsewn_clothes"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
-					"pm_no_luxury_clothes"
 				}
 			}
 			create_building = {
@@ -3552,7 +3557,6 @@
 					"pm_handsewn_clothes"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
-					"pm_craftsman_sewing"
 				}
 			}
 			create_building = {

@@ -25,7 +25,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 					"pm_merchant_guilds_building_textile_mills"
 				}
@@ -146,7 +145,16 @@
 					"pm_handsewn_clothes"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
-					"pm_craftsman_sewing"
+				}
+			}
+			create_building = {
+				building = "building_luxury_textile_mills"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_handsewn_clothes"
+					"pm_merchant_guilds_building_textile_mills"
+					"pm_traditional_looms"
 				}
 			}
 			create_building = {
@@ -321,7 +329,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 					"pm_merchant_guilds_building_textile_mills"
 				}
@@ -336,7 +343,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 					"pm_merchant_guilds_building_textile_mills"
 				}
@@ -825,7 +831,6 @@
 					"pm_handsewn_clothes"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
-					"pm_craftsman_sewing"
 				}
 			}
 			create_building = {
@@ -1146,7 +1151,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_dye_workshops"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 					"pm_privately_owned_building_textile_mills"
 				}
@@ -1238,7 +1242,6 @@
 					"pm_handsewn_clothes"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
-					"pm_craftsman_sewing"
 				}
 			}
 			create_building = {
@@ -1349,7 +1352,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_dye_workshops"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 					"pm_privately_owned_building_textile_mills"
 				}
@@ -1514,7 +1516,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 					"pm_merchant_guilds_building_textile_mills"
 				}

@@ -35,7 +35,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 					"pm_merchant_guilds_building_textile_mills"
 				}
@@ -504,7 +503,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 					"pm_merchant_guilds_building_textile_mills"
 				}
@@ -984,7 +982,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 					"pm_merchant_guilds_building_textile_mills"
 				}
