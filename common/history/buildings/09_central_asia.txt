@@ -213,7 +213,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_pot_stills"
-					"pm_privately_owned"
+					"pm_privately_owned_building_food_industry"
 					"pm_vodka"
 				}
 			}
@@ -292,7 +292,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_pot_stills"
-					"pm_privately_owned"
+					"pm_privately_owned_building_food_industry"
 					"pm_vodka"
 				}
 			}
@@ -350,7 +350,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_pot_stills"
-					"pm_privately_owned"
+					"pm_privately_owned_building_food_industry"
 					"pm_vodka"
 				}
 			}

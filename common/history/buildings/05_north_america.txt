@@ -741,7 +741,6 @@
 				activate_production_methods = {
 					"pm_bakery"
 					"pm_disabled_canning"
-					"pm_disabled_distillery"
 					"pm_manual_dough_processing"
 					"pm_merchant_guilds_building_food_industry"
 				}
@@ -814,14 +813,23 @@
 			}
 			create_building = {
 				building = "building_food_industry"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_pot_stills"
 					"pm_disabled_canning"
 					"pm_sweeteners"
 					"pm_manual_dough_processing"
 					"pm_privately_owned_building_food_industry"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned_building_food_industry"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -1683,14 +1691,23 @@
 		region_state:USA = {
 			create_building = {
 				building = "building_food_industry"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_pot_stills"
 					"pm_disabled_canning"
 					"pm_bakery"
 					"pm_manual_dough_processing"
 					"pm_merchant_guilds_building_food_industry"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned_building_food_industry"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -1809,9 +1826,18 @@
 				activate_production_methods = {
 					"pm_sweeteners"
 					"pm_disabled_canning"
-					"pm_pot_stills"
 					"pm_manual_dough_processing"
 					"pm_privately_owned_building_food_industry"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned_building_food_industry"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -2782,7 +2808,6 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_pot_stills"
 					"pm_disabled_canning"
 					"pm_sweeteners"
 					"pm_manual_dough_processing"
