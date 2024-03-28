@@ -39,6 +39,10 @@
 - Synthetic Rubber Plants: new building, unlocks from Plastics, produces rubber from liquor and sulfur ([historical precedent](https://en.wikipedia.org/wiki/Polybutadiene#History))
 - Synthetic Fuel Plants: new building, unlocks from Electric Arc Process, produces oil from coal and iron ([historical precedent](https://en.wikipedia.org/wiki/Fischer%E2%80%93Tropsch_process#History))
 
+### Why no synthetic this or that?
+
+There simply wasn't historic precedent for things such as synthetic coffee, tea, or opium. Synthetic opiates, for example, were not invented until 1960, which does not fit the timeframe of the game. Other materials, such as sulfur, made more sense to add in more states throughout the world, as sulfur only occurs naturally and there are merely different processes for extracting it.
+
 ### Industry Expanded exists, why waste time on this, idiot?
 
 I wanted a mod that does not introduce any new goods. Industry Expanded is a great mod, it's simply not what I'm looking for. I wanted something lighter weight. You're free to choose whichever one you prefer.
