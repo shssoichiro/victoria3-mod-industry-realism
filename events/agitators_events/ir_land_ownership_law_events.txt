@@ -1,0 +1,378 @@
+# Debate Event - The Plight of the Second Sons
+land_ownership_law_events.4 = {
+	type = country_event
+	placement = root
+	duration = 3
+	title = land_ownership_law_events.4.t
+	desc = land_ownership_law_events.4.d
+	flavor = land_ownership_law_events.4.f
+	category = enactment
+	event_image = {
+		video = "africa_prosperous_farm"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	cooldown = {
+		months = normal_modifier_time
+	}
+	trigger = {
+		OR = {
+			has_law = law_type:law_homesteading
+			has_law = law_type:law_tenant_farmers
+		}
+		is_enacting_law = law_type:law_commercialized_agriculture
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_rye_farm
+					is_building_type = building_wheat_farm
+					is_building_type = building_rice_farm
+					is_building_type = building_maize_farm
+					is_building_type = building_millet_farm
+					is_building_type = building_fruit_orchard
+					is_building_type = building_livestock_ranch
+				}
+				occupancy > 0.8
+			}
+		}
+		ig:ig_rural_folk = {
+			is_marginal = no
+		}
+		OR = {
+			ig:ig_landowners = {
+				is_marginal = no
+			}
+			ig:ig_industrialists = {
+				is_marginal = no
+			}
+		}
+	}
+	cancellation_trigger = {
+		OR = {
+			NOT = {
+				exists = scope:current_law_scope
+			}
+			NOT = {
+				is_enacting_law = scope:current_law_scope.type
+			}
+		}
+	}
+	immediate = {
+		currently_enacting_law = {
+			save_scope_as = current_law_scope
+		}
+		ig:ig_landowners = {
+			save_scope_as = landowners_scope
+		}
+		ig:ig_industrialists = {
+			save_scope_as = industrialists_scope
+		}
+		random_scope_state = {
+			limit = {
+				is_incorporated = yes
+				any_scope_building = {
+					OR = {
+						is_building_type = building_rye_farm
+						is_building_type = building_wheat_farm
+						is_building_type = building_rice_farm
+						is_building_type = building_maize_farm
+						is_building_type = building_millet_farm
+						is_building_type = building_fruit_orchard
+						is_building_type = building_livestock_ranch
+					}
+					occupancy > 0.8
+				}
+			}
+			random_scope_building = {
+				limit = {
+					OR = {
+						is_building_type = building_rye_farm
+						is_building_type = building_wheat_farm
+						is_building_type = building_rice_farm
+						is_building_type = building_maize_farm
+						is_building_type = building_millet_farm
+						is_building_type = building_fruit_orchard
+						is_building_type = building_livestock_ranch
+						occupancy > 0.8
+					}
+				}
+				save_scope_as = commercialized_agriculture_building_scope
+			}
+			save_scope_as = commercialized_agriculture_state_scope
+		}
+	}
+	option = {
+		name = land_ownership_law_events.4.a
+		default_option = yes
+		add_enactment_modifier = {
+			name = for_the_nations_second_sons_modifier
+		}
+	}
+	option = {
+		name = land_ownership_law_events.4.b
+		trigger = {
+			ig:ig_landowners = {
+				is_marginal = no
+			}
+		}
+		ig:ig_landowners = {
+			add_modifier = {
+				name = farmland_consolidation_modifier_pos
+				months = normal_modifier_time
+			}
+		}
+		ig:ig_rural_folk = {
+			add_modifier = {
+				name = farmland_consolidation_modifier_neg
+				months = normal_modifier_time
+			}
+		}
+		add_loyalists = {
+			pop_type = aristocrats
+			value = small_radicals
+		}
+		scope:commercialized_agriculture_state_scope = {
+			add_radicals_in_state = {
+				pop_type = peasants
+				value = small_radicals
+			}
+		}
+	}
+	option = {
+		name = land_ownership_law_events.4.c
+		trigger = {
+			ig:ig_industrialists = {
+				is_marginal = no
+			}
+		}
+		ig:ig_industrialists = {
+			add_modifier = {
+				name = farmland_consolidation_modifier_pos
+				months = normal_modifier_time
+			}
+		}
+		ig:ig_rural_folk = {
+			add_modifier = {
+				name = farmland_consolidation_modifier_neg
+				months = normal_modifier_time
+			}
+		}
+		add_loyalists = {
+			pop_type = capitalists
+			value = small_radicals
+		}
+		scope:commercialized_agriculture_state_scope = {
+			add_radicals_in_state = {
+				pop_type = peasants
+				value = small_radicals
+			}
+		}
+	}
+}
+
+# Debate Event - Barn House Dealings
+land_ownership_law_events.7 = {
+	type = country_event
+	placement = scope:farmer_wealth_concentration_state_scope
+	duration = 3
+	title = land_ownership_law_events.7.t
+	desc = land_ownership_law_events.7.d
+	flavor = land_ownership_law_events.7.f
+	category = enactment
+	event_image = {
+		video = "southamerica_aristocrats"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	cooldown = {
+		months = normal_modifier_time
+	}
+	trigger = {
+		has_law = law_type:law_homesteading
+		OR = {
+			is_enacting_law = law_type:law_tenant_farmers
+			is_enacting_law = law_type:law_commercialized_agriculture
+		}
+	}
+	cancellation_trigger = {
+		OR = {
+			NOT = {
+				exists = scope:current_law_scope
+			}
+			NOT = {
+				is_enacting_law = scope:current_law_scope.type
+			}
+		}
+	}
+	immediate = {
+		currently_enacting_law = {
+			save_scope_as = current_law_scope
+		}
+		random_scope_state = {
+			limit = {
+				is_incorporated = yes
+				any_scope_building = {
+					OR = {
+						is_building_type = building_rye_farm
+						is_building_type = building_wheat_farm
+						is_building_type = building_rice_farm
+						is_building_type = building_maize_farm
+						is_building_type = building_millet_farm
+						is_building_type = building_fruit_orchard
+						is_building_type = building_livestock_ranch
+					}
+				}
+			}
+			save_scope_as = farmer_wealth_concentration_state_scope
+		}
+	}
+	option = {
+		name = land_ownership_law_events.7.a
+		default_option = yes
+		add_enactment_modifier = {
+			name = big_farmer_corruption
+		}
+		add_modifier = {
+			name = rural_financial_inducements
+			months = normal_modifier_time
+			multiplier = money_amount_multiplier_small
+		}
+	}
+	option = {
+		name = land_ownership_law_events.7.b
+		add_enactment_modifier = {
+			name = big_farmer_corruption
+		}
+		ig:ig_landowners = {
+			add_modifier = {
+				name = farmland_consolidation_modifier_pos
+				months = normal_modifier_time
+			}
+		}
+	}
+	option = {
+		name = land_ownership_law_events.7.c
+		scope:farmer_wealth_concentration_state_scope = {
+			add_radicals_in_state = {
+				pop_type = aristocrats
+				value = small_radicals
+			}
+		}
+	}
+}
+
+# Advance Event - A Tragedy in the Commons
+land_ownership_law_events.8 = {
+	type = country_event
+	placement = scope:a_tragedy_in_the_commons_state_scope
+	duration = 3
+	title = land_ownership_law_events.8.t
+	desc = land_ownership_law_events.8.d
+	flavor = land_ownership_law_events.8.f
+	category = enactment
+	event_image = {
+		video = "southamerica_public_figure_assassination"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	cooldown = {
+		months = normal_modifier_time
+	}
+	trigger = {
+		has_law = law_type:law_homesteading
+		OR = {
+			is_enacting_law = law_type:law_tenant_farmers
+			is_enacting_law = law_type:law_commercialized_agriculture
+		}
+		ig:ig_landowners = {
+			is_marginal = no
+		}
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_rye_farm
+					is_building_type = building_wheat_farm
+					is_building_type = building_rice_farm
+					is_building_type = building_maize_farm
+					is_building_type = building_millet_farm
+					is_building_type = building_fruit_orchard
+					is_building_type = building_livestock_ranch
+				}
+			}
+		}
+	}
+	cancellation_trigger = {
+		OR = {
+			NOT = {
+				exists = scope:current_law_scope
+			}
+			NOT = {
+				is_enacting_law = scope:current_law_scope.type
+			}
+		}
+	}
+	immediate = {
+		currently_enacting_law = {
+			save_scope_as = current_law_scope
+		}
+		random_scope_state = {
+			limit = {
+				is_incorporated = yes
+				any_scope_building = {
+					OR = {
+						is_building_type = building_rye_farm
+						is_building_type = building_wheat_farm
+						is_building_type = building_rice_farm
+						is_building_type = building_maize_farm
+						is_building_type = building_millet_farm
+						is_building_type = building_fruit_orchard
+						is_building_type = building_livestock_ranch
+					}
+				}
+			}
+			save_scope_as = a_tragedy_in_the_commons_state_scope
+		}
+	}
+	option = {
+		name = land_ownership_law_events.8.a
+		default_option = yes
+		add_enactment_modifier = {
+			name = wave_of_sympathy_for_law
+		}
+	}
+	option = {
+		name = land_ownership_law_events.8.b
+		ig:ig_landowners = {
+			add_modifier = {
+				name = narratives_of_victimhood
+				months = normal_modifier_time
+			}
+		}
+	}
+	option = {
+		name = land_ownership_law_events.8.c
+		highlighted_option = yes
+		trigger = {
+			OR = {
+				has_law = law_type:law_secret_police
+				has_law = law_type:law_national_guard
+			}
+			institution_investment_level = {
+				institution = institution_home_affairs
+				value >= 2
+			}
+			ig:ig_rural_folk = {
+				is_in_government = no
+				is_marginal = no
+			}
+		}
+		ig:ig_rural_folk = {
+			add_modifier = {
+				name = peasant_crackdowns_modifier
+				months = normal_modifier_time
+			}
+		}
+	}
+}

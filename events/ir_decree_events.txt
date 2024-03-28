@@ -260,3 +260,230 @@ decree_events.101 = {
 		}
 	}
 }
+
+decree_events.102 = {
+	#Throughput vs minimum sol
+	type = country_event
+	placement = scope:decree_agricultural_industry
+	title = decree_events.102.t
+	desc = decree_events.102.d
+	flavor = decree_events.102.f
+	event_image = {
+		video = "europenorthamerica_russian_serfs"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+	duration = 3
+	trigger = {
+		any_scope_state = {
+			is_incorporated = yes
+			has_decree = decree_encourage_agricultural_industry
+			any_scope_building = {
+				OR = {
+					is_building_type = building_coffee_plantation
+					is_building_type = building_cotton_plantation
+					is_building_type = building_dye_plantation
+					is_building_type = building_opium_plantation
+					is_building_type = building_tea_plantation
+					is_building_type = building_tobacco_plantation
+					is_building_type = building_sugar_plantation
+					is_building_type = building_banana_plantation
+					is_building_type = building_silk_plantation
+					is_building_type = building_rye_farm
+					is_building_type = building_wheat_farm
+					is_building_type = building_rice_farm
+					is_building_type = building_maize_farm
+					is_building_type = building_millet_farm
+					is_building_type = building_fruit_orchard
+					is_building_type = building_livestock_ranch
+				}
+				weekly_profit > 0
+				cash_reserves_ratio > 0.5
+			}
+			NOR = {
+				has_modifier = decree_agricultural_throughput
+				has_modifier = decree_minimum_wealth
+			}
+		}
+	}
+	immediate = {
+		random_scope_state = {
+			limit = {
+				is_incorporated = yes
+				has_decree = decree_encourage_agricultural_industry
+				NOR = {
+					has_modifier = decree_agricultural_throughput
+					has_modifier = decree_minimum_wealth
+				}
+			}
+			save_scope_as = decree_agricultural_industry
+			random_scope_building = {
+				limit = {
+					OR = {
+						is_building_type = building_coffee_plantation
+						is_building_type = building_cotton_plantation
+						is_building_type = building_dye_plantation
+						is_building_type = building_opium_plantation
+						is_building_type = building_tea_plantation
+						is_building_type = building_tobacco_plantation
+						is_building_type = building_sugar_plantation
+						is_building_type = building_banana_plantation
+						is_building_type = building_silk_plantation
+						is_building_type = building_rye_farm
+						is_building_type = building_wheat_farm
+						is_building_type = building_rice_farm
+						is_building_type = building_maize_farm
+						is_building_type = building_millet_farm
+						is_building_type = building_fruit_orchard
+						is_building_type = building_livestock_ranch
+					}
+					weekly_profit > 0
+					cash_reserves_ratio > 0.5
+				}
+				save_scope_as = agricultural_building_production
+			}
+		}
+	}
+	option = {
+		#increased throughput
+		name = decree_events.102.a
+		default_option = yes
+		scope:decree_agricultural_industry = {
+			add_modifier = {
+				name = decree_agricultural_throughput
+				months = short_modifier_time
+			}
+		}
+	}
+	option = {
+		#Increase expected SoL
+		name = decree_events.102.b
+		trigger = {
+			institution_investment_level = {
+				institution = institution_social_security
+				value >= 1
+			}
+		}
+		scope:decree_agricultural_industry = {
+			add_modifier = {
+				name = decree_minimum_wealth
+				months = short_modifier_time
+			}
+		}
+	}
+}
+
+decree_events.103 = {
+	#Choose who gets the credit
+	type = country_event
+	placement = scope:decree_agricultural_politics
+	title = decree_events.103.t
+	desc = decree_events.103.d
+	flavor = decree_events.103.f
+	event_image = {
+		video = "europenorthamerica_russian_serfs"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	duration = 3
+	trigger = {
+		any_scope_state = {
+			is_incorporated = yes
+			has_decree = decree_encourage_agricultural_industry
+			any_scope_building = {
+				OR = {
+					is_building_type = building_coffee_plantation
+					is_building_type = building_cotton_plantation
+					is_building_type = building_dye_plantation
+					is_building_type = building_opium_plantation
+					is_building_type = building_tea_plantation
+					is_building_type = building_tobacco_plantation
+					is_building_type = building_sugar_plantation
+					is_building_type = building_banana_plantation
+					is_building_type = building_silk_plantation
+					is_building_type = building_rye_farm
+					is_building_type = building_wheat_farm
+					is_building_type = building_rice_farm
+					is_building_type = building_maize_farm
+					is_building_type = building_millet_farm
+					is_building_type = building_fruit_orchard
+					is_building_type = building_livestock_ranch
+				}
+				weekly_profit > 0
+				cash_reserves_ratio > 0.5
+			}
+		}
+		NOR = {
+			has_modifier = decree_agricultural_landowners_attraction
+			has_modifier = decree_agricultural_rural_folk_attraction
+			has_modifier = decree_agricultural_devout_attraction
+		}
+	}
+	immediate = {
+		random_scope_state = {
+			limit = {
+				is_incorporated = yes
+				has_decree = decree_encourage_agricultural_industry
+				NOR = {
+					has_modifier = decree_agricultural_landowners_attraction
+					has_modifier = decree_agricultural_rural_folk_attraction
+					has_modifier = decree_agricultural_devout_attraction
+				}
+			}
+			save_scope_as = decree_agricultural_politics
+			random_scope_building = {
+				limit = {
+					OR = {
+						is_building_type = building_coffee_plantation
+						is_building_type = building_cotton_plantation
+						is_building_type = building_dye_plantation
+						is_building_type = building_opium_plantation
+						is_building_type = building_tea_plantation
+						is_building_type = building_tobacco_plantation
+						is_building_type = building_sugar_plantation
+						is_building_type = building_banana_plantation
+						is_building_type = building_silk_plantation
+						is_building_type = building_rye_farm
+						is_building_type = building_wheat_farm
+						is_building_type = building_rice_farm
+						is_building_type = building_maize_farm
+						is_building_type = building_millet_farm
+						is_building_type = building_fruit_orchard
+						is_building_type = building_livestock_ranch
+					}
+					weekly_profit > 0
+					cash_reserves_ratio > 0.5
+				}
+				save_scope_as = agricultural_building_production_politics
+			}
+		}
+		ig:ig_landowners = {
+			save_scope_as = landowners_ig_focus
+		}
+	}
+	option = {
+		#Landowners
+		name = decree_events.103.a
+		default_option = yes
+		add_modifier = {
+			name = decree_agricultural_landowners_attraction
+			months = short_modifier_time
+		}
+	}
+	option = {
+		#Rural Folk
+		name = decree_events.103.b
+		add_modifier = {
+			name = decree_agricultural_rural_folk_attraction
+			months = short_modifier_time
+		}
+	}
+	option = {
+		#devout pisses off other two
+		name = decree_events.103.c
+		add_modifier = {
+			name = decree_agricultural_devout_attraction
+			months = short_modifier_time
+		}
+	}
+}

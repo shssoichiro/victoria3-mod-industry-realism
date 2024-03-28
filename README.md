@@ -30,6 +30,8 @@ Full list of changes:
 - Aircraft Industry: new building, makes aeroplanes
 - Electrics Industry: renamed to Telephone Industry, now only makes telephones
 - Radio Industry: new building, makes radios
+- All Farms: no longer have the option to produce fruit
+- Fruit Orchards: new farm building, produces fruit
 
 TODO:
 

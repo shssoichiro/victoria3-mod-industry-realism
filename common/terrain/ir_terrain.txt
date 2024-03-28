@@ -1,0 +1,34 @@
+farmland_orchard = {
+	label = label_forested
+	label = label_developed
+	weight = {
+		value = 0
+		if = {
+			limit = {
+				exists = state.b:building_fruit_orchard
+			}
+			add = state.b:building_fruit_orchard.level
+		}
+		subtract = 5
+		min = 0.1
+		multiply = state.num_provinces
+		divide = 2
+	}
+	textures = {
+		{
+			weight = 1
+			path = "gfx/state_pictures/forestry.dds"
+			effect = "vfx_entity_ui_state_forestry"
+		}
+	}
+	combat_width = 0.8
+	risk = 0.3
+	created_material = DYNAMIC-Forestry_01
+	debug_color = {
+		0.7
+		0.3
+		0.8
+	}
+	pollution_mask_strength = 1
+	devastation_mask_strength = 1
+}

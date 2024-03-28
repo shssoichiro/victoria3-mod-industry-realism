@@ -1,0 +1,20 @@
+farmland_orchard = {
+	created_terrain = farmland_orchard
+	terrain_mask = "mask_dynamic_forestry"
+	preferred_terrain = plains
+	city_type = wood
+	toggle_map_object_layers = {
+		"semidynamic" = {
+			show_below = 0.6
+		}
+		"semidynamic_medium" = {
+			show_below = 0.4
+		}
+		"semidynamic_high" = {
+			show_below = 0.2
+		}
+		"forestry_dynamic" = {
+			show_above = 0.1
+		}
+	}
+}
