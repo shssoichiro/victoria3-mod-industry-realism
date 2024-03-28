@@ -75,3 +75,148 @@ pm_chemical_fertilizer = {
 		}
 	}
 }
+
+pm_open_air_stockyards = {
+	texture = "gfx/interface/icons/production_method_icons/open_air_stockyards.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = 20
+			goods_output_fertilizer_add = 5
+			goods_output_meat_add = 25
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4500
+			building_employment_farmers_add = 300
+			# why are there clergy on a farm? idk but I'm not messing with the game balance there
+			building_employment_clergymen_add = 200
+		}
+	}
+}
+
+pm_butchering_tools = {
+	texture = "gfx/interface/icons/production_method_icons/butchering_tools.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 5
+			goods_input_grain_add = 30
+			goods_output_fertilizer_add = 10
+			goods_output_meat_add = 40
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 500
+			building_employment_clergymen_add = 200
+			building_employment_machinists_add = 300
+		}
+	}
+}
+
+pm_slaughterhouses = {
+	texture = "gfx/interface/icons/production_method_icons/slaughterhouses.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	unlocking_technologies = {
+		mechanical_tools
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_input_grain_add = 40
+			goods_output_fertilizer_add = 15
+			goods_output_meat_add = 60
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3500
+			building_employment_farmers_add = 700
+			building_employment_clergymen_add = 200
+			building_employment_machinists_add = 600
+		}
+	}
+}
+
+pm_mechanized_slaughtering = {
+	texture = "gfx/interface/icons/production_method_icons/mechanized_slaughtering.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+	unlocking_technologies = {
+		mechanized_farming
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_input_coal_add = 5
+			goods_input_grain_add = 50
+			goods_output_fertilizer_add = 20
+			goods_output_meat_add = 80
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_farmers_add = 900
+			building_employment_clergymen_add = 200
+			building_employment_machinists_add = 900
+		}
+	}
+}
+
+pm_hand_shearing = {
+	texture = "gfx/interface/icons/production_method_icons/open_air_stockyards.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = 15
+			goods_output_fertilizer_add = 5
+			goods_output_fabric_add = 25
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4500
+			building_employment_farmers_add = 300
+			building_employment_clergymen_add = 200
+		}
+	}
+}
+
+pm_specialized_shears = {
+	texture = "gfx/interface/icons/production_method_icons/butchering_tools.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_input_grain_add = 15
+			goods_output_fertilizer_add = 5
+			goods_output_fabric_add = 40
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 500
+			building_employment_clergymen_add = 200
+			building_employment_machinists_add = 300
+		}
+	}
+}
+
+pm_electric_shears = {
+	texture = "gfx/interface/icons/production_method_icons/mechanized_slaughtering.dds"
+	unlocking_technologies = {
+		mechanized_farming
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 10
+			goods_input_tools_add = 10
+			goods_input_grain_add = 15
+			goods_output_fertilizer_add = 5
+			goods_output_fabric_add = 60
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_farmers_add = 900
+			building_employment_clergymen_add = 200
+			building_employment_machinists_add = 900
+		}
+	}
+	required_input_goods = electricity
+}

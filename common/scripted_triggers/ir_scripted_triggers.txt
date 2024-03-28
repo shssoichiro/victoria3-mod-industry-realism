@@ -60,6 +60,32 @@ is_heavy_industry_building = {
 	}
 }
 
+is_farm_building = {
+	or = {
+		is_building_type = building_rye_farm
+		is_building_type = building_wheat_farm
+		is_building_type = building_rice_farm
+		is_building_type = building_maize_farm
+		is_building_type = building_millet_farm
+		is_building_type = building_fruit_orchard
+		is_building_type = building_livestock_ranch
+		is_building_type = building_wool_farms
+	}
+}
+
+has_farm_building = {
+	OR = {
+		has_building = building_rye_farm
+		has_building = building_wheat_farm
+		has_building = building_rice_farm
+		has_building = building_maize_farm
+		has_building = building_millet_farm
+		has_building = building_fruit_orchard
+		has_building = building_livestock_ranch
+		has_building = building_wool_farms
+	}
+}
+
 is_production_building = {
 	or = {
 		is_building_type = building_coal_mine
@@ -80,11 +106,13 @@ is_production_building = {
 		is_building_type = building_silk_plantation
 		is_building_type = building_whaling_station
 		is_building_type = building_livestock_ranch
+		is_building_type = building_wool_farms
 		is_building_type = building_maize_farm
 		is_building_type = building_millet_farm
 		is_building_type = building_rice_farm
 		is_building_type = building_wheat_farm
 		is_building_type = building_rye_farm
+		is_building_type = building_fruit_orchard
 		is_building_type = building_food_industry
 		is_building_type = building_distillery
 		is_building_type = building_textile_mills

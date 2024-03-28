@@ -99,3 +99,38 @@ building_fruit_orchard = {
 	required_construction = construction_cost_low
 	terrain_manipulator = farmland_orchard
 }
+
+building_livestock_ranch = {
+	building_group = bg_livestock_ranches
+	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+	city_type = farm
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		enclosure
+	}
+	production_method_groups = {
+		pmg_base_building_livestock_ranch
+		pmg_fencing
+		pmg_refrigeration_building_livestock_ranch
+		pmg_ownership_land_building_livestock_ranch
+	}
+	required_construction = construction_cost_low
+	terrain_manipulator = pasture
+}
+
+building_wool_farms = {
+	building_group = bg_livestock_ranches
+	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+	city_type = farm
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		enclosure
+	}
+	production_method_groups = {
+		pmg_base_building_wool_farms
+		pmg_fencing
+		pmg_ownership_land_building_livestock_ranch
+	}
+	required_construction = construction_cost_low
+	terrain_manipulator = pasture
+}

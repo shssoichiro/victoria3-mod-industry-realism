@@ -37,3 +37,13 @@ building_radio_industry_throughput_add = {
 	good = yes
 	percent = yes
 }
+
+building_fruit_orchard_throughput_add = {
+	good = yes
+	percent = yes
+}
+
+building_wool_farms_throughput_add = {
+	good = yes
+	percent = yes
+}

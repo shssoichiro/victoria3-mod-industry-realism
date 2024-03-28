@@ -12,7 +12,7 @@
 - Updates companies and events around those buildings in ways that hopefully make sense
 - Adds some buildings for artificially creating oil and rubber, quite far in the tech tree, to make playing tall more viable
 
-Full list of changes:
+Full list of building changes:
 
 - Food Industry: now only produces groceries
 - Distillery: new building uses sugar to produce rum, or grain to produce grain alcohol (vodka, beer, sake, etc.), both represented by generic "liquor" good
@@ -32,6 +32,8 @@ Full list of changes:
 - Radio Industry: new building, makes radios
 - All Farms: no longer have the option to produce fruit
 - Fruit Orchards: new farm building, produces fruit
+- Livestock Ranches: now only produce meat and a small amount of fertilizer. input goods have also been rebalanced. cows and pigs eat a lot.
+- Wool Farms: new building, produces fabric and a small amount of fertilizer
 
 TODO:
 

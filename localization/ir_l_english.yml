@@ -10,7 +10,11 @@
   building_electrics_industry: Telephone Industry
   building_radio_industry: Radio Industry
   building_fruit_orchard: Fruit Orchard
+  building_wool_farms: Wool Farms
   pmg_base_building_distillery_type: Production Type
   pm_rum: Rum
   pm_vodka: Grain Alcohol
+  pm_hand_shearing: Hand Shearing
+  pm_specialized_shears: Specialized Shears
+  pm_electric_shears: Electric Shears
   pmg_base_building_distillery: "$pm_base$"

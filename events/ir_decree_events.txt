@@ -296,6 +296,7 @@ decree_events.102 = {
 					is_building_type = building_millet_farm
 					is_building_type = building_fruit_orchard
 					is_building_type = building_livestock_ranch
+					is_building_type = building_wool_farms
 				}
 				weekly_profit > 0
 				cash_reserves_ratio > 0.5
@@ -336,6 +337,7 @@ decree_events.102 = {
 						is_building_type = building_millet_farm
 						is_building_type = building_fruit_orchard
 						is_building_type = building_livestock_ranch
+						is_building_type = building_wool_farms
 					}
 					weekly_profit > 0
 					cash_reserves_ratio > 0.5
@@ -408,6 +410,7 @@ decree_events.103 = {
 					is_building_type = building_millet_farm
 					is_building_type = building_fruit_orchard
 					is_building_type = building_livestock_ranch
+					is_building_type = building_wool_farms
 				}
 				weekly_profit > 0
 				cash_reserves_ratio > 0.5
@@ -450,6 +453,7 @@ decree_events.103 = {
 						is_building_type = building_millet_farm
 						is_building_type = building_fruit_orchard
 						is_building_type = building_livestock_ranch
+						is_building_type = building_wool_farms
 					}
 					weekly_profit > 0
 					cash_reserves_ratio > 0.5
