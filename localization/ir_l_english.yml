@@ -11,10 +11,14 @@
   building_radio_industry: Radio Industry
   building_fruit_orchard: Fruit Orchard
   building_wool_farms: Wool Farms
+  building_hardwood_logging_camps: Hardwood Logging Camps
   pmg_base_building_distillery_type: Production Type
   pm_rum: Rum
   pm_vodka: Grain Alcohol
   pm_hand_shearing: Hand Shearing
   pm_specialized_shears: Specialized Shears
   pm_electric_shears: Electric Shears
+  pm_simple_forestry_hardwood: "$pm_simple_forestry$"
+  pm_saw_mills_hardwood: "$pm_saw_mills$"
+  pm_electric_saw_mills_hardwood: "$pm_electric_saw_mills$"
   pmg_base_building_distillery: "$pm_base$"

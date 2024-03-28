@@ -1,0 +1,55 @@
+pm_simple_forestry_hardwood = {
+	texture = "gfx/interface/icons/production_method_icons/simple_forestry.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_hardwood_add = 30
+		}
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 4500
+		}
+	}
+}
+
+pm_saw_mills_hardwood = {
+	texture = "gfx/interface/icons/production_method_icons/saw_mills.dds"
+	unlocking_technologies = {
+		steelworking
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 5
+			# output goods
+			goods_output_hardwood_add = 60
+		}
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+		}
+	}
+}
+
+pm_electric_saw_mills_hardwood = {
+	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
+	unlocking_technologies = {
+		electrical_generation
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10
+			goods_input_electricity_add = 5
+			# output goods
+			goods_output_hardwood_add = 100
+		}
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+	required_input_goods = electricity
+}

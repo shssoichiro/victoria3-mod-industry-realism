@@ -34,6 +34,8 @@ Full list of building changes:
 - Fruit Orchards: new farm building, produces fruit
 - Livestock Ranches: now only produce meat and a small amount of fertilizer. input goods have also been rebalanced. cows and pigs eat a lot.
 - Wool Farms: new building, produces fabric and a small amount of fertilizer
+- Logging Camps: now only produce wood
+- Hardwood Logging Camps: new building, produces hardwood. some logging camps were converted to hardwood logging camps, based on realistic locations
 
 TODO:
 
