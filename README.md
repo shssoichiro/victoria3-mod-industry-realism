@@ -31,6 +31,7 @@
 - Electrics Industry: renamed to Telephone Industry, now only makes telephones
 - Radio Industry: new building, makes radios
 - All Farms: no longer have the option to produce fruit
+- Rye Farms: no longer magically produce potatoes
 - Fruit Orchards: new farm building, produces fruit
 - Livestock Ranches: now only produce meat and a small amount of fertilizer. input goods have also been rebalanced. cows and pigs eat a lot.
 - Wool Farms: new building, produces fabric and a small amount of fertilizer
@@ -49,7 +50,7 @@ I wanted a mod that does not introduce any new goods. Industry Expanded is a gre
 
 ### Compatibility
 
-This mod is compatible with any other mods that do not touch the buildings listed above or touch the global AI strategy or Industry Banned law. (This is an unfortunate shortcoming of the game, it is impossible to change just one aspect of AI strategy without overriding the entire thing.)
+This mod is compatible with most mods that do not touch the buildings above or alter the start locations of buildings on the map.
 
 - Verified compatible with BPM.
 - There are compatches for use with Ultra Historical.
