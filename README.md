@@ -42,7 +42,7 @@
 
 ### Why no synthetic this or that?
 
-There simply wasn't historic precedent for things such as synthetic coffee, tea, or opium. Synthetic opiates, for example, were not invented until 1960, which does not fit the timeframe of the game. Other materials, such as sulfur, made more sense to add in more states throughout the world, as sulfur only occurs naturally and there are merely different processes for extracting it.
+There simply wasn't historic precedent for things such as synthetic coffee, tea, or opium. Synthetic opiates, for example, were not invented until 1960, which does not fit the timeframe of the game.
 
 ### Industry Expanded exists, why waste time on this?
 
@@ -55,11 +55,10 @@ This mod is compatible with most mods that do not touch the buildings above or a
 - Verified compatible with BPM.
 - There are compatches for use with Ultra Historical.
 - Incompatible with Industry Expanded, for obvious reasons.
-- Currently incompatible with VTM, but would work with a compatch. I may create one if VTM updates to be compatible with 1.6.
+- Partial compatibility with VTM. Load it after VTM and this mod will work, though it will override some of VTM's changes. A compatch would be necessary for full compatibility.
 
 TODO:
 
-- Hardwood/sulfur locations
 - Icons
 - Translations
 - Add links to the UH compatches
