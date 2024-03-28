@@ -47,9 +47,18 @@ There simply wasn't historic precedent for things such as synthetic coffee, tea,
 
 I wanted a mod that does not introduce any new goods. Industry Expanded is a great mod, it's simply not what I'm looking for. I wanted something lighter weight. You're free to choose whichever one you prefer.
 
+### Compatibility
+
+This mod is compatible with any other mods that do not touch the buildings listed above or touch the global AI strategy or Industry Banned law. (This is an unfortunate shortcoming of the game, it is impossible to change just one aspect of AI strategy without overriding the entire thing.)
+
+- Verified compatible with BPM.
+- There are compatches for use with Ultra Historical.
+- Incompatible with Industry Expanded, for obvious reasons.
+- Currently incompatible with VTM, but would work with a compatch. I may create one if VTM updates to be compatible with 1.6.
+
 TODO:
 
-- Cross check all the shit with mods
 - Starting building locations
 - Icons
 - Translations
+- Add links to the UH compatches
