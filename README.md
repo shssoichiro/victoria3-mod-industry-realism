@@ -36,11 +36,12 @@ Full list of building changes:
 - Wool Farms: new building, produces fabric and a small amount of fertilizer
 - Logging Camps: now only produce wood
 - Hardwood Logging Camps: new building, produces hardwood. some logging camps were converted to hardwood logging camps, based on realistic locations
-- Synthetic Rubber Plants: new building, unlocks from Plastics, produces rubber from liquor and sulfur
+- Synthetic Rubber Plants: new building, unlocks from Plastics, produces rubber from liquor and sulfur ([historical precedent](https://en.wikipedia.org/wiki/Polybutadiene#History))
+- Synthetic Fuel Plants: new building, unlocks from Electric Arc Process, produces oil from coal and iron ([historical precedent](https://en.wikipedia.org/wiki/Fischer%E2%80%93Tropsch_process#History))
 
 TODO:
 
-Cross check all the shit with mods
-Starting building locations
-Icons
-Translations
+- Cross check all the shit with mods
+- Starting building locations
+- Icons
+- Translations

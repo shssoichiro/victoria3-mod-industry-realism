@@ -13,12 +13,15 @@
   building_wool_farms: Wool Farms
   building_hardwood_logging_camps: Hardwood Logging Camps
   building_synthetic_rubber_plants: Synthetic Rubber Plants
+  building_synthetic_fuel_plants: Synthetic Fuel Plants
   pmg_base_building_distillery_type: Production Type
   pm_rum: Rum
   pm_vodka: Grain Alcohol
   pm_hand_shearing: Hand Shearing
   pm_specialized_shears: Specialized Shears
   pm_electric_shears: Electric Shears
+  pm_synthetic_rubber: Synthetic Rubber
+  pm_fischer_tropsch: Fischer-Tropsch Process
   pm_simple_forestry_hardwood: "$pm_simple_forestry$"
   pm_saw_mills_hardwood: "$pm_saw_mills$"
   pm_electric_saw_mills_hardwood: "$pm_electric_saw_mills$"

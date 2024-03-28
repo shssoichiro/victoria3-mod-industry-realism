@@ -222,10 +222,41 @@ building_synthetic_rubber_plants = {
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
+		# it might be more accurate to make a new tech for this,
+		# but effort. this is close enough.
 		plastics
 	}
 	production_method_groups = {
 		pmg_synthetic_rubber
+		pmg_ownership_capital_building_synthetics_plants
+	}
+	required_construction = construction_cost_very_high
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = {
+					NOT = {
+						has_law = law_type:law_industry_banned
+					}
+				}
+			}
+		}
+	}
+}
+
+building_synthetic_fuel_plants = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/synthetics_plants.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		# it might be more accurate to make a new tech for this,
+		# but effort. this is close enough.
+		electric_arc_process
+	}
+	production_method_groups = {
+		pmg_synthetic_fuel
 		pmg_ownership_capital_building_synthetics_plants
 	}
 	required_construction = construction_cost_very_high
