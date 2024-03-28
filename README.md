@@ -36,10 +36,11 @@ Full list of building changes:
 - Wool Farms: new building, produces fabric and a small amount of fertilizer
 - Logging Camps: now only produce wood
 - Hardwood Logging Camps: new building, produces hardwood. some logging camps were converted to hardwood logging camps, based on realistic locations
+- Synthetic Rubber Plants: new building, unlocks from Plastics, produces rubber from liquor and sulfur
 
 TODO:
 
+Cross check all the shit with mods
+Starting building locations
 Icons
 Translations
-Starting building locations
-Cross check all the shit with mods

@@ -147,3 +147,28 @@ pm_radios = {
 	}
 	required_input_goods = electricity
 }
+
+pm_synthetic_rubber = {
+	texture = "gfx/interface/icons/production_method_icons/synthetic_rubber.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			# this is based on polybutadiene which is made using ethanol and sodium
+			# since we don't have sodium in game, sulfur will have to work
+			goods_input_liquor_add = 40
+			goods_input_sulfur_add = 20
+			# output goods
+			goods_output_rubber_add = 60
+		}
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 2000
+			building_employment_engineers_add = 3000
+		}
+	}
+}
