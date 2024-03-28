@@ -631,7 +631,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_leaded_glass"
-					"pm_disabled_ceramics"
 					"pm_manual_glassblowing"
 					"pm_privately_owned_building_glassworks"
 				}
@@ -1120,7 +1119,6 @@
 					"pm_leaded_glass"
 					"pm_privately_owned_building_glassworks"
 					"pm_manual_glassblowing"
-					"pm_ceramics"
 				}
 			}
 			create_building = {
@@ -1265,7 +1263,6 @@
 					"pm_leaded_glass"
 					"pm_privately_owned_building_glassworks"
 					"pm_manual_glassblowing"
-					"pm_ceramics"
 				}
 			}
 			create_building = {
@@ -1480,14 +1477,12 @@
 				}
 			}
 			create_building = {
-				building = "building_glassworks"
+				building = "building_pottery_mills"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_leaded_glass"
 					"pm_ceramics"
-					"pm_manual_glassblowing"
-					"pm_privately_owned_building_glassworks"
+					"pm_merchant_guilds_building_glassworks"
 				}
 			}
 			create_building = {
@@ -1581,7 +1576,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_leaded_glass"
-					"pm_ceramics"
 					"pm_manual_glassblowing"
 					"pm_privately_owned_building_glassworks"
 				}
@@ -2651,7 +2645,6 @@
 					"pm_forest_glass"
 					"pm_merchant_guilds_building_glassworks"
 					"pm_manual_glassblowing"
-					"pm_ceramics"
 				}
 			}
 			create_building = {

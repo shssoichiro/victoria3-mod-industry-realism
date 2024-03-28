@@ -367,7 +367,6 @@
 					"pm_forest_glass"
 					"pm_merchant_guilds_building_glassworks"
 					"pm_manual_glassblowing"
-					"pm_ceramics"
 				}
 			}
 			create_building = {
@@ -420,7 +419,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_forest_glass"
-					"pm_ceramics"
 					"pm_manual_glassblowing"
 					"pm_merchant_guilds_building_glassworks"
 				}
@@ -709,7 +707,6 @@
 					"pm_forest_glass"
 					"pm_merchant_guilds_building_glassworks"
 					"pm_manual_glassblowing"
-					"pm_ceramics"
 				}
 			}
 			create_building = {

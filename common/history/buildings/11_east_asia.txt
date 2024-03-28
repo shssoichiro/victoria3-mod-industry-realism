@@ -153,13 +153,21 @@
 			}
 			create_building = {
 				building = "building_glassworks"
-				level = 8
+				level = 4
 				reserves = 1
 				activate_production_methods = {
 					"pm_forest_glass"
 					"pm_merchant_guilds_building_glassworks"
 					"pm_manual_glassblowing"
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				level = 4
+				reserves = 1
+				activate_production_methods = {
 					"pm_ceramics"
+					"pm_merchant_guilds_building_glassworks"
 				}
 			}
 			create_building = {
@@ -1078,12 +1086,20 @@
 			}
 			create_building = {
 				building = "building_glassworks"
-				level = 5
+				level = 3
 				reserves = 1
 				activate_production_methods = {
 					"pm_forest_glass"
-					"pm_ceramics"
 					"pm_manual_glassblowing"
+					"pm_merchant_guilds_building_glassworks"
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_ceramics"
 					"pm_merchant_guilds_building_glassworks"
 				}
 			}
@@ -1141,12 +1157,20 @@
 			}
 			create_building = {
 				building = "building_glassworks"
-				level = 10
+				level = 6
 				reserves = 1
 				activate_production_methods = {
 					"pm_forest_glass"
-					"pm_ceramics"
 					"pm_manual_glassblowing"
+					"pm_merchant_guilds_building_glassworks"
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				level = 4
+				reserves = 1
+				activate_production_methods = {
+					"pm_ceramics"
 					"pm_merchant_guilds_building_glassworks"
 				}
 			}
@@ -1204,12 +1228,20 @@
 			}
 			create_building = {
 				building = "building_glassworks"
-				level = 6
+				level = 4
 				reserves = 1
 				activate_production_methods = {
 					"pm_forest_glass"
-					"pm_ceramics"
 					"pm_manual_glassblowing"
+					"pm_merchant_guilds_building_glassworks"
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_ceramics"
 					"pm_merchant_guilds_building_glassworks"
 				}
 			}
@@ -1261,12 +1293,20 @@
 			}
 			create_building = {
 				building = "building_glassworks"
-				level = 6
+				level = 4
 				reserves = 1
 				activate_production_methods = {
 					"pm_forest_glass"
-					"pm_ceramics"
 					"pm_manual_glassblowing"
+					"pm_merchant_guilds_building_glassworks"
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_ceramics"
 					"pm_merchant_guilds_building_glassworks"
 				}
 			}
@@ -1316,12 +1356,20 @@
 			}
 			create_building = {
 				building = "building_glassworks"
-				level = 5
+				level = 3
 				reserves = 1
 				activate_production_methods = {
 					"pm_forest_glass"
-					"pm_ceramics"
 					"pm_manual_glassblowing"
+					"pm_merchant_guilds_building_glassworks"
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_ceramics"
 					"pm_merchant_guilds_building_glassworks"
 				}
 			}
@@ -1765,12 +1813,20 @@
 			}
 			create_building = {
 				building = "building_glassworks"
-				level = 10
+				level = 6
 				reserves = 1
 				activate_production_methods = {
 					"pm_forest_glass"
-					"pm_ceramics"
 					"pm_manual_glassblowing"
+					"pm_merchant_guilds_building_glassworks"
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				level = 4
+				reserves = 1
+				activate_production_methods = {
+					"pm_ceramics"
 					"pm_merchant_guilds_building_glassworks"
 				}
 			}
@@ -2593,7 +2649,6 @@
 					"pm_forest_glass"
 					"pm_merchant_guilds_building_glassworks"
 					"pm_manual_glassblowing"
-					"pm_ceramics"
 				}
 			}
 			create_building = {
@@ -2955,7 +3010,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_forest_glass"
-					"pm_ceramics"
 					"pm_manual_glassblowing"
 					"pm_merchant_guilds_building_glassworks"
 				}
@@ -3089,7 +3143,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_forest_glass"
-					"pm_ceramics"
 					"pm_manual_glassblowing"
 					"pm_merchant_guilds_building_glassworks"
 				}
@@ -3194,7 +3247,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_forest_glass"
-					"pm_ceramics"
 					"pm_manual_glassblowing"
 					"pm_merchant_guilds_building_glassworks"
 				}
@@ -3271,13 +3323,21 @@
 			}
 			create_building = {
 				building = "building_glassworks"
-				level = 3
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_forest_glass"
 					"pm_merchant_guilds_building_glassworks"
 					"pm_manual_glassblowing"
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
 					"pm_ceramics"
+					"pm_merchant_guilds_building_glassworks"
 				}
 			}
 			create_building = {
@@ -3357,7 +3417,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_forest_glass"
-					"pm_ceramics"
 					"pm_manual_glassblowing"
 					"pm_merchant_guilds_building_glassworks"
 				}
@@ -3423,13 +3482,11 @@
 				}
 			}
 			create_building = {
-				building = "building_glassworks"
+				building = "building_pottery_mills"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_forest_glass"
 					"pm_ceramics"
-					"pm_manual_glassblowing"
 					"pm_merchant_guilds_building_glassworks"
 				}
 			}
@@ -3544,7 +3601,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_forest_glass"
-					"pm_ceramics"
 					"pm_manual_glassblowing"
 					"pm_merchant_guilds_building_glassworks"
 				}

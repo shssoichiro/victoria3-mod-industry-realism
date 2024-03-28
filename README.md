@@ -59,7 +59,7 @@ This mod is compatible with most mods that do not touch the buildings above or a
 
 TODO:
 
-- Starting building locations
+- Hardwood/sulfur locations
 - Icons
 - Translations
 - Add links to the UH compatches
