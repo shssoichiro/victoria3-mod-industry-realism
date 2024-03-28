@@ -5,6 +5,7 @@
 **Tested With V3 Version: 1.6.2**
 
 - Reworks buildings that have multiple potential outputs to only have one primary output
+  - Except shipyards. Why? Shipyards represent a technological progression. All of the other buildings represent _two separate outputs_ that should be coming from two separate factories.
 - Creates a new building type for the alternate outputs
 - Some building inputs were changed to be more historically accurate
 - Places those new buildings in appropriate states on the starting map
@@ -25,6 +26,8 @@ Full list of changes:
 - Rayon Plants: new building, produces synthetic silk from wood
 - Motor Industry: now only makes engines
 - Automobile Factory: new building, makes automobiles from engines, oil, rubber, and steel
+- War Machines Industry: now only makes tanks
+- Aircraft Industry: new building, makes aeroplanes
 
 TODO:
 

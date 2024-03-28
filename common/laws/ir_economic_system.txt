@@ -60,6 +60,12 @@ law_industry_banned = {
 				}
 				if = {
 					limit = {
+						has_building = building_aircraft_industry
+					}
+					remove_building = building_aircraft_industry
+				}
+				if = {
+					limit = {
 						has_building = building_electrics_industry
 					}
 					remove_building = building_electrics_industry

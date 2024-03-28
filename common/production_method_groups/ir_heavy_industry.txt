@@ -19,3 +19,10 @@ pmg_automation_building_automobile_factories = {
 		pm_assembly_lines_building_motor_industry
 	}
 }
+
+pmg_tanks = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_tank_production
+	}
+}
