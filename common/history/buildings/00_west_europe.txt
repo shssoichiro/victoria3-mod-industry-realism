@@ -63,13 +63,22 @@
 			}
 			create_building = {
 				building = "building_rye_farm"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
 					"pm_tools"
 					"pm_privately_owned"
-					"pm_potatoes"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -152,13 +161,22 @@
 			}
 			create_building = {
 				building = "building_rye_farm"
-				level = 3
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_potatoes"
 					"pm_tools"
 					"pm_privately_owned"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -244,13 +262,22 @@
 			}
 			create_building = {
 				building = "building_rye_farm"
-				level = 4
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_potatoes"
 					"pm_tools"
 					"pm_privately_owned"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -339,13 +366,22 @@
 		region_state:DEN = {
 			create_building = {
 				building = "building_rye_farm"
-				level = 8
+				level = 4
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 4
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -431,13 +467,22 @@
 			}
 			create_building = {
 				building = "building_rye_farm"
-				level = 4
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_potatoes"
 					"pm_tools_disabled"
 					"pm_privately_owned"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -623,7 +668,6 @@
 				activate_production_methods = {
 					"pm_simple_farming"
 					"pm_tools"
-					"pm_potatoes"
 					"pm_homesteading"
 				}
 			}
@@ -738,7 +782,6 @@
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
 				}
 			}
 			create_building = {
@@ -791,7 +834,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_potatoes"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -842,7 +884,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_potatoes"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -943,7 +984,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_tools"
-					"pm_no_secondary"
 					"pm_privately_owned"
 					"pm_soil_enriching_farming"
 				}
@@ -1071,7 +1111,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
-					"pm_no_secondary"
 					"pm_tools"
 					"pm_privately_owned"
 				}
@@ -1268,7 +1307,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
-					"pm_no_secondary"
 					"pm_tools"
 					"pm_privately_owned"
 				}
@@ -1443,7 +1481,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
-					"pm_no_secondary"
 					"pm_tools"
 					"pm_privately_owned"
 				}
@@ -1571,7 +1608,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
-					"pm_no_secondary"
 					"pm_tools"
 					"pm_privately_owned"
 				}
@@ -1687,7 +1723,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_tools"
-					"pm_no_secondary"
 					"pm_privately_owned"
 					"pm_soil_enriching_farming"
 				}
@@ -1819,7 +1854,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
-					"pm_no_secondary"
 					"pm_tools"
 					"pm_privately_owned"
 				}
@@ -1894,13 +1928,22 @@
 			}
 			create_building = {
 				building = "building_rye_farm"
-				level = 3
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
 					"pm_privately_owned"
 					"pm_tools"
-					"pm_potatoes"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -1935,7 +1978,16 @@
 					"pm_soil_enriching_farming"
 					"pm_privately_owned"
 					"pm_tools"
-					"pm_potatoes"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -1985,13 +2037,22 @@
 			}
 			create_building = {
 				building = "building_rye_farm"
-				level = 5
+				level = 3
 				reserves = 1
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
 					"pm_privately_owned"
 					"pm_tools"
-					"pm_potatoes"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -2014,7 +2075,6 @@
 					"pm_soil_enriching_farming"
 					"pm_privately_owned"
 					"pm_tools"
-					"pm_potatoes"
 				}
 			}
 			create_building = {
@@ -2082,7 +2142,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2139,7 +2198,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2193,7 +2251,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2275,7 +2332,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2340,7 +2396,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2450,7 +2505,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2527,7 +2581,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2594,7 +2647,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2675,7 +2727,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2700,7 +2751,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2754,7 +2804,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2834,7 +2883,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2899,7 +2947,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2978,7 +3025,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -3037,7 +3083,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -3075,7 +3120,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -3110,7 +3154,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -3195,7 +3238,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -3239,7 +3281,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -3350,13 +3391,22 @@
 			}
 			create_building = {
 				building = "building_rye_farm"
-				level = 3
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_apple_orchards"
 					"pm_tools_disabled"
 					"pm_homesteading"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming"
+					"pm_homesteading"
+					"pm_tools_disabled"
 				}
 			}
 			create_building = {
@@ -3485,13 +3535,23 @@
 			}
 			create_building = {
 				building = "building_rye_farm"
-				level = 4
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
 					"pm_apple_orchards"
 					"pm_tools_disabled"
 					"pm_homesteading"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming"
+					"pm_homesteading"
+					"pm_tools_disabled"
 				}
 			}
 			create_building = {
@@ -3536,7 +3596,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -3653,7 +3712,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_tools"
-					"pm_no_secondary"
 					"pm_soil_enriching_farming"
 					"pm_homesteading"
 				}
@@ -3797,13 +3855,22 @@
 			}
 			create_building = {
 				building = "building_wheat_farm"
-				level = 6
+				level = 3
 				reserves = 1
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
-					"pm_citrus_orchards"
 					"pm_tools"
 					"pm_homesteading"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 3
+				reserves = 1
+				activate_production_methods = {
+					"pm_soil_enriching_farming"
+					"pm_homesteading"
+					"pm_tools"
 				}
 			}
 			create_building = {
@@ -3907,13 +3974,22 @@
 			}
 			create_building = {
 				building = "building_wheat_farm"
-				level = 10
+				level = 5
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_citrus_orchards"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 5
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming"
+					"pm_privately_owned"
+					"pm_tools_disabled"
 				}
 			}
 			create_building = {
@@ -4018,13 +4094,22 @@
 			}
 			create_building = {
 				building = "building_rye_farm"
-				level = 7
+				level = 5
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -4090,13 +4175,22 @@
 			}
 			create_building = {
 				building = "building_wheat_farm"
-				level = 4
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_citrus_orchards"
 					"pm_tools_disabled"
 					"pm_privately_owned"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming"
+					"pm_privately_owned"
+					"pm_tools_disabled"
 				}
 			}
 			create_building = {
@@ -4140,14 +4234,13 @@
 				}
 			}
 			create_building = {
-				building = "building_wheat_farm"
-				level = 1
+				building = "building_fruit_orchard"
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_citrus_orchards"
-					"pm_tools_disabled"
 					"pm_privately_owned"
+					"pm_tools_disabled"
 				}
 			}
 			create_building = {
@@ -4212,7 +4305,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_citrus_orchards"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -4239,7 +4331,6 @@
 					"pm_privately_owned"
 					"pm_tools"
 					"pm_soil_enriching_farming"
-					"pm_potatoes"
 				}
 			}
 			create_building = {
@@ -4321,13 +4412,22 @@
 		region_state:HAN = {
 			create_building = {
 				building = "building_rye_farm"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -4406,7 +4506,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_potatoes"
 					"pm_tools_disabled"
 					"pm_homesteading"
 				}
@@ -4457,13 +4556,22 @@
 			}
 			create_building = {
 				building = "building_rye_farm"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_potatoes"
 					"pm_tools_disabled"
 					"pm_homesteading"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -4546,13 +4654,22 @@
 			}
 			create_building = {
 				building = "building_rye_farm"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
-					"pm_potatoes"
 					"pm_tools"
 					"pm_privately_owned"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned"
+					"pm_vodka"
 				}
 			}
 		}
@@ -4565,7 +4682,6 @@
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
 				}
 			}
 		}
@@ -4599,13 +4715,22 @@
 			}
 			create_building = {
 				building = "building_rye_farm"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
-					"pm_potatoes"
 					"pm_tools"
 					"pm_privately_owned"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -4630,7 +4755,6 @@
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
 				}
 			}
 		}
@@ -4667,12 +4791,21 @@
 			}
 			create_building = {
 				building = "building_wheat_farm"
-				level = 4
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_privately_owned"
 					"pm_soil_enriching_farming"
-					"pm_citrus_orchards"
+					"pm_tools"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_soil_enriching_farming"
+					"pm_privately_owned"
 					"pm_tools"
 				}
 			}
@@ -4704,7 +4837,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_privately_owned"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_soil_enriching_farming"
 				}
@@ -4772,13 +4904,22 @@
 			}
 			create_building = {
 				building = "building_wheat_farm"
-				level = 5
+				level = 3
 				reserves = 1
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
-					"pm_citrus_orchards"
 					"pm_tools"
 					"pm_privately_owned"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_soil_enriching_farming"
+					"pm_privately_owned"
+					"pm_tools"
 				}
 			}
 			create_building = {
@@ -4878,7 +5019,6 @@
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
 				}
 			}
 			create_building = {
@@ -4945,7 +5085,6 @@
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
 				}
 			}
 			create_building = {
@@ -5020,7 +5159,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -5067,7 +5205,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -5109,7 +5246,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -5160,7 +5296,6 @@
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
 				}
 			}
 		}
@@ -5198,13 +5333,22 @@
 			}
 			create_building = {
 				building = "building_rye_farm"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_potatoes"
 					"pm_tools_disabled"
 					"pm_privately_owned"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -5331,7 +5475,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -5423,7 +5566,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -5512,13 +5654,22 @@
 			}
 			create_building = {
 				building = "building_rye_farm"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -5543,7 +5694,6 @@
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
 				}
 			}
 			create_building = {
@@ -5576,7 +5726,6 @@
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
 				}
 			}
 			create_building = {
@@ -5621,7 +5770,6 @@
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
 				}
 			}
 			create_building = {
@@ -5654,7 +5802,6 @@
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
 				}
 			}
 			create_building = {
@@ -5716,13 +5863,22 @@
 			}
 			create_building = {
 				building = "building_rye_farm"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_privately_owned"
+					"pm_vodka"
 				}
 			}
 			create_building = {
@@ -5747,7 +5903,6 @@
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
 				}
 			}
 			create_building = {
@@ -5784,7 +5939,6 @@
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
 				}
 			}
 			create_building = {
@@ -5821,7 +5975,6 @@
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
 				}
 			}
 		}
@@ -5836,7 +5989,6 @@
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_potatoes"
 				}
 			}
 			create_building = {
@@ -5867,7 +6019,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -5971,13 +6122,22 @@
 			}
 			create_building = {
 				building = "building_wheat_farm"
-				level = 3
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
-					"pm_citrus_orchards"
 					"pm_tools"
 					"pm_privately_owned"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_soil_enriching_farming"
+					"pm_privately_owned"
+					"pm_tools"
 				}
 			}
 		}
@@ -5990,7 +6150,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}

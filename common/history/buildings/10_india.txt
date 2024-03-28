@@ -698,13 +698,22 @@
 			}
 			create_building = {
 				building = "building_wheat_farm"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_citrus_orchards"
 					"pm_tools_disabled"
 					"pm_privately_owned"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming"
+					"pm_privately_owned"
+					"pm_tools_disabled"
 				}
 			}
 			create_building = {
@@ -1016,7 +1025,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}

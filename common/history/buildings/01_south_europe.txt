@@ -52,11 +52,20 @@
 			}
 			create_building = {
 				building = "building_wheat_farm"
-				level = 3
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_citrus_orchards"
+					"pm_tools_disabled"
+					"pm_privately_owned"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -158,12 +167,21 @@
 			}
 			create_building = {
 				building = "building_wheat_farm"
-				level = 5
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
 					"pm_privately_owned"
-					"pm_citrus_orchards"
+					"pm_tools"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 3
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming"
+					"pm_privately_owned"
 					"pm_tools"
 				}
 			}
@@ -472,7 +490,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_privately_owned"
 					"pm_tools"
 				}
@@ -561,7 +578,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools"
 					"pm_privately_owned"
 				}
@@ -626,7 +642,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools"
 					"pm_privately_owned"
 				}
@@ -686,7 +701,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools"
 					"pm_privately_owned"
 				}
@@ -723,7 +737,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_privately_owned"
 					"pm_tools"
 				}
@@ -772,7 +785,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -830,7 +842,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -916,7 +927,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -1006,7 +1016,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -1073,7 +1082,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -1192,11 +1200,20 @@
 			}
 			create_building = {
 				building = "building_wheat_farm"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_citrus_orchards"
+					"pm_tools_disabled"
+					"pm_privately_owned"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -1251,7 +1268,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools"
 					"pm_privately_owned"
 				}
@@ -1334,7 +1350,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -1372,7 +1387,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -1441,7 +1455,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -1496,7 +1509,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -1606,7 +1618,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -1663,7 +1674,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -1752,7 +1762,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -1876,7 +1885,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -1937,13 +1945,22 @@
 		region_state:SPA = {
 			create_building = {
 				building = "building_rice_farm"
-				level = 4
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming_building_rice_farm"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_fig_orchards_building_rice_farm"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming"
+					"pm_privately_owned"
+					"pm_tools_disabled"
 				}
 			}
 			create_building = {
@@ -2041,13 +2058,22 @@
 			}
 			create_building = {
 				building = "building_rice_farm"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming_building_rice_farm"
-					"pm_fig_orchards_building_rice_farm"
 					"pm_tools_disabled"
 					"pm_privately_owned"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming"
+					"pm_privately_owned"
+					"pm_tools_disabled"
 				}
 			}
 			create_building = {
@@ -2141,7 +2167,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2237,7 +2262,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2529,13 +2553,22 @@
 			}
 			create_building = {
 				building = "building_wheat_farm"
-				level = 3
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_citrus_orchards"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming"
+					"pm_tools_disabled"
+					"pm_privately_owned"
 				}
 			}
 			create_building = {
@@ -2566,11 +2599,20 @@
 			}
 			create_building = {
 				building = "building_wheat_farm"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_citrus_orchards"
+					"pm_tools_disabled"
+					"pm_privately_owned"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2746,7 +2788,6 @@
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_no_secondary"
 				}
 			}
 			create_building = {
@@ -2794,7 +2835,6 @@
 					"pm_simple_farming"
 					"pm_privately_owned"
 					"pm_tools_disabled"
-					"pm_no_secondary"
 				}
 			}
 			create_building = {
@@ -2815,11 +2855,20 @@
 		region_state:AUS = {
 			create_building = {
 				building = "building_wheat_farm"
-				level = 3
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_citrus_orchards"
+					"pm_tools_disabled"
+					"pm_privately_owned"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2863,12 +2912,11 @@
 				}
 			}
 			create_building = {
-				building = "building_wheat_farm"
+				building = "building_fruit_orchard"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_citrus_orchards"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2907,11 +2955,20 @@
 			}
 			create_building = {
 				building = "building_wheat_farm"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_citrus_orchards"
+					"pm_tools_disabled"
+					"pm_privately_owned"
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -2983,12 +3040,11 @@
 				}
 			}
 			create_building = {
-				building = "building_wheat_farm"
+				building = "building_fruit_orchard"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_citrus_orchards"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -3117,7 +3173,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -3154,7 +3209,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -3248,7 +3302,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -3344,7 +3397,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -3401,7 +3453,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -3448,7 +3499,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -3505,7 +3555,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -3538,7 +3587,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -3581,7 +3629,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
-					"pm_no_secondary"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
