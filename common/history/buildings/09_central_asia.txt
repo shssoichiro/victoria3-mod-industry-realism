@@ -17,7 +17,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards"
-					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 					"pm_privately_owned"
@@ -41,7 +40,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards"
-					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 					"pm_homesteading"
@@ -85,7 +83,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards"
-					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 					"pm_privately_owned"
@@ -109,7 +106,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards"
-					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 					"pm_privately_owned"
@@ -302,11 +298,21 @@
 			}
 			create_building = {
 				building = "building_logging_camp"
-				level = 5
+				level = 3
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
+					"pm_no_equipment"
+					"pm_road_carts"
+					"pm_privately_owned_building_logging_camp"
+				}
+			}
+			create_building = {
+				building = "building_hardwood_logging_camp"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"
@@ -358,7 +364,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards"
-					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 					"pm_privately_owned"
@@ -400,7 +405,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards"
-					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 					"pm_privately_owned"
@@ -444,7 +448,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards"
-					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 					"pm_privately_owned"
@@ -478,7 +481,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards"
-					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 					"pm_privately_owned"
@@ -522,7 +524,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards"
-					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 					"pm_privately_owned"
@@ -568,7 +569,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards"
-					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 					"pm_privately_owned"
@@ -674,7 +674,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards"
-					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 					"pm_privately_owned"
@@ -729,7 +728,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards"
-					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 					"pm_privately_owned"
@@ -774,7 +772,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_forestry"
-					"pm_no_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_merchant_guilds_building_logging_camp"
@@ -796,7 +793,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards"
-					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 					"pm_privately_owned"
@@ -870,7 +866,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards"
-					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 					"pm_privately_owned"
@@ -934,7 +929,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards"
-					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 					"pm_privately_owned"
@@ -958,7 +952,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards"
-					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 					"pm_privately_owned"
