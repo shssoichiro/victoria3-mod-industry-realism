@@ -12,7 +12,7 @@
 - Updates companies and events around those buildings in ways that hopefully make sense
 - Adds some buildings for artificially creating oil and rubber, quite far in the tech tree, to make playing tall more viable
 
-Full list of building changes:
+### Full list of building changes:
 
 - Food Industry: now only produces groceries
 - Distillery: new building uses sugar to produce rum, or grain to produce grain alcohol (vodka, beer, sake, etc.), both represented by generic "liquor" good
@@ -38,6 +38,10 @@ Full list of building changes:
 - Hardwood Logging Camps: new building, produces hardwood. some logging camps were converted to hardwood logging camps, based on realistic locations
 - Synthetic Rubber Plants: new building, unlocks from Plastics, produces rubber from liquor and sulfur ([historical precedent](https://en.wikipedia.org/wiki/Polybutadiene#History))
 - Synthetic Fuel Plants: new building, unlocks from Electric Arc Process, produces oil from coal and iron ([historical precedent](https://en.wikipedia.org/wiki/Fischer%E2%80%93Tropsch_process#History))
+
+### Industry Expanded exists, why waste time on this, idiot?
+
+I wanted a mod that does not introduce any new goods. Industry Expanded is a great mod, it's simply not what I'm looking for. I wanted something lighter weight. You're free to choose whichever one you prefer.
 
 TODO:
 
