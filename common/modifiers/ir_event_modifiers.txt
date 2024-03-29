@@ -1,4 +1,4 @@
-modifier_bg_diminished_rum_production = {
+﻿modifier_bg_diminished_rum_production = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	building_distillery_throughput_add = -0.5
 }

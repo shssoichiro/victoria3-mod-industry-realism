@@ -1,4 +1,4 @@
-decree_events.100 = {
+﻿decree_events.100 = {
 	#Throughput vs minimum sol
 	type = country_event
 	placement = scope:decree_manufacturing_industry

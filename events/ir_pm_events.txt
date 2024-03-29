@@ -1,4 +1,4 @@
-pm_events.3 = {
+﻿pm_events.3 = {
 	type = country_event
 	placement = scope:liquor_making_state
 	title = pm_events.3.t

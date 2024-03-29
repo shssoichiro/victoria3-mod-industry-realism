@@ -1,4 +1,4 @@
-pm_simple_farming = {
+﻿pm_simple_farming = {
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {

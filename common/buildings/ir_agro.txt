@@ -1,4 +1,4 @@
-building_rye_farm = {
+﻿building_rye_farm = {
 	building_group = bg_rye_farms
 	texture = "gfx/interface/icons/building_icons/rye_farm.dds"
 	city_type = farm

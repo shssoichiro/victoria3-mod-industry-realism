@@ -1,4 +1,4 @@
-# Debate Event - The Plight of the Second Sons
+﻿# Debate Event - The Plight of the Second Sons
 land_ownership_law_events.4 = {
 	type = country_event
 	placement = root

@@ -1,4 +1,4 @@
-bg_fruit_orchards = {
+﻿bg_fruit_orchards = {
 	parent_group = bg_agriculture
 	default_building = building_fruit_orchard
 	cash_reserves_max = 25000

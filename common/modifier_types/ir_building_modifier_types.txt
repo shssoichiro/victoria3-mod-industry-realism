@@ -1,4 +1,4 @@
-building_distillery_throughput_add = {
+﻿building_distillery_throughput_add = {
 	good = yes
 	percent = yes
 }

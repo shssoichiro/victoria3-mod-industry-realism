@@ -1,28 +1,48 @@
 ﻿l_english:
-  building_distillery: Distillery
-  building_tailoring_workshops: Tailoring Workshop
-  building_luxury_furniture_manufacturies: Luxury Furniture Manufacturies
-  building_pottery_mills: Pottery Mills
-  building_synthetics_plants: Dye Plants
-  building_rayon_plants: Rayon Plants
-  building_automobile_factories: Automobile Factories
-  building_aircraft_industry: Aircraft Industry
-  building_electrics_industry: Telephone Industry
-  building_radio_industry: Radio Industry
-  building_fruit_orchard: Fruit Orchard
-  building_wool_farms: Wool Farms
-  building_hardwood_logging_camps: Hardwood Logging Camps
-  building_synthetic_rubber_plants: Synthetic Rubber Plants
-  building_synthetic_fuel_plants: Synthetic Fuel Plants
-  pmg_base_building_distillery_type: Production Type
-  pm_rum: Rum
-  pm_vodka: Grain Alcohol
-  pm_hand_shearing: Hand Shearing
-  pm_specialized_shears: Specialized Shears
-  pm_electric_shears: Electric Shears
-  pm_synthetic_rubber: Synthetic Rubber
-  pm_fischer_tropsch: Fischer-Tropsch Process
+  building_distillery: "Distillery"
+  building_tailoring_workshops: "Tailoring Workshop"
+  building_luxury_furniture_manufacturies: "Luxury Furniture Manufacturies"
+  building_pottery_mills: "Pottery Mills"
+  building_synthetics_plants: "Dye Plants"
+  building_rayon_plants: "Rayon Plants"
+  building_automobile_factories: "Automobile Factories"
+  building_aircraft_industry: "Aircraft Industry"
+  building_electrics_industry: "Telephone Industry"
+  building_radio_industry: "Radio Industry"
+  building_fruit_orchard: "Fruit Orchard"
+  building_wool_farms: "Wool Farms"
+  building_hardwood_logging_camps: "Hardwood Logging Camps"
+  building_synthetic_rubber_plants: "Synthetic Rubber Plants"
+  building_synthetic_fuel_plants: "Synthetic Fuel Plants"
+  pmg_base_building_distillery_type: "Production Type"
+  pm_rum: "Rum"
+  pm_vodka: "Grain Alcohol"
+  pm_hand_shearing: "Hand Shearing"
+  pm_specialized_shears: "Specialized Shears"
+  pm_electric_shears: "Electric Shears"
+  pm_synthetic_rubber: "Synthetic Rubber"
+  pm_fischer_tropsch: "Fischer-Tropsch Process"
   pm_simple_forestry_hardwood: "$pm_simple_forestry$"
   pm_saw_mills_hardwood: "$pm_saw_mills$"
   pm_electric_saw_mills_hardwood: "$pm_electric_saw_mills$"
   pmg_base_building_distillery: "$pm_base$"
+  building_distillery_throughput_add: "$building_distillery$ building [concept_throughput]"
+  building_distillery_throughput_add_desc: "A bonus or penalty to both input and output of $building_distillery$"
+  building_tailoring_workshop_throughput_add: "$building_tailoring_workshop$ building [concept_throughput]"
+  building_tailoring_workshop_throughput_add_desc: "A bonus or penalty to both input and output of $building_tailoring_workshop$"
+  building_luxury_furniture_manufacturies_throughput_add: "$building_luxury_furniture_manufacturies$ building [concept_throughput]"
+  building_luxury_furniture_manufacturies_throughput_add_desc: "A bonus or penalty to both input and output of $building_luxury_furniture_manufacturies$"
+  building_pottery_mills_throughput_add: "$building_pottery_mills$ building [concept_throughput]"
+  building_pottery_mills_throughput_add_desc: "A bonus or penalty to both input and output of $building_pottery_mills$"
+  building_rayon_plants_throughput_add: "$building_rayon_plants$ building [concept_throughput]"
+  building_rayon_plants_throughput_add_desc: "A bonus or penalty to both input and output of $building_rayon_plants$"
+  building_automobile_factories_throughput_add: "$building_automobile_factories$ building [concept_throughput]"
+  building_automobile_factories_throughput_add_desc: "A bonus or penalty to both input and output of $building_automobile_factories$"
+  building_aircraft_industry_throughput_add: "$building_aircraft_industry$ building [concept_throughput]"
+  building_aircraft_industry_throughput_add_desc: "A bonus or penalty to both input and output of $building_aircraft_industry$"
+  building_radio_industry_throughput_add: "$building_radio_industry$ building [concept_throughput]"
+  building_radio_industry_throughput_add_desc: "A bonus or penalty to both input and output of $building_radio_industry$"
+  building_fruit_orchard_throughput_add: "$building_fruit_orchard$ building [concept_throughput]"
+  building_fruit_orchard_throughput_add_desc: "A bonus or penalty to both input and output of $building_fruit_orchard$"
+  building_wool_farms_throughput_add: "$building_wool_farms$ building [concept_throughput]"
+  building_wool_farms_throughput_add_desc: "A bonus or penalty to both input and output of $building_wool_farms$"

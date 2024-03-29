@@ -1,4 +1,4 @@
-#Sortie de l'usine Lumière de Lyon
+﻿#Sortie de l'usine Lumière de Lyon
 belle_epoque_events.6 = {
 	type = country_event
 	placement = scope:belle_epoque_state

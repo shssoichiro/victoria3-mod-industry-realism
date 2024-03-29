@@ -1,4 +1,4 @@
-pm_dye_production = {
+﻿pm_dye_production = {
 	texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
 	state_modifiers = {
 		workforce_scaled = {

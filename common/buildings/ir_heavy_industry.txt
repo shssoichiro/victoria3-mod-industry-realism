@@ -1,4 +1,4 @@
-building_synthetics_plants = {
+﻿building_synthetics_plants = {
 	building_group = bg_heavy_industry
 	texture = "gfx/interface/icons/building_icons/synthetics_plants.dds"
 	city_type = city

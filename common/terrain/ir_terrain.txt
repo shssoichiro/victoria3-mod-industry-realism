@@ -1,4 +1,4 @@
-farmland_orchard = {
+﻿farmland_orchard = {
 	label = label_forested
 	label = label_developed
 	weight = {

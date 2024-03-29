@@ -1,4 +1,4 @@
-je_prohibition = {
+﻿je_prohibition = {
 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
 	group = je_group_internal_affairs
 	is_shown_when_inactive = {

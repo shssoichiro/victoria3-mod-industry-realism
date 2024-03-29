@@ -1,4 +1,4 @@
-has_industry_building = {
+﻿has_industry_building = {
 	OR = {
 		has_building = building_food_industry
 		has_building = building_distillery
