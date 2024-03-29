@@ -330,7 +330,7 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
@@ -405,7 +405,7 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 2
 				reserves = 1
 				activate_production_methods = {
@@ -560,7 +560,7 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
@@ -658,7 +658,7 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
@@ -896,7 +896,7 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
@@ -1014,7 +1014,7 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
@@ -1095,7 +1095,7 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
@@ -1296,7 +1296,7 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 2
 				reserves = 1
 				activate_production_methods = {
@@ -1553,7 +1553,7 @@
 	s:STATE_PARA = {
 		region_state:PRA = {
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
@@ -1576,7 +1576,7 @@
 	s:STATE_MARANHAO = {
 		region_state:BRZ = {
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
@@ -1623,7 +1623,7 @@
 	s:STATE_GOIAS = {
 		region_state:BRZ = {
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
@@ -1671,7 +1671,7 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
@@ -1776,7 +1776,7 @@
 	s:STATE_SANTA_CATARINA = {
 		region_state:BRZ = {
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
@@ -2163,7 +2163,7 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 4
 				reserves = 1
 				activate_production_methods = {
@@ -2224,7 +2224,7 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
@@ -2269,7 +2269,7 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 2
 				reserves = 1
 				activate_production_methods = {
@@ -2304,7 +2304,7 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = {

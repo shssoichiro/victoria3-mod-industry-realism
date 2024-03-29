@@ -513,11 +513,11 @@
 	s:STATE_EAST_KARELIA = {
 		region_state:RUS = {
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills_hardwood"
+					"pm_saw_mills"
 					"pm_privately_owned_building_logging_camp"
 					"pm_no_equipment"
 					"pm_road_carts"
@@ -1942,7 +1942,7 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 5
 				reserves = 1
 				activate_production_methods = {
@@ -1990,7 +1990,7 @@
 			}
 			create_building = {
 				building = "building_logging_camp"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_forestry"
@@ -2001,7 +2001,7 @@
 			}
 			create_building = {
 				building = "building_hardwood_logging_camp"
-				level = 1
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_forestry_hardwood"
@@ -2067,19 +2067,8 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
-				level = 1
-				reserves = 1
-				activate_production_methods = {
-					"pm_saw_mills"
-					"pm_no_equipment"
-					"pm_road_carts"
-					"pm_privately_owned_building_logging_camp"
-				}
-			}
-			create_building = {
 				building = "building_hardwood_logging_camp"
-				level = 1
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills_hardwood"
@@ -2122,7 +2111,7 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
@@ -2223,7 +2212,7 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 5
 				reserves = 1
 				activate_production_methods = {

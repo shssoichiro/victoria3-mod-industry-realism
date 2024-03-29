@@ -36,7 +36,9 @@
 - Livestock Ranches: now only produce meat and a small amount of fertilizer. input goods have also been rebalanced. cows and pigs eat a lot.
 - Wool Farms: new building, produces fabric and a small amount of fertilizer
 - Logging Camps: now only produce wood
-- Hardwood Logging Camps: new building, produces hardwood. some logging camps were converted to hardwood logging camps, based on realistic locations
+- Hardwood Logging Camps: new building, produces half wood and half hardwood. some logging camps were converted to hardwood logging camps, based on realistic locations
+  - These require the region to have hardwood forests. Forestry data taken from [Britannica](https://kids.britannica.com/students/assembly/view/56196)
+  - I would've preferred if there was a way to convert hardwood to be used as wood, but that's only possible for pop needs, not construction. Therefore, these still produce half normal wood. For game balance reasons.
 - Synthetic Rubber Plants: new building, unlocks from Plastics, produces rubber from liquor and sulfur ([historical precedent](https://en.wikipedia.org/wiki/Polybutadiene#History))
 - Synthetic Fuel Plants: new building, unlocks from Electric Arc Process, produces oil from coal and iron ([historical precedent](https://en.wikipedia.org/wiki/Fischer%E2%80%93Tropsch_process#History))
 
