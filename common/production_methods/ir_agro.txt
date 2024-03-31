@@ -1,4 +1,4 @@
-﻿pm_simple_farming = {
+﻿pm_simple_farming_orchard = {
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -13,7 +13,7 @@
 	}
 }
 
-pm_soil_enriching_farming = {
+pm_soil_enriching_farming_orchard = {
 	texture = "gfx/interface/icons/production_method_icons/soil_enriching_farming.dds"
 	unlocking_technologies = {
 		intensive_agriculture
@@ -34,7 +34,7 @@ pm_soil_enriching_farming = {
 	}
 }
 
-pm_fertilization = {
+pm_fertilization_orchard = {
 	texture = "gfx/interface/icons/production_method_icons/fertilization.dds"
 	unlocking_technologies = {
 		improved_fertilizer
@@ -55,7 +55,7 @@ pm_fertilization = {
 	}
 }
 
-pm_chemical_fertilizer = {
+pm_chemical_fertilizer_orchard = {
 	texture = "gfx/interface/icons/production_method_icons/chemical_fertilizers.dds"
 	unlocking_technologies = {
 		nitrogen_fixation
