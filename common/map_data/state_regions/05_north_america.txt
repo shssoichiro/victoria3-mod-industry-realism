@@ -12,6 +12,7 @@
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 	}
@@ -67,6 +68,7 @@ STATE_LOUISIANA = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
@@ -139,6 +141,7 @@ STATE_NEW_YORK = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -198,6 +201,7 @@ STATE_VIRGINIA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 		"bg_vineyard_plantations"
@@ -1897,6 +1901,7 @@ STATE_ALASKA = {
 	arable_land = 20
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 32
@@ -1990,6 +1995,7 @@ STATE_WASHINGTON = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -2096,6 +2102,7 @@ STATE_OREGON = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -2195,6 +2202,7 @@ STATE_IDAHO = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 16
@@ -2290,6 +2298,7 @@ STATE_COLORADO = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 40
@@ -2393,6 +2402,7 @@ STATE_WYOMING = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 48
@@ -2551,6 +2561,7 @@ STATE_MONTANA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 80
@@ -2642,6 +2653,7 @@ STATE_NORTH_DAKOTA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 48
@@ -2728,6 +2740,7 @@ STATE_SOUTH_DAKOTA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 32
@@ -2824,6 +2837,7 @@ STATE_NEBRASKA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_hardwood_logging = 5
@@ -2905,6 +2919,7 @@ STATE_KANSAS = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 32
@@ -2978,6 +2993,7 @@ STATE_OKLAHOMA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 	}
 	capped_resources = {
@@ -3042,6 +3058,7 @@ STATE_ARKANSAS = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 	}
@@ -3115,6 +3132,7 @@ STATE_MISSOURI = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 		"bg_vineyard_plantations"
@@ -3192,6 +3210,7 @@ STATE_IOWA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_tobacco_plantations"
 	}
 	capped_resources = {
@@ -3290,6 +3309,7 @@ STATE_MINNESOTA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 45
@@ -3362,6 +3382,7 @@ STATE_WISCONSIN = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 24
@@ -3412,6 +3433,7 @@ STATE_INDIANA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -3487,6 +3509,7 @@ STATE_MICHIGAN = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -3542,6 +3565,7 @@ STATE_OHIO = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_tobacco_plantations"
 		"bg_vineyard_plantations"
 	}
@@ -3607,6 +3631,7 @@ STATE_KENTUCKY = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 		"bg_vineyard_plantations"
@@ -3666,6 +3691,7 @@ STATE_TENNESSEE = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 	}
@@ -3720,6 +3746,7 @@ STATE_MISSISSIPPI = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
@@ -3783,6 +3810,7 @@ STATE_ALABAMA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
@@ -3855,6 +3883,7 @@ STATE_FLORIDA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_sugar_plantations"
 		"bg_dye_plantations"
@@ -3922,6 +3951,7 @@ STATE_GEORGIA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
@@ -3971,6 +4001,7 @@ STATE_WEST_VIRGINIA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
@@ -4007,6 +4038,7 @@ STATE_MARYLAND = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 		"bg_vineyard_plantations"
@@ -4033,6 +4065,7 @@ STATE_DELAWARE = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 		"bg_vineyard_plantations"
@@ -4097,6 +4130,7 @@ STATE_PENNSYLVANIA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_tobacco_plantations"
 		"bg_vineyard_plantations"
 	}
@@ -4134,6 +4168,7 @@ STATE_NEW_JERSEY = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 		"bg_vineyard_plantations"
@@ -4205,6 +4240,7 @@ STATE_ILLINOIS = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_tobacco_plantations"
 		"bg_vineyard_plantations"
 	}
@@ -4235,6 +4271,7 @@ STATE_RHODE_ISLAND = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_tobacco_plantations"
 		"bg_vineyard_plantations"
 	}
@@ -4267,6 +4304,7 @@ STATE_CONNECTICUT = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_tobacco_plantations"
 		"bg_vineyard_plantations"
 	}
@@ -4305,6 +4343,7 @@ STATE_MASSACHUSETTS = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_tobacco_plantations"
 		"bg_vineyard_plantations"
 	}
@@ -4346,6 +4385,7 @@ STATE_NEW_HAMPSHIRE = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_tobacco_plantations"
 	}
 	capped_resources = {
@@ -4379,6 +4419,7 @@ STATE_VERMONT = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_tobacco_plantations"
 	}
 	capped_resources = {
@@ -4433,6 +4474,7 @@ STATE_MAINE = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 4
@@ -4492,6 +4534,7 @@ STATE_NORTH_CAROLINA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 		"bg_vineyard_plantations"
@@ -4585,6 +4628,7 @@ STATE_UTAH = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 30
@@ -4629,6 +4673,7 @@ STATE_SOUTH_CAROLINA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 		"bg_dye_plantations"
@@ -4660,6 +4705,7 @@ STATE_HAWAIIAN_ISLANDS = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_tea_plantations"
@@ -5159,6 +5205,7 @@ STATE_ONTARIO = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_tobacco_plantations"
 		"bg_vineyard_plantations"
 	}
@@ -5229,6 +5276,7 @@ STATE_NEW_BRUNSWICK = {
 	arable_land = 40
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 44
@@ -6036,6 +6084,7 @@ STATE_QUEBEC = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_tobacco_plantations"
 	}
 	capped_resources = {
@@ -6224,6 +6273,7 @@ STATE_NEWFOUNDLAND = {
 	arable_land = 20
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 24
@@ -6547,6 +6597,7 @@ STATE_ALBERTA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 48
@@ -6992,6 +7043,7 @@ STATE_BRITISH_COLUMBIA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 28
@@ -7291,6 +7343,7 @@ STATE_SASKATCHEWAN = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 40
@@ -7586,6 +7639,7 @@ STATE_MANITOBA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 9
@@ -8259,6 +8313,7 @@ STATE_YUKON_TERRITORY = {
 	arable_land = 20
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 15
@@ -9907,6 +9962,7 @@ STATE_NORTHWEST_TERRITORIES = {
 	arable_land = 20
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 18
@@ -12019,6 +12075,7 @@ STATE_NUNAVUT = {
 	arable_land = 20
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 8
@@ -12039,6 +12096,7 @@ STATE_BERMUDA = {
 	arable_land = 10
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
@@ -12222,6 +12280,7 @@ STATE_TEXAS = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_sugar_plantations"
 		"bg_vineyard_plantations"
@@ -12335,6 +12394,7 @@ STATE_NEVADA = {
 	arable_land = 40
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 24
@@ -12437,6 +12497,7 @@ STATE_ARIZONA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 	}
 	capped_resources = {
@@ -12542,6 +12603,7 @@ STATE_NEW_MEXICO = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_vineyard_plantations"
 	}
@@ -12679,6 +12741,7 @@ STATE_CALIFORNIA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_vineyard_plantations"
 	}
@@ -12751,6 +12814,7 @@ STATE_SONORA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 	}
 	capped_resources = {
@@ -12845,6 +12909,7 @@ STATE_CHIHUAHUA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
 	}
@@ -12935,6 +13000,7 @@ STATE_RIO_GRANDE = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
 	}
@@ -12992,6 +13058,7 @@ STATE_DURANGO = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 17
@@ -13027,6 +13094,7 @@ STATE_SINALOA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_opium_plantations"
 	}
 	capped_resources = {
@@ -13073,6 +13141,7 @@ STATE_BAJIO = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tobacco_plantations"
@@ -13128,6 +13197,7 @@ STATE_YUCATAN = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_sugar_plantations"
@@ -13176,6 +13246,7 @@ STATE_MEXICO = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tobacco_plantations"
@@ -13230,6 +13301,7 @@ STATE_VERACRUZ = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tobacco_plantations"
@@ -13283,6 +13355,7 @@ STATE_GUERRERO = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tobacco_plantations"
@@ -13344,6 +13417,7 @@ STATE_OAXACA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tobacco_plantations"
@@ -13420,6 +13494,7 @@ STATE_JALISCO = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tobacco_plantations"
@@ -13474,6 +13549,7 @@ STATE_ZACATECAS = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tobacco_plantations"
@@ -13522,6 +13598,7 @@ STATE_CHIAPAS = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tobacco_plantations"
@@ -13581,6 +13658,7 @@ STATE_BAJA_CALIFORNIA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"

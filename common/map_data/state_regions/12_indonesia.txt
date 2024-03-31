@@ -35,6 +35,7 @@
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_tea_plantations"
 		"bg_sugar_plantations"
@@ -115,6 +116,7 @@ STATE_NORTH_BORNEO = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
@@ -209,6 +211,7 @@ STATE_WEST_BORNEO = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
@@ -321,6 +324,7 @@ STATE_EAST_BORNEO = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
@@ -368,6 +372,7 @@ STATE_WEST_JAVA = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
@@ -425,6 +430,7 @@ STATE_EAST_JAVA = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
@@ -477,6 +483,7 @@ STATE_CENTRAL_JAVA = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
@@ -560,6 +567,7 @@ STATE_NORTH_SUMATRA = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
@@ -624,6 +632,7 @@ STATE_SOUTH_SUMATRA = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
@@ -683,6 +692,7 @@ STATE_ACEH = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
@@ -799,6 +809,7 @@ STATE_WESTERN_NEW_GUINEA = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_sugar_plantations"
@@ -851,6 +862,7 @@ STATE_MOLUCCAS = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
@@ -919,6 +931,7 @@ STATE_CELEBES = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
@@ -1039,6 +1052,7 @@ STATE_EASTERN_NEW_GUINEA = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_sugar_plantations"
@@ -1096,6 +1110,7 @@ STATE_SUNDA_ISLANDS = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
@@ -1149,6 +1164,7 @@ STATE_MINDANAO = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
@@ -1210,6 +1226,7 @@ STATE_LUZON = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
@@ -1259,6 +1276,7 @@ STATE_VISAYAS = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"

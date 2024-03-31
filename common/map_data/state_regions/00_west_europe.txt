@@ -75,6 +75,7 @@
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 36
@@ -129,6 +130,7 @@ STATE_GOTALAND = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 15
@@ -166,6 +168,7 @@ STATE_SCANIA = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 8
@@ -378,6 +381,7 @@ STATE_NORRLAND = {
 	arable_land = 22
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 40
@@ -404,6 +408,7 @@ STATE_GOTLAND = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 1
@@ -442,6 +447,7 @@ STATE_JUTLAND = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 3
@@ -477,6 +483,7 @@ STATE_ZEALAND = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 2
@@ -555,6 +562,7 @@ STATE_WESTERN_NORWAY = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_sulfur_mining = 20
@@ -754,6 +762,7 @@ STATE_NORTHERN_NORWAY = {
 	arable_land = 20
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 18
@@ -823,6 +832,7 @@ STATE_EASTERN_NORWAY = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 18
@@ -919,6 +929,7 @@ STATE_ICELAND = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_sulfur_mining = 20
@@ -1510,6 +1521,7 @@ STATE_GREENLAND = {
 	arable_land = 3
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_whaling = 5
@@ -1598,6 +1610,7 @@ STATE_SOUTHERN_FINLAND = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 12
@@ -1653,6 +1666,7 @@ STATE_WEST_KARELIA = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 18
@@ -1676,6 +1690,7 @@ STATE_ALAND = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 1
@@ -1873,6 +1888,7 @@ STATE_OSTROBOTHNIA = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 45
@@ -1909,6 +1925,7 @@ STATE_HOME_COUNTIES = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 40
@@ -1946,6 +1963,7 @@ STATE_LANCASHIRE = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 100
@@ -1988,6 +2006,7 @@ STATE_WALES = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 80
@@ -2024,6 +2043,7 @@ STATE_YORKSHIRE = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 100
@@ -2073,6 +2093,7 @@ STATE_HIGHLANDS = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 8
@@ -2111,6 +2132,7 @@ STATE_MIDLANDS = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 80
@@ -2150,6 +2172,7 @@ STATE_EAST_ANGLIA = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 40
@@ -2193,6 +2216,7 @@ STATE_WEST_COUNTRY = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -2238,6 +2262,7 @@ STATE_LOWLANDS = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 60
@@ -2271,6 +2296,7 @@ STATE_ULSTER = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 4
@@ -2308,6 +2334,7 @@ STATE_MUNSTER = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_lead_mining = 24
@@ -2341,6 +2368,7 @@ STATE_LEINSTER = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 33
@@ -2374,6 +2402,7 @@ STATE_CONNAUGHT = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_sulfur_mining = 48
@@ -2405,6 +2434,7 @@ STATE_ILE_DE_FRANCE = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -2441,6 +2471,7 @@ STATE_PROVENCE = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_silk_plantations"
 		"bg_vineyard_plantations"
@@ -2481,6 +2512,7 @@ STATE_NORMANDY = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 30
@@ -2519,6 +2551,7 @@ STATE_LANGUEDOC = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_vineyard_plantations"
 	}
@@ -2558,6 +2591,7 @@ STATE_RHONE = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_silk_plantations"
 		"bg_vineyard_plantations"
@@ -2595,6 +2629,7 @@ STATE_FRENCH_LOW_COUNTRIES = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 100
@@ -2628,6 +2663,7 @@ STATE_PICARDY = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 2
@@ -2658,6 +2694,7 @@ STATE_ALSACE_LORRAINE = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -2690,6 +2727,7 @@ STATE_POITOU = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -2725,6 +2763,7 @@ STATE_GUYENNE = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -2759,6 +2798,7 @@ STATE_AUVERGNE_LIMOUSIN = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -2800,6 +2840,7 @@ STATE_BRITTANY = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -2838,6 +2879,7 @@ STATE_BURGUNDY = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -2873,6 +2915,7 @@ STATE_CHAMPAGNE = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -2901,6 +2944,7 @@ STATE_FRANCHE_COMTE = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -2929,6 +2973,7 @@ STATE_LORRAINE = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -2966,6 +3011,7 @@ STATE_AQUITAINE = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -3007,6 +3053,7 @@ STATE_ORLEANS = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -3037,6 +3084,7 @@ STATE_HOLLAND = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 2
@@ -3065,6 +3113,7 @@ STATE_FRIESLAND = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 1
@@ -3100,6 +3149,7 @@ STATE_GELRE = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 40
@@ -3132,6 +3182,7 @@ STATE_WALLONIA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 80
@@ -3163,6 +3214,7 @@ STATE_FLANDERS = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 13
@@ -3199,6 +3251,7 @@ STATE_AUSTRIA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -3245,6 +3298,7 @@ STATE_BOHEMIA = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -3278,6 +3332,7 @@ STATE_MORAVIA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -3311,6 +3366,7 @@ STATE_STYRIA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -3347,6 +3403,7 @@ STATE_TYROL = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_gold_mining = 2
@@ -3376,6 +3433,7 @@ STATE_SOUTH_TYROL = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -3417,6 +3475,7 @@ STATE_POMERANIA = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 7
@@ -3456,6 +3515,7 @@ STATE_ELBE = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 5
@@ -3491,6 +3551,7 @@ STATE_EAST_SWITZERLAND = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -3528,6 +3589,7 @@ STATE_WEST_SWITZERLAND = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -3569,6 +3631,7 @@ STATE_WESTPHALIA = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 80
@@ -3611,6 +3674,7 @@ STATE_ANHALT = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 44
@@ -3641,6 +3705,7 @@ STATE_RHINELAND = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -3674,6 +3739,7 @@ STATE_NORTH_RHINE = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -3716,6 +3782,7 @@ STATE_BRANDENBURG = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 44
@@ -3746,6 +3813,7 @@ STATE_SCHLESWIG_HOLSTEIN = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 3
@@ -3782,6 +3850,7 @@ STATE_WURTTEMBERG = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -3812,6 +3881,7 @@ STATE_BADEN = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -3847,6 +3917,7 @@ STATE_HANNOVER = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 24
@@ -3879,6 +3950,7 @@ STATE_BRUNSWICK = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 40
@@ -3922,6 +3994,7 @@ STATE_BAVARIA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 60
@@ -3953,6 +4026,7 @@ STATE_FRANCONIA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -4001,6 +4075,7 @@ STATE_SAXONY = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -4042,6 +4117,7 @@ STATE_HESSE = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -4078,6 +4154,7 @@ STATE_MECKLENBURG = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 4
@@ -4108,6 +4185,7 @@ STATE_RUHR = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 55
@@ -4142,6 +4220,7 @@ STATE_MAINE_ANJOU = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {

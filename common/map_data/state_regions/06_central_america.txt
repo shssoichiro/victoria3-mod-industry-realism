@@ -19,6 +19,7 @@
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tobacco_plantations"
@@ -78,6 +79,7 @@ STATE_GUATEMALA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
@@ -137,6 +139,7 @@ STATE_HONDURAS = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
@@ -195,6 +198,7 @@ STATE_NICARAGUA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
@@ -241,6 +245,7 @@ STATE_COSTA_RICA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tobacco_plantations"
@@ -287,6 +292,7 @@ STATE_PANAMA = {
 	arable_resources = {
 		"bg_maize_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_tobacco_plantations"
 		"bg_banana_plantations"
@@ -325,6 +331,7 @@ STATE_HAITI = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
@@ -364,6 +371,7 @@ STATE_SANTO_DOMINGO = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
@@ -398,6 +406,7 @@ STATE_PUERTO_RICO = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
@@ -431,6 +440,7 @@ STATE_BAHAMAS = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
@@ -474,6 +484,7 @@ STATE_WEST_INDIES = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
@@ -507,6 +518,7 @@ STATE_JAMAICA = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
@@ -562,6 +574,7 @@ STATE_CUBA = {
 	arable_resources = {
 		"bg_rice_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"

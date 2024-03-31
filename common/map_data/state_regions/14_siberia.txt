@@ -397,6 +397,7 @@
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 84
@@ -774,6 +775,7 @@ STATE_TOMSK = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 44
@@ -866,6 +868,7 @@ STATE_TUVA = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 44
@@ -1187,6 +1190,7 @@ STATE_TOBOLSK = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 44
@@ -3891,6 +3895,7 @@ STATE_UPPER_YENISEYSK = {
 	arable_land = 40
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 20
@@ -4871,6 +4876,7 @@ STATE_OB = {
 	arable_land = 20
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 20
@@ -5570,6 +5576,7 @@ STATE_NENETSIA = {
 	arable_land = 20
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 13
@@ -7290,6 +7297,7 @@ STATE_CHUKOTKA = {
 	arable_land = 20
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 36
@@ -7668,6 +7676,7 @@ STATE_KAMCHATKA = {
 	arable_land = 20
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 13
@@ -8916,6 +8925,7 @@ STATE_OKHOTSK = {
 	arable_land = 50
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 36
@@ -10866,6 +10876,7 @@ STATE_YAKUTSK = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 36
@@ -11310,6 +11321,7 @@ STATE_TRANS_BAIKAL = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 80
@@ -11760,6 +11772,7 @@ STATE_IRKUTSK = {
 	arable_resources = {
 		"bg_rye_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 80

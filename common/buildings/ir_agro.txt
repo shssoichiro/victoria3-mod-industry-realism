@@ -119,7 +119,7 @@ building_livestock_ranch = {
 }
 
 building_wool_farms = {
-	building_group = bg_livestock_ranches
+	building_group = bg_wool_farms
 	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
 	city_type = farm
 	levels_per_mesh = 5

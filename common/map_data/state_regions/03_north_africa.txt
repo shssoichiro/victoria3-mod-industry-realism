@@ -27,6 +27,7 @@
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_opium_plantations"
 		"bg_tobacco_plantations"
@@ -92,6 +93,7 @@ STATE_UPPER_EGYPT = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
 		"bg_opium_plantations"
@@ -137,6 +139,7 @@ STATE_MIDDLE_EGYPT = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_opium_plantations"
 		"bg_tobacco_plantations"
@@ -323,6 +326,7 @@ STATE_EGYPTIAN_DESERT = {
 	arable_land = 5
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 }
 
@@ -389,6 +393,7 @@ STATE_MATRUH = {
 	arable_land = 3
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_fishing = 3
@@ -422,6 +427,7 @@ STATE_SINAI = {
 	arable_land = 10
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_fishing = 3
@@ -473,6 +479,7 @@ STATE_ERITREA = {
 	arable_resources = {
 		"bg_millet_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
@@ -673,6 +680,7 @@ STATE_DONGOLA = {
 	arable_resources = {
 		"bg_millet_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
@@ -803,6 +811,7 @@ STATE_KORDOFAN = {
 	arable_land = 40
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_hardwood_logging = 4
@@ -943,6 +952,7 @@ STATE_DARFUR = {
 	arable_land = 20
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -1038,6 +1048,7 @@ STATE_BLUE_NILE = {
 	arable_resources = {
 		"bg_millet_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_tobacco_plantations"
@@ -1081,6 +1092,7 @@ STATE_MARRAKECH = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
@@ -1121,6 +1133,7 @@ STATE_FEZ = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
@@ -1158,6 +1171,7 @@ STATE_AL_RIF = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
@@ -1251,6 +1265,7 @@ STATE_INNER_MOROCCO = {
 	arable_land = 50
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 30
@@ -1307,6 +1322,7 @@ STATE_ALGIERS = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_vineyard_plantations"
 	}
@@ -1378,6 +1394,7 @@ STATE_CONSTANTINE = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -1435,6 +1452,7 @@ STATE_ORAN = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -1498,6 +1516,7 @@ STATE_TUNISIA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_sugar_plantations"
 		"bg_vineyard_plantations"
@@ -1697,6 +1716,7 @@ STATE_TRIPOLI = {
 	arable_land = 30
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_fishing = 5
@@ -1759,6 +1779,7 @@ STATE_LIBYA = {
 	arable_resources = {
 		"bg_wheat_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
@@ -2066,6 +2087,7 @@ STATE_LIBYAN_DESERT = {
 	arable_land = 10
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -2351,6 +2373,7 @@ STATE_SAHARA = {
 	arable_land = 10
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 16
@@ -2720,6 +2743,7 @@ STATE_EAST_SAHARA = {
 	arable_land = 10
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -2806,6 +2830,7 @@ STATE_WEST_SAHARA = {
 	arable_land = 20
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_sulfur_mining = 36
@@ -2900,6 +2925,7 @@ STATE_MAURITANIA = {
 	arable_land = 30
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 45
@@ -3119,6 +3145,7 @@ STATE_INNER_MAURITANIA = {
 	arable_land = 20
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 27
@@ -3187,6 +3214,7 @@ STATE_EASTERN_MALI = {
 	arable_resources = {
 		"bg_millet_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_opium_plantations"
 		"bg_tobacco_plantations"
@@ -3255,6 +3283,7 @@ STATE_WESTERN_MALI = {
 	arable_resources = {
 		"bg_millet_farms"
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_opium_plantations"
 		"bg_tobacco_plantations"
@@ -3461,6 +3490,7 @@ STATE_TIMBUKTU = {
 	arable_land = 40
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 36
@@ -3737,6 +3767,7 @@ STATE_NIGER = {
 	arable_land = 40
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 36
@@ -3967,6 +3998,7 @@ STATE_CHAD = {
 	arable_land = 30
 	arable_resources = {
 		"bg_livestock_ranches"
+		"bg_wool_farms"
 	}
 	resource = {
 		type = "bg_oil_extraction"
