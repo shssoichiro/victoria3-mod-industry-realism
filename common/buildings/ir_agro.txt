@@ -120,7 +120,7 @@ building_livestock_ranch = {
 
 building_wool_farms = {
 	building_group = bg_wool_farms
-	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+	texture = "gfx/interface/icons/building_icons/wool_ranch.dds"
 	city_type = farm
 	levels_per_mesh = 5
 	unlocking_technologies = {
