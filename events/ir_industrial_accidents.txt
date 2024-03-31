@@ -1,4 +1,5 @@
-﻿# Dyeworks
+﻿namespace = industrial_accident_events
+# Dyeworks
 industrial_accident_events.2 = {
 	type = country_event
 	placement = scope:dyeworks_state

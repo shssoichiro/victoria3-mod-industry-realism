@@ -550,7 +550,7 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_privately_owned_building_logging_camp"
 					"pm_no_equipment"
 					"pm_road_carts"
@@ -575,7 +575,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"
@@ -843,7 +843,7 @@
 				level = 5
 				reserves = 1
 				activate_production_methods = {
-					"pm_soil_enriching_farming"
+					"pm_soil_enriching_farming_orchard"
 					"pm_tools_disabled"
 					"pm_homesteading"
 				}
@@ -951,7 +951,7 @@
 				level = 3
 				reserves = 1
 				activate_production_methods = {
-					"pm_soil_enriching_farming"
+					"pm_soil_enriching_farming_orchard"
 					"pm_tools_disabled"
 					"pm_homesteading"
 				}
@@ -1410,7 +1410,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_soil_enriching_farming"
+					"pm_soil_enriching_farming_orchard"
 					"pm_tools_disabled"
 					"pm_homesteading"
 				}
@@ -1457,7 +1457,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_soil_enriching_farming"
+					"pm_soil_enriching_farming_orchard"
 					"pm_tools_disabled"
 					"pm_homesteading"
 				}
@@ -1624,7 +1624,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_soil_enriching_farming"
+					"pm_soil_enriching_farming_orchard"
 					"pm_tools_disabled"
 					"pm_homesteading"
 				}
@@ -2065,7 +2065,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_simple_farming_orchard"
 					"pm_tools_disabled"
 					"pm_homesteading"
 				}
@@ -2920,7 +2920,7 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"

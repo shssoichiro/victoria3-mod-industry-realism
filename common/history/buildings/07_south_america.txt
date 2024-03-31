@@ -334,7 +334,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry"
+					"pm_simple_forestry_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_merchant_guilds_building_logging_camp"
@@ -409,7 +409,7 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry"
+					"pm_simple_forestry_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_merchant_guilds_building_logging_camp"
@@ -564,7 +564,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"
@@ -662,7 +662,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"
@@ -900,7 +900,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry"
+					"pm_simple_forestry_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_merchant_guilds_building_logging_camp"
@@ -1018,7 +1018,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry"
+					"pm_simple_forestry_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_merchant_guilds_building_logging_camp"
@@ -1099,7 +1099,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"
@@ -1300,7 +1300,7 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"
@@ -1557,7 +1557,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry"
+					"pm_simple_forestry_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_merchant_guilds_building_logging_camp"
@@ -1580,7 +1580,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"
@@ -1627,7 +1627,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"
@@ -1652,7 +1652,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_privately_owned_building_logging_camp"
 					"pm_no_equipment"
 					"pm_road_carts"
@@ -1675,7 +1675,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"
@@ -1780,7 +1780,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"
@@ -1846,7 +1846,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_privately_owned_building_logging_camp"
 					"pm_no_equipment"
 					"pm_road_carts"
@@ -2167,7 +2167,7 @@
 				level = 4
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"
@@ -2228,7 +2228,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"
@@ -2273,7 +2273,7 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"
@@ -2308,7 +2308,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"

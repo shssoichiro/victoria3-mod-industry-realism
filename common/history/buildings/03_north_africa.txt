@@ -300,7 +300,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_simple_farming_orchard"
 					"pm_privately_owned"
 					"pm_tools_disabled"
 				}
@@ -373,7 +373,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_simple_farming_orchard"
 					"pm_privately_owned"
 					"pm_tools_disabled"
 				}
@@ -562,7 +562,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry"
+					"pm_simple_forestry_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_merchant_guilds_building_logging_camp"
@@ -583,7 +583,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_simple_farming_orchard"
 					"pm_privately_owned"
 					"pm_tools_disabled"
 				}
@@ -703,7 +703,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry"
+					"pm_simple_forestry_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_merchant_guilds_building_logging_camp"
@@ -879,7 +879,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry"
+					"pm_simple_forestry_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_merchant_guilds_building_logging_camp"
@@ -979,7 +979,7 @@
 				level = 3
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry"
+					"pm_simple_forestry_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_merchant_guilds_building_logging_camp"
@@ -1000,7 +1000,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_simple_farming_orchard"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}
@@ -1102,7 +1102,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_simple_farming_orchard"
 					"pm_tools_disabled"
 					"pm_privately_owned"
 				}

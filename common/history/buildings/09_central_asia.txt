@@ -6,7 +6,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_simple_farming_orchard"
 					"pm_privately_owned"
 					"pm_tools_disabled"
 				}
@@ -62,7 +62,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_simple_farming_orchard"
 					"pm_privately_owned"
 					"pm_tools_disabled"
 				}
@@ -95,7 +95,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_simple_farming_orchard"
 					"pm_privately_owned"
 					"pm_tools_disabled"
 				}
@@ -142,7 +142,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_simple_farming_orchard"
 					"pm_privately_owned"
 					"pm_tools_disabled"
 				}
@@ -652,7 +652,7 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_simple_farming_orchard"
 					"pm_privately_owned"
 					"pm_tools_disabled"
 				}
@@ -705,7 +705,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_simple_farming_orchard"
 					"pm_privately_owned"
 					"pm_tools_disabled"
 				}
@@ -822,7 +822,7 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_simple_farming_orchard"
 					"pm_privately_owned"
 					"pm_tools_disabled"
 				}
