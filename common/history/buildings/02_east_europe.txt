@@ -673,10 +673,21 @@
 			}
 			create_building = {
 				building = "building_logging_camp"
-				level = 10
+				level = 8
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
+					"pm_no_equipment"
+					"pm_road_carts"
+					"pm_privately_owned_building_logging_camp"
+				}
+			}
+			create_building = {
+				building = "building_hardwood_logging_camp"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"
@@ -907,11 +918,11 @@
 				}
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_hardwood_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 					"pm_privately_owned_building_logging_camp"
