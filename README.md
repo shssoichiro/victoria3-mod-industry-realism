@@ -42,6 +42,10 @@
 - Synthetic Rubber Plants: new building, unlocks from Plastics, produces rubber from liquor and sulfur ([historical precedent](https://en.wikipedia.org/wiki/Polybutadiene#History))
 - Synthetic Fuel Plants: new building, unlocks from Electric Arc Process, produces oil from coal and iron ([historical precedent](https://en.wikipedia.org/wiki/Fischer%E2%80%93Tropsch_process#History))
 
+### Natural Resources
+
+For additional realism, add the [Industry Realism - Natural Resources](https://example.com) mod. This was split into a separate mod, as some people may prefer to play with the base game resource locations, since it does considerably change the balance for some countries.
+
 ### Why no synthetic this or that?
 
 There simply wasn't historic precedent for things such as synthetic coffee, tea, or opium. Synthetic opiates, for example, were not invented until 1960, which does not fit the timeframe of the game.
@@ -56,11 +60,16 @@ This mod is compatible with most mods that do not touch the buildings above or a
 
 - Verified compatible with BPM.
 - There are compatches for use with Ultra Historical.
+  - [UH: Politics Compatch](https://example.com)
+  - [UH: Demographics Compatch](https://example.com)
 - Incompatible with Industry Expanded, for obvious reasons.
 - Partial compatibility with VTM. Load it after VTM and this mod will work, though it will override some of VTM's changes. A compatch would be necessary for full compatibility.
 
 TODO:
 
-- Icons
 - Translations
-- Add links to the UH compatches
+- Add links to the compatches
+- Make the AI stop subsidizing power plants
+- See if we can tweak autonomous construction any
+- Make the AI build gold mines
+- Fix all the broken building starts

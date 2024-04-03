@@ -74,7 +74,6 @@ is_farm_building = {
 		is_building_type = building_fruit_orchard
 		is_building_type = building_livestock_ranch
 		is_building_type = building_wool_farms
-		is_building_type = building_vineyard_plantation
 	}
 }
 
@@ -88,22 +87,6 @@ has_farm_building = {
 		has_building = building_fruit_orchard
 		has_building = building_livestock_ranch
 		has_building = building_wool_farms
-		has_building = building_vineyard_plantation
-	}
-}
-
-is_plantation_building = {
-	or = {
-		is_building_type = building_coffee_plantation
-		is_building_type = building_cotton_plantation
-		is_building_type = building_dye_plantation
-		is_building_type = building_opium_plantation
-		is_building_type = building_tea_plantation
-		is_building_type = building_tobacco_plantation
-		is_building_type = building_sugar_plantation
-		is_building_type = building_rubber_plantation
-		is_building_type = building_banana_plantation
-		is_building_type = building_silk_plantation
 	}
 }
 
