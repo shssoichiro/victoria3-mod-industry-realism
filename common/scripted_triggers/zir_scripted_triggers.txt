@@ -245,3 +245,24 @@ has_industrialized_pm = {
 		}
 	}
 }
+
+default_auto_expand_rule = {
+	# stricter than vanilla: don't expand if market access is not 100% because expanding strains low infra (implied from low market access) even more
+	state.market_access > 0.99
+	# vanilla
+	occupancy >= 0.95
+	# expanding while short on goods increases that issue even more, so don't do it
+	building_has_goods_shortage = no
+	OR = {
+		# subsidized OR profitable
+		is_subsidized = yes
+		AND = {
+			cash_reserves_ratio > 0.95
+			weekly_profit > 0
+		}
+	}
+	# don't build if already is building
+	NOT = {
+		is_under_construction = yes
+	}
+}

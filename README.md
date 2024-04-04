@@ -42,6 +42,13 @@
 - Synthetic Rubber Plants: new building, unlocks from Plastics, produces rubber from liquor and sulfur ([historical precedent](https://en.wikipedia.org/wiki/Polybutadiene#History))
 - Synthetic Fuel Plants: new building, unlocks from Electric Arc Process, produces oil from coal and iron ([historical precedent](https://en.wikipedia.org/wiki/Fischer%E2%80%93Tropsch_process#History))
 
+### Other Tweaks
+
+- Stop the autonomous queue from building Power Plants. This is only needed because they spam them out with 8 in one state at a time. Until this bug is fixed, it's better to just leave it to government construction.
+- Stop the AI from subsidizing buildings other than Railways. Most buildings do just fine with the free market at work.
+- Improves auto-expand rules
+- Make the AI prioritize building gold mines
+
 ### Natural Resources
 
 For additional realism, add the [Industry Realism - Natural Resources](https://example.com) mod. This was split into a separate mod, as some people may prefer to play with the base game resource locations, since it does considerably change the balance for some countries.
@@ -69,7 +76,3 @@ TODO:
 
 - Translations
 - Add links to the compatches
-- Make the AI stop subsidizing power plants
-- See if we can tweak autonomous construction any
-- Make the AI build gold mines
-- Fix all the broken building starts
