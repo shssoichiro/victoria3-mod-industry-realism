@@ -162,7 +162,7 @@
 					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_privately_owned_building_logging_camp"
+					"pm_privately_owned_building_hardwood_logging_camp"
 				}
 			}
 			create_building = {
@@ -551,7 +551,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills_hardwood"
-					"pm_privately_owned_building_logging_camp"
+					"pm_privately_owned_building_hardwood_logging_camp"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -578,7 +578,7 @@
 					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_privately_owned_building_logging_camp"
+					"pm_privately_owned_building_hardwood_logging_camp"
 				}
 			}
 			create_building = {
@@ -1092,7 +1092,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills_hardwood"
-					"pm_privately_owned_building_logging_camp"
+					"pm_privately_owned_building_hardwood_logging_camp"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -1241,7 +1241,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_lathe_luxury"
-					"pm_privately_owned_building_furniture_manufacturies"
+					"pm_privately_owned_building_luxury_furniture_manufacturies"
 					"pm_automation_disabled"
 				}
 			}
@@ -1359,7 +1359,7 @@
 					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_privately_owned_building_logging_camp"
+					"pm_privately_owned_building_hardwood_logging_camp"
 				}
 			}
 			create_building = {
@@ -1482,7 +1482,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_ceramics"
-					"pm_merchant_guilds_building_glassworks"
+					"pm_merchant_guilds_building_pottery_mills"
 				}
 			}
 			create_building = {
@@ -1643,7 +1643,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills_hardwood"
-					"pm_privately_owned_building_logging_camp"
+					"pm_privately_owned_building_hardwood_logging_camp"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -1772,7 +1772,7 @@
 					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_privately_owned_building_logging_camp"
+					"pm_privately_owned_building_hardwood_logging_camp"
 				}
 			}
 			create_building = {
@@ -2010,7 +2010,7 @@
 					"pm_simple_forestry_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_merchant_guilds_building_logging_camp"
+					"pm_merchant_guilds_building_hardwood_logging_camp"
 				}
 			}
 			create_building = {
@@ -2041,7 +2041,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills_hardwood"
-					"pm_privately_owned_building_logging_camp"
+					"pm_privately_owned_building_hardwood_logging_camp"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -2845,7 +2845,7 @@
 					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_privately_owned_building_logging_camp"
+					"pm_privately_owned_building_hardwood_logging_camp"
 				}
 			}
 		}
@@ -2923,7 +2923,7 @@
 					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_privately_owned_building_logging_camp"
+					"pm_privately_owned_building_hardwood_logging_camp"
 				}
 			}
 			create_building = {

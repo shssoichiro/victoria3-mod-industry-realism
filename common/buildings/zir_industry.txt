@@ -58,7 +58,7 @@ building_tailoring_workshops = {
 	production_method_groups = {
 		pmg_luxury_building_textile_mills
 		pmg_automation_building_textile_mills
-		pmg_ownership_capital_building_textile_mills
+		pmg_ownership_capital_building_tailoring_workshops
 	}
 	required_construction = construction_cost_high
 }
@@ -90,7 +90,7 @@ building_luxury_furniture_manufacturies = {
 	production_method_groups = {
 		pmg_luxury_building_furniture_manufacturies
 		pmg_automation_building_furniture_manufacturies
-		pmg_ownership_capital_building_furniture_manufacturies
+		pmg_ownership_capital_building_luxury_furniture_manufacturies
 	}
 	required_construction = construction_cost_high
 }
@@ -121,7 +121,7 @@ building_pottery_mills = {
 	}
 	production_method_groups = {
 		pmg_luxury_building_glassworks
-		pmg_ownership_capital_building_glassworks
+		pmg_ownership_capital_building_pottery_mills
 	}
 	required_construction = construction_cost_high
 }

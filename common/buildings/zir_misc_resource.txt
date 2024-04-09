@@ -24,6 +24,6 @@ building_hardwood_logging_camp = {
 		pmg_base_building_hardwood_logging_camp
 		pmg_equipment
 		pmg_transportation_building_logging_camp
-		pmg_ownership_capital_building_logging_camp
+		pmg_ownership_capital_building_hardwood_logging_camp
 	}
 }
