@@ -26,7 +26,7 @@ building_distillery = {
 	production_method_groups = {
 		pmg_base_building_distillery
 		pmg_base_building_distillery_type
-		pmg_ownership_capital_building_food_industry
+		pmg_ownership_capital_building_distillery
 	}
 	required_construction = construction_cost_high
 }

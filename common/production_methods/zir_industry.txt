@@ -486,3 +486,82 @@ pm_worker_cooperative_building_pottery_mills = {
 		}
 	}
 }
+
+pm_merchant_guilds_building_distillery = {
+	texture = "gfx/interface/icons/production_method_icons/merchant_guilds.dds"
+	unlocking_production_methods = {
+		pm_pot_stills
+	}
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+		}
+		unscaled = {
+			building_shopkeepers_shares_add = 10
+		}
+	}
+}
+
+pm_privately_owned_building_distillery = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+	unlocking_production_methods = {
+		pm_patent_stills
+	}
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_capitalists_add = 100
+		}
+		unscaled = {
+			building_capitalists_shares_add = 10
+		}
+	}
+}
+
+pm_publicly_traded_building_distillery = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+	unlocking_production_methods = {
+		pm_patent_stills
+	}
+	unlocking_technologies = {
+		mutual_funds
+	}
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_capitalists_add = 150
+		}
+		unscaled = {
+			building_capitalists_shares_add = 10
+		}
+	}
+}
+
+pm_worker_cooperative_building_distillery = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+	unlocking_production_methods = {
+		pm_pot_stills
+		pm_patent_stills
+	}
+	unlocking_laws = {
+		law_cooperative_ownership
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_shopkeepers_add = 250
+		}
+		unscaled = {
+			building_workforce_shares_add = 1
+		}
+	}
+}
