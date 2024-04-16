@@ -44,8 +44,7 @@
 
 ### Other Tweaks
 
-- Stop the autonomous queue from building Power Plants. This is only needed because they spam them out with 8 in one state at a time. Until this bug is fixed, it's better to just leave it to government construction.
-- Stop the AI from subsidizing buildings other than Railways. Most buildings do just fine with the free market at work.
+- Reduce the tendency of the AI to subsidize buildings other than Railways. Most buildings do just fine with the free market at work.
 - Improves auto-expand rules
 - Make the AI prioritize building gold mines
 

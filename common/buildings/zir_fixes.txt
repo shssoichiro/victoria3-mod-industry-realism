@@ -44,12 +44,6 @@
 			is_under_construction = yes
 		}
 	}
-	can_build_private = {
-		error_check = {
-			severity = potential
-			always = no
-		}
-	}
 }
 
 building_railway = {
