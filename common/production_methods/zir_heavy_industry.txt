@@ -31,7 +31,7 @@ pm_rayon = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_wood_add = 50
+			goods_input_wood_add = 80
 			# output goods
 			goods_output_silk_add = 80
 		}
