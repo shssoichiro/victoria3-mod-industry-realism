@@ -104,6 +104,37 @@ company_basic_forestry = {
 	}
 }
 
+company_basic_fabrics = {
+	icon = "gfx/interface/icons/company_icons/basic_fabrics.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	uses_dynamic_naming = yes
+	dynamic_company_type_names = {
+		"dynamic_company_type_company"
+		"dynamic_company_type_consortium"
+		"dynamic_company_type_guild"
+		"dynamic_company_type_society"
+		"dynamic_company_type_fellowship"
+	}
+	building_types = {
+		building_cotton_plantation
+		building_wool_farms
+	}
+	possible = {
+		any_scope_state = {
+			any_scope_building = {
+				OR = {
+					is_building_type = building_cotton_plantation
+					is_building_type = building_wool_farms
+				}
+				level >= 3
+			}
+		}
+	}
+	prosperity_modifier = {
+		building_textile_mills_throughput_add = 0.1
+	}
+}
+
 # San Miguel
 company_san_miguel = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/manila_la_fabrica_de_cerveza_san_miguel.dds"
