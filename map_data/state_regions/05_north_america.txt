@@ -1283,7 +1283,6 @@ STATE_ALASKA = {
 		"x84EB43"
 		"xBCFE54"
 		"x55DF4F"
-		"x7CBE0B"
 		"x4352E8"
 		"x6F77EF"
 		"x37C789"
@@ -1896,6 +1895,7 @@ STATE_ALASKA = {
 	}
 	traits = {
 		"state_trait_yukon_river_salmon_run"
+		"state_trait_siberian_terrain"
 	}
 	city = "xD82BF2"
 	port = "xF423DB"
@@ -2668,8 +2668,8 @@ STATE_NORTH_DAKOTA = {
 	}
 	capped_resources = {
 		bg_coal_mining = 48
-		bg_logging = 1
-		bg_hardwood_logging = 2
+		bg_logging = 4
+		bg_hardwood_logging = 7
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -2756,8 +2756,8 @@ STATE_SOUTH_DAKOTA = {
 	}
 	capped_resources = {
 		bg_coal_mining = 32
-		bg_logging = 1
-		bg_hardwood_logging = 2
+		bg_logging = 3
+		bg_hardwood_logging = 6
 	}
 	resource = {
 		type = "bg_gold_fields"

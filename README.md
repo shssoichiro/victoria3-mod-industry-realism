@@ -2,7 +2,7 @@
 
 ![Preview](thumbnail.png)
 
-**Tested With V3 Version: 1.6.2**
+**Tested With V3 Version: 1.7.0**
 
 - Reworks buildings that have multiple potential outputs to only have one primary output
   - Except shipyards. Why? Shipyards represent a technological progression. All of the other buildings represent _two separate outputs_ that should be coming from two separate factories.
@@ -32,8 +32,8 @@
 - Radio Industry: new building, makes radios
 - All Farms: no longer have the option to produce fruit
 - Rye Farms: no longer magically produce potatoes
-- Fruit Orchards: new farm building, produces fruit
-- Livestock Ranches: now only produce meat and a small amount of fertilizer. input goods have also been rebalanced. cows and pigs eat a lot.
+- Fruit Orchards: new farm building, produces fruit and a small amount of sugar
+- Livestock Ranches: now produce meat and a small amount of fabric (leather) and fertilizer. input goods have also been rebalanced. cows and pigs eat a lot.
 - Wool Farms: new building, produces fabric and a small amount of fertilizer
 - Logging Camps: now only produce wood
 - Hardwood Logging Camps: new building, produces half wood and half hardwood. some logging camps were converted to hardwood logging camps, based on realistic locations

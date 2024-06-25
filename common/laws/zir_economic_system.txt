@@ -106,18 +106,10 @@
 		country_private_construction_allocation_mult = 0.5
 		country_production_tech_research_speed_mult = -0.25
 		country_production_tech_spread_mult = -0.25
-		country_subsidies_bg_agriculture = yes
-		country_subsidies_bg_ranching = yes
-		country_subsidies_bg_plantations = yes
-		country_subsidies_bg_infrastructure = yes
-		country_subsidies_bg_power = yes
-		country_subsidies_bg_trade = yes
-	}
-	build_from_investment_pool = {
-		bg_agriculture
-		bg_plantations
-		bg_ranching
-		bg_infrastructure
+		building_nationalization_investment_return_add = 0.5
+		country_government_dividends_reinvestment_add = 0.25
+		country_government_dividends_efficiency_add = 0.3
+		country_disable_nationalization_without_compensation_bool = yes
 	}
 	possible_political_movements = {
 		law_interventionism
@@ -151,9 +143,7 @@
 		value = 0
 		if = {
 			limit = {
-				has_journal_entry = je_government_petition
-				has_variable = desired_law_var
-				scope:law = var:desired_law_var
+				ai_has_enact_weight_modifier_journal_entries = yes
 			}
 			add = 750
 		}

@@ -9,8 +9,9 @@
 		pmg_base_building_logging_camp
 		pmg_equipment
 		pmg_transportation_building_logging_camp
-		pmg_ownership_capital_building_logging_camp
 	}
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
 building_hardwood_logging_camp = {
@@ -24,6 +25,7 @@ building_hardwood_logging_camp = {
 		pmg_base_building_hardwood_logging_camp
 		pmg_equipment
 		pmg_transportation_building_logging_camp
-		pmg_ownership_capital_building_hardwood_logging_camp
 	}
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }

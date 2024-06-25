@@ -8,21 +8,17 @@
 	}
 	production_method_groups = {
 		pmg_synthetic_dyes
-		pmg_ownership_capital_building_synthetics_plants
 	}
 	required_construction = construction_cost_very_high
 	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = {
-					NOT = {
-						has_law = law_type:law_industry_banned
-					}
-				}
+		owner = {
+			NOT = {
+				has_law = law_type:law_industry_banned
 			}
 		}
 	}
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_rayon_plants = {
@@ -35,21 +31,17 @@ building_rayon_plants = {
 	}
 	production_method_groups = {
 		pmg_synthetic_silk
-		pmg_ownership_capital_building_synthetics_plants
 	}
 	required_construction = construction_cost_very_high
 	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = {
-					NOT = {
-						has_law = law_type:law_industry_banned
-					}
-				}
+		owner = {
+			NOT = {
+				has_law = law_type:law_industry_banned
 			}
 		}
 	}
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_motor_industry = {
@@ -63,21 +55,17 @@ building_motor_industry = {
 	production_method_groups = {
 		pmg_base_building_motor_industry
 		pmg_automation_building_motor_industry
-		pmg_ownership_capital_building_motor_industry
 	}
 	required_construction = construction_cost_very_high
 	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = {
-					NOT = {
-						has_law = law_type:law_industry_banned
-					}
-				}
+		owner = {
+			NOT = {
+				has_law = law_type:law_industry_banned
 			}
 		}
 	}
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_automobile_factories = {
@@ -91,21 +79,17 @@ building_automobile_factories = {
 	production_method_groups = {
 		pmg_automobile_production
 		pmg_automation_building_automobile_factories
-		pmg_ownership_capital_building_motor_industry
 	}
 	required_construction = construction_cost_very_high
 	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = {
-					NOT = {
-						has_law = law_type:law_industry_banned
-					}
-				}
+		owner = {
+			NOT = {
+				has_law = law_type:law_industry_banned
 			}
 		}
 	}
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_war_machine_industry = {
@@ -113,26 +97,23 @@ building_war_machine_industry = {
 	texture = "gfx/interface/icons/building_icons/vehicles_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
+	ai_nationalization_desire = 0.5	# AI generally does not want to privatize military goods industries
 	unlocking_technologies = {
 		mobile_armor
 	}
 	production_method_groups = {
 		pmg_tanks
-		pmg_ownership_capital_building_war_machine_industry
 	}
 	required_construction = construction_cost_very_high
 	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = {
-					NOT = {
-						has_law = law_type:law_industry_banned
-					}
-				}
+		owner = {
+			NOT = {
+				has_law = law_type:law_industry_banned
 			}
 		}
 	}
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_aircraft_industry = {
@@ -140,26 +121,23 @@ building_aircraft_industry = {
 	texture = "gfx/interface/icons/building_icons/vehicles_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
+	ai_nationalization_desire = 0.5	# AI generally does not want to privatize military goods industries
 	unlocking_technologies = {
 		military_aviation
 	}
 	production_method_groups = {
 		pmg_aeroplanes
-		pmg_ownership_capital_building_war_machine_industry
 	}
 	required_construction = construction_cost_very_high
 	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = {
-					NOT = {
-						has_law = law_type:law_industry_banned
-					}
-				}
+		owner = {
+			NOT = {
+				has_law = law_type:law_industry_banned
 			}
 		}
 	}
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_electrics_industry = {
@@ -172,21 +150,17 @@ building_electrics_industry = {
 	}
 	production_method_groups = {
 		pmg_telephones_category
-		pmg_ownership_capital_building_electrics_industry
 	}
 	required_construction = construction_cost_very_high
 	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = {
-					NOT = {
-						has_law = law_type:law_industry_banned
-					}
-				}
+		owner = {
+			NOT = {
+				has_law = law_type:law_industry_banned
 			}
 		}
 	}
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_radio_industry = {
@@ -199,21 +173,17 @@ building_radio_industry = {
 	}
 	production_method_groups = {
 		pmg_radios_category
-		pmg_ownership_capital_building_electrics_industry
 	}
 	required_construction = construction_cost_very_high
 	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = {
-					NOT = {
-						has_law = law_type:law_industry_banned
-					}
-				}
+		owner = {
+			NOT = {
+				has_law = law_type:law_industry_banned
 			}
 		}
 	}
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_synthetic_rubber_plants = {
@@ -228,21 +198,17 @@ building_synthetic_rubber_plants = {
 	}
 	production_method_groups = {
 		pmg_synthetic_rubber
-		pmg_ownership_capital_building_synthetics_plants
 	}
 	required_construction = construction_cost_very_high
 	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = {
-					NOT = {
-						has_law = law_type:law_industry_banned
-					}
-				}
+		owner = {
+			NOT = {
+				has_law = law_type:law_industry_banned
 			}
 		}
 	}
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_synthetic_fuel_plants = {
@@ -257,19 +223,15 @@ building_synthetic_fuel_plants = {
 	}
 	production_method_groups = {
 		pmg_synthetic_fuel
-		pmg_ownership_capital_building_synthetics_plants
 	}
 	required_construction = construction_cost_very_high
 	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = {
-					NOT = {
-						has_law = law_type:law_industry_banned
-					}
-				}
+		owner = {
+			NOT = {
+				has_law = law_type:law_industry_banned
 			}
 		}
 	}
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }

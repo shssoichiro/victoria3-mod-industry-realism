@@ -3,6 +3,7 @@
 	texture = "gfx/interface/icons/building_icons/food_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
+	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
 	unlocking_technologies = {
 		manufacturies
 	}
@@ -10,9 +11,10 @@
 		pmg_base_building_food_industry
 		pmg_canning
 		pmg_automation_building_food_industry
-		pmg_ownership_capital_building_food_industry
 	}
 	required_construction = construction_cost_high
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_distillery = {
@@ -20,15 +22,17 @@ building_distillery = {
 	texture = "gfx/interface/icons/building_icons/distillery.dds"
 	city_type = city
 	levels_per_mesh = 5
+	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
 	unlocking_technologies = {
 		manufacturies
 	}
 	production_method_groups = {
 		pmg_base_building_distillery
 		pmg_base_building_distillery_type
-		pmg_ownership_capital_building_distillery
 	}
 	required_construction = construction_cost_high
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_textile_mills = {
@@ -36,15 +40,17 @@ building_textile_mills = {
 	texture = "gfx/interface/icons/building_icons/textile_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
+	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
 	unlocking_technologies = {
 		manufacturies
 	}
 	production_method_groups = {
 		pmg_base_building_textile_mills
 		pmg_automation_building_textile_mills
-		pmg_ownership_capital_building_textile_mills
 	}
 	required_construction = construction_cost_high
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_tailoring_workshops = {
@@ -52,15 +58,17 @@ building_tailoring_workshops = {
 	texture = "gfx/interface/icons/building_icons/tailoring_workshop.dds"
 	city_type = city
 	levels_per_mesh = 5
+	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
 	unlocking_technologies = {
 		manufacturies
 	}
 	production_method_groups = {
 		pmg_luxury_building_textile_mills
 		pmg_automation_building_textile_mills
-		pmg_ownership_capital_building_tailoring_workshops
 	}
 	required_construction = construction_cost_high
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_furniture_manufacturies = {
@@ -68,15 +76,17 @@ building_furniture_manufacturies = {
 	texture = "gfx/interface/icons/building_icons/furniture_manufacturies.dds"
 	city_type = city
 	levels_per_mesh = 5
+	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
 	unlocking_technologies = {
 		manufacturies
 	}
 	production_method_groups = {
 		pmg_base_building_furniture_manufacturies
 		pmg_automation_building_furniture_manufacturies
-		pmg_ownership_capital_building_furniture_manufacturies
 	}
 	required_construction = construction_cost_high
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_luxury_furniture_manufacturies = {
@@ -84,15 +94,17 @@ building_luxury_furniture_manufacturies = {
 	texture = "gfx/interface/icons/building_icons/luxury_furniture_manufacturies.dds"
 	city_type = city
 	levels_per_mesh = 5
+	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
 	unlocking_technologies = {
 		manufacturies
 	}
 	production_method_groups = {
 		pmg_luxury_building_furniture_manufacturies
 		pmg_automation_building_furniture_manufacturies
-		pmg_ownership_capital_building_luxury_furniture_manufacturies
 	}
 	required_construction = construction_cost_high
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_glassworks = {
@@ -106,9 +118,10 @@ building_glassworks = {
 	production_method_groups = {
 		pmg_base_building_glassworks
 		pmg_glassblowing
-		pmg_ownership_capital_building_glassworks
 	}
 	required_construction = construction_cost_high
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_pottery_mills = {
@@ -116,12 +129,14 @@ building_pottery_mills = {
 	texture = "gfx/interface/icons/building_icons/pottery_mills.dds"
 	city_type = city
 	levels_per_mesh = 5
+	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
 	unlocking_technologies = {
 		manufacturies
 	}
 	production_method_groups = {
 		pmg_luxury_building_glassworks
-		pmg_ownership_capital_building_pottery_mills
 	}
 	required_construction = construction_cost_high
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
