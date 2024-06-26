@@ -2661,6 +2661,7 @@ STATE_URALSK = {
 		"bg_livestock_ranches"
 		"bg_wool_farms"
 	}
+	capped_resources = {
 		bg_logging = 4
 		bg_hardwood_logging = 3
 	}
