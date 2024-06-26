@@ -3384,7 +3384,7 @@ ai_strategy_default = {
 		dye = {
 			stance = wants_high_supply
 			trigger = {
-				has_building = building_tailoring_workshops
+				has_building = building_textile_mills
 				has_technology_researched = lathe
 			}
 		}
