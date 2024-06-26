@@ -5084,11 +5084,13 @@
 			}
 			create_building = {
 				building = "building_luxury_furniture_manufacturies"
-				building = {
-					type = "building_financial_district"
-					country = "c:FRA"
-					levels = 1
-					region = "STATE_AUVERGNE_LIMOUSIN"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_AUVERGNE_LIMOUSIN"
+					}
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -5544,11 +5546,13 @@
 			}
 			create_building = {
 				building = "building_hardwood_logging_camp"
-				building = {
-					type = "building_financial_district"
-					country = "c:FRA"
-					levels = 1
-					region = "STATE_CHAMPAGNE"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_CHAMPAGNE"
+					}
 				}
 				reserves = 1
 				activate_production_methods = {

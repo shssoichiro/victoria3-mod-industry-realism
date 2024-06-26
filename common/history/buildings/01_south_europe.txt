@@ -289,7 +289,7 @@
 			create_building = {
 				building = "building_fruit_orchard"
 				add_ownership = {
-					bbuilding = {
+					building = {
 						type = "building_manor_house"
 						country = "c:SAR"
 						levels = 2
