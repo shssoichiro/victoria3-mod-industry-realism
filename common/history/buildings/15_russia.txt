@@ -1048,6 +1048,10 @@
 					"pm_road_carts"
 				}
 			}
+			create_building = {
+				building = "building_saint_basils_cathedral"
+				level = 1
+			}
 		}
 	}
 	s:STATE_BREST = {
