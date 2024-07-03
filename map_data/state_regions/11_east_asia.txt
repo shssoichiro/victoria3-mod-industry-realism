@@ -4968,7 +4968,7 @@ STATE_SAKHALIN = {
 
 STATE_HOKKAIDO = {
 	id = 528
-	subsistence_building = "building_subsistence_rice_paddies"
+	subsistence_building = "building_subsistence_pastures"
 	provinces = {
 		"x03E00D"
 		"x103C2B"

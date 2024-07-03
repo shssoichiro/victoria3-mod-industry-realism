@@ -50,7 +50,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 10
+						levels = 8
 					}
 				}
 				reserves = 1
@@ -117,7 +117,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 8
+						levels = 6
 					}
 				}
 				reserves = 1
@@ -186,7 +186,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 10
+						levels = 9
 					}
 				}
 				reserves = 1
@@ -336,7 +336,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 8
+						levels = 6
 					}
 				}
 				reserves = 1
@@ -429,6 +429,19 @@
 					"pm_road_carts"
 				}
 			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:CHI"
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_basic_port"
+				}
+			}
 		}
 	}
 	s:STATE_ALXA = {
@@ -499,7 +512,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 9
+						levels = 7
 					}
 				}
 				reserves = 1
@@ -615,7 +628,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 20
+						levels = 16
 					}
 				}
 				reserves = 1
@@ -789,7 +802,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 6
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -936,7 +949,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 7
+						levels = 6
 					}
 				}
 				reserves = 1
@@ -1061,7 +1074,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 4
+						levels = 3
 					}
 				}
 				reserves = 1
@@ -1118,7 +1131,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 12
+						levels = 9
 					}
 				}
 				reserves = 1
@@ -1185,7 +1198,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 13
+						levels = 9
 					}
 				}
 				reserves = 1
@@ -1388,7 +1401,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 11
+						levels = 8
 					}
 				}
 				reserves = 1
@@ -1488,7 +1501,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 10
+						levels = 7
 					}
 				}
 				reserves = 1
@@ -1605,7 +1618,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 12
+						levels = 9
 					}
 				}
 				reserves = 1
@@ -1705,7 +1718,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 17
+						levels = 13
 					}
 				}
 				reserves = 1
@@ -1818,7 +1831,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 15
+						levels = 12
 					}
 				}
 				reserves = 1
@@ -1898,7 +1911,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 13
+						levels = 10
 					}
 				}
 				reserves = 1
@@ -2032,7 +2045,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 12
+						levels = 8
 					}
 				}
 				reserves = 1
@@ -2148,7 +2161,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 12
+						levels = 8
 					}
 				}
 				reserves = 1
@@ -2265,7 +2278,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 11
+						levels = 7
 					}
 				}
 				reserves = 1
@@ -2333,7 +2346,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 9
+						levels = 6
 					}
 				}
 				reserves = 1
@@ -2450,7 +2463,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 10
+						levels = 6
 					}
 				}
 				reserves = 1
@@ -2583,7 +2596,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 6
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -2751,7 +2764,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 9
+						levels = 6
 					}
 				}
 				reserves = 1
@@ -2913,7 +2926,7 @@
 				add_ownership = {
 					country = {
 						country = "c:CHI"
-						levels = 16
+						levels = 12
 					}
 				}
 				reserves = 1
@@ -3953,12 +3966,29 @@
 				add_ownership = {
 					country = {
 						country = "c:JAP"
-						levels = 2
+						levels = 1
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
 					"pm_no_organization"
+				}
+			}
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:JAP"
+						levels = 1
+						region = "STATE_HOKKAIDO"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming_building_rice_farm"
+					"pm_no_secondary"
+					"pm_tools_disabled"
 				}
 			}
 		}

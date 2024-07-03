@@ -1723,7 +1723,7 @@
 					}
 					country = {
 						country = "c:TUR"
-						levels = 3
+						levels = 1
 					}
 				}
 				reserves = 1

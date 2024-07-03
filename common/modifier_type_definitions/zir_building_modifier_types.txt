@@ -87,3 +87,57 @@ building_wool_farms_throughput_add = {
 		ai_value = 0
 	}
 }
+
+building_group_bg_hardwood_logging_employee_mult = {
+	decimals = 1
+	color = bad
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
+
+building_group_bg_hardwood_logging_mortality_mult = {
+	decimals = 1
+	color = bad
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
+
+building_group_bg_hardwood_logging_laborers_mortality_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
+
+building_group_bg_hardwood_logging_machinists_mortality_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
+
+building_group_bg_hardwood_logging_engineers_mortality_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
+
+building_group_bg_hardwood_logging_slaves_mortality_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
