@@ -4208,7 +4208,7 @@ ai_strategy_default = {
 			# Large isolationist countries should ignore the world
 			if = {
 				limit = {
-					c:JAP ?= this
+					has_law = law_type:law_isolationism
 					gdp >= 5000000
 				}
 				add = 10000
@@ -4419,7 +4419,7 @@ ai_strategy_default = {
 			# Don't befriend large isolationist powers
 			if = {
 				limit = {
-					NAND = {
+					scope:target_country = {
 						has_law = law_type:law_isolationism
 						gdp >= 5000000
 					}
