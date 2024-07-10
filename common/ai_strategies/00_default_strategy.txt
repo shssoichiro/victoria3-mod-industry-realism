@@ -2487,32 +2487,6 @@ ai_strategy_default = {
 			limit = {
 				OR = {
 					has_journal_entry = je_sick_man_syria
-					has_journal_entry = je_sick_man_syria
-					scope:target_country = {
-						OR = {
-							owns_entire_state_region = STATE_ALEPPO
-							owns_entire_state_region = STATE_SYRIA
-							owns_entire_state_region = STATE_LEBANON
-							owns_entire_state_region = STATE_PALESTINE
-							owns_entire_state_region = STATE_TRANSJORDAN
-							owns_entire_state_region = STATE_ADANA
-						}
-					}
-				}
-				AND = {
-					has_journal_entry = je_sick_man_syria
-					scope:target_country = {
-						OR = {
-							owns_entire_state_region = STATE_ALEPPO
-							owns_entire_state_region = STATE_SYRIA
-							owns_entire_state_region = STATE_LEBANON
-							owns_entire_state_region = STATE_PALESTINE
-							owns_entire_state_region = STATE_TRANSJORDAN
-							owns_entire_state_region = STATE_ADANA
-						}
-					}
-				}
-				AND = {
 					has_journal_entry = je_sick_man_egypt
 					has_journal_entry = je_veiled_protectorate
 				}
@@ -3197,7 +3171,7 @@ ai_strategy_default = {
 				divide = 2
 			}
 		}
-		max = 2000		# No more than 200 from population & rank
+		max = 200		# No more than 200 from population & rank
 		add = {
 			value = income
 			multiply = {
