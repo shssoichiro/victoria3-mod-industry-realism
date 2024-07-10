@@ -3578,13 +3578,13 @@
 					building = {
 						type = "building_furniture_manufacturies"
 						country = "c:FRA"
-						levels = 6
+						levels = 3
 						region = "STATE_ILE_DE_FRANCE"
 					}
 					building = {
 						type = "building_financial_district"
 						country = "c:FRA"
-						levels = 8
+						levels = 4
 						region = "STATE_ILE_DE_FRANCE"
 					}
 				}
@@ -3601,13 +3601,13 @@
 					building = {
 						type = "building_luxury_furniture_manufacturies"
 						country = "c:FRA"
-						levels = 2
+						levels = 1
 						region = "STATE_ILE_DE_FRANCE"
 					}
 					building = {
 						type = "building_financial_district"
 						country = "c:FRA"
-						levels = 4
+						levels = 2
 						region = "STATE_ILE_DE_FRANCE"
 					}
 				}
@@ -3931,13 +3931,13 @@
 					building = {
 						type = "building_textile_mills"
 						country = "c:FRA"
-						levels = 3
+						levels = 4
 						region = "STATE_NORMANDY"
 					}
 					building = {
 						type = "building_financial_district"
 						country = "c:FRA"
-						levels = 3
+						levels = 4
 						region = "STATE_NORMANDY"
 					}
 				}
@@ -3945,28 +3945,6 @@
 				activate_production_methods = {
 					"pm_dye_workshops"
 					"pm_craftsman_sewing"
-					"pm_traditional_looms"
-				}
-			}
-			create_building = {
-				building = "building_tailoring_workshops"
-				add_ownership = {
-					building = {
-						type = "building_tailoring_workshops"
-						country = "c:FRA"
-						levels = 1
-						region = "STATE_NORMANDY"
-					}
-					building = {
-						type = "building_financial_district"
-						country = "c:FRA"
-						levels = 1
-						region = "STATE_NORMANDY"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_dye_workshops_luxury"
 					"pm_traditional_looms"
 				}
 			}
