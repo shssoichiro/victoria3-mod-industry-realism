@@ -82,7 +82,7 @@ pm_open_air_stockyards = {
 		workforce_scaled = {
 			goods_input_grain_add = 10
 			goods_output_fabric_add = 5
-			goods_output_meat_add = 15
+			goods_output_meat_add = 20
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
@@ -99,7 +99,7 @@ pm_butchering_tools = {
 			goods_input_grain_add = 15
 			goods_output_fabric_add = 5
 			goods_output_fertilizer_add = 5
-			goods_output_meat_add = 20
+			goods_output_meat_add = 25
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3500
@@ -125,7 +125,7 @@ pm_slaughterhouses = {
 			goods_input_grain_add = 20
 			goods_output_fabric_add = 8
 			goods_output_fertilizer_add = 8
-			goods_output_meat_add = 30
+			goods_output_meat_add = 35
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3000
@@ -167,7 +167,7 @@ pm_hand_shearing = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_grain_add = 10
-			goods_output_fabric_add = 20
+			goods_output_fabric_add = 25
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
@@ -182,7 +182,7 @@ pm_specialized_shears = {
 		workforce_scaled = {
 			goods_input_tools_add = 5
 			goods_input_grain_add = 15
-			goods_output_fabric_add = 25
+			goods_output_fabric_add = 35
 			goods_output_fertilizer_add = 5
 		}
 		level_scaled = {
@@ -203,7 +203,7 @@ pm_electric_shears = {
 			goods_input_electricity_add = 5
 			goods_input_tools_add = 5
 			goods_input_grain_add = 30
-			goods_output_fabric_add = 60
+			goods_output_fabric_add = 70
 			goods_output_fertilizer_add = 10
 		}
 		level_scaled = {
