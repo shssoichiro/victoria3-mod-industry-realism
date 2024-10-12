@@ -1984,7 +1984,7 @@
 				building = "building_tailoring_workshops"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_tailoring_workshops"
 						country = "c:AUS"
 						levels = 1
 						region = "STATE_VENETIA"
