@@ -39,6 +39,11 @@ pm_fertilization_orchard = {
 	unlocking_technologies = {
 		improved_fertilizer
 	}
+	state_modifiers = {
+		unscaled = {
+			state_harvest_condition_drought_impact_mult = 0.05
+		}
+	}
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods													
@@ -59,6 +64,11 @@ pm_chemical_fertilizer_orchard = {
 	texture = "gfx/interface/icons/production_method_icons/chemical_fertilizers.dds"
 	unlocking_technologies = {
 		nitrogen_fixation
+	}
+	state_modifiers = {
+		unscaled = {
+			state_harvest_condition_drought_impact_mult = 0.1
+		}
 	}
 	building_modifiers = {
 		workforce_scaled = {

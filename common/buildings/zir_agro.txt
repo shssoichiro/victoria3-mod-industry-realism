@@ -1,6 +1,6 @@
 ﻿building_rye_farm = {
 	building_group = bg_rye_farms
-	texture = "gfx/interface/icons/building_icons/rye_farm.dds"
+	icon = "gfx/interface/icons/building_icons/rye_farm.dds"
 	city_type = farm
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -18,7 +18,7 @@
 
 building_wheat_farm = {
 	building_group = bg_wheat_farms
-	texture = "gfx/interface/icons/building_icons/wheat_farm.dds"
+	icon = "gfx/interface/icons/building_icons/wheat_farm.dds"
 	city_type = farm
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -36,7 +36,7 @@ building_wheat_farm = {
 
 building_rice_farm = {
 	building_group = bg_rice_farms
-	texture = "gfx/interface/icons/building_icons/rice_farm.dds"
+	icon = "gfx/interface/icons/building_icons/rice_farm.dds"
 	city_type = farm
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -54,7 +54,7 @@ building_rice_farm = {
 
 building_maize_farm = {
 	building_group = bg_maize_farms
-	texture = "gfx/interface/icons/building_icons/maize_farm.dds"
+	icon = "gfx/interface/icons/building_icons/maize_farm.dds"
 	city_type = farm
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -72,7 +72,7 @@ building_maize_farm = {
 
 building_millet_farm = {
 	building_group = bg_millet_farms
-	texture = "gfx/interface/icons/building_icons/millet_farm.dds"
+	icon = "gfx/interface/icons/building_icons/millet_farm.dds"
 	city_type = farm
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -90,7 +90,7 @@ building_millet_farm = {
 
 building_fruit_orchard = {
 	building_group = bg_fruit_orchards
-	texture = "gfx/interface/icons/building_icons/fruit_orchard.dds"
+	icon = "gfx/interface/icons/building_icons/fruit_orchard.dds"
 	city_type = farm
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -108,7 +108,7 @@ building_fruit_orchard = {
 
 building_livestock_ranch = {
 	building_group = bg_livestock_ranches
-	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+	icon = "gfx/interface/icons/building_icons/cattle_ranch.dds"
 	city_type = farm
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -127,7 +127,7 @@ building_livestock_ranch = {
 
 building_wool_farms = {
 	building_group = bg_wool_farms
-	texture = "gfx/interface/icons/building_icons/wool_ranch.dds"
+	icon = "gfx/interface/icons/building_icons/wool_ranch.dds"
 	city_type = farm
 	levels_per_mesh = 5
 	unlocking_technologies = {

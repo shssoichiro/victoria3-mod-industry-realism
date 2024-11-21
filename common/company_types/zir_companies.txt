@@ -166,7 +166,7 @@ company_san_miguel = {
 		has_technology_researched = corporate_charters
 	}
 	prosperity_modifier = {
-		state_radicals_from_sol_change_mult = -0.1
+		state_radicals_from_political_movements_mult = -0.1
 	}
 	ai_weight = {
 		value = 3		# Higher base value for flavored companies
@@ -198,7 +198,7 @@ company_vodka_monopoly = {
 		}
 	}
 	prosperity_modifier = {
-		state_radicals_from_sol_change_mult = -0.15
+		state_radicals_from_political_movements_mult = -0.15
 	}
 	ai_weight = {
 		value = 3		# Higher base value for flavored companies

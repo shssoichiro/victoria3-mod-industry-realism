@@ -1,5 +1,5 @@
 ﻿building_distillery_throughput_add = {
-	decimals = 1
+	decimals = 0
 	color = good
 	percent = yes
 	game_data = {
@@ -8,7 +8,7 @@
 }
 
 building_tailoring_workshop_throughput_add = {
-	decimals = 1
+	decimals = 0
 	color = good
 	percent = yes
 	game_data = {
@@ -17,7 +17,7 @@ building_tailoring_workshop_throughput_add = {
 }
 
 building_luxury_furniture_manufacturies_throughput_add = {
-	decimals = 1
+	decimals = 0
 	color = good
 	percent = yes
 	game_data = {
@@ -26,7 +26,7 @@ building_luxury_furniture_manufacturies_throughput_add = {
 }
 
 building_pottery_mills_throughput_add = {
-	decimals = 1
+	decimals = 0
 	color = good
 	percent = yes
 	game_data = {
@@ -35,7 +35,7 @@ building_pottery_mills_throughput_add = {
 }
 
 building_rayon_plants_throughput_add = {
-	decimals = 1
+	decimals = 0
 	color = good
 	percent = yes
 	game_data = {
@@ -44,7 +44,7 @@ building_rayon_plants_throughput_add = {
 }
 
 building_automobile_factories_throughput_add = {
-	decimals = 1
+	decimals = 0
 	color = good
 	percent = yes
 	game_data = {
@@ -53,7 +53,7 @@ building_automobile_factories_throughput_add = {
 }
 
 building_aircraft_industry_throughput_add = {
-	decimals = 1
+	decimals = 0
 	color = good
 	percent = yes
 	game_data = {
@@ -62,7 +62,7 @@ building_aircraft_industry_throughput_add = {
 }
 
 building_radio_industry_throughput_add = {
-	decimals = 1
+	decimals = 0
 	color = good
 	percent = yes
 	game_data = {
@@ -71,7 +71,7 @@ building_radio_industry_throughput_add = {
 }
 
 building_fruit_orchard_throughput_add = {
-	decimals = 1
+	decimals = 0
 	color = good
 	percent = yes
 	game_data = {
@@ -80,7 +80,7 @@ building_fruit_orchard_throughput_add = {
 }
 
 building_wool_farms_throughput_add = {
-	decimals = 1
+	decimals = 0
 	color = good
 	percent = yes
 	game_data = {
@@ -98,7 +98,7 @@ building_group_bg_hardwood_logging_employee_mult = {
 }
 
 building_group_bg_hardwood_logging_mortality_mult = {
-	decimals = 1
+	decimals = 0
 	color = bad
 	percent = yes
 	game_data = {
@@ -143,7 +143,7 @@ building_group_bg_hardwood_logging_slaves_mortality_mult = {
 }
 
 building_group_bg_hardwood_logging_throughput_add = {
-	decimals = 1
+	decimals = 0
 	color = good
 	percent = yes
 	game_data = {

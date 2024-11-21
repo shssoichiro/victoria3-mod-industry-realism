@@ -9,9 +9,6 @@
 			has_technology_researched = corporatism
 		}
 		has_distillery = yes
-		market = {
-			exists = yes
-		}
 		is_junior_in_customs_union = no
 	}
 	possible = {
