@@ -2,7 +2,7 @@
 
 ![Preview](thumbnail.png)
 
-**Tested With V3 Version: 1.7.0**
+**Tested With V3 Version: 1.8.0**
 
 - Reworks buildings that have multiple potential outputs to only have one primary output
   - Except shipyards. Why? Shipyards represent a technological progression. All of the other buildings represent _two separate outputs_ that should be coming from two separate factories.
