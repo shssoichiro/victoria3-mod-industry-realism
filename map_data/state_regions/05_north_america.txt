@@ -3977,6 +3977,7 @@ STATE_GEORGIA = {
 	wood = "xCB1A53"
 	arable_land = 180
 	arable_resources = {
+		"bg_rice_farms"
 		"bg_maize_farms"
 		"bg_fruit_orchards"
 		"bg_livestock_ranches"
@@ -4573,6 +4574,7 @@ STATE_NORTH_CAROLINA = {
 	wood = "x0F9A00"
 	arable_land = 180
 	arable_resources = {
+		"bg_rice_farms"
 		"bg_maize_farms"
 		"bg_fruit_orchards"
 		"bg_livestock_ranches"
@@ -4714,6 +4716,7 @@ STATE_SOUTH_CAROLINA = {
 	wood = "x31E5D4"
 	arable_land = 100
 	arable_resources = {
+		"bg_rice_farms"
 		"bg_maize_farms"
 		"bg_fruit_orchards"
 		"bg_livestock_ranches"

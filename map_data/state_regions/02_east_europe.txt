@@ -18,9 +18,9 @@
 		"xE165F5"
 		"xF8C8F6"
 	}
-	city = "xA3A3A9"
+	city = "xE165F5"
 	farm = "xC17590"
-	mine = "x9444C9"
+	mine = "xDC58D0"
 	wood = "x4969E4"
 	arable_land = 75
 	arable_resources = {
@@ -147,8 +147,8 @@ STATE_LESSER_POLAND = {
 		"xF73169"
 	}
 	city = "xE0BB00"
-	farm = "xAB3C62"
-	mine = "x9FEDC5"
+	farm = "x51A0E0"
+	mine = "x9444C9"
 	wood = "x51A0E0"
 	arable_land = 60
 	arable_resources = {

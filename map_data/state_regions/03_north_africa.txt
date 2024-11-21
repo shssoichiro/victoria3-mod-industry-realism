@@ -2927,6 +2927,12 @@ STATE_MAURITANIA = {
 		"xFBDBB8"
 		"xFF05E2"
 	}
+	prime_land = {
+		"xB070C0"
+		"x8E8C95"
+		"xB03040"
+		"x313645"
+	}
 	traits = {
 		"state_trait_malaria"
 		"state_trait_sahel"
@@ -3977,6 +3983,9 @@ STATE_CHAD = {
 		"xFFF16A"
 	}
 	prime_land = {
+		x815967
+		xD09021
+		x08D310
 		x0DD2DC
 		xABB7F4
 		x60CA92

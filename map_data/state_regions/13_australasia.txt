@@ -2410,6 +2410,12 @@ STATE_NORTHERN_TERRITORY = {
 		"xAB255E"
 		"x95C66B"
 	}
+	prime_land = {
+		"xFE32CD"
+		"x6C71E5"
+		"xFA3609"
+		"xAB7482"
+	}
 	traits = {
 		"state_trait_australian_desert"
 	}
@@ -2471,6 +2477,9 @@ STATE_NORTH_ISLAND = {
 		"xEBB583"
 		"xF3D71B"
 		"xFBC4F4"
+	}
+	prime_land = {
+		"x1000F0"
 	}
 	city = "x1000F0"
 	port = "x0A9415"

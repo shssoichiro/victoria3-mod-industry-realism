@@ -177,7 +177,7 @@ STATE_KAUNAS = {
 	port = "xBFE867"
 	farm = "xE0B943"
 	mine = "x0980C8"
-	wood = "xA916E3"
+	wood = "xC0A0A0"
 	arable_land = 56
 	arable_resources = {
 		"bg_rye_farms"
@@ -1084,7 +1084,7 @@ STATE_VOLHYNIA = {
 	}
 	traits = {
 	}
-	city = "x46B48F"
+	city = "x5A26AE"
 	farm = "x5A26AE"
 	mine = "x8201CF"
 	wood = "xAC3079"
@@ -1276,9 +1276,9 @@ STATE_SMOLENSK = {
 		"state_trait_russian_forest"
 	}
 	city = "xECBC4D"
-	farm = "x205800"
-	mine = "xC0DF60"
-	wood = "x6859CA"
+	farm = "xD8537A"
+	mine = "x93DF31"
+	wood = "x9692BD"
 	arable_land = 62
 	arable_resources = {
 		"bg_rye_farms"
@@ -1532,10 +1532,10 @@ STATE_NOVGOROD = {
 	traits = {
 		"state_trait_russian_forest"
 	}
-	city = "x40FEDE"
-	farm = "x9AA8A6"
-	mine = "x7EFD2D"
-	wood = "x6DD07A"
+	city = "xCDE8A8"
+	farm = "x834B21"
+	mine = "x68E99E"
+	wood = "xA90928"
 	arable_land = 70
 	arable_resources = {
 		"bg_rye_farms"
@@ -1766,10 +1766,10 @@ STATE_TVER = {
 		"state_trait_russian_forest"
 		"state_trait_volga_river"
 	}
-	city = "x834B21"
-	farm = "x065E68"
-	mine = "xAD3522"
-	wood = "xABC7C5"
+	city = "x9AA8A6"
+	farm = "xBA8413"
+	mine = "x9A12DD"
+	wood = "x391276"
 	arable_land = 68
 	arable_resources = {
 		"bg_rye_farms"
@@ -2199,9 +2199,9 @@ STATE_MINSK = {
 	traits = {
 	}
 	city = "xA16195"
-	farm = "xCB21FD"
-	mine = "x0A89D7"
-	wood = "x016161"
+	farm = "x2EB844"
+	mine = "x80E0A0"
+	wood = "x26722B"
 	arable_land = 90
 	arable_resources = {
 		"bg_rye_farms"
@@ -2649,8 +2649,8 @@ STATE_URALSK = {
 		"xFD16B0"
 		"xFE5B2A"
 	}
-	city = "x86A90A"
-	farm = "x56279A"
+	city = "x0A5203"
+	farm = "x77E944"
 	mine = "xD1364F"
 	wood = "xEFFD2B"
 	arable_land = 35
@@ -2885,7 +2885,7 @@ STATE_SEMIRECHE = {
 		"xFD4F55"
 		"xFDCF9F"
 	}
-	city = "xDC6CAE"
+	city = "x2477C7"
 	farm = "x02DF90"
 	mine = "x7D13F1"
 	wood = "x25DC1F"
@@ -3270,9 +3270,9 @@ STATE_AKMOLINSK = {
 		"xFF3849"
 	}
 	city = "xD7671E"
-	farm = "xDF3E66"
-	mine = "x5929A2"
-	wood = "x0CCA19"
+	farm = "x9C66DA"
+	mine = "xFA13C2"
+	wood = "xDF3E66"
 	arable_land = 45
 	traits = {
 		"state_trait_western_steppe"
@@ -4107,9 +4107,9 @@ STATE_PSKOV = {
 		"xF06F29"
 	}
 	city = "xA981B3"
-	farm = "x0153E3"
-	mine = "x3D1AAA"
-	wood = "xEF4591"
+	farm = "x6859CA"
+	mine = "x3266DE"
+	wood = "x89D566"
 	arable_land = 52
 	traits = {
 		"state_trait_russian_forest"

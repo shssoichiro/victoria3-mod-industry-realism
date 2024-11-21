@@ -1580,7 +1580,7 @@ STATE_LIMA = {
 	city = "x928ED8"
 	port = "x6BEF27"
 	farm = "x9E0F14"
-	mine = "xF333CF"
+	mine = "xC64601"
 	wood = "xA3F17B"
 	arable_land = 40
 	arable_resources = {
@@ -1674,8 +1674,8 @@ STATE_ICA = {
 		"state_trait_andes"
 	}
 	city = "x98E058"
-	port = "x32863F"
-	farm = "x25CF2A"
+	port = "xE5E702"
+	farm = "xDF00B0"
 	mine = "x52BF37"
 	wood = "xBDFBD1"
 	arable_land = 50
@@ -1898,7 +1898,7 @@ STATE_JUJUY = {
 	city = "x5CCB77"
 	farm = "xDF80F0"
 	mine = "x245987"
-	wood = "x9319AA"
+	wood = "xC9249D"
 	arable_land = 50
 	arable_resources = {
 		"bg_maize_farms"

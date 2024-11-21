@@ -234,6 +234,8 @@ STATE_GAMBIA = {
 		"x146701"
 		"x04FDE5"
 		"x7486F1"
+		"xB07040"
+		"x7B561C"
 	}
 	traits = {
 		"state_trait_malaria"
@@ -245,6 +247,7 @@ STATE_GAMBIA = {
 	wood = "x307041"
 	arable_land = 100
 	arable_resources = {
+		"bg_rice_farms"
 		"bg_millet_farms"
 		"bg_fruit_orchards"
 		"bg_livestock_ranches"
@@ -289,6 +292,7 @@ STATE_SIERRA_LEONE = {
 	wood = "x884E8D"
 	arable_land = 70
 	arable_resources = {
+		"bg_rice_farms"
 		"bg_millet_farms"
 		"bg_fruit_orchards"
 		"bg_livestock_ranches"
@@ -2971,6 +2975,9 @@ STATE_WADDAI = {
 		"xF42410"
 		"xF6377D"
 	}
+	prime_land = {
+		"x2A283A"
+	}
 	traits = {
 		"state_trait_malaria"
 	}
@@ -4461,6 +4468,11 @@ STATE_GABON = {
 		"xE31261"
 		"xE8DC57"
 		"xFC7E53"
+	}
+	prime_land = {
+		"x8D20C0"
+		"x8FE687"
+		"xB323FD"
 	}
 	traits = {
 		"state_trait_severe_malaria"

@@ -2316,7 +2316,7 @@ STATE_PICARDY = {
 	}
 	city = "x10A0C0"
 	port = "xE0A624"
-	farm = "x106000"
+	farm = "xC4C61A"
 	mine = "xC4C61A"
 	wood = "xC4C61A"
 	arable_land = 80

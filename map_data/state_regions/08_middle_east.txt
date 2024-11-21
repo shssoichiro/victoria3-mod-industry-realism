@@ -1416,7 +1416,7 @@ STATE_FARS = {
 	}
 	city = "x95EAC4"
 	port = "x0130E0"
-	farm = "x517637"
+	farm = "xEB8219"
 	mine = "xB5A598"
 	wood = "x8030DF"
 	arable_land = 70
@@ -1474,8 +1474,8 @@ STATE_LARISTAN = {
 	}
 	city = "xA54E11"
 	port = "x350DED"
-	farm = "x01F020"
-	mine = "x6DDC3B"
+	farm = "x36F270"
+	mine = "x407020"
 	wood = "x8070A0"
 	arable_land = 30
 	arable_resources = {
@@ -1843,10 +1843,10 @@ STATE_ISFAHAN = {
 		"xF17A7A"
 		"xF29735"
 	}
-	city = "xED39D0"
-	farm = "xA37A77"
-	mine = "xE9B06D"
-	wood = "xE679AF"
+	city = "xE9B06D"
+	farm = "xED39D0"
+	mine = "x8D9CEC"
+	wood = "x527229"
 	arable_land = 90
 	arable_resources = {
 		"bg_wheat_farms"
@@ -1960,7 +1960,7 @@ STATE_IRAKAJEMI = {
 	city = "xC0F0A0"
 	farm = "x4030E0"
 	mine = "x41B060"
-	wood = "x9DE783"
+	wood = "x2E8EE8"
 	arable_land = 50
 	arable_resources = {
 		"bg_wheat_farms"
@@ -2162,7 +2162,7 @@ STATE_LURISTAN = {
 	}
 	city = "x38B60D"
 	farm = "xBDD368"
-	mine = "x141ABA"
+	mine = "xC82A67"
 	wood = "x2EA8EE"
 	arable_land = 40
 	arable_resources = {
