@@ -1390,12 +1390,10 @@
 			create_building = {
 				building = "building_railway"
 				add_ownership = {
-					add_ownership = {
-						company = {
-							type = company_gwr
-							country = "c:GBR"
-							levels = 2
-						}
+					company = {
+						type = company_gwr
+						country = "c:GBR"
+						levels = 2
 					}
 				}
 				reserves = 1
