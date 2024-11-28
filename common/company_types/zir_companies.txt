@@ -603,3 +603,44 @@ company_general_electric = {
 		value = 3		# Higher base value for flavored companies
 	}
 }
+
+# Arthur Guinness Son & Co. Ltd
+company_guinness = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/arthur_guinness_son.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
+	flavored_company = yes
+	building_types = {
+		building_distillery
+	}
+	potential = {
+		has_interest_marker_in_region = region_north_sea_coast
+	}
+	attainable = {
+		hidden_trigger = {
+			# Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_LEINSTER
+			}
+		}
+	}
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_LEINSTER
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_distillery
+				level >= 6
+			}
+		}
+		has_technology_researched = corporate_charters
+	}
+	prosperity_modifier = {
+		state_radicals_from_political_movements_mult = -0.1
+		state_radicalism_increases_violent_hostility_mult = -0.05
+		state_radicalism_increases_cultural_erasure_mult = -0.05
+		state_radicalism_increases_open_prejudice_mult = -0.05
+	}
+	ai_weight = {
+		value = 3		# Higher base value for flavored companies
+	}
+}
