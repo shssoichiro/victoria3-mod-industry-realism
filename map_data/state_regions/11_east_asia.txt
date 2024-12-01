@@ -4653,7 +4653,6 @@ STATE_HOKKAIDO = {
 		"bg_rice_farms"
 		"bg_fruit_orchards"
 		"bg_wheat_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
 		"bg_wool_farms"
 	}
