@@ -1,0 +1,96 @@
+state_trait_american_chestnuts = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	modifier = {
+		goods_output_wood_mult = 0.1
+	}
+}
+
+state_trait_amazon_rainforest = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	modifier = {
+		goods_output_wood_mult = 0.1
+		state_construction_mult = -0.3
+		state_infrastructure_mult = -0.3
+	}
+}
+
+state_trait_amazon_rainforest_level_1 = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	modifier = {
+		goods_output_wood_mult = 0.1
+		state_construction_mult = -0.2
+		state_infrastructure_mult = -0.2
+		state_migration_pull_mult = 0.1
+	}
+}
+
+state_trait_amazon_rainforest_level_2 = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	modifier = {
+		goods_output_wood_mult = 0.1
+		building_group_bg_agriculture_throughput_add = 0.1
+		state_construction_mult = -0.1
+		state_infrastructure_mult = -0.1
+		state_migration_pull_mult = 0.2
+	}
+}
+
+state_trait_canales_patagonicos = {
+	# araucania
+	icon = "gfx/interface/icons/state_trait_icons/fjords.dds"
+	modifier = {
+		goods_output_wood_mult = 0.075
+		state_building_port_max_level_add = 5
+		state_building_naval_base_max_level_add = 15
+	}
+}
+
+state_trait_congo_forest = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	modifier = {
+		state_construction_mult = -0.2
+		state_infrastructure_mult = -0.2
+		goods_output_wood_mult = 0.1
+	}
+}
+
+state_trait_hyrcanian_forests = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	modifier = {
+		goods_output_wood_mult = 0.1
+		building_group_bg_logging_throughput_add = 0.1
+	}
+}
+
+state_trait_burmese_teak = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	modifier = {
+		goods_output_wood_mult = 0.1
+		state_construction_mult = -0.1
+		state_infrastructure_mult = -0.1
+	}
+}
+
+state_trait_borneo_rainforest = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	modifier = {
+		goods_output_wood_mult = 0.1
+		state_construction_mult = -0.1
+		state_infrastructure_mult = -0.1
+	}
+}
+
+state_trait_hawaii_sandalwood_forests = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	modifier = {
+		goods_output_wood_mult = 0.1
+	}
+}
+
+state_trait_tasmanian_rainforest = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	modifier = {
+		goods_output_wood_mult = 0.1
+		state_infrastructure_add = -5
+	}
+}
