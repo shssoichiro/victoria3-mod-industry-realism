@@ -559,7 +559,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 				}
 			}
@@ -626,7 +625,6 @@
 				activate_production_methods = {
 					"pm_handcrafted_furniture"
 					"pm_automation_disabled"
-					"pm_luxury_furniture"
 				}
 			}
 			create_building = {
@@ -1098,7 +1096,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 				}
 			}
@@ -1182,7 +1179,6 @@
 				activate_production_methods = {
 					"pm_handcrafted_furniture"
 					"pm_automation_disabled"
-					"pm_luxury_furniture"
 				}
 			}
 			create_building = {
@@ -1962,7 +1958,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 				}
 			}
@@ -3639,7 +3634,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 				}
 			}
@@ -3708,7 +3702,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 				}
 			}

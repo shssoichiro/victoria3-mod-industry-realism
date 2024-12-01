@@ -56,7 +56,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 				}
 			}
@@ -701,7 +700,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 				}
 			}
@@ -1290,7 +1288,6 @@
 				activate_production_methods = {
 					"pm_lathe"
 					"pm_automation_disabled"
-					"pm_luxury_furniture"
 				}
 			}
 			create_building = {
@@ -1860,7 +1857,6 @@
 				activate_production_methods = {
 					"pm_dye_workshops"
 					"pm_traditional_looms"
-					"pm_no_luxury_clothes"
 				}
 			}
 			create_building = {
@@ -2152,7 +2148,6 @@
 				activate_production_methods = {
 					"pm_dye_workshops"
 					"pm_traditional_looms"
-					"pm_no_luxury_clothes"
 				}
 			}
 			create_building = {
@@ -2188,7 +2183,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_lathe"
-					"pm_luxury_furniture"
 					"pm_automation_disabled"
 				}
 			}
@@ -2429,7 +2423,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_lathe"
-					"pm_luxury_furniture"
 					"pm_automation_disabled"
 				}
 			}
@@ -3018,7 +3011,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_leaded_glass"
-					"pm_ceramics"
 					"pm_manual_glassblowing"
 				}
 			}
@@ -3562,7 +3554,6 @@
 				activate_production_methods = {
 					"pm_lathe"
 					"pm_automation_disabled"
-					"pm_luxury_furniture"
 				}
 			}
 			create_building = {
@@ -4982,7 +4973,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_lathe"
-					"pm_luxury_furniture"
 					"pm_automation_disabled"
 				}
 			}
@@ -5455,7 +5445,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_lathe"
-					"pm_luxury_furniture"
 					"pm_automation_disabled"
 				}
 			}
@@ -5780,7 +5769,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_leaded_glass"
-					"pm_ceramics"
 					"pm_manual_glassblowing"
 				}
 			}
@@ -6215,7 +6203,6 @@
 				activate_production_methods = {
 					"pm_handcrafted_furniture"
 					"pm_automation_disabled"
-					"pm_luxury_furniture"
 				}
 			}
 			create_building = {
@@ -6664,7 +6651,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_dye_workshops"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 				}
 			}
@@ -6688,7 +6674,6 @@
 				activate_production_methods = {
 					"pm_lathe"
 					"pm_automation_disabled"
-					"pm_luxury_furniture"
 				}
 			}
 			create_building = {
@@ -6897,7 +6882,6 @@
 				activate_production_methods = {
 					"pm_lathe"
 					"pm_automation_disabled"
-					"pm_luxury_furniture"
 				}
 			}
 			create_building = {
@@ -7104,7 +7088,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_leaded_glass"
-					"pm_disabled_ceramics"
 					"pm_manual_glassblowing"
 				}
 			}
@@ -7245,7 +7228,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 				}
 			}
@@ -7824,7 +7806,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 				}
 			}
@@ -8216,7 +8197,6 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_luxury_furniture"
 					"pm_lathe"
 					"pm_automation_disabled"
 				}
@@ -8534,7 +8514,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_dye_workshops"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 				}
 			}
@@ -8717,7 +8696,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_lathe"
-					"pm_luxury_furniture"
 					"pm_automation_disabled"
 				}
 			}
@@ -9020,7 +8998,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 				}
 			}
@@ -9704,7 +9681,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 				}
 			}
@@ -9728,7 +9704,6 @@
 				activate_production_methods = {
 					"pm_lathe"
 					"pm_automation_disabled"
-					"pm_luxury_furniture"
 				}
 			}
 			create_building = {
@@ -10250,7 +10225,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 				}
 			}
