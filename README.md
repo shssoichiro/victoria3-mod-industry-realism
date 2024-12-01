@@ -51,7 +51,7 @@
 
 There simply wasn't historic precedent for things such as synthetic coffee, tea, or opium. Synthetic opiates, for example, were not invented until 1960, which does not fit the timeframe of the game.
 
-### Industry Expanded exists, why waste time on this?
+### Industry Expanded exists, why make this instead?
 
 I wanted a mod that does not introduce any new goods. Industry Expanded is a great mod, it's simply not what I'm looking for. I wanted something lighter weight. You're free to choose whichever one you prefer.
 
@@ -59,12 +59,14 @@ I wanted a mod that does not introduce any new goods. Industry Expanded is a gre
 
 This mod is compatible with most mods that do not touch the buildings above or alter the start locations of buildings on the map.
 
-- Verified compatible with BPM.
-- There are compatches for use with Ultra Historical.
-  - [UH: Politics Compatch](https://steamcommunity.com/sharedfiles/filedetails/?id=3214936638)
-  - [UH: Demographics Compatch](https://steamcommunity.com/sharedfiles/filedetails/?id=3214936381)
+- Compatible with BPM.
+- Compatible with Pop Demand Tweak, but Industry Realism must be loaded after.
+- UH: Politics Compatch: https://steamcommunity.com/sharedfiles/filedetails/?id=3214936638 (update for 1.8 coming once UH updated)
+- UH: Diplomacy Compatch: No longer needed as of 1.8
+- VTM Compatch: https://steamcommunity.com/sharedfiles/filedetails/?id=3219765729 (update for 1.8 coming once VTM updated)
+- Political & Economic Changes Compatch: https://steamcommunity.com/sharedfiles/filedetails/?id=3241308181
 - Incompatible with Industry Expanded, for obvious reasons.
-- Partial compatibility with VTM. Load it after VTM and this mod will work, though it will override some of VTM's changes. A compatch would be necessary for full compatibility.
+- Incompatible with any mods that alter locations of states or goods on the map
 
 TODO:
 
