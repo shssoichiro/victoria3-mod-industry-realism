@@ -222,8 +222,7 @@
 	capped_resources = {
 		bg_coal_mining = 80
 		bg_iron_mining = 36
-		bg_logging = 5
-		bg_hardwood_logging = 2
+		bg_logging = 7
 		bg_whaling = 4
 		bg_fishing = 8
 	}
@@ -324,8 +323,7 @@ STATE_VICTORIA = {
 	}
 	capped_resources = {
 		bg_sulfur_mining = 24
-		bg_logging = 8
-		bg_hardwood_logging = 3
+		bg_logging = 11
 		bg_whaling = 3
 		bg_fishing = 8
 	}
@@ -385,8 +383,7 @@ STATE_TASMANIA = {
 	capped_resources = {
 		bg_iron_mining = 15
 		bg_lead_mining = 15
-		bg_logging = 4
-		bg_hardwood_logging = 4
+		bg_logging = 8
 		bg_whaling = 2
 		bg_fishing = 6
 	}
@@ -2496,8 +2493,7 @@ STATE_NORTH_ISLAND = {
 	capped_resources = {
 		bg_coal_mining = 28
 		bg_iron_mining = 27
-		bg_logging = 7
-		bg_hardwood_logging = 4
+		bg_logging = 11
 		bg_whaling = 3
 		bg_fishing = 8
 	}
@@ -2581,8 +2577,7 @@ STATE_SOUTH_ISLAND = {
 		"bg_wool_farms"
 	}
 	capped_resources = {
-		bg_logging = 4
-		bg_hardwood_logging = 3
+		bg_logging = 7
 		bg_whaling = 4
 		bg_fishing = 10
 	}

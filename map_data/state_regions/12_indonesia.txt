@@ -45,7 +45,7 @@
 	capped_resources = {
 		bg_coal_mining = 32
 		bg_lead_mining = 24
-		bg_hardwood_logging = 17
+		bg_logging = 17
 		bg_fishing = 10
 	}
 	resource = {
@@ -128,7 +128,7 @@ STATE_NORTH_BORNEO = {
 	capped_resources = {
 		bg_iron_mining = 24
 		bg_sulfur_mining = 36
-		bg_hardwood_logging = 20
+		bg_logging = 20
 		bg_fishing = 8
 	}
 	resource = {
@@ -223,7 +223,7 @@ STATE_WEST_BORNEO = {
 	}
 	capped_resources = {
 		bg_lead_mining = 30
-		bg_hardwood_logging = 17
+		bg_logging = 17
 		bg_fishing = 7
 	}
 	resource = {
@@ -337,7 +337,7 @@ STATE_EAST_BORNEO = {
 	}
 	capped_resources = {
 		bg_coal_mining = 28
-		bg_hardwood_logging = 20
+		bg_logging = 20
 		bg_fishing = 9
 	}
 	resource = {
@@ -389,7 +389,7 @@ STATE_WEST_JAVA = {
 	capped_resources = {
 		bg_coal_mining = 20
 		bg_sulfur_mining = 32
-		bg_hardwood_logging = 8
+		bg_logging = 8
 		bg_fishing = 11
 	}
 	resource = {
@@ -447,7 +447,7 @@ STATE_EAST_JAVA = {
 	}
 	capped_resources = {
 		bg_sulfur_mining = 40
-		bg_hardwood_logging = 7
+		bg_logging = 7
 		bg_fishing = 8
 	}
 	resource = {
@@ -501,7 +501,7 @@ STATE_CENTRAL_JAVA = {
 	}
 	capped_resources = {
 		bg_sulfur_mining = 32
-		bg_hardwood_logging = 6
+		bg_logging = 6
 		bg_fishing = 4
 	}
 	resource = {
@@ -586,7 +586,7 @@ STATE_NORTH_SUMATRA = {
 	capped_resources = {
 		bg_coal_mining = 40
 		bg_sulfur_mining = 48
-		bg_hardwood_logging = 29
+		bg_logging = 29
 		bg_fishing = 13
 	}
 	resource = {
@@ -652,7 +652,7 @@ STATE_SOUTH_SUMATRA = {
 	capped_resources = {
 		bg_coal_mining = 40
 		bg_sulfur_mining = 48
-		bg_hardwood_logging = 29
+		bg_logging = 29
 		bg_fishing = 13
 	}
 	resource = {
@@ -713,7 +713,7 @@ STATE_ACEH = {
 	capped_resources = {
 		bg_iron_mining = 15
 		bg_sulfur_mining = 20
-		bg_hardwood_logging = 14
+		bg_logging = 14
 		bg_fishing = 8
 	}
 	resource = {
@@ -828,7 +828,7 @@ STATE_WESTERN_NEW_GUINEA = {
 	}
 	capped_resources = {
 		bg_iron_mining = 18
-		bg_hardwood_logging = 20
+		bg_logging = 20
 		bg_fishing = 9
 		bg_whaling = 2
 	}
@@ -882,7 +882,7 @@ STATE_MOLUCCAS = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 4
+		bg_logging = 4
 		bg_fishing = 6
 	}
 	resource = {
@@ -953,7 +953,7 @@ STATE_CELEBES = {
 	}
 	capped_resources = {
 		bg_iron_mining = 27
-		bg_hardwood_logging = 14
+		bg_logging = 14
 		bg_fishing = 4
 	}
 	resource = {
@@ -1075,7 +1075,7 @@ STATE_EASTERN_NEW_GUINEA = {
 	capped_resources = {
 		bg_iron_mining = 24
 		bg_sulfur_mining = 32
-		bg_hardwood_logging = 16
+		bg_logging = 16
 		bg_fishing = 10
 		bg_whaling = 2
 	}
@@ -1135,7 +1135,7 @@ STATE_SUNDA_ISLANDS = {
 	capped_resources = {
 		bg_iron_mining = 24
 		bg_sulfur_mining = 40
-		bg_hardwood_logging = 17
+		bg_logging = 17
 		bg_fishing = 10
 	}
 	resource = {
@@ -1190,7 +1190,7 @@ STATE_MINDANAO = {
 	}
 	capped_resources = {
 		bg_iron_mining = 36
-		bg_hardwood_logging = 14
+		bg_logging = 14
 		bg_fishing = 8
 	}
 	resource = {
@@ -1254,7 +1254,7 @@ STATE_LUZON = {
 	}
 	capped_resources = {
 		bg_iron_mining = 24
-		bg_hardwood_logging = 20
+		bg_logging = 20
 		bg_fishing = 12
 	}
 	resource = {
@@ -1305,7 +1305,7 @@ STATE_VISAYAS = {
 	}
 	capped_resources = {
 		bg_iron_mining = 30
-		bg_hardwood_logging = 18
+		bg_logging = 18
 		bg_fishing = 10
 		bg_coal_mining = 5
 	}
@@ -1343,7 +1343,7 @@ STATE_WEST_MICRONESIA = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 2
+		bg_logging = 2
 		bg_whaling = 3
 		bg_fishing = 3
 	}
@@ -1380,7 +1380,7 @@ STATE_EAST_MICRONESIA = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 2
+		bg_logging = 2
 		bg_whaling = 3
 		bg_fishing = 3
 	}
@@ -1418,7 +1418,7 @@ STATE_SOLOMON_ISLANDS = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 2
+		bg_logging = 2
 		bg_whaling = 2
 		bg_fishing = 3
 	}
@@ -1446,7 +1446,7 @@ STATE_NAURU = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 2
+		bg_logging = 2
 		bg_whaling = 3
 		bg_fishing = 3
 	}
@@ -1476,7 +1476,7 @@ STATE_FIJI = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 2
+		bg_logging = 2
 		bg_whaling = 4
 		bg_fishing = 4
 	}
@@ -1506,7 +1506,7 @@ STATE_VANUATU = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 2
+		bg_logging = 2
 		bg_fishing = 3
 	}
 	naval_exit_id = 3124
@@ -1540,7 +1540,7 @@ STATE_KANAK = {
 	}
 	capped_resources = {
 		bg_lead_mining = 8
-		bg_hardwood_logging = 2
+		bg_logging = 2
 		bg_fishing = 3
 	}
 	naval_exit_id = 3124
@@ -1571,7 +1571,7 @@ STATE_BOUGAINVILLE = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 2
+		bg_logging = 2
 		bg_whaling = 2
 		bg_fishing = 2
 	}
@@ -1625,7 +1625,7 @@ STATE_TAHITI = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 4
+		bg_logging = 4
 		bg_whaling = 8
 		bg_fishing = 5
 	}
@@ -1656,7 +1656,7 @@ STATE_TONGA = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 2
+		bg_logging = 2
 		bg_whaling = 4
 		bg_fishing = 3
 	}

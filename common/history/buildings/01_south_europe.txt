@@ -432,7 +432,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -547,7 +546,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_forestry"
-					"pm_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -828,31 +826,13 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:SIC"
-						levels = 1
+						levels = 2
 						region = "STATE_CAMPANIA"
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_hardwood"
 					"pm_saw_mills"
-					"pm_no_equipment"
-					"pm_road_carts"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:SIC"
-						levels = 1
-						region = "STATE_CAMPANIA"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -1125,7 +1105,6 @@
 					"pm_saw_mills"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_hardwood"
 				}
 			}
 			create_building = {
@@ -1240,31 +1219,13 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:SAR"
-						levels = 1
+						levels = 2
 						region = "STATE_SAVOY"
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_no_equipment"
-					"pm_road_carts"
-					"pm_hardwood"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:SAR"
-						levels = 1
-						region = "STATE_SAVOY"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -1632,7 +1593,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_no_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -1875,7 +1835,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_forestry"
-					"pm_no_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -2426,7 +2385,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_no_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -2816,7 +2774,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -2900,7 +2857,7 @@
 					building = {
 						type = "building_logging_camp"
 						country = "c:SPA"
-						levels = 1
+						levels = 2
 						region = "STATE_ARAGON"
 					}
 					building = {
@@ -2913,24 +2870,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_no_equipment"
-					"pm_road_carts"
-					"pm_no_hardwood"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_hardwood_logging_camp"
-						country = "c:SPA"
-						levels = 1
-						region = "STATE_ARAGON"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -3719,7 +3658,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_forestry"
-					"pm_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -4405,7 +4343,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -4481,7 +4418,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -4584,7 +4520,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -4700,31 +4635,13 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:TUR"
-						levels = 2
+						levels = 3
 						region = "STATE_NORTHERN_THRACE"
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_no_equipment"
-					"pm_road_carts"
-					"pm_hardwood"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:TUR"
-						levels = 1
-						region = "STATE_NORTHERN_THRACE"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -4789,31 +4706,13 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:TUR"
-						levels = 2
+						levels = 4
 						region = "STATE_BULGARIA"
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_no_equipment"
-					"pm_road_carts"
-					"pm_hardwood"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:TUR"
-						levels = 2
-						region = "STATE_BULGARIA"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -4885,31 +4784,13 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:AUS"
-						levels = 1
+						levels = 2
 						region = "STATE_AUSTRIA"
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
-					"pm_no_equipment"
-					"pm_road_carts"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:AUS"
-						levels = 1
-						region = "STATE_AUSTRIA"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -5087,7 +4968,6 @@
 					"pm_saw_mills"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_hardwood"
 				}
 			}
 			create_building = {
@@ -5620,7 +5500,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_forestry"
-					"pm_no_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}

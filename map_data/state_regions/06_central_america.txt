@@ -28,7 +28,7 @@
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 7
+		bg_logging = 7
 		bg_fishing = 4
 	}
 	resource = {
@@ -91,7 +91,7 @@ STATE_GUATEMALA = {
 	}
 	capped_resources = {
 		bg_iron_mining = 30
-		bg_hardwood_logging = 17
+		bg_logging = 17
 		bg_fishing = 5
 	}
 	resource = {
@@ -151,7 +151,7 @@ STATE_HONDURAS = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 15
+		bg_logging = 15
 		bg_fishing = 8
 	}
 	resource = {
@@ -211,7 +211,7 @@ STATE_NICARAGUA = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 14
+		bg_logging = 14
 		bg_fishing = 5
 	}
 	resource = {
@@ -259,7 +259,7 @@ STATE_COSTA_RICA = {
 	}
 	capped_resources = {
 		bg_coal_mining = 24
-		bg_hardwood_logging = 8
+		bg_logging = 8
 		bg_fishing = 3
 	}
 	resource = {
@@ -305,7 +305,7 @@ STATE_PANAMA = {
 	}
 	capped_resources = {
 		bg_coal_mining = 36
-		bg_hardwood_logging = 8
+		bg_logging = 8
 		bg_fishing = 6
 		bg_whaling = 2
 	}
@@ -346,7 +346,7 @@ STATE_HAITI = {
 		"bg_dye_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 7
+		bg_logging = 7
 		bg_fishing = 6
 	}
 	resource = {
@@ -387,7 +387,7 @@ STATE_SANTO_DOMINGO = {
 		"bg_dye_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 11
+		bg_logging = 11
 		bg_fishing = 7
 	}
 	resource = {
@@ -422,7 +422,7 @@ STATE_PUERTO_RICO = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 2
+		bg_logging = 2
 		bg_fishing = 4
 	}
 	resource = {
@@ -537,7 +537,7 @@ STATE_JAMAICA = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 4
+		bg_logging = 4
 		bg_fishing = 5
 	}
 	resource = {
@@ -596,7 +596,7 @@ STATE_CUBA = {
 	capped_resources = {
 		bg_coal_mining = 16
 		bg_iron_mining = 18
-		bg_hardwood_logging = 15
+		bg_logging = 15
 		bg_fishing = 10
 	}
 	resource = {

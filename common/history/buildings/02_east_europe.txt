@@ -99,30 +99,12 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:RUS"
-						levels = 2
+						levels = 3
 						region = "STATE_MAZOVIA"
 					}
 				}
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
-					"pm_no_equipment"
-					"pm_road_carts"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:RUS"
-						levels = 1
-						region = "STATE_MAZOVIA"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -137,7 +119,7 @@
 					building = {
 						type = "building_logging_camp"
 						country = "c:RUS"
-						levels = 2
+						levels = 4
 						region = "STATE_BREST"
 					}
 					building = {
@@ -149,24 +131,6 @@
 				}
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_increased_hardwood"
-					"pm_no_equipment"
-					"pm_road_carts"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_hardwood_logging_camp"
-						country = "c:RUS"
-						levels = 2
-						region = "STATE_BREST"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -543,7 +507,7 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:PRU"
-						levels = 2
+						levels = 4
 						region = "STATE_EAST_PRUSSIA"
 					}
 					building = {
@@ -556,24 +520,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
-					"pm_no_equipment"
-					"pm_road_carts"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:PRU"
-						levels = 2
-						region = "STATE_EAST_PRUSSIA"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -1461,7 +1407,6 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_hardwood"
 					"pm_simple_forestry"
 					"pm_no_equipment"
 					"pm_road_carts"
@@ -1505,10 +1450,10 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						type = "building_hardwood_logging_camp"
+						type = "building_logging_camp"
 						country = "c:AUS"
 						levels = 3
 						region = "STATE_SOUTHERN_TRANSYLVANIA"
@@ -1522,10 +1467,9 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills_hardwood"
+					"pm_saw_mills"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_hardwood"
 				}
 			}
 			create_building = {
@@ -1597,18 +1541,6 @@
 						levels = 1
 						region = "STATE_NORTHERN_TRANSYLVANIA"
 					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_hardwood"
-					"pm_simple_forestry"
-					"pm_no_equipment"
-					"pm_road_carts"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
 					building = {
 						type = "building_financial_district"
 						country = "c:AUS"
@@ -1618,7 +1550,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills_hardwood"
+					"pm_simple_forestry"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -1714,7 +1646,7 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -1731,8 +1663,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills_hardwood"
-					"pm_hardwood"
+					"pm_saw_mills"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -1791,10 +1722,10 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						type = "building_hardwood_logging_camp"
+						type = "building_logging_camp"
 						country = "c:MOL"
 						levels = 1
 						region = "STATE_MOLDAVIA"
@@ -1802,8 +1733,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry_hardwood"
-					"pm_hardwood"
+					"pm_simple_forestry"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -1955,10 +1885,10 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						type = "building_hardwood_logging_camp"
+						type = "building_logging_camp"
 						country = "c:WAL"
 						levels = 3
 						region = "STATE_WALLACHIA"
@@ -1972,8 +1902,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry_hardwood"
-					"pm_hardwood"
+					"pm_simple_forestry"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}

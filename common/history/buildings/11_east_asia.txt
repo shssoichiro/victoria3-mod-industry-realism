@@ -73,7 +73,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_no_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -140,7 +139,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_no_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -276,7 +274,6 @@
 					"pm_saw_mills"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_hardwood"
 				}
 			}
 			create_building = {
@@ -776,7 +773,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_no_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -836,31 +832,13 @@
 					building = {
 						type = "building_logging_camp"
 						country = "c:CHI"
-						levels = 5
+						levels = 9
 						region = "STATE_SOUTHERN_MANCHURIA"
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_no_equipment"
-					"pm_road_carts"
-					"pm_hardwood"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_hardwood_logging_camp"
-						country = "c:CHI"
-						levels = 4
-						region = "STATE_SOUTHERN_MANCHURIA"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -893,31 +871,13 @@
 					building = {
 						type = "building_logging_camp"
 						country = "c:CHI"
-						levels = 4
+						levels = 8
 						region = "STATE_NORTHERN_MANCHURIA"
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_no_equipment"
-					"pm_road_carts"
-					"pm_hardwood"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_hardwood_logging_camp"
-						country = "c:CHI"
-						levels = 4
-						region = "STATE_NORTHERN_MANCHURIA"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -2612,31 +2572,13 @@
 					building = {
 						type = "building_logging_camp"
 						country = "c:CHI"
-						levels = 4
+						levels = 8
 						region = "STATE_HUNAN"
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
-					"pm_no_equipment"
-					"pm_road_carts"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_hardwood_logging_camp"
-						country = "c:CHI"
-						levels = 4
-						region = "STATE_HUNAN"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -3550,10 +3492,10 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						type = "building_hardwood_logging_camp"
+						type = "building_logging_camp"
 						country = "c:CMI"
 						levels = 1
 						region = "STATE_CHIANG_MAI"
@@ -3561,8 +3503,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry_hardwood"
-					"pm_no_hardwood"
+					"pm_simple_forestry"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -3943,7 +3884,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_forestry"
-					"pm_no_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -4224,31 +4164,13 @@
 					building = {
 						type = "building_logging_camp"
 						country = "c:JAP"
-						levels = 2
+						levels = 4
 						region = "STATE_CHUBU"
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_forestry"
-					"pm_no_equipment"
-					"pm_road_carts"
-					"pm_hardwood"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_hardwood_logging_camp"
-						country = "c:JAP"
-						levels = 2
-						region = "STATE_CHUBU"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_simple_forestry_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -4863,7 +4785,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_forestry"
-					"pm_no_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}

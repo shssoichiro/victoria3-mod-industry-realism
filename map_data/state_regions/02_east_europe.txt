@@ -31,8 +31,7 @@
 	}
 	capped_resources = {
 		bg_coal_mining = 24
-		bg_logging = 4
-		bg_hardwood_logging = 4
+		bg_logging = 8
 	}
 }
 
@@ -75,8 +74,7 @@ STATE_SILESIA = {
 		bg_iron_mining = 60
 		bg_lead_mining = 54
 		bg_sulfur_mining = 40
-		bg_logging = 7
-		bg_hardwood_logging = 7
+		bg_logging = 14
 	}
 }
 
@@ -124,8 +122,7 @@ STATE_GREATER_POLAND = {
 		bg_coal_mining = 84
 		bg_iron_mining = 48
 		bg_lead_mining = 24
-		bg_logging = 5
-		bg_hardwood_logging = 4
+		bg_logging = 9
 	}
 }
 
@@ -161,8 +158,7 @@ STATE_LESSER_POLAND = {
 		bg_coal_mining = 108
 		bg_iron_mining = 32
 		bg_sulfur_mining = 32
-		bg_logging = 7
-		bg_hardwood_logging = 6
+		bg_logging = 13
 	}
 }
 
@@ -201,8 +197,7 @@ STATE_WEST_PRUSSIA = {
 	}
 	capped_resources = {
 		bg_sulfur_mining = 40
-		bg_logging = 4
-		bg_hardwood_logging = 4
+		bg_logging = 8
 		bg_fishing = 10
 	}
 	naval_exit_id = 3000
@@ -243,8 +238,7 @@ STATE_EAST_PRUSSIA = {
 		"bg_wool_farms"
 	}
 	capped_resources = {
-		bg_logging = 9
-		bg_hardwood_logging = 8
+		bg_logging = 17
 		bg_fishing = 10
 	}
 	naval_exit_id = 3000
@@ -280,8 +274,7 @@ STATE_POSEN = {
 	}
 	capped_resources = {
 		bg_iron_mining = 24
-		bg_logging = 5
-		bg_hardwood_logging = 4
+		bg_logging = 9
 	}
 }
 
@@ -321,8 +314,7 @@ STATE_WEST_GALICIA = {
 	capped_resources = {
 		bg_coal_mining = 140
 		bg_iron_mining = 33
-		bg_logging = 9
-		bg_hardwood_logging = 8
+		bg_logging = 17
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -366,8 +358,7 @@ STATE_EAST_GALICIA = {
 	}
 	capped_resources = {
 		bg_coal_mining = 92
-		bg_logging = 5
-		bg_hardwood_logging = 4
+		bg_logging = 9
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -418,8 +409,7 @@ STATE_CENTRAL_HUNGARY = {
 	capped_resources = {
 		bg_coal_mining = 20
 		bg_iron_mining = 30
-		bg_logging = 3
-		bg_hardwood_logging = 3
+		bg_logging = 6
 	}
 }
 
@@ -450,8 +440,7 @@ STATE_BEKES = {
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
-		bg_logging = 6
-		bg_hardwood_logging = 5
+		bg_logging = 11
 	}
 }
 
@@ -495,8 +484,7 @@ STATE_TRANSDANUBIA = {
 	}
 	capped_resources = {
 		bg_coal_mining = 84
-		bg_logging = 4
-		bg_hardwood_logging = 3
+		bg_logging = 7
 	}
 }
 
@@ -527,8 +515,7 @@ STATE_DELVIDEK = {
 		"bg_wool_farms"
 	}
 	capped_resources = {
-		bg_logging = 2
-		bg_hardwood_logging = 2
+		bg_logging = 4
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -566,8 +553,7 @@ STATE_BANAT = {
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
-		bg_logging = 3
-		bg_hardwood_logging = 6
+		bg_logging = 9
 	}
 }
 
@@ -606,8 +592,7 @@ STATE_WEST_SLOVAKIA = {
 	capped_resources = {
 		bg_coal_mining = 44
 		bg_iron_mining = 63
-		bg_logging = 3
-		bg_hardwood_logging = 5
+		bg_logging = 8
 	}
 }
 
@@ -641,8 +626,7 @@ STATE_EAST_SLOVAKIA = {
 	capped_resources = {
 		bg_coal_mining = 92
 		bg_lead_mining = 33
-		bg_logging = 6
-		bg_hardwood_logging = 9
+		bg_logging = 15
 	}
 }
 
@@ -676,7 +660,7 @@ STATE_SOUTHERN_TRANSYLVANIA = {
 	capped_resources = {
 		bg_iron_mining = 45
 		bg_lead_mining = 45
-		bg_hardwood_logging = 17
+		bg_logging = 17
 	}
 }
 
@@ -712,8 +696,7 @@ STATE_NORTHERN_TRANSYLVANIA = {
 	capped_resources = {
 		bg_coal_mining = 48
 		bg_iron_mining = 63
-		bg_logging = 3
-		bg_hardwood_logging = 10
+		bg_logging = 13
 	}
 }
 
@@ -757,7 +740,7 @@ STATE_MOLDAVIA = {
 	}
 	capped_resources = {
 		bg_iron_mining = 30
-		bg_hardwood_logging = 14
+		bg_logging = 14
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -815,7 +798,7 @@ STATE_WALLACHIA = {
 		bg_coal_mining = 68
 		bg_iron_mining = 21
 		bg_sulfur_mining = 15
-		bg_hardwood_logging = 8
+		bg_logging = 8
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -857,7 +840,7 @@ STATE_BESSARABIA = {
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 6
+		bg_logging = 6
 		bg_fishing = 9
 	}
 	naval_exit_id = 3036

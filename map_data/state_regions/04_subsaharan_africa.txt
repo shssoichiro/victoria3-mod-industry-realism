@@ -53,7 +53,7 @@
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 14
+		bg_logging = 14
 		bg_fishing = 5
 	}
 	resource = {
@@ -129,7 +129,7 @@ STATE_WINDWARD_COAST = {
 	}
 	capped_resources = {
 		bg_iron_mining = 24
-		bg_hardwood_logging = 15
+		bg_logging = 15
 		bg_fishing = 6
 	}
 	resource = {
@@ -306,7 +306,7 @@ STATE_SIERRA_LEONE = {
 	}
 	capped_resources = {
 		bg_iron_mining = 36
-		bg_hardwood_logging = 11
+		bg_logging = 11
 		bg_fishing = 6
 	}
 	resource = {
@@ -392,7 +392,7 @@ STATE_VOLTA = {
 		"bg_sugar_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 4
+		bg_logging = 4
 	}
 	resource = {
 		type = "bg_rubber"
@@ -444,7 +444,7 @@ STATE_LIBERIA = {
 	}
 	capped_resources = {
 		bg_iron_mining = 33
-		bg_hardwood_logging = 11
+		bg_logging = 11
 		bg_fishing = 7
 	}
 	resource = {
@@ -519,7 +519,7 @@ STATE_HAUSALAND = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 23
+		bg_logging = 23
 	}
 	resource = {
 		type = "bg_rubber"
@@ -576,7 +576,7 @@ STATE_BENIN = {
 	capped_resources = {
 		bg_coal_mining = 48
 		bg_iron_mining = 36
-		bg_hardwood_logging = 9
+		bg_logging = 9
 		bg_fishing = 3
 	}
 	resource = {
@@ -625,7 +625,7 @@ STATE_YORUBA_STATES = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 6
+		bg_logging = 6
 		bg_fishing = 6
 	}
 	resource = {
@@ -679,7 +679,7 @@ STATE_NIGER_DELTA = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 11
+		bg_logging = 11
 		bg_fishing = 10
 	}
 	resource = {
@@ -785,7 +785,7 @@ STATE_OUTER_HAUSALAND = {
 	}
 	capped_resources = {
 		bg_coal_mining = 48
-		bg_hardwood_logging = 4
+		bg_logging = 4
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -840,7 +840,7 @@ STATE_BORNU = {
 		"bg_sugar_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 5
+		bg_logging = 5
 	}
 }
 
@@ -911,7 +911,7 @@ STATE_NIGERIA = {
 	capped_resources = {
 		bg_iron_mining = 45
 		bg_lead_mining = 45
-		bg_hardwood_logging = 20
+		bg_logging = 20
 	}
 	resource = {
 		type = "bg_rubber"
@@ -976,7 +976,7 @@ STATE_EAST_HAUSALAND = {
 	}
 	capped_resources = {
 		bg_coal_mining = 72
-		bg_hardwood_logging = 18
+		bg_logging = 18
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -1066,7 +1066,7 @@ STATE_GUINEA = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 13
+		bg_logging = 13
 		bg_fishing = 7
 		bg_whaling = 2
 	}
@@ -1142,7 +1142,7 @@ STATE_GHANA = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 14
+		bg_logging = 14
 		bg_fishing = 5
 	}
 	resource = {
@@ -1200,7 +1200,7 @@ STATE_TOGO = {
 	}
 	capped_resources = {
 		bg_sulfur_mining = 44
-		bg_hardwood_logging = 11
+		bg_logging = 11
 		bg_fishing = 12
 	}
 	resource = {
@@ -1259,7 +1259,7 @@ STATE_DAHOMEY = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 14
+		bg_logging = 14
 		bg_fishing = 2
 	}
 	resource = {
@@ -1376,7 +1376,7 @@ STATE_LINDI = {
 	capped_resources = {
 		bg_coal_mining = 44
 		bg_iron_mining = 33
-		bg_hardwood_logging = 5
+		bg_logging = 5
 	}
 	resource = {
 		type = "bg_rubber"
@@ -1435,7 +1435,7 @@ STATE_ZANZIBAR = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 8
+		bg_logging = 8
 		bg_fishing = 10
 	}
 	resource = {
@@ -1566,7 +1566,7 @@ STATE_TANGANYIKA = {
 	capped_resources = {
 		bg_coal_mining = 72
 		bg_iron_mining = 48
-		bg_hardwood_logging = 23
+		bg_logging = 23
 	}
 	resource = {
 		type = "bg_rubber"
@@ -1669,7 +1669,7 @@ STATE_KENYA = {
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 6
+		bg_logging = 6
 		bg_fishing = 5
 	}
 	resource = {
@@ -1745,7 +1745,7 @@ STATE_RIFT_VALLEY = {
 	}
 	capped_resources = {
 		bg_coal_mining = 48
-		bg_hardwood_logging = 7
+		bg_logging = 7
 	}
 	resource = {
 		type = "bg_rubber"
@@ -1886,7 +1886,7 @@ STATE_OROMIA = {
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 11
+		bg_logging = 11
 	}
 	resource = {
 		type = "bg_rubber"
@@ -1995,7 +1995,7 @@ STATE_AMHARA = {
 		"bg_sugar_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 20
+		bg_logging = 20
 	}
 	resource = {
 		type = "bg_rubber"
@@ -2083,7 +2083,7 @@ STATE_GONDER = {
 		"bg_sugar_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 23
+		bg_logging = 23
 	}
 	resource = {
 		type = "bg_rubber"
@@ -2179,7 +2179,7 @@ STATE_KAZEMBE = {
 	}
 	capped_resources = {
 		bg_coal_mining = 48
-		bg_hardwood_logging = 14
+		bg_logging = 14
 	}
 	resource = {
 		type = "bg_rubber"
@@ -2433,7 +2433,7 @@ STATE_SOUTH_MADAGASCAR = {
 	}
 	capped_resources = {
 		bg_coal_mining = 80
-		bg_hardwood_logging = 23
+		bg_logging = 23
 		bg_whaling = 4
 		bg_fishing = 8
 	}
@@ -2531,7 +2531,7 @@ STATE_NORTH_MADAGASCAR = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 20
+		bg_logging = 20
 		bg_whaling = 6
 		bg_fishing = 10
 	}
@@ -2625,7 +2625,7 @@ STATE_UGANDA = {
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 20
+		bg_logging = 20
 	}
 	resource = {
 		type = "bg_rubber"
@@ -2765,7 +2765,7 @@ STATE_EQUATORIA = {
 		"bg_sugar_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 13
+		bg_logging = 13
 	}
 	resource = {
 		type = "bg_rubber"
@@ -2879,7 +2879,7 @@ STATE_MOCAMBIQUE = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 23
+		bg_logging = 23
 		bg_fishing = 8
 	}
 	resource = {
@@ -2996,7 +2996,7 @@ STATE_WADDAI = {
 		"bg_tobacco_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 8
+		bg_logging = 8
 	}
 }
 
@@ -3068,7 +3068,7 @@ STATE_NORTH_CAMEROON = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 18
+		bg_logging = 18
 	}
 }
 
@@ -3144,7 +3144,7 @@ STATE_SOUTH_CAMEROON = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 30
+		bg_logging = 30
 		bg_fishing = 7
 	}
 	resource = {
@@ -3294,7 +3294,7 @@ STATE_UBANGI_SHARI = {
 	}
 	capped_resources = {
 		bg_coal_mining = 48
-		bg_hardwood_logging = 18
+		bg_logging = 18
 	}
 	resource = {
 		type = "bg_rubber"
@@ -3400,7 +3400,7 @@ STATE_CONGO = {
 	}
 	capped_resources = {
 		bg_coal_mining = 48
-		bg_hardwood_logging = 25
+		bg_logging = 25
 		bg_fishing = 4
 	}
 	resource = {
@@ -3594,7 +3594,7 @@ STATE_CONGO_ORIENTALE = {
 	}
 	capped_resources = {
 		bg_coal_mining = 44
-		bg_hardwood_logging = 23
+		bg_logging = 23
 	}
 	resource = {
 		type = "bg_rubber"
@@ -3701,7 +3701,7 @@ STATE_KASAI = {
 	}
 	capped_resources = {
 		bg_iron_mining = 27
-		bg_hardwood_logging = 18
+		bg_logging = 18
 	}
 	resource = {
 		type = "bg_rubber"
@@ -3799,7 +3799,7 @@ STATE_BAS_CONGO = {
 	}
 	capped_resources = {
 		bg_iron_mining = 36
-		bg_hardwood_logging = 23
+		bg_logging = 23
 		bg_fishing = 7
 	}
 	resource = {
@@ -3948,7 +3948,7 @@ STATE_EQUATEUR = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 26
+		bg_logging = 26
 	}
 	resource = {
 		type = "bg_rubber"
@@ -4007,7 +4007,7 @@ STATE_NORTH_ANGOLA = {
 		"bg_tobacco_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 13
+		bg_logging = 13
 		bg_fishing = 8
 		bg_whaling = 4
 	}
@@ -4103,7 +4103,7 @@ STATE_SOUTH_ANGOLA = {
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 5
+		bg_logging = 5
 		bg_fishing = 7
 		bg_whaling = 4
 	}
@@ -4286,7 +4286,7 @@ STATE_EAST_ANGOLA = {
 	capped_resources = {
 		bg_coal_mining = 80
 		bg_lead_mining = 27
-		bg_hardwood_logging = 11
+		bg_logging = 11
 	}
 	resource = {
 		type = "bg_rubber"
@@ -4406,7 +4406,7 @@ STATE_KATANGA = {
 	}
 	capped_resources = {
 		bg_iron_mining = 27
-		bg_hardwood_logging = 18
+		bg_logging = 18
 	}
 	resource = {
 		type = "bg_rubber"
@@ -4496,7 +4496,7 @@ STATE_GABON = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 20
+		bg_logging = 20
 		bg_fishing = 9
 	}
 	resource = {
@@ -4632,7 +4632,7 @@ STATE_ZAMBIA = {
 	capped_resources = {
 		bg_coal_mining = 36
 		bg_lead_mining = 33
-		bg_hardwood_logging = 17
+		bg_logging = 17
 	}
 	resource = {
 		type = "bg_rubber"
@@ -4830,7 +4830,7 @@ STATE_ZAMBEZI = {
 	}
 	capped_resources = {
 		bg_coal_mining = 44
-		bg_hardwood_logging = 11
+		bg_logging = 11
 	}
 	resource = {
 		type = "bg_rubber"
@@ -4923,7 +4923,7 @@ STATE_NAMAQUALAND = {
 	}
 	capped_resources = {
 		bg_coal_mining = 32
-		bg_hardwood_logging = 4
+		bg_logging = 4
 		bg_fishing = 7
 	}
 	naval_exit_id = 3105
@@ -5054,7 +5054,7 @@ STATE_HEREROLAND = {
 	}
 	capped_resources = {
 		bg_coal_mining = 40
-		bg_hardwood_logging = 2
+		bg_logging = 2
 		bg_fishing = 6
 	}
 	naval_exit_id = 3105
@@ -5115,7 +5115,7 @@ STATE_ZULULAND = {
 	}
 	capped_resources = {
 		bg_coal_mining = 72
-		bg_hardwood_logging = 11
+		bg_logging = 11
 		bg_fishing = 5
 	}
 	naval_exit_id = 3106
@@ -5174,7 +5174,7 @@ STATE_VRYSTAAT = {
 	capped_resources = {
 		bg_coal_mining = 60
 		bg_iron_mining = 30
-		bg_hardwood_logging = 7
+		bg_logging = 7
 	}
 	resource = {
 		type = "bg_gold_fields"
@@ -5277,7 +5277,7 @@ STATE_TRANSVAAL = {
 	capped_resources = {
 		bg_coal_mining = 104
 		bg_iron_mining = 60
-		bg_hardwood_logging = 5
+		bg_logging = 5
 	}
 	resource = {
 		type = "bg_gold_fields"
@@ -5347,7 +5347,7 @@ STATE_EASTERN_CAPE = {
 	}
 	capped_resources = {
 		bg_coal_mining = 56
-		bg_hardwood_logging = 9
+		bg_logging = 9
 		bg_fishing = 8
 	}
 	naval_exit_id = 3106
@@ -5417,7 +5417,7 @@ STATE_CAPE_COLONY = {
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 8
+		bg_logging = 8
 		bg_fishing = 10
 		bg_whaling = 4
 	}
@@ -5528,7 +5528,7 @@ STATE_NORTHERN_CAPE = {
 	}
 	capped_resources = {
 		bg_iron_mining = 33
-		bg_hardwood_logging = 2
+		bg_logging = 2
 	}
 	resource = {
 		type = "bg_gold_fields"
@@ -5688,7 +5688,7 @@ STATE_BOTSWANA = {
 	}
 	capped_resources = {
 		bg_coal_mining = 48
-		bg_hardwood_logging = 5
+		bg_logging = 5
 	}
 }
 
@@ -5763,7 +5763,7 @@ STATE_LOURENCO_MARQUES = {
 	}
 	capped_resources = {
 		bg_coal_mining = 40
-		bg_hardwood_logging = 9
+		bg_logging = 9
 		bg_fishing = 8
 	}
 	resource = {

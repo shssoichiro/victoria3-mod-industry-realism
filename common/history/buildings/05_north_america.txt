@@ -238,31 +238,13 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:USA"
-						levels = 1
+						levels = 2
 						region = "STATE_NEW_YORK"
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_no_equipment"
-					"pm_road_carts"
-					"pm_hardwood"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 1
-						region = "STATE_NEW_YORK"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -581,7 +563,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -831,10 +812,10 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						type = "building_hardwood_logging_camp"
+						type = "building_logging_camp"
 						country = "c:USA"
 						levels = 1
 						region = "STATE_INDIANA"
@@ -848,10 +829,9 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills_hardwood"
+					"pm_saw_mills"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_hardwood"
 				}
 			}
 			create_building = {
@@ -882,7 +862,7 @@
 	s:STATE_MICHIGAN = {
 		region_state:USA = {
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -893,8 +873,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills_hardwood"
-					"pm_hardwood"
+					"pm_saw_mills"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -1748,10 +1727,10 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						type = "building_hardwood_logging_camp"
+						type = "building_logging_camp"
 						country = "c:USA"
 						levels = 1
 						region = "STATE_WEST_VIRGINIA"
@@ -1762,7 +1741,6 @@
 					"pm_saw_mills"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_hardwood"
 				}
 			}
 		}
@@ -2181,43 +2159,19 @@
 					building = {
 						type = "building_logging_camp"
 						country = "c:USA"
-						levels = 1
+						levels = 2
 						region = "STATE_PENNSYLVANIA"
 					}
 					building = {
 						type = "building_financial_district"
 						country = "c:USA"
-						levels = 2
+						levels = 3
 						region = "STATE_PENNSYLVANIA"
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_no_equipment"
-					"pm_road_carts"
-					"pm_hardwood"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_hardwood_logging_camp"
-						country = "c:USA"
-						levels = 1
-						region = "STATE_PENNSYLVANIA"
-					}
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 1
-						region = "STATE_PENNSYLVANIA"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -2354,7 +2308,6 @@
 					"pm_saw_mills"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_hardwood"
 				}
 			}
 		}
@@ -2691,7 +2644,7 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -2702,10 +2655,9 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills_hardwood"
+					"pm_saw_mills"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_hardwood"
 				}
 			}
 		}
@@ -2742,7 +2694,6 @@
 					"pm_saw_mills"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_hardwood"
 				}
 			}
 			create_building = {
@@ -2812,7 +2763,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -2875,31 +2825,13 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:USA"
-						levels = 2
+						levels = 3
 						region = "STATE_MAINE"
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_no_equipment"
-					"pm_road_carts"
-					"pm_hardwood"
-				}
-			}
-			create_building = {
-				building = "building_hardwood_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 1
-						region = "STATE_MAINE"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_saw_mills_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -3015,7 +2947,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -3252,7 +3183,7 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -3263,10 +3194,9 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry_hardwood"
+					"pm_simple_forestry"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_hardwood"
 				}
 			}
 			create_building = {
@@ -3303,7 +3233,7 @@
 	s:STATE_ONTARIO = {
 		region_state:HBC = {
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -3314,10 +3244,9 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills_hardwood"
+					"pm_saw_mills"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_hardwood"
 				}
 			}
 		}
@@ -3455,7 +3384,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -3607,7 +3535,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -3672,7 +3599,6 @@
 					"pm_saw_mills"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_hardwood"
 				}
 			}
 		}
@@ -3712,7 +3638,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -3738,7 +3663,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -3792,7 +3716,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -3955,7 +3878,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
-					"pm_hardwood"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -4514,7 +4436,7 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -4525,10 +4447,9 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills_hardwood"
+					"pm_saw_mills"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_hardwood"
 				}
 			}
 		}
@@ -4633,7 +4554,7 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -4644,8 +4565,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills_hardwood"
-					"pm_hardwood"
+					"pm_saw_mills"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}

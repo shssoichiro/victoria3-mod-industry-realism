@@ -528,7 +528,7 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -539,10 +539,9 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry_hardwood"
+					"pm_simple_forestry"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_hardwood"
 				}
 			}
 			create_building = {
@@ -746,10 +745,10 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						type = "building_hardwood_logging_camp"
+						type = "building_logging_camp"
 						country = "c:DEI"
 						levels = 1
 						region = "STATE_EAST_JAVA"
@@ -757,8 +756,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry_hardwood"
-					"pm_hardwood"
+					"pm_simple_forestry"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -904,10 +902,10 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						type = "building_hardwood_logging_camp"
+						type = "building_logging_camp"
 						country = "c:DEI"
 						levels = 1
 						region = "STATE_CENTRAL_JAVA"
@@ -915,8 +913,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry_hardwood"
-					"pm_hardwood"
+					"pm_simple_forestry"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -1119,10 +1116,10 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						type = "building_hardwood_logging_camp"
+						type = "building_logging_camp"
 						country = "c:DEI"
 						levels = 1
 						region = "STATE_NORTH_SUMATRA"
@@ -1130,8 +1127,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry_hardwood"
-					"pm_hardwood"
+					"pm_simple_forestry"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -1216,10 +1212,10 @@
 		}
 		region_state:JMB = {
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						type = "building_hardwood_logging_camp"
+						type = "building_logging_camp"
 						country = "c:JMB"
 						levels = 1
 						region = "STATE_NORTH_SUMATRA"
@@ -1227,8 +1223,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry_hardwood"
-					"pm_no_hardwood"
+					"pm_simple_forestry"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -1283,10 +1278,10 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						type = "building_hardwood_logging_camp"
+						type = "building_logging_camp"
 						country = "c:DEI"
 						levels = 1
 						region = "STATE_SOUTH_SUMATRA"
@@ -1294,8 +1289,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry_hardwood"
-					"pm_hardwood"
+					"pm_simple_forestry"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}

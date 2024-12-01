@@ -2,7 +2,7 @@
 
 ![Preview](thumbnail.png)
 
-**Tested With V3 Version: 1.8.0**
+**Tested With V3 Version: 1.8.3**
 
 - Reworks buildings that have multiple potential outputs to only have one primary output
   - Except shipyards. Why? Shipyards represent a technological progression. All of the other buildings represent _two separate outputs_ that should be coming from two separate factories.
@@ -36,9 +36,8 @@
 - Livestock Ranches: now produce meat and a small amount of fabric (leather) and fertilizer. input goods have also been rebalanced. cows and pigs eat a lot.
 - Wool Farms: new building, produces fabric and a small amount of fertilizer
 - Logging Camps: now only produce wood
-- Hardwood Logging Camps: new building, produces half wood and half hardwood. some logging camps were converted to hardwood logging camps, based on realistic locations
-  - These require the region to have hardwood forests. Forestry data taken from [Britannica](https://kids.britannica.com/students/assembly/view/56196)
-  - I would've preferred if there was a way to convert hardwood to be used as wood, but that's only possible for pop needs, not construction. Therefore, these still produce half normal wood. For game balance reasons.
+  - Hardwood is no longer a good. It has been consolidated into Wood. The line between what items should be made of hardwood or softwood, both in real life and in game, is blurry, and how to produce hardwood and softwood has been a pain point in this mod since the beginning. Therefore, the simplest approach has been to merge them into one good.
+  - This change has been added in a backwards-compatible way. After the update, any hardwood logging camps in your existing saves will now produce wood instead. When you start a new game, there will only be logging camps. In both cases, nothing in the world will produce or require hardwood.
 - Synthetic Rubber Plants: new building, unlocks from Plastics, produces rubber from liquor and sulfur ([historical precedent](https://en.wikipedia.org/wiki/Polybutadiene#History))
 - Synthetic Fuel Plants: new building, unlocks from Electric Arc Process, produces oil from coal and iron ([historical precedent](https://en.wikipedia.org/wiki/Fischer%E2%80%93Tropsch_process#History))
 

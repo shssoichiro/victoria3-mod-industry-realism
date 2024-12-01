@@ -73,10 +73,10 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						type = "building_hardwood_logging_camp"
+						type = "building_logging_camp"
 						country = "c:CHC"
 						levels = 1
 						region = "STATE_DAGESTAN"
@@ -84,10 +84,9 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry_hardwood"
+					"pm_simple_forestry"
 					"pm_no_equipment"
 					"pm_road_carts"
-					"pm_no_hardwood"
 				}
 			}
 		}
@@ -686,10 +685,10 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						type = "building_hardwood_logging_camp"
+						type = "building_logging_camp"
 						country = "c:CHI"
 						levels = 1
 						region = "STATE_JETISY"
@@ -697,8 +696,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry_hardwood"
-					"pm_no_hardwood"
+					"pm_simple_forestry"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}
@@ -1151,10 +1149,10 @@
 				}
 			}
 			create_building = {
-				building = "building_hardwood_logging_camp"
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						type = "building_hardwood_logging_camp"
+						type = "building_logging_camp"
 						country = "c:KAB"
 						levels = 1
 						region = "STATE_KABUL"
@@ -1162,8 +1160,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_forestry_hardwood"
-					"pm_no_hardwood"
+					"pm_simple_forestry"
 					"pm_no_equipment"
 					"pm_road_carts"
 				}

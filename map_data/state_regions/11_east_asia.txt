@@ -652,8 +652,7 @@ STATE_SICHUAN = {
 	capped_resources = {
 		bg_coal_mining = 60
 		bg_sulfur_mining = 40
-		bg_logging = 16
-		bg_hardwood_logging = 7
+		bg_logging = 23
 	}
 }
 
@@ -896,8 +895,7 @@ STATE_SHAOZHOU = {
 	}
 	capped_resources = {
 		bg_iron_mining = 36
-		bg_logging = 9
-		bg_hardwood_logging = 2
+		bg_logging = 11
 		bg_fishing = 10
 	}
 	naval_exit_id = 3056
@@ -1474,8 +1472,7 @@ STATE_SHENGJING = {
 	}
 	capped_resources = {
 		bg_lead_mining = 15
-		bg_logging = 1
-		bg_hardwood_logging = 1
+		bg_logging = 2
 		bg_fishing = 2
 	}
 	resource = {
@@ -1613,8 +1610,7 @@ STATE_OUTER_MANCHURIA = {
 		bg_coal_mining = 12
 		bg_iron_mining = 16
 		bg_lead_mining = 24
-		bg_logging = 10
-		bg_hardwood_logging = 10
+		bg_logging = 110
 		bg_fishing = 10
 	}
 	resource = {
@@ -1757,8 +1753,7 @@ STATE_SOUTHERN_MANCHURIA = {
 		bg_coal_mining = 60
 		bg_iron_mining = 75
 		bg_lead_mining = 45
-		bg_logging = 14
-		bg_hardwood_logging = 11
+		bg_logging = 25
 		bg_fishing = 8
 	}
 }
@@ -1990,8 +1985,7 @@ STATE_NORTHERN_MANCHURIA = {
 	capped_resources = {
 		bg_coal_mining = 40
 		bg_iron_mining = 36
-		bg_logging = 18
-		bg_hardwood_logging = 16
+		bg_logging = 34
 	}
 }
 
@@ -2063,8 +2057,7 @@ STATE_SHANXI = {
 		bg_coal_mining = 116
 		bg_iron_mining = 96
 		bg_sulfur_mining = 48
-		bg_logging = 4
-		bg_hardwood_logging = 3
+		bg_logging = 7
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -2149,8 +2142,7 @@ STATE_NINGXIA = {
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
-		bg_logging = 6
-		bg_hardwood_logging = 2
+		bg_logging = 8
 	}
 }
 
@@ -2242,8 +2234,7 @@ STATE_GANSU = {
 		"bg_tobacco_plantations"
 	}
 	capped_resources = {
-		bg_logging = 4
-		bg_hardwood_logging = 1
+		bg_logging = 5
 	}
 }
 
@@ -2320,8 +2311,7 @@ STATE_XIAN = {
 	capped_resources = {
 		bg_coal_mining = 72
 		bg_sulfur_mining = 60
-		bg_logging = 6
-		bg_hardwood_logging = 3
+		bg_logging = 9
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -2509,8 +2499,7 @@ STATE_QINGHAI = {
 	}
 	capped_resources = {
 		bg_coal_mining = 48
-		bg_logging = 5
-		bg_hardwood_logging = 1
+		bg_logging = 6
 	}
 }
 
@@ -2640,8 +2629,7 @@ STATE_GUANGDONG = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_logging = 3
-		bg_hardwood_logging = 5
+		bg_logging = 8
 		bg_fishing = 14
 	}
 	naval_exit_id = 3056
@@ -2700,8 +2688,7 @@ STATE_FUJIAN = {
 		"bg_tobacco_plantations"
 	}
 	capped_resources = {
-		bg_logging = 6
-		bg_hardwood_logging = 10
+		bg_logging = 16
 		bg_fishing = 10
 	}
 	naval_exit_id = 3056
@@ -2755,8 +2742,7 @@ STATE_ZHEJIANG = {
 		"bg_tobacco_plantations"
 	}
 	capped_resources = {
-		bg_logging = 8
-		bg_hardwood_logging = 12
+		bg_logging = 20
 		bg_fishing = 11
 	}
 	naval_exit_id = 3058
@@ -2799,8 +2785,7 @@ STATE_JIANGSU = {
 		"bg_tobacco_plantations"
 	}
 	capped_resources = {
-		bg_logging = 4
-		bg_hardwood_logging = 4
+		bg_logging = 8
 		bg_fishing = 8
 	}
 	naval_exit_id = 3057
@@ -2837,8 +2822,7 @@ STATE_NANJING = {
 		"bg_tobacco_plantations"
 	}
 	capped_resources = {
-		bg_logging = 3
-		bg_hardwood_logging = 2
+		bg_logging = 5
 	}
 }
 
@@ -2901,8 +2885,7 @@ STATE_HENAN = {
 	capped_resources = {
 		bg_coal_mining = 52
 		bg_sulfur_mining = 36
-		bg_logging = 6
-		bg_hardwood_logging = 5
+		bg_logging = 11
 	}
 }
 
@@ -2963,8 +2946,7 @@ STATE_ZHILI = {
 		bg_coal_mining = 4
 		bg_iron_mining = 9
 		bg_sulfur_mining = 36
-		bg_logging = 6
-		bg_hardwood_logging = 3
+		bg_logging = 9
 		bg_fishing = 4
 	}
 	naval_exit_id = 3057
@@ -3032,8 +3014,7 @@ STATE_JIANGXI = {
 	}
 	capped_resources = {
 		bg_coal_mining = 52
-		bg_logging = 7
-		bg_hardwood_logging = 8
+		bg_logging = 15
 	}
 }
 
@@ -3079,8 +3060,7 @@ STATE_SOUTHERN_ANHUI = {
 	}
 	capped_resources = {
 		bg_coal_mining = 40
-		bg_logging = 7
-		bg_hardwood_logging = 7
+		bg_logging = 14
 	}
 }
 
@@ -3129,8 +3109,7 @@ STATE_NORTHERN_ANHUI = {
 	}
 	capped_resources = {
 		bg_coal_mining = 48
-		bg_logging = 3
-		bg_hardwood_logging = 3
+		bg_logging = 6
 	}
 }
 
@@ -3187,8 +3166,7 @@ STATE_WESTERN_HUBEI = {
 		"bg_tobacco_plantations"
 	}
 	capped_resources = {
-		bg_logging = 4
-		bg_hardwood_logging = 5
+		bg_logging = 9
 	}
 }
 
@@ -3232,8 +3210,7 @@ STATE_EASTERN_HUBEI = {
 		"bg_tobacco_plantations"
 	}
 	capped_resources = {
-		bg_logging = 4
-		bg_hardwood_logging = 4
+		bg_logging = 8
 	}
 }
 
@@ -3297,8 +3274,7 @@ STATE_HUNAN = {
 	}
 	capped_resources = {
 		bg_sulfur_mining = 44
-		bg_logging = 7
-		bg_hardwood_logging = 11
+		bg_logging = 18
 	}
 }
 
@@ -3332,7 +3308,7 @@ STATE_FORMOSA = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 7
+		bg_logging = 7
 		bg_fishing = 13
 	}
 	naval_exit_id = 3056
@@ -3404,8 +3380,7 @@ STATE_SHANDONG = {
 	}
 	capped_resources = {
 		bg_sulfur_mining = 32
-		bg_logging = 3
-		bg_hardwood_logging = 3
+		bg_logging = 6
 		bg_fishing = 15
 	}
 	resource = {
@@ -3447,8 +3422,7 @@ STATE_SUZHOU = {
 		"bg_tobacco_plantations"
 	}
 	capped_resources = {
-		bg_logging = 3
-		bg_hardwood_logging = 2
+		bg_logging = 5
 		bg_fishing = 5
 	}
 	naval_exit_id = 3058
@@ -3747,8 +3721,7 @@ STATE_ULIASTAI = {
 	capped_resources = {
 		bg_coal_mining = 36
 		bg_iron_mining = 33
-		bg_logging = 4
-		bg_hardwood_logging = 1
+		bg_logging = 5
 	}
 }
 
@@ -4035,8 +4008,7 @@ STATE_URGA = {
 	capped_resources = {
 		bg_coal_mining = 36
 		bg_iron_mining = 45
-		bg_logging = 3
-		bg_hardwood_logging = 1
+		bg_logging = 4
 	}
 }
 
@@ -4103,8 +4075,7 @@ STATE_CAMBODIA = {
 	}
 	capped_resources = {
 		bg_iron_mining = 30
-		bg_logging = 4
-		bg_hardwood_logging = 16
+		bg_logging = 20
 		bg_fishing = 5
 		bg_monuments = 1
 	}
@@ -4164,8 +4135,7 @@ STATE_BANGKOK = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_logging = 2
-		bg_hardwood_logging = 15
+		bg_logging = 17
 		bg_fishing = 8
 	}
 	resource = {
@@ -4228,7 +4198,7 @@ STATE_TONKIN = {
 	}
 	capped_resources = {
 		bg_coal_mining = 32
-		bg_hardwood_logging = 15
+		bg_logging = 15
 		bg_fishing = 7
 	}
 	resource = {
@@ -4285,7 +4255,7 @@ STATE_ANNAM = {
 	capped_resources = {
 		bg_coal_mining = 24
 		bg_iron_mining = 27
-		bg_hardwood_logging = 17
+		bg_logging = 17
 		bg_fishing = 15
 	}
 	resource = {
@@ -4351,7 +4321,7 @@ STATE_MEKONG = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 20
+		bg_logging = 20
 		bg_fishing = 16
 	}
 	resource = {
@@ -4440,7 +4410,7 @@ STATE_LAOS = {
 	capped_resources = {
 		bg_coal_mining = 32
 		bg_iron_mining = 36
-		bg_hardwood_logging = 23
+		bg_logging = 23
 	}
 }
 
@@ -4493,7 +4463,7 @@ STATE_CHIANG_MAI = {
 	capped_resources = {
 		bg_coal_mining = 32
 		bg_lead_mining = 36
-		bg_hardwood_logging = 18
+		bg_logging = 18
 	}
 	resource = {
 		type = "bg_rubber"
@@ -4568,7 +4538,7 @@ STATE_NAKHON_RATCHASIMA = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 25
+		bg_logging = 25
 	}
 	resource = {
 		type = "bg_rubber"
@@ -4749,8 +4719,7 @@ STATE_TOHOKU = {
 	capped_resources = {
 		bg_iron_mining = 60
 		bg_lead_mining = 45
-		bg_logging = 9
-		bg_hardwood_logging = 6
+		bg_logging = 15
 		bg_whaling = 6
 		bg_fishing = 15
 	}
@@ -4795,8 +4764,7 @@ STATE_KANTO = {
 	capped_resources = {
 		bg_iron_mining = 36
 		bg_lead_mining = 30
-		bg_logging = 6
-		bg_hardwood_logging = 3
+		bg_logging = 9
 		bg_whaling = 7
 		bg_fishing = 10
 	}
@@ -4845,8 +4813,7 @@ STATE_CHUBU = {
 	}
 	capped_resources = {
 		bg_lead_mining = 33
-		bg_logging = 8
-		bg_hardwood_logging = 8
+		bg_logging = 16
 		bg_fishing = 16
 	}
 	resource = {
@@ -4893,8 +4860,7 @@ STATE_KANSAI = {
 		"bg_tobacco_plantations"
 	}
 	capped_resources = {
-		bg_logging = 5
-		bg_hardwood_logging = 4
+		bg_logging = 9
 		bg_fishing = 10
 	}
 	naval_exit_id = 3059
@@ -4945,8 +4911,7 @@ STATE_KYUSHU = {
 		"bg_tobacco_plantations"
 	}
 	capped_resources = {
-		bg_logging = 4
-		bg_hardwood_logging = 3
+		bg_logging = 7
 		bg_coal_mining = 72
 		bg_lead_mining = 36
 		bg_sulfur_mining = 40
@@ -5017,8 +4982,7 @@ STATE_CHUGOKU = {
 	capped_resources = {
 		bg_lead_mining = 24
 		bg_sulfur_mining = 40
-		bg_logging = 12
-		bg_hardwood_logging = 8
+		bg_logging = 20
 		bg_fishing = 12
 	}
 	naval_exit_id = 3059
@@ -5057,8 +5021,7 @@ STATE_SHIKOKU = {
 	capped_resources = {
 		bg_iron_mining = 24
 		bg_sulfur_mining = 32
-		bg_logging = 6
-		bg_hardwood_logging = 5
+		bg_logging = 11
 		bg_fishing = 9
 	}
 	naval_exit_id = 3059
@@ -5100,8 +5063,7 @@ STATE_SEOUL = {
 	capped_resources = {
 		bg_iron_mining = 30
 		bg_lead_mining = 27
-		bg_logging = 8
-		bg_hardwood_logging = 6
+		bg_logging = 14
 		bg_whaling = 4
 		bg_fishing = 8
 	}
@@ -5138,8 +5100,7 @@ STATE_BUSAN = {
 	}
 	capped_resources = {
 		bg_coal_mining = 10
-		bg_logging = 4
-		bg_hardwood_logging = 3
+		bg_logging = 7
 		bg_whaling = 2
 		bg_fishing = 7
 	}
@@ -5183,8 +5144,7 @@ STATE_YANGHO = {
 	capped_resources = {
 		bg_coal_mining = 10
 		bg_sulfur_mining = 10
-		bg_logging = 5
-		bg_hardwood_logging = 2
+		bg_logging = 7
 		bg_whaling = 2
 		bg_fishing = 6
 	}
@@ -5231,8 +5191,7 @@ STATE_SARIWON = {
 		bg_iron_mining = 33
 		bg_lead_mining = 39
 		bg_sulfur_mining = 28
-		bg_logging = 8
-		bg_hardwood_logging = 3
+		bg_logging = 11
 		bg_fishing = 6
 	}
 	naval_exit_id = 3059
@@ -5282,8 +5241,7 @@ STATE_PYONGYANG = {
 		bg_coal_mining = 60
 		bg_iron_mining = 36
 		bg_lead_mining = 36
-		bg_logging = 10
-		bg_hardwood_logging = 5
+		bg_logging = 15
 		bg_fishing = 8
 	}
 	naval_exit_id = 3057

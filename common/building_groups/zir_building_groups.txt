@@ -4,20 +4,6 @@
 	cash_reserves_max = 25000
 }
 
-bg_hardwood_logging = {
-	parent_group = bg_extraction
-	can_use_slaves = yes
-	default_building = building_hardwood_logging_camp
-	lens = forestry
-	urbanization = 5
-	infrastructure_usage_per_level = 1
-	should_auto_expand = {
-		default_auto_expand_rule = yes
-	}
-	economy_of_scale_ai_factor = 1.5
-	foreign_investment_ai_factor = 0.75
-}
-
 bg_wool_farms = {
 	parent_group = bg_ranching
 	default_building = building_wool_farms

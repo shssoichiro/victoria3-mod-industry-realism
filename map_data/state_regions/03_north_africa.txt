@@ -38,7 +38,7 @@
 	}
 	capped_resources = {
 		bg_sulfur_mining = 20
-		bg_hardwood_logging = 2
+		bg_logging = 2
 		bg_fishing = 6
 	}
 	naval_exit_id = 3034
@@ -103,7 +103,7 @@ STATE_UPPER_EGYPT = {
 		"bg_sugar_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 2
+		bg_logging = 2
 		bg_fishing = 13
 	}
 	naval_exit_id = 3047
@@ -150,7 +150,7 @@ STATE_MIDDLE_EGYPT = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 2
+		bg_logging = 2
 		bg_fishing = 4
 	}
 	naval_exit_id = 3047
@@ -691,7 +691,7 @@ STATE_DONGOLA = {
 		"bg_sugar_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 4
+		bg_logging = 4
 		bg_fishing = 4
 	}
 	resource = {
@@ -819,7 +819,7 @@ STATE_KORDOFAN = {
 		"bg_wool_farms"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 4
+		bg_logging = 4
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -1061,7 +1061,7 @@ STATE_BLUE_NILE = {
 		"bg_sugar_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 14
+		bg_logging = 14
 	}
 }
 
@@ -1148,7 +1148,7 @@ STATE_FEZ = {
 	}
 	capped_resources = {
 		bg_sulfur_mining = 32
-		bg_hardwood_logging = 4
+		bg_logging = 4
 		bg_fishing = 5
 	}
 	naval_exit_id = 3089
@@ -1187,7 +1187,7 @@ STATE_AL_RIF = {
 		"bg_vineyard_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 6
+		bg_logging = 6
 		bg_fishing = 7
 		bg_coal_mining = 6
 	}
@@ -1339,7 +1339,7 @@ STATE_ALGIERS = {
 	capped_resources = {
 		bg_iron_mining = 10
 		bg_lead_mining = 7
-		bg_hardwood_logging = 6
+		bg_logging = 6
 		bg_fishing = 8
 	}
 	naval_exit_id = 3032
@@ -1412,7 +1412,7 @@ STATE_CONSTANTINE = {
 		bg_iron_mining = 55
 		bg_lead_mining = 19
 		bg_sulfur_mining = 18
-		bg_hardwood_logging = 6
+		bg_logging = 6
 		bg_fishing = 4
 	}
 	resource = {
@@ -1470,7 +1470,7 @@ STATE_ORAN = {
 	capped_resources = {
 		bg_iron_mining = 12
 		bg_fishing = 5
-		bg_hardwood_logging = 3
+		bg_logging = 3
 	}
 	naval_exit_id = 3032
 }
@@ -1537,7 +1537,7 @@ STATE_TUNISIA = {
 	capped_resources = {
 		bg_lead_mining = 15
 		bg_sulfur_mining = 48
-		bg_hardwood_logging = 9
+		bg_logging = 9
 		bg_fishing = 7
 	}
 	naval_exit_id = 3032

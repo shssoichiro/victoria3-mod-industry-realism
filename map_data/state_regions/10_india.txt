@@ -65,7 +65,7 @@
 	capped_resources = {
 		bg_coal_mining = 81
 		bg_iron_mining = 30
-		bg_hardwood_logging = 17
+		bg_logging = 17
 	}
 }
 
@@ -118,7 +118,7 @@ STATE_WEST_BENGAL = {
 	capped_resources = {
 		bg_coal_mining = 80
 		bg_iron_mining = 9
-		bg_hardwood_logging = 29
+		bg_logging = 29
 		bg_fishing = 9
 	}
 	naval_exit_id = 3050
@@ -183,7 +183,7 @@ STATE_EAST_BENGAL = {
 	}
 	capped_resources = {
 		bg_coal_mining = 4
-		bg_hardwood_logging = 23
+		bg_logging = 23
 		bg_fishing = 11
 	}
 	naval_exit_id = 3050
@@ -281,7 +281,7 @@ STATE_ASSAM = {
 	}
 	capped_resources = {
 		bg_coal_mining = 29
-		bg_hardwood_logging = 37
+		bg_logging = 37
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -332,7 +332,7 @@ STATE_DELHI = {
 		"bg_opium_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 5
+		bg_logging = 5
 		bg_sulfur_mining = 2
 	}
 }
@@ -392,7 +392,7 @@ STATE_AWADH = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 6
+		bg_logging = 6
 	}
 }
 
@@ -460,7 +460,7 @@ STATE_AGRA = {
 	}
 	capped_resources = {
 		bg_monuments = 1
-		bg_hardwood_logging = 6
+		bg_logging = 6
 		bg_coal_mining = 4
 		bg_iron_mining = 2
 	}
@@ -565,7 +565,7 @@ STATE_GUJARAT = {
 		"bg_silk_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 4
+		bg_logging = 4
 		bg_fishing = 16
 		bg_iron_mining = 4
 	}
@@ -625,7 +625,7 @@ STATE_BUNDELKHAND = {
 		"bg_silk_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 18
+		bg_logging = 18
 		bg_coal_mining = 12
 		bg_iron_mining = 8
 	}
@@ -690,7 +690,7 @@ STATE_MALWA = {
 		"bg_silk_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 8
+		bg_logging = 8
 		bg_iron_mining = 11
 		bg_coal_mining = 4
 	}
@@ -781,7 +781,7 @@ STATE_KASHMIR = {
 	}
 	capped_resources = {
 		bg_iron_mining = 8
-		bg_hardwood_logging = 17
+		bg_logging = 17
 	}
 }
 
@@ -911,7 +911,7 @@ STATE_PUNJAB = {
 	capped_resources = {
 		bg_coal_mining = 6
 		bg_iron_mining = 6
-		bg_hardwood_logging = 11
+		bg_logging = 11
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -992,7 +992,7 @@ STATE_HILL_PUNJAB = {
 		"bg_silk_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 9
+		bg_logging = 9
 		bg_iron_mining = 12
 	}
 }
@@ -1115,7 +1115,7 @@ STATE_CENTRAL_PROVINCES = {
 	capped_resources = {
 		bg_iron_mining = 22
 		bg_coal_mining = 21
-		bg_hardwood_logging = 12
+		bg_logging = 12
 	}
 }
 
@@ -1181,7 +1181,7 @@ STATE_SINDH = {
 	capped_resources = {
 		bg_sulfur_mining = 4
 		bg_fishing = 6
-		bg_hardwood_logging = 3
+		bg_logging = 3
 	}
 	naval_exit_id = 3048
 }
@@ -1298,7 +1298,7 @@ STATE_RAJPUTANA = {
 		bg_iron_mining = 24
 		bg_lead_mining = 6
 		bg_sulfur_mining = 3
-		bg_hardwood_logging = 2
+		bg_logging = 2
 	}
 }
 
@@ -1348,7 +1348,7 @@ STATE_CEYLON = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 11
+		bg_logging = 11
 		bg_fishing = 13
 	}
 	resource = {
@@ -1445,7 +1445,7 @@ STATE_ORISSA = {
 		"bg_silk_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 15
+		bg_logging = 15
 		bg_iron_mining = 36
 		bg_coal_mining = 21
 		bg_fishing = 7
@@ -1509,7 +1509,7 @@ STATE_CIRCARS = {
 	capped_resources = {
 		bg_coal_mining = 4
 		bg_iron_mining = 2
-		bg_hardwood_logging = 11
+		bg_logging = 11
 		bg_fishing = 18
 	}
 	naval_exit_id = 3050
@@ -1566,7 +1566,7 @@ STATE_MYSORE = {
 	capped_resources = {
 		bg_gold_mining = 6
 		bg_iron_mining = 24
-		bg_hardwood_logging = 14
+		bg_logging = 14
 		bg_fishing = 5
 	}
 	resource = {
@@ -1618,7 +1618,7 @@ STATE_TRAVANCORE = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 11
+		bg_logging = 11
 		bg_fishing = 10
 		bg_lead_mining = 2
 	}
@@ -1687,7 +1687,7 @@ STATE_MADRAS = {
 	}
 	capped_resources = {
 		bg_iron_mining = 26
-		bg_hardwood_logging = 20
+		bg_logging = 20
 		bg_fishing = 18
 	}
 	resource = {
@@ -1740,7 +1740,7 @@ STATE_KURNOOL = {
 		"bg_silk_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 9
+		bg_logging = 9
 		bg_iron_mining = 15
 	}
 }
@@ -1814,7 +1814,7 @@ STATE_HYDERABAD = {
 		"bg_silk_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 16
+		bg_logging = 16
 		bg_coal_mining = 6
 		bg_iron_mining = 4
 	}
@@ -1893,7 +1893,7 @@ STATE_BOMBAY = {
 	}
 	capped_resources = {
 		bg_gold_mining = 3
-		bg_hardwood_logging = 17
+		bg_logging = 17
 		bg_fishing = 12
 		bg_coal_mining = 12
 		bg_iron_mining = 23
@@ -1956,7 +1956,7 @@ STATE_TENASSERIM = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 17
+		bg_logging = 17
 		bg_fishing = 12
 		bg_iron_mining = 5
 	}
@@ -2033,7 +2033,7 @@ STATE_KACHIN = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 24
+		bg_logging = 24
 		bg_iron_mining = 7
 		bg_gold_mining = 3
 	}
@@ -2103,7 +2103,7 @@ STATE_SHAN_STATES = {
 		bg_iron_mining = 8
 		bg_coal_mining = 5
 		bg_lead_mining = 34
-		bg_hardwood_logging = 17
+		bg_logging = 17
 	}
 	resource = {
 		type = "bg_rubber"
@@ -2163,7 +2163,7 @@ STATE_MANDALAY = {
 	capped_resources = {
 		bg_gold_mining = 2
 		bg_iron_mining = 16
-		bg_hardwood_logging = 20
+		bg_logging = 20
 	}
 	resource = {
 		type = "bg_rubber"
@@ -2223,7 +2223,7 @@ STATE_PEGU = {
 		"bg_dye_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 18
+		bg_logging = 18
 		bg_fishing = 10
 	}
 	resource = {
@@ -2269,7 +2269,7 @@ STATE_ARAKAN = {
 		"bg_banana_plantations"
 	}
 	capped_resources = {
-		bg_hardwood_logging = 21
+		bg_logging = 21
 		bg_fishing = 10
 	}
 	resource = {
