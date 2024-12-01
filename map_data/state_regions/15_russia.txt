@@ -1087,7 +1087,7 @@ STATE_VOLHYNIA = {
 	}
 	capped_resources = {
 		bg_coal_mining = 42
-		bg_logging = 90
+		bg_logging = 18
 	}
 }
 
@@ -1321,7 +1321,7 @@ STATE_MOGILEV = {
 		"bg_wool_farms"
 	}
 	capped_resources = {
-		bg_logging = 111
+		bg_logging = 21
 	}
 }
 
@@ -2391,7 +2391,7 @@ STATE_PERM = {
 	capped_resources = {
 		bg_coal_mining = 80
 		bg_iron_mining = 75
-		bg_logging = 80
+		bg_logging = 35
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -3952,7 +3952,7 @@ STATE_TAMBOV = {
 	}
 	capped_resources = {
 		bg_iron_mining = 10
-		bg_logging = 89
+		bg_logging = 35
 	}
 }
 
@@ -4226,7 +4226,7 @@ STATE_NIZHNY_NOVGOROD = {
 	}
 	capped_resources = {
 		bg_iron_mining = 25
-		bg_logging = 114
+		bg_logging = 24
 	}
 }
 
@@ -4396,7 +4396,7 @@ STATE_UFA = {
 	capped_resources = {
 		bg_iron_mining = 25
 		bg_coal_mining = 10
-		bg_logging = 61
+		bg_logging = 25
 		bg_lead_mining = 16
 	}
 	resource = {

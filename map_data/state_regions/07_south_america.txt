@@ -3118,7 +3118,7 @@ STATE_LOS_RIOS = {
 		bg_coal_mining = 60
 		bg_lead_mining = 24
 		bg_sulfur_mining = 32
-		bg_logging = 110
+		bg_logging = 20
 		bg_whaling = 3
 		bg_fishing = 10
 	}

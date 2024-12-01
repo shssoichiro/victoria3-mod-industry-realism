@@ -3229,7 +3229,7 @@ STATE_IOWA = {
 	capped_resources = {
 		bg_coal_mining = 64
 		bg_sulfur_mining = 40
-		bg_logging = 20
+		bg_logging = 11
 	}
 }
 
@@ -4557,8 +4557,7 @@ STATE_NORTH_CAROLINA = {
 	}
 	capped_resources = {
 		bg_coal_mining = 32
-		bg_logging = 9
-		bg_logging = 236
+		bg_logging = 15
 		bg_fishing = 6
 	}
 	naval_exit_id = 3067

@@ -1610,7 +1610,7 @@ STATE_OUTER_MANCHURIA = {
 		bg_coal_mining = 12
 		bg_iron_mining = 16
 		bg_lead_mining = 24
-		bg_logging = 110
+		bg_logging = 20
 		bg_fishing = 10
 	}
 	resource = {
