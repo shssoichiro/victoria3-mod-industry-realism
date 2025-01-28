@@ -1,3 +1,4 @@
 ﻿l_french:
-  building_electrics_industry:1 "Industrie du Téléphone"
-  building_synthetics_plants:1 "Usines de Teinture"
+  building_electrics_industry:1 "Industrie téléphonique"
+  building_synthetics_plants:1 "Usines de teintures chimiques"
+  building_motor_industry: "Usines de moteurs"

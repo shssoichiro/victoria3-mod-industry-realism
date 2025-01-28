@@ -1,4 +1,5 @@
-﻿l_french: building_distillery:1 "Distilleries"
+﻿l_french:
+  building_distillery:1 "Distilleries"
   building_tailoring_workshops:1 "Ateliers de Haute Couture"
   building_luxury_furniture_manufacturies:1 "Manufactures de meubles de luxe"
   building_pottery_mills:1 "Faïenceries"
@@ -42,7 +43,9 @@
   pmg_synthetic_fuel:2 "$pm_base$"
   pmg_automation_building_automobile_factories:2 "$pmg_automation_building_motor_industry$"
   modifier_building_distillery_throughput_add:2 "[concept_throughput] des $building_distillery$"
+  building_distillery_throughput_add:2 "[concept_throughput] des $building_distillery$"
   modifier_building_distillery_throughput_add_desc:2 "Un bonus ou une pénalité à la consommation et à la production des $building_distillery$"
+  building_distillery_throughput_add_desc:2 "Un bonus ou une pénalité à la consommation et à la production des $building_distillery$"
   modifier_building_tailoring_workshop_throughput_add:2 "[concept_throughput] des $building_tailoring_workshop$"
   modifier_building_tailoring_workshop_throughput_add_desc:2 "Un bonus ou une pénalité à la consommation et à la production des $building_tailoring_workshop$"
   modifier_building_luxury_furniture_manufacturies_throughput_add:2 "[concept_throughput] des $building_luxury_furniture_manufacturies$"
