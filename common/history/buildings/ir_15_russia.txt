@@ -1,0 +1,880 @@
+﻿BUILDINGS={
+	s:STATE_TALINN = {
+		region_state:UBD = {
+		}
+	}
+	s:STATE_TARTU = {
+		region_state:UBD = {
+		}
+	}
+	s:STATE_RIGA = {
+		region_state:RUS = {
+		}
+		region_state:UBD = {
+		}
+	}
+	s:STATE_COURLAND = {
+		region_state:UBD = {
+		}
+	}
+	s:STATE_KAUNAS = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_VILNIUS = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_KUOPIO = {
+		region_state:FIN = {
+		}
+	}
+	s:STATE_UUSIMAA = {
+		region_state:FIN = {
+		}
+	}
+	s:STATE_WEST_KARELIA = {
+		region_state:FIN = {
+		}
+	}
+	s:STATE_ALAND = {
+		region_state:FIN = {
+		}
+	}
+	s:STATE_OSTROBOTHNIA = {
+		region_state:FIN = {
+		}
+	}
+	s:STATE_OULU = {
+		region_state:FIN = {
+		}
+	}
+	s:STATE_EAST_KARELIA = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_KOLA = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_INGRIA = {
+		region_state:RUS = {
+			remove_building = building_glassworks
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_glassworks"
+						country = "c:RUS"
+						levels = 2
+						region = "STATE_INGRIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				add_ownership = {
+					building = {
+						type = "building_pottery_mills"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_INGRIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_MOSCOW = {
+		region_state:RUS = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_textile_mills"
+						country = "c:RUS"
+						levels = 2
+						region = "STATE_MOSCOW"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_tailoring_workshops"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_MOSCOW"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_furniture_manufacturies"
+						country = "c:RUS"
+						levels = 4
+						region = "STATE_MOSCOW"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_luxury_furniture_manufacturies"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_MOSCOW"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_BREST = {
+		region_state:RUS = {
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 4
+						region = "STATE_BREST"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_BREST"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_VOLHYNIA = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_KIEV = {
+		region_state:RUS = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 3
+						region = "STATE_KIEV"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 2
+						region = "STATE_KIEV"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 18
+						region = "STATE_KIEV"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 7
+						region = "STATE_INGRIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 4
+						region = "STATE_KIEV"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_INGRIA"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_textile_mills"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_KIEV"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_KIEV"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_tailoring_workshops"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_KIEV"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_ORYOL = {
+		region_state:RUS = {
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 3
+						region = "STATE_ORYOL"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_ORYOL"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_SMOLENSK = {
+		region_state:RUS = {
+			remove_building = building_food_industry
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = "building_food_industry"
+						country = "c:RUS"
+						levels = 2
+						region = "STATE_SMOLENSK"
+					}
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building = {
+						type = "building_distillery"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_SMOLENSK"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_MOGILEV = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_ARKHANGELSK = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_NOVGOROD = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_CRIMEA = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_KHARKOV = {
+		region_state:RUS = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 5
+						region = "STATE_KHARKOV"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 5
+						region = "STATE_KHARKOV"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 17
+						region = "STATE_KHARKOV"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 3
+						region = "STATE_KHARKOV"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_KURSK = {
+		region_state:RUS = {
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 7
+						region = "STATE_KURSK"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_KURSK"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_TVER = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_CHERSON = {
+		region_state:RUS = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 4
+						region = "STATE_CHERSON"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 4
+						region = "STATE_CHERSON"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 8
+						region = "STATE_CHERSON"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 2
+						region = "STATE_CHERSON"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_GALICH = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_MINSK = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_ROSTOV = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_PERM = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_KAZAN = {
+		region_state:RUS = {
+			remove_building = building_food_industry
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = "building_food_industry"
+						country = "c:RUS"
+						levels = 2
+						region = "STATE_KAZAN"
+					}
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building = {
+						type = "building_distillery"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_KAZAN"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_URALSK = {
+		region_state:RUS = {
+		}
+		region_state:KZH = {
+		}
+	}
+	s:STATE_KHIVA = {
+		region_state:KHI = {
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:KHI"
+						levels = 3
+						region = "STATE_KHIVA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:KHI"
+						levels = 1
+						region = "STATE_KHIVA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_SEMIRECHE = {
+		region_state:OZH = {
+		}
+	}
+	s:STATE_JETISY = {
+		region_state:CHI = {
+		}
+	}
+	s:STATE_AKMOLINSK = {
+		region_state:OZH = {
+		}
+		region_state:RUS = {
+		}
+	}
+	s:STATE_FERGANA = {
+		region_state:KOK = {
+		}
+	}
+	s:STATE_MERZ = {
+		region_state:KHI = {
+		}
+		region_state:BUK = {
+		}
+	}
+	s:STATE_SYRDARYA = {
+		region_state:OZH = {
+		}
+		region_state:KZH = {
+		}
+		region_state:UZH = {
+		}
+	}
+	s:STATE_AKTOBE = {
+		region_state:KZH = {
+		}
+	}
+	s:STATE_KALMYKIA = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_NORTH_CAUCASUS = {
+		region_state:RUS = {
+		}
+		region_state:CHC = {
+		}
+		region_state:CIR = {
+		}
+	}
+	s:STATE_TAURIDA = {
+		region_state:RUS = {
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 13
+						region = "STATE_TAURIDA"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 4
+						region = "STATE_KIEV"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 2
+						region = "STATE_TAURIDA"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_KIEV"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 2
+						region = "STATE_TAURIDA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_TAURIDA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_TAMBOV = {
+		region_state:RUS = {
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 3
+						region = "STATE_TAMBOV"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_TAMBOV"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_RYAZAN = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_VITEBSK = {
+		region_state:RUS = {
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 4
+						region = "STATE_VITEBSK"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_VITEBSK"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_PSKOV = {
+		region_state:RUS = {
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 4
+						region = "STATE_PSKOV"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_PSKOV"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_YAROSLAVL = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_NIZHNY_NOVGOROD = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_VYATKA = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_UFA = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_SURGUT = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_KRASNOYARSK = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_ALTAI = {
+		region_state:CHI = {
+		}
+	}
+	s:STATE_BURYATIA = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_KOLYMA = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_AMUR = {
+		region_state:CHI = {
+		}
+	}
+	s:STATE_CHELYABINSK = {
+		region_state:RUS = {
+		}
+		region_state:KZH = {
+		}
+		region_state:OZH = {
+		}
+	}
+	s:STATE_ELIZAVETPOL = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_STAVROPOL = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_CHUVASHIA = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_CHERNIHIV = {
+		region_state:RUS = {
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 13
+						region = "STATE_CHERNIHIV"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 4
+						region = "STATE_KIEV"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 2
+						region = "STATE_CHERNIHIV"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_KIEV"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 3
+						region = "STATE_CHERNIHIV"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 2
+						region = "STATE_CHERNIHIV"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_NENETSIA = {
+		region_state:RUS = {
+		}
+	}
+}

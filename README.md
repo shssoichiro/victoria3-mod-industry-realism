@@ -67,8 +67,3 @@ This mod is compatible with most mods that do not touch the buildings above or a
 - Political & Economic Changes Compatch: https://steamcommunity.com/sharedfiles/filedetails/?id=3241308181
 - Incompatible with Industry Expanded, for obvious reasons.
 - Incompatible with any mods that alter locations of states or goods on the map
-
-TODO:
-
-- Translations
-- Add links to the compatches

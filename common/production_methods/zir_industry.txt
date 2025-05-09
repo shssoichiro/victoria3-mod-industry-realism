@@ -322,28 +322,6 @@ pm_military_shipbuilding_wooden_2 = {
 	}
 }
 
-pm_aeroplane_production = {
-	texture = "gfx/interface/icons/production_method_icons/aeroplanes.dds"
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_engines_add = 10
-			goods_input_wood_add = 20
-			goods_input_fabric_add = 20
-			goods_input_oil_add = 20
-			# output goods
-			goods_output_aeroplanes_add = 50
-		}
-		level_scaled = {
-			# employment
-			building_employment_shopkeepers_add = 500
-			building_employment_laborers_add = 1500
-			building_employment_machinists_add = 2000
-			building_employment_engineers_add = 1000
-		}
-	}
-}
-
 pm_muskets = {
 	texture = "gfx/interface/icons/production_method_icons/muskets.dds"
 	building_modifiers = {

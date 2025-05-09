@@ -1,0 +1,86 @@
+﻿BUILDINGS={
+	s:STATE_SAN_SALVADOR = {
+		region_state:UCA = {
+		}
+	}
+	s:STATE_GUATEMALA = {
+		region_state:UCA = {
+		}
+		region_state:GBR = {
+		}
+	}
+	s:STATE_HONDURAS = {
+		region_state:UCA = {
+		}
+	}
+	s:STATE_NICARAGUA = {
+		region_state:UCA = {
+		}
+		region_state:MKT = {
+		}
+	}
+	s:STATE_COSTA_RICA = {
+		region_state:UCA = {
+		}
+	}
+	s:STATE_PANAMA = {
+		region_state:CLM = {
+		}
+	}
+	s:STATE_HAITI = {
+		region_state:HAI = {
+		}
+	}
+	s:STATE_SANTO_DOMINGO = {
+		region_state:HAI = {
+		}
+	}
+	s:STATE_PUERTO_RICO = {
+		region_state:SPA = {
+		}
+	}
+	s:STATE_BAHAMAS = {
+		region_state:GBR = {
+		}
+	}
+	s:STATE_WEST_INDIES = {
+		region_state:FRA = {
+		}
+		region_state:DEN = {
+		}
+		region_state:GBR = {
+		}
+	}
+	s:STATE_JAMAICA = {
+		region_state:GBR = {
+		}
+	}
+	s:STATE_CUBA = {
+		region_state:CUB = {
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CUB"
+						levels = 4
+						region = "STATE_CUBA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CUB"
+						levels = 1
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+}

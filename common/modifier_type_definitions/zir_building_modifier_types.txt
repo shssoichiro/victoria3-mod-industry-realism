@@ -7,7 +7,7 @@
 	}
 }
 
-building_tailoring_workshop_throughput_add = {
+building_tailoring_workshops_throughput_add = {
 	decimals = 0
 	color = good
 	percent = yes

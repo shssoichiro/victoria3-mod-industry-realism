@@ -1,0 +1,1338 @@
+﻿BUILDINGS={
+	s:STATE_DZUNGARIA = {
+		region_state:CHI = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_DZUNGARIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_DZUNGARIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_TIANSHAN = {
+		region_state:CHI = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_TIANSHAN"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_TIANSHAN"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_SICHUAN = {
+		region_state:CHI = {
+		}
+	}
+	s:STATE_YUNNAN = {
+		region_state:CHI = {
+		}
+	}
+	s:STATE_GUIZHOU = {
+		region_state:CHI = {
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_furniture_manufacturies"
+						country = "c:CHI"
+						levels = 5
+						region = "STATE_GUIZHOU"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_luxury_furniture_manufacturies"
+						country = "c:CHI"
+						levels = 2
+						region = "STATE_GUIZHOU"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_glassworks
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_glassworks"
+						country = "c:CHI"
+						levels = 6
+						region = "STATE_GUIZHOU"
+					}
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				add_ownership = {
+					building = {
+						type = "building_pottery_mills"
+						country = "c:CHI"
+						levels = 2
+						region = "STATE_GUIZHOU"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_SHAOZHOU = {
+		region_state:CHI = {
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 7
+						region = "STATE_SHAOZHOU"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_SHAOZHOU"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_ALXA = {
+		region_state:CHI = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_ALXA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_ALXA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_HINGGAN = {
+		region_state:CHI = {
+		}
+	}
+	s:STATE_GUANGXI = {
+		region_state:CHI = {
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 6
+						region = "STATE_GUANGXI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_GUANGXI"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_BEIJING = {
+		region_state:CHI = {
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_furniture_manufacturies"
+						country = "c:CHI"
+						levels = 4
+						region = "STATE_BEIJING"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_luxury_furniture_manufacturies"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_BEIJING"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_SHENGJING = {
+		region_state:CHI = {
+		}
+	}
+	s:STATE_OUTER_MANCHURIA = {
+		region_state:CHI = {
+		}
+	}
+	s:STATE_SOUTHERN_MANCHURIA = {
+		region_state:CHI = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 2
+						region = "STATE_SOUTHERN_MANCHURIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_SOUTHERN_MANCHURIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_NORTHERN_MANCHURIA = {
+		region_state:CHI = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_NORTHERN_MANCHURIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_NORTHERN_MANCHURIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_SHANXI = {
+		region_state:CHI = {
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 6
+						region = "STATE_SHANXI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_SHANXI"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_NINGXIA = {
+		region_state:CHI = {
+		}
+	}
+	s:STATE_GANSU = {
+		region_state:CHI = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 3
+						region = "STATE_GANSU"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 3
+						region = "STATE_GANSU"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_XIAN = {
+		region_state:CHI = {
+		}
+	}
+	s:STATE_QINGHAI = {
+		region_state:CHI = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 3
+						region = "STATE_QINGHAI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 2
+						region = "STATE_QINGHAI"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_CHONGQING = {
+		region_state:CHI = {
+		}
+	}
+	s:STATE_GUANGDONG = {
+		region_state:CHI = {
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 7
+						region = "STATE_GUANGDONG"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_GUANGDONG"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:POR = {
+		}
+	}
+	s:STATE_FUJIAN = {
+		region_state:CHI = {
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 4
+						region = "STATE_FUJIAN"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_FUJIAN"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_ZHEJIANG = {
+		region_state:CHI = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_textile_mills"
+						country = "c:CHI"
+						levels = 6
+						region = "STATE_ZHEJIANG"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_tailoring_workshops"
+						country = "c:CHI"
+						levels = 2
+						region = "STATE_ZHEJIANG"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 3
+						region = "STATE_ZHEJIANG"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_ZHEJIANG"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_JIANGSU = {
+		region_state:CHI = {
+			remove_building = building_glassworks
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_glassworks"
+						country = "c:CHI"
+						levels = 4
+						region = "STATE_JIANGSU"
+					}
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				add_ownership = {
+					building = {
+						type = "building_pottery_mills"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_JIANGSU"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 7
+						region = "STATE_JIANGSU"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_JIANGSU"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_NANJING = {
+		region_state:CHI = {
+			remove_building = building_glassworks
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_glassworks"
+						country = "c:CHI"
+						levels = 8
+						region = "STATE_NANJING"
+					}
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				add_ownership = {
+					building = {
+						type = "building_pottery_mills"
+						country = "c:CHI"
+						levels = 2
+						region = "STATE_NANJING"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 4
+						region = "STATE_NANJING"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_NANJING"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_HENAN = {
+		region_state:CHI = {
+			remove_building = building_glassworks
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_glassworks"
+						country = "c:CHI"
+						levels = 5
+						region = "STATE_HENAN"
+					}
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				add_ownership = {
+					building = {
+						type = "building_pottery_mills"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_HENAN"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_ZHILI = {
+		region_state:CHI = {
+			remove_building = building_glassworks
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_glassworks"
+						country = "c:CHI"
+						levels = 5
+						region = "STATE_ZHILI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				add_ownership = {
+					building = {
+						type = "building_pottery_mills"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_ZHILI"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 3
+						region = "STATE_ZHILI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_ZHILI"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_JIANGXI = {
+		region_state:CHI = {
+			remove_building = building_glassworks
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_glassworks"
+						country = "c:CHI"
+						levels = 4
+						region = "STATE_JIANGXI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				add_ownership = {
+					building = {
+						type = "building_pottery_mills"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_JIANGXI"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 4
+						region = "STATE_JIANGXI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_JIANGXI"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_SOUTHERN_ANHUI = {
+		region_state:CHI = {
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_furniture_manufacturies"
+						country = "c:CHI"
+						levels = 8
+						region = "STATE_SOUTHERN_ANHUI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_luxury_furniture_manufacturies"
+						country = "c:CHI"
+						levels = 2
+						region = "STATE_SOUTHERN_ANHUI"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 10
+						region = "STATE_SOUTHERN_ANHUI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 2
+						region = "STATE_SOUTHERN_ANHUI"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_NORTHERN_ANHUI = {
+		region_state:CHI = {
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 5
+						region = "STATE_NORTHERN_ANHUI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_NORTHERN_ANHUI"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_WESTERN_HUBEI = {
+		region_state:CHI = {
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_furniture_manufacturies"
+						country = "c:CHI"
+						levels = 8
+						region = "STATE_WESTERN_HUBEI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_luxury_furniture_manufacturies"
+						country = "c:CHI"
+						levels = 2
+						region = "STATE_WESTERN_HUBEI"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 5
+						region = "STATE_WESTERN_HUBEI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_WESTERN_HUBEI"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_EASTERN_HUBEI = {
+		region_state:CHI = {
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_furniture_manufacturies"
+						country = "c:CHI"
+						levels = 6
+						region = "STATE_EASTERN_HUBEI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_luxury_furniture_manufacturies"
+						country = "c:CHI"
+						levels = 2
+						region = "STATE_EASTERN_HUBEI"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 3
+						region = "STATE_EASTERN_HUBEI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_EASTERN_HUBEI"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_HUNAN = {
+		region_state:CHI = {
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 5
+						region = "STATE_HUNAN"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_HUNAN"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_FORMOSA = {
+		region_state:CHI = {
+		}
+	}
+	s:STATE_SHANDONG = {
+		region_state:CHI = {
+			remove_building = building_glassworks
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_glassworks"
+						country = "c:CHI"
+						levels = 8
+						region = "STATE_SHANDONG"
+					}
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				add_ownership = {
+					building = {
+						type = "building_pottery_mills"
+						country = "c:CHI"
+						levels = 2
+						region = "STATE_SHANDONG"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_textile_mills"
+						country = "c:CHI"
+						levels = 6
+						region = "STATE_SHANDONG"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_tailoring_workshops"
+						country = "c:CHI"
+						levels = 2
+						region = "STATE_SHANDONG"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_SUZHOU = {
+		region_state:CHI = {
+		}
+	}
+	s:STATE_ULIASTAI = {
+		region_state:CHI = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 2
+						region = "STATE_ULIASTAI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 1
+						region = "STATE_ULIASTAI"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_URGA = {
+		region_state:CHI = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 3
+						region = "STATE_URGA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:CHI"
+						levels = 2
+						region = "STATE_URGA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_CAMBODIA = {
+		region_state:SIA = {
+		}
+		region_state:CAM = {
+		}
+	}
+	s:STATE_BANGKOK = {
+		region_state:SIA = {
+		}
+	}
+	s:STATE_TONKIN = {
+		region_state:DAI = {
+		}
+	}
+	s:STATE_ANNAM = {
+		region_state:DAI = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:DAI"
+						levels = 2
+						region = "STATE_ANNAM"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:DAI"
+						levels = 1
+						region = "STATE_ANNAM"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_MEKONG = {
+		region_state:DAI = {
+		}
+	}
+	s:STATE_LAOS = {
+		region_state:LUA = {
+		}
+		region_state:SIA = {
+		}
+		region_state:CHP = {
+		}
+	}
+	s:STATE_CHIANG_MAI = {
+		region_state:CMI = {
+		}
+	}
+	s:STATE_NAKHON_RATCHASIMA = {
+		region_state:SIA = {
+		}
+	}
+	s:STATE_TENASSERIM = {
+		region_state:BIC = {
+		}
+		region_state:SIA = {
+		}
+	}
+	s:STATE_KACHIN = {
+		region_state:BUR = {
+		}
+	}
+	s:STATE_SHAN_STATES = {
+		region_state:BUR = {
+		}
+	}
+	s:STATE_MANDALAY = {
+		region_state:BUR = {
+		}
+	}
+	s:STATE_PEGU = {
+		region_state:BUR = {
+		}
+	}
+	s:STATE_ARAKAN = {
+		region_state:BIC = {
+		}
+	}
+	s:STATE_SAKHALIN = {
+		region_state:SKH = {
+		}
+	}
+	s:STATE_HOKKAIDO = {
+		region_state:AIN = {
+		}
+		region_state:JAP = {
+		}
+	}
+	s:STATE_TOHOKU = {
+		region_state:JAP = {
+		}
+	}
+	s:STATE_KANTO = {
+		region_state:JAP = {
+		}
+	}
+	s:STATE_CHUBU = {
+		region_state:JAP = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:JAP"
+						levels = 1
+						region = "STATE_CHUBU"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:JAP"
+						levels = 1
+						region = "STATE_CHUBU"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_KANSAI = {
+		region_state:JAP = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_textile_mills"
+						country = "c:JAP"
+						levels = 3
+						region = "STATE_KANSAI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_tailoring_workshops"
+						country = "c:JAP"
+						levels = 1
+						region = "STATE_KANSAI"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:JAP"
+						levels = 1
+						region = "STATE_KANSAI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:JAP"
+						levels = 1
+						region = "STATE_KANSAI"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_KYUSHU = {
+		region_state:JAP = {
+		}
+	}
+	s:STATE_RYUKYU_ISLANDS = {
+		region_state:JAP = {
+		}
+	}
+	s:STATE_CHUGOKU = {
+		region_state:JAP = {
+		}
+	}
+	s:STATE_SHIKOKU = {
+		region_state:JAP = {
+		}
+	}
+	s:STATE_SEOUL = {
+		region_state:KOR = {
+			remove_building = building_glassworks
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_glassworks"
+						country = "c:KOR"
+						levels = 2
+						region = "STATE_SEOUL"
+					}
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				add_ownership = {
+					building = {
+						type = "building_pottery_mills"
+						country = "c:KOR"
+						levels = 1
+						region = "STATE_SEOUL"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_BUSAN = {
+		region_state:KOR = {
+		}
+	}
+	s:STATE_YANGHO = {
+		region_state:KOR = {
+		}
+	}
+	s:STATE_SARIWON = {
+		region_state:KOR = {
+		}
+	}
+	s:STATE_PYONGYANG = {
+		region_state:KOR = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:KOR"
+						levels = 1
+						region = "STATE_PYONGYANG"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:KOR"
+						levels = 1
+						region = "STATE_PYONGYANG"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+}

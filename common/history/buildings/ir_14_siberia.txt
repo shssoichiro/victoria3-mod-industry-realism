@@ -1,0 +1,50 @@
+﻿BUILDINGS={
+	s:STATE_URAL = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_TOMSK = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_TUVA = {
+		region_state:CHI = {
+		}
+	}
+	s:STATE_TOBOLSK = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_UPPER_YENISEYSK = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_OB = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_CHUKOTKA = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_KAMCHATKA = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_OKHOTSK = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_YAKUTSK = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_TRANS_BAIKAL = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_IRKUTSK = {
+		region_state:RUS = {
+		}
+	}
+}

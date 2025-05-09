@@ -1,0 +1,3320 @@
+﻿BUILDINGS={
+	s:STATE_SVEALAND = {
+		region_state:SWE = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_textile_mills"
+						country = "c:SWE"
+						levels = 2
+						region = "STATE_SVEALAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_tailoring_workshops"
+						country = "c:SWE"
+						levels = 1
+						region = "STATE_SVEALAND"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_GOTALAND = {
+		region_state:SWE = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SWE"
+						levels = 1
+						region = "STATE_GOTALAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SWE"
+						levels = 1
+						region = "STATE_GOTALAND"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_SCANIA = {
+		region_state:SWE = {
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SWE"
+						levels = 3
+						region = "STATE_SCANIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SWE"
+						levels = 1
+						region = "STATE_SCANIA"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SWE"
+						levels = 2
+						region = "STATE_SCANIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SWE"
+						levels = 2
+						region = "STATE_SCANIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_NORRLAND = {
+		region_state:SWE = {
+		}
+	}
+	s:STATE_GOTLAND = {
+		region_state:SWE = {
+		}
+	}
+	s:STATE_JUTLAND = {
+		region_state:DEN = {
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_rye_farm"
+						country = "c:DEN"
+						levels = 7
+						region = "STATE_JUTLAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_fruit_orchard"
+						country = "c:DEN"
+						levels = 1
+						region = "STATE_JUTLAND"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:DEN"
+						levels = 3
+						region = "STATE_JUTLAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:DEN"
+						levels = 3
+						region = "STATE_JUTLAND"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_ZEALAND = {
+		region_state:DEN = {
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:DEN"
+						levels = 3
+						region = "STATE_ZEALAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:DEN"
+						levels = 1
+						region = "STATE_ZEALAND"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:DEN"
+						levels = 2
+						region = "STATE_ZEALAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:DEN"
+						levels = 1
+						region = "STATE_ZEALAND"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_WESTERN_NORWAY = {
+		region_state:NOR = {
+		}
+	}
+	s:STATE_NORTHERN_NORWAY = {
+		region_state:NOR = {
+		}
+	}
+	s:STATE_EASTERN_NORWAY = {
+		region_state:NOR = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NOR"
+						levels = 1
+						region = "STATE_EASTERN_NORWAY"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NOR"
+						levels = 1
+						region = "STATE_EASTERN_NORWAY"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_ICELAND = {
+		region_state:DEN = {
+		}
+	}
+	s:STATE_GREENLAND = {
+		region_state:DEN = {
+		}
+	}
+	s:STATE_HOME_COUNTIES = {
+		region_state:GBR = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 13
+						region = "STATE_HOME_COUNTIES"
+					}
+					country = {
+						country = "c:GBR"
+						levels = 4
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 4
+						region = "STATE_HOME_COUNTIES"
+					}
+					country = {
+						country = "c:GBR"
+						levels = 2
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 11
+						region = "STATE_HOME_COUNTIES"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 4
+						region = "STATE_HOME_COUNTIES"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 13
+						region = "STATE_HOME_COUNTIES"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_HOME_COUNTIES"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 3
+						region = "STATE_HOME_COUNTIES"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_HOME_COUNTIES"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_LANCASHIRE = {
+		region_state:GBR = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 9
+						region = "STATE_HOME_COUNTIES"
+					}
+					building = {
+						type = "building_textile_mills"
+						country = "c:GBR"
+						levels = 3
+						region = "STATE_LANCASHIRE"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 3
+						region = "STATE_LANCASHIRE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 3
+						region = "STATE_HOME_COUNTIES"
+					}
+					building = {
+						type = "building_tailoring_workshops"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_LANCASHIRE"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_LANCASHIRE"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 8
+						region = "STATE_LANCASHIRE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_LANCASHIRE"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_LANCASHIRE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_LANCASHIRE"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_WALES = {
+		region_state:GBR = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_WALES"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_WALES"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_YORKSHIRE = {
+		region_state:GBR = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 3
+						region = "STATE_YORKSHIRE"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 3
+						region = "STATE_HOME_COUNTIES"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_YORKSHIRE"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_HOME_COUNTIES"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 7
+						region = "STATE_YORKSHIRE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_YORKSHIRE"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_YORKSHIRE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_YORKSHIRE"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_HIGHLANDS = {
+		region_state:GBR = {
+		}
+	}
+	s:STATE_MIDLANDS = {
+		region_state:GBR = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 7
+						region = "STATE_MIDLANDS"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 5
+						region = "STATE_HOME_COUNTIES"
+					}
+					building = {
+						type = "building_textile_mills"
+						country = "c:GBR"
+						levels = 5
+						region = "STATE_MIDLANDS"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 3
+						region = "STATE_MIDLANDS"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_HOME_COUNTIES"
+					}
+					building = {
+						type = "building_tailoring_workshops"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_MIDLANDS"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_MIDLANDS"
+					}
+					building = {
+						type = "building_furniture_manufacturies"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_MIDLANDS"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_MIDLANDS"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 4
+						region = "STATE_MIDLANDS"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 4
+						region = "STATE_HOME_COUNTIES"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_MIDLANDS"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_HOME_COUNTIES"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 3
+						region = "STATE_HOME_COUNTIES"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_HOME_COUNTIES"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_EAST_ANGLIA = {
+		region_state:GBR = {
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 7
+						region = "STATE_EAST_ANGLIA"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 4
+						region = "STATE_HOME_COUNTIES"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 3
+						region = "STATE_EAST_ANGLIA"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_HOME_COUNTIES"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_glassworks
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_EAST_ANGLIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_EAST_ANGLIA"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_food_industry
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 3
+						region = "STATE_EAST_ANGLIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_EAST_ANGLIA"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_EAST_ANGLIA"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_HOME_COUNTIES"
+					}
+					building = {
+						type = "building_rye_farm"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_EAST_ANGLIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_EAST_ANGLIA"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_EAST_ANGLIA"
+					}
+					building = {
+						type = "building_livestock_ranch"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_EAST_ANGLIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_EAST_ANGLIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_WEST_COUNTRY = {
+		region_state:GBR = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_WEST_COUNTRY"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_WEST_COUNTRY"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_WEST_COUNTRY"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_WEST_COUNTRY"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_WEST_COUNTRY"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_LOWLANDS = {
+		region_state:GBR = {
+			remove_building = building_food_industry
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 3
+						region = "STATE_LOWLANDS"
+					}
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_LOWLANDS"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_glassworks
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_LOWLANDS"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_HOME_COUNTIES"
+					}
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_LOWLANDS"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_LOWLANDS"
+					}
+					building = {
+						type = "building_rye_farm"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_LOWLANDS"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_LOWLANDS"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_ULSTER = {
+		region_state:GBR = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_ULSTER"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_ULSTER"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_MUNSTER = {
+		region_state:GBR = {
+		}
+	}
+	s:STATE_LEINSTER = {
+		region_state:GBR = {
+			remove_building = building_food_industry
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 3
+						region = "STATE_LEINSTER"
+					}
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_LEINSTER"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 4
+						region = "STATE_LEINSTER"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_LEINSTER"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_CONNAUGHT = {
+		region_state:GBR = {
+		}
+	}
+	s:STATE_ILE_DE_FRANCE = {
+		region_state:FRA = {
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 4
+						region = "STATE_ILE_DE_FRANCE"
+					}
+					building = {
+						type = "building_furniture_manufacturies"
+						country = "c:FRA"
+						levels = 3
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_ILE_DE_FRANCE"
+					}
+					building = {
+						type = "building_luxury_furniture_manufacturies"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 4
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_PROVENCE = {
+		region_state:SAR = {
+		}
+		region_state:FRA = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_textile_mills"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_PROVENCE"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_tailoring_workshops"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_PROVENCE"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 5
+						region = "STATE_PROVENCE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_PROVENCE"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_NORMANDY = {
+		region_state:FRA = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_textile_mills"
+						country = "c:FRA"
+						levels = 3
+						region = "STATE_NORMANDY"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_NORMANDY"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_tailoring_workshops"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_NORMANDY"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 3
+						region = "STATE_NORMANDY"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_NORMANDY"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_NORMANDY"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_NORMANDY"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_LANGUEDOC = {
+		region_state:FRA = {
+			remove_building = building_glassworks
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_LANGUEDOC"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_LANGUEDOC"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 6
+						region = "STATE_LANGUEDOC"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_LANGUEDOC"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_livestock_ranch"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_LANGUEDOC"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_wool_farms"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_LANGUEDOC"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_RHONE = {
+		region_state:FRA = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_textile_mills"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_RHONE"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_RHONE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_tailoring_workshops"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_RHONE"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 8
+						region = "STATE_RHONE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_RHONE"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_FRENCH_LOW_COUNTRIES = {
+		region_state:FRA = {
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 4
+						region = "STATE_FRENCH_LOW_COUNTRIES"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_FRENCH_LOW_COUNTRIES"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_FRENCH_LOW_COUNTRIES"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_FRENCH_LOW_COUNTRIES"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_PICARDY = {
+		region_state:FRA = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_textile_mills"
+						country = "c:FRA"
+						levels = 4
+						region = "STATE_PICARDY"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_tailoring_workshops"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_PICARDY"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_PICARDY"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_PICARDY"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_PICARDY"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_PICARDY"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_ALSACE_LORRAINE = {
+		region_state:FRA = {
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 4
+						region = "STATE_ALSACE_LORRAINE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_ALSACE_LORRAINE"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_POITOU = {
+		region_state:FRA = {
+		}
+	}
+	s:STATE_GUYENNE = {
+		region_state:FRA = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_GUYENNE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_GUYENNE"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_GUYENNE"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_GUYENNE"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 0
+						region = "STATE_GUYENNE"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_GUYENNE"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_AUVERGNE_LIMOUSIN = {
+		region_state:FRA = {
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 4
+						region = "STATE_ILE_DE_FRANCE"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 4
+						region = "STATE_AUVERGNE_LIMOUSIN"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_ILE_DE_FRANCE"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_AUVERGNE_LIMOUSIN"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_BRITTANY = {
+		region_state:FRA = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_BRITTANY"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_BRITTANY"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_BURGUNDY = {
+		region_state:FRA = {
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 4
+						region = "STATE_BURGUNDY"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 3
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_BURGUNDY"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_CHAMPAGNE = {
+		region_state:FRA = {
+			remove_building = building_food_industry
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 5
+						region = "STATE_CHAMPAGNE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_CHAMPAGNE"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_FRANCHE_COMTE = {
+		region_state:FRA = {
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_ILE_DE_FRANCE"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_FRANCHE_COMTE"
+					}
+					building = {
+						type = "building_furniture_manufacturies"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_FRANCHE_COMTE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_ILE_DE_FRANCE"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_FRANCHE_COMTE"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_LORRAINE = {
+		region_state:FRA = {
+		}
+	}
+	s:STATE_AQUITAINE = {
+		region_state:FRA = {
+			remove_building = building_food_industry
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_AQUITAINE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_AQUITAINE"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 5
+						region = "STATE_AQUITAINE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_AQUITAINE"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_ORLEANS = {
+		region_state:FRA = {
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 4
+						region = "STATE_ORLEANS"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_ORLEANS"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_ORLEANS"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_ORLEANS"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_HOLLAND = {
+		region_state:NET = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:NET"
+						levels = 1
+						region = "STATE_HOLLAND"
+					}
+					building = {
+						type = "building_textile_mills"
+						country = "c:NET"
+						levels = 2
+						region = "STATE_HOLLAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:NET"
+						levels = 1
+						region = "STATE_HOLLAND"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 2
+						region = "STATE_HOLLAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 1
+						region = "STATE_HOLLAND"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_FRIESLAND = {
+		region_state:NET = {
+		}
+	}
+	s:STATE_GELRE = {
+		region_state:NET = {
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 3
+						region = "STATE_GELRE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 1
+						region = "STATE_GELRE"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 1
+						region = "STATE_GELRE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 1
+						region = "STATE_GELRE"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_WALLONIA = {
+		region_state:LUX = {
+		}
+		region_state:BEL = {
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BEL"
+						levels = 6
+						region = "STATE_WALLONIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BEL"
+						levels = 1
+						region = "STATE_WALLONIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_FLANDERS = {
+		region_state:BEL = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:BEL"
+						levels = 2
+						region = "STATE_FLANDERS"
+					}
+					building = {
+						type = "building_textile_mills"
+						country = "c:BEL"
+						levels = 1
+						region = "STATE_FLANDERS"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:BEL"
+						levels = 1
+						region = "STATE_FLANDERS"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_furniture_manufacturies"
+						country = "c:BEL"
+						levels = 1
+						region = "STATE_FLANDERS"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:BEL"
+						levels = 1
+						region = "STATE_FLANDERS"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_luxury_furniture_manufacturies"
+						country = "c:BEL"
+						levels = 1
+						region = "STATE_FLANDERS"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BEL"
+						levels = 3
+						region = "STATE_FLANDERS"
+					}
+					building = {
+						type = "building_wheat_farm"
+						country = "c:BEL"
+						levels = 2
+						region = "STATE_FLANDERS"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BEL"
+						levels = 1
+						region = "STATE_FLANDERS"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BEL"
+						levels = 3
+						region = "STATE_FLANDERS"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BEL"
+						levels = 2
+						region = "STATE_FLANDERS"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_AUSTRIA = {
+		region_state:AUS = {
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_furniture_manufacturies"
+						country = "c:AUS"
+						levels = 3
+						region = "STATE_AUSTRIA"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_AUSTRIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_luxury_furniture_manufacturies"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_AUSTRIA"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:AUS"
+						levels = 8
+						region = "STATE_AUSTRIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:AUS"
+						levels = 2
+						region = "STATE_AUSTRIA"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:AUS"
+						levels = 2
+						region = "STATE_AUSTRIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_AUSTRIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_BOHEMIA = {
+		region_state:AUS = {
+			remove_building = building_food_industry
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = "building_food_industry"
+						country = "c:AUS"
+						levels = 3
+						region = "STATE_BOHEMIA"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_AUSTRIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building = {
+						type = "building_distillery"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_BOHEMIA"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_glassworks
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_glassworks"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_BOHEMIA"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_AUSTRIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				add_ownership = {
+					building = {
+						type = "building_pottery_mills"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_BOHEMIA"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_rye_farm"
+						country = "c:AUS"
+						levels = 6
+						region = "STATE_BOHEMIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_fruit_orchard"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_BOHEMIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_MORAVIA = {
+		region_state:AUS = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_textile_mills"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_MORAVIA"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_MORAVIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_tailoring_workshops"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_MORAVIA"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_food_industry
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = "building_food_industry"
+						country = "c:AUS"
+						levels = 2
+						region = "STATE_MORAVIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building = {
+						type = "building_distillery"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_MORAVIA"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_AUSTRIA"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:AUS"
+						levels = 2
+						region = "STATE_MORAVIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_AUSTRIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_STYRIA = {
+		region_state:AUS = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_STYRIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:AUS"
+						levels = 1
+						region = "STATE_STYRIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_TYROL = {
+		region_state:AUS = {
+		}
+	}
+	s:STATE_SOUTH_TYROL = {
+		region_state:AUS = {
+		}
+	}
+	s:STATE_POMERANIA = {
+		region_state:PRU = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:PRU"
+						levels = 2
+						region = "STATE_POMERANIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:PRU"
+						levels = 1
+						region = "STATE_POMERANIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_ELBE = {
+		region_state:BRE = {
+		}
+		region_state:HAM = {
+		}
+		region_state:HAN = {
+		}
+	}
+	s:STATE_EAST_SWITZERLAND = {
+		region_state:SWI = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SWI"
+						levels = 1
+						region = "STATE_EAST_SWITZERLAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SWI"
+						levels = 1
+						region = "STATE_EAST_SWITZERLAND"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_WEST_SWITZERLAND = {
+		region_state:SWI = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SWI"
+						levels = 1
+						region = "STATE_WEST_SWITZERLAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SWI"
+						levels = 1
+						region = "STATE_WEST_SWITZERLAND"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_WESTPHALIA = {
+		region_state:PRU = {
+		}
+		region_state:LIP = {
+		}
+		region_state:SCM = {
+		}
+	}
+	s:STATE_ANHALT = {
+		region_state:PRU = {
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_furniture_manufacturies"
+						country = "c:PRU"
+						levels = 1
+						region = "STATE_ANHALT"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:PRU"
+						levels = 1
+						region = "STATE_BRANDENBURG"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_luxury_furniture_manufacturies"
+						country = "c:PRU"
+						levels = 1
+						region = "STATE_ANHALT"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:ANH = {
+		}
+	}
+	s:STATE_RHINELAND = {
+		region_state:PRU = {
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:PRU"
+						levels = 3
+						region = "STATE_RHINELAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:PRU"
+						levels = 1
+						region = "STATE_RHINELAND"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:BAV = {
+		}
+	}
+	s:STATE_NORTH_RHINE = {
+		region_state:PRU = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:PRU"
+						levels = 1
+						region = "STATE_NORTH_RHINE"
+					}
+					building = {
+						type = "building_textile_mills"
+						country = "c:PRU"
+						levels = 1
+						region = "STATE_NORTH_RHINE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:PRU"
+						levels = 1
+						region = "STATE_NORTH_RHINE"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:PRU"
+						levels = 4
+						region = "STATE_BRANDENBURG"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:PRU"
+						levels = 4
+						region = "STATE_NORTH_RHINE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:PRU"
+						levels = 1
+						region = "STATE_BRANDENBURG"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:PRU"
+						levels = 1
+						region = "STATE_NORTH_RHINE"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_BRANDENBURG = {
+		region_state:PRU = {
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:PRU"
+						levels = 2
+						region = "STATE_BRANDENBURG"
+					}
+					building = {
+						type = "building_furniture_manufacturies"
+						country = "c:PRU"
+						levels = 2
+						region = "STATE_BRANDENBURG"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:PRU"
+						levels = 1
+						region = "STATE_BRANDENBURG"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_glassworks
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:PRU"
+						levels = 1
+						region = "STATE_BRANDENBURG"
+					}
+					building = {
+						type = "building_glassworks"
+						country = "c:PRU"
+						levels = 1
+						region = "STATE_BRANDENBURG"
+					}
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:PRU"
+						levels = 1
+						region = "STATE_BRANDENBURG"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_SCHLESWIG_HOLSTEIN = {
+		region_state:HOL = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:HOL"
+						levels = 2
+						region = "STATE_SCHLESWIG_HOLSTEIN"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:HOL"
+						levels = 1
+						region = "STATE_SCHLESWIG_HOLSTEIN"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:LUB = {
+		}
+		region_state:SCH = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SCH"
+						levels = 2
+						region = "STATE_SCHLESWIG_HOLSTEIN"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SCH"
+						levels = 1
+						region = "STATE_SCHLESWIG_HOLSTEIN"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_WURTTEMBERG = {
+		region_state:WUR = {
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:WUR"
+						levels = 4
+						region = "STATE_WURTTEMBERG"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:WUR"
+						levels = 1
+						region = "STATE_WURTTEMBERG"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:WUR"
+						levels = 2
+						region = "STATE_WURTTEMBERG"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:WUR"
+						levels = 1
+						region = "STATE_WURTTEMBERG"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:HOH = {
+		}
+	}
+	s:STATE_BADEN = {
+		region_state:BAD = {
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BAD"
+						levels = 3
+						region = "STATE_BADEN"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BAD"
+						levels = 1
+						region = "STATE_BADEN"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_HANNOVER = {
+		region_state:OLD = {
+		}
+		region_state:HAN = {
+		}
+	}
+	s:STATE_BRUNSWICK = {
+		region_state:HAN = {
+		}
+		region_state:BRA = {
+		}
+		region_state:PRU = {
+		}
+	}
+	s:STATE_BAVARIA = {
+		region_state:BAV = {
+			remove_building = building_food_industry
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = "building_food_industry"
+						country = "c:BAV"
+						levels = 1
+						region = "STATE_BAVARIA"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:BAV"
+						levels = 1
+						region = "STATE_BAVARIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building = {
+						type = "building_distillery"
+						country = "c:BAV"
+						levels = 1
+						region = "STATE_BAVARIA"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BAV"
+						levels = 6
+						region = "STATE_BAVARIA"
+					}
+					building = {
+						type = "building_wheat_farm"
+						country = "c:BAV"
+						levels = 2
+						region = "STATE_BAVARIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BAV"
+						levels = 2
+						region = "STATE_BAVARIA"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BAV"
+						levels = 1
+						region = "STATE_BAVARIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BAV"
+						levels = 1
+						region = "STATE_BAVARIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_FRANCONIA = {
+		region_state:BAV = {
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_furniture_manufacturies"
+						country = "c:BAV"
+						levels = 1
+						region = "STATE_FRANCONIA"
+					}
+					building = {
+						type = "building_furniture_manufacturies"
+						country = "c:BAV"
+						levels = 1
+						region = "STATE_FRANCONIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_luxury_furniture_manufacturies"
+						country = "c:BAV"
+						levels = 1
+						region = "STATE_FRANCONIA"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BAV"
+						levels = 5
+						region = "STATE_FRANCONIA"
+					}
+					building = {
+						type = "building_wheat_farm"
+						country = "c:BAV"
+						levels = 2
+						region = "STATE_FRANCONIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BAV"
+						levels = 1
+						region = "STATE_FRANCONIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_SAXONY = {
+		region_state:SAX = {
+			remove_building = building_glassworks
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:SAX"
+						levels = 2
+						region = "STATE_SAXONY"
+					}
+					building = {
+						type = "building_glassworks"
+						country = "c:SAX"
+						levels = 2
+						region = "STATE_SAXONY"
+					}
+				}
+			}
+			create_building = {
+				building = "building_pottery_mills"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:SAX"
+						levels = 1
+						region = "STATE_SAXONY"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SAX"
+						levels = 3
+						region = "STATE_SAXONY"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SAX"
+						levels = 2
+						region = "STATE_SAXONY"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:MEI = {
+		}
+		region_state:WEI = {
+		}
+		region_state:COB = {
+		}
+		region_state:SCW = {
+		}
+	}
+	s:STATE_HESSE = {
+		region_state:FRM = {
+		}
+		region_state:HES = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:HES"
+						levels = 1
+						region = "STATE_HESSE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:HES"
+						levels = 1
+						region = "STATE_HESSE"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:HEK = {
+		}
+		region_state:NAS = {
+		}
+		region_state:WLD = {
+		}
+	}
+	s:STATE_MECKLENBURG = {
+		region_state:MEC = {
+		}
+		region_state:MST = {
+		}
+	}
+	s:STATE_RUHR = {
+		region_state:PRU = {
+		}
+	}
+	s:STATE_MAINE_ANJOU = {
+		region_state:FRA = {
+		}
+	}
+}

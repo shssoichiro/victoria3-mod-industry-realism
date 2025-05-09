@@ -1,0 +1,558 @@
+﻿BUILDINGS={
+	s:STATE_IVORY_COAST = {
+		region_state:FRA = {
+		}
+		region_state:BLE = {
+		}
+		region_state:KNG = {
+		}
+		region_state:AYI = {
+		}
+	}
+	s:STATE_WINDWARD_COAST = {
+		region_state:KBD = {
+		}
+		region_state:BLE = {
+		}
+		region_state:KRU = {
+		}
+	}
+	s:STATE_SENEGAL = {
+		region_state:FRA = {
+		}
+		region_state:JLF = {
+		}
+		region_state:CAY = {
+		}
+		region_state:FTR = {
+		}
+	}
+	s:STATE_GAMBIA = {
+		region_state:POR = {
+		}
+		region_state:GBR = {
+		}
+		region_state:SRR = {
+		}
+		region_state:BND = {
+		}
+		region_state:KBU = {
+		}
+	}
+	s:STATE_SIERRA_LEONE = {
+		region_state:SIL = {
+		}
+	}
+	s:STATE_VOLTA = {
+		region_state:MOS = {
+		}
+		region_state:KNG = {
+		}
+	}
+	s:STATE_LIBERIA = {
+		region_state:LIB = {
+		}
+	}
+	s:STATE_HAUSALAND = {
+		region_state:SOK = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SOK"
+						levels = 1
+						region = "STATE_HAUSALAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SOK"
+						levels = 1
+						region = "STATE_HAUSALAND"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:BRG = {
+		}
+	}
+	s:STATE_BENIN = {
+		region_state:BEN = {
+		}
+	}
+	s:STATE_YORUBA_STATES = {
+		region_state:OYO = {
+		}
+	}
+	s:STATE_NIGER_DELTA = {
+		region_state:IBO = {
+		}
+	}
+	s:STATE_OUTER_HAUSALAND = {
+		region_state:SOK = {
+		}
+		region_state:HAU = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:HAU"
+						levels = 1
+						region = "STATE_OUTER_HAUSALAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:HAU"
+						levels = 1
+						region = "STATE_OUTER_HAUSALAND"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:BOR = {
+		}
+	}
+	s:STATE_BORNU = {
+		region_state:BOR = {
+		}
+	}
+	s:STATE_NIGERIA = {
+		region_state:SOK = {
+		}
+	}
+	s:STATE_EAST_HAUSALAND = {
+		region_state:SOK = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SOK"
+						levels = 2
+						region = "STATE_EAST_HAUSALAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SOK"
+						levels = 1
+						region = "STATE_EAST_HAUSALAND"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_GUINEA = {
+		region_state:MDK = {
+		}
+		region_state:SSU = {
+		}
+		region_state:FTJ = {
+		}
+	}
+	s:STATE_GHANA = {
+		region_state:GBR = {
+		}
+		region_state:NET = {
+		}
+		region_state:ASH = {
+		}
+	}
+	s:STATE_TOGO = {
+		region_state:DEN = {
+		}
+		region_state:ASH = {
+		}
+		region_state:EWE = {
+		}
+	}
+	s:STATE_DAHOMEY = {
+		region_state:DAH = {
+		}
+		region_state:BRG = {
+		}
+	}
+	s:STATE_LINDI = {
+		region_state:HHE = {
+		}
+		region_state:GGO = {
+		}
+		region_state:SNG = {
+		}
+	}
+	s:STATE_ZANZIBAR = {
+		region_state:OMA = {
+		}
+	}
+	s:STATE_TANGANYIKA = {
+		region_state:NYM = {
+		}
+		region_state:MSI = {
+		}
+		region_state:KRG = {
+		}
+		region_state:RWD = {
+		}
+		region_state:BRD = {
+		}
+	}
+	s:STATE_KENYA = {
+		region_state:KKY = {
+		}
+	}
+	s:STATE_RIFT_VALLEY = {
+		region_state:MSI = {
+		}
+		region_state:LUO = {
+		}
+		region_state:TRK = {
+		}
+	}
+	s:STATE_OROMIA = {
+		region_state:HAR = {
+		}
+		region_state:SHW = {
+		}
+	}
+	s:STATE_AMHARA = {
+		region_state:WLG = {
+		}
+		region_state:SHW = {
+		}
+		region_state:BRN = {
+		}
+		region_state:KFA = {
+		}
+		region_state:SDM = {
+		}
+	}
+	s:STATE_GONDER = {
+		region_state:BGM = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BGM"
+						levels = 1
+						region = "STATE_GONDER"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BGM"
+						levels = 1
+						region = "STATE_GONDER"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:WLO = {
+		}
+		region_state:AWS = {
+		}
+		region_state:TGR = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:TGR"
+						levels = 1
+						region = "STATE_GONDER"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:TGR"
+						levels = 1
+						region = "STATE_GONDER"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:GJM = {
+		}
+	}
+	s:STATE_KAZEMBE = {
+		region_state:BMB = {
+		}
+		region_state:KZM = {
+		}
+		region_state:MRV = {
+		}
+	}
+	s:STATE_SOMALILAND = {
+		region_state:ISQ = {
+		}
+		region_state:WSG = {
+		}
+		region_state:GLD = {
+		}
+		region_state:MJT = {
+		}
+	}
+	s:STATE_SOUTH_MADAGASCAR = {
+		region_state:MAD = {
+		}
+	}
+	s:STATE_NORTH_MADAGASCAR = {
+		region_state:MAD = {
+		}
+	}
+	s:STATE_UGANDA = {
+		region_state:BUG = {
+		}
+		region_state:BNY = {
+		}
+		region_state:ANK = {
+		}
+		region_state:ACH = {
+		}
+	}
+	s:STATE_EQUATORIA = {
+		region_state:DNK = {
+		}
+		region_state:NUE = {
+		}
+		region_state:DFT = {
+		}
+		region_state:TPS = {
+		}
+	}
+	s:STATE_MOCAMBIQUE = {
+		region_state:POR = {
+		}
+		region_state:MRV = {
+		}
+	}
+	s:STATE_WADDAI = {
+		region_state:WAD = {
+		}
+		region_state:BGI = {
+		}
+		region_state:BOR = {
+		}
+	}
+	s:STATE_NORTH_CAMEROON = {
+		region_state:SOK = {
+		}
+		region_state:BMM = {
+		}
+	}
+	s:STATE_SOUTH_CAMEROON = {
+		region_state:SPA = {
+		}
+		region_state:FNG = {
+		}
+		region_state:DLA = {
+		}
+	}
+	s:STATE_UBANGI_SHARI = {
+		region_state:DAK = {
+		}
+		region_state:ZND = {
+		}
+	}
+	s:STATE_CONGO = {
+		region_state:BOB = {
+		}
+		region_state:LNG = {
+		}
+		region_state:TKE = {
+		}
+	}
+	s:STATE_CONGO_ORIENTALE = {
+		region_state:MNB = {
+		}
+		region_state:ZND = {
+		}
+		region_state:LGA = {
+		}
+		region_state:HMB = {
+		}
+		region_state:LBA = {
+		}
+	}
+	s:STATE_KASAI = {
+		region_state:KBA = {
+		}
+		region_state:LBA = {
+		}
+	}
+	s:STATE_BAS_CONGO = {
+		region_state:KON = {
+		}
+		region_state:YKA = {
+		}
+	}
+	s:STATE_EQUATEUR = {
+		region_state:BNG = {
+		}
+		region_state:BOB = {
+		}
+	}
+	s:STATE_NORTH_ANGOLA = {
+		region_state:POR = {
+		}
+	}
+	s:STATE_SOUTH_ANGOLA = {
+		region_state:POR = {
+		}
+		region_state:OVM = {
+		}
+	}
+	s:STATE_EAST_ANGOLA = {
+		region_state:CHK = {
+		}
+		region_state:LND = {
+		}
+		region_state:KSN = {
+		}
+		region_state:LZO = {
+		}
+	}
+	s:STATE_KATANGA = {
+		region_state:KZM = {
+		}
+		region_state:LND = {
+		}
+		region_state:LBA = {
+		}
+	}
+	s:STATE_GABON = {
+		region_state:FNG = {
+		}
+		region_state:LNG = {
+		}
+	}
+	s:STATE_ZAMBIA = {
+		region_state:LZO = {
+		}
+		region_state:BMB = {
+		}
+	}
+	s:STATE_ZAMBEZIA = {
+		region_state:POR = {
+		}
+		region_state:MSK = {
+		}
+		region_state:MNC = {
+		}
+	}
+	s:STATE_ZAMBEZI = {
+		region_state:MTB = {
+		}
+		region_state:MSH = {
+		}
+		region_state:MNC = {
+		}
+	}
+	s:STATE_NAMAQUALAND = {
+		region_state:NAM = {
+		}
+	}
+	s:STATE_HEREROLAND = {
+		region_state:HRO = {
+		}
+	}
+	s:STATE_ZULULAND = {
+		region_state:ZUL = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:ZUL"
+						levels = 1
+						region = "STATE_ZULULAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:ZUL"
+						levels = 1
+						region = "STATE_ZULULAND"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:BST = {
+		}
+	}
+	s:STATE_VRYSTAAT = {
+		region_state:ORA = {
+		}
+	}
+	s:STATE_TRANSVAAL = {
+		region_state:TRN = {
+		}
+	}
+	s:STATE_EASTERN_CAPE = {
+		region_state:SAF = {
+		}
+	}
+	s:STATE_CAPE_COLONY = {
+		region_state:SAF = {
+		}
+	}
+	s:STATE_NORTHERN_CAPE = {
+		region_state:SAF = {
+		}
+		region_state:TSW = {
+		}
+		region_state:WBL = {
+		}
+	}
+	s:STATE_BOTSWANA = {
+		region_state:TSW = {
+		}
+		region_state:LZO = {
+		}
+	}
+	s:STATE_LOURENCO_MARQUES = {
+		region_state:POR = {
+		}
+		region_state:GZA = {
+		}
+	}
+}

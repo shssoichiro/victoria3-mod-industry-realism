@@ -1,0 +1,330 @@
+﻿BUILDINGS={
+	s:STATE_DAGESTAN = {
+		region_state:RUS = {
+		}
+		region_state:CHC = {
+		}
+	}
+	s:STATE_KUBAN = {
+		region_state:RUS = {
+		}
+		region_state:CIR = {
+		}
+	}
+	s:STATE_ARMENIA = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_AZERBAIJAN = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_GREATER_CAUCASUS = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_SAMARA = {
+		region_state:RUS = {
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 3
+						region = "STATE_INGRIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_INGRIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:KZH = {
+		}
+	}
+	s:STATE_TARTARIA = {
+		region_state:RUS = {
+			remove_building = building_rye_farm
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 4
+						region = "STATE_INGRIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:RUS"
+						levels = 1
+						region = "STATE_INGRIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_ASTRAKHAN = {
+		region_state:RUS = {
+		}
+	}
+	s:STATE_UZBEKIA = {
+		region_state:BUK = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BUK"
+						levels = 2
+						region = "STATE_UZBEKIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BUK"
+						levels = 1
+						region = "STATE_UZBEKIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_TAJIKISTAN = {
+		region_state:KOK = {
+		}
+		region_state:BUK = {
+		}
+	}
+	s:STATE_KIRGHIZIA = {
+		region_state:KOK = {
+		}
+		region_state:CHI = {
+		}
+	}
+	s:STATE_JETISY = {
+		region_state:CHI = {
+		}
+	}
+	s:STATE_TURKMENIA = {
+		region_state:KHI = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:KHI"
+						levels = 1
+						region = "STATE_TURKMENIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:KHI"
+						levels = 1
+						region = "STATE_TURKMENIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_PASHTUNISTAN = {
+		region_state:KAB = {
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:KAB"
+						levels = 9
+						region = "STATE_PASHTUNISTAN"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:KAB"
+						levels = 2
+						region = "STATE_PASHTUNISTAN"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:PAN = {
+		}
+	}
+	s:STATE_KANDAHAR = {
+		region_state:KAN = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:KAN"
+						levels = 1
+						region = "STATE_KANDAHAR"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:KAN"
+						levels = 1
+						region = "STATE_KANDAHAR"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_BALKH = {
+		region_state:MAI = {
+		}
+		region_state:KUN = {
+		}
+	}
+	s:STATE_HERAT = {
+		region_state:HER = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:HER"
+						levels = 1
+						region = "STATE_HERAT"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:HER"
+						levels = 1
+						region = "STATE_HERAT"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_KABUL = {
+		region_state:KAB = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:KAB"
+						levels = 1
+						region = "STATE_KABUL"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:KAB"
+						levels = 1
+						region = "STATE_KABUL"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_BALUCHISTAN = {
+		region_state:MAK = {
+		}
+		region_state:OMA = {
+		}
+		region_state:KAL = {
+		}
+	}
+	s:STATE_LHASA = {
+		region_state:TIB = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:TIB"
+						levels = 1
+						region = "STATE_LHASA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:TIB"
+						levels = 1
+						region = "STATE_LHASA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_NGARI = {
+		region_state:TIB = {
+		}
+	}
+	s:STATE_HIMALAYAS = {
+		region_state:NEP = {
+		}
+	}
+	s:STATE_EASTERN_HIMALAYAS = {
+		region_state:SIK = {
+		}
+		region_state:BHU = {
+		}
+	}
+}

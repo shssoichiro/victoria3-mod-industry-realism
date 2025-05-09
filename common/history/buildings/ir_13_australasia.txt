@@ -1,0 +1,70 @@
+﻿BUILDINGS={
+	s:STATE_NEW_SOUTH_WALES = {
+		region_state:NSW = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NSW"
+						levels = 1
+						region = "STATE_NEW_SOUTH_WALES"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NSW"
+						levels = 1
+						region = "STATE_NEW_SOUTH_WALES"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_VICTORIA = {
+		region_state:NSW = {
+		}
+	}
+	s:STATE_TASMANIA = {
+		region_state:TAS = {
+		}
+	}
+	s:STATE_QUEENSLAND = {
+		region_state:NSW = {
+		}
+	}
+	s:STATE_SOUTH_AUSTRALIA = {
+		region_state:SAS = {
+		}
+		region_state:KAU = {
+		}
+	}
+	s:STATE_WESTERN_AUSTRALIA = {
+		region_state:WAS = {
+		}
+	}
+	s:STATE_NORTHERN_TERRITORY = {
+		region_state:NSW = {
+		}
+	}
+	s:STATE_NORTH_ISLAND = {
+		region_state:UNT = {
+		}
+		region_state:NSW = {
+		}
+		region_state:NTO = {
+		}
+	}
+	s:STATE_SOUTH_ISLAND = {
+		region_state:NTO = {
+		}
+		region_state:NTU = {
+		}
+	}
+}

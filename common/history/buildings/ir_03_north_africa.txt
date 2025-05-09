@@ -1,0 +1,302 @@
+﻿BUILDINGS={
+	s:STATE_LOWER_EGYPT = {
+		region_state:EGY = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_textile_mills"
+						country = "c:EGY"
+						levels = 2
+						region = "STATE_LOWER_EGYPT"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_tailoring_workshops"
+						country = "c:EGY"
+						levels = 1
+						region = "STATE_LOWER_EGYPT"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:EGY"
+						levels = 6
+						region = "STATE_LOWER_EGYPT"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:EGY"
+						levels = 1
+						region = "STATE_LOWER_EGYPT"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_UPPER_EGYPT = {
+		region_state:EGY = {
+		}
+	}
+	s:STATE_MIDDLE_EGYPT = {
+		region_state:EGY = {
+		}
+	}
+	s:STATE_EGYPTIAN_DESERT = {
+		region_state:EGY = {
+		}
+	}
+	s:STATE_MATRUH = {
+		region_state:EGY = {
+		}
+	}
+	s:STATE_SINAI = {
+		region_state:EGY = {
+		}
+	}
+	s:STATE_ERITREA = {
+		region_state:EGY = {
+		}
+		region_state:AWS = {
+		}
+	}
+	s:STATE_DONGOLA = {
+		region_state:EGY = {
+		}
+	}
+	s:STATE_KORDOFAN = {
+		region_state:EGY = {
+		}
+	}
+	s:STATE_DARFUR = {
+		region_state:DFR = {
+		}
+	}
+	s:STATE_BLUE_NILE = {
+		region_state:EGY = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:EGY"
+						levels = 1
+						region = "STATE_BLUE_NILE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:EGY"
+						levels = 1
+						region = "STATE_BLUE_NILE"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_MARRAKECH = {
+		region_state:MOR = {
+		}
+	}
+	s:STATE_FEZ = {
+		region_state:MOR = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:MOR"
+						levels = 1
+						region = "STATE_FEZ"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:MOR"
+						levels = 1
+						region = "STATE_FEZ"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_AL_RIF = {
+		region_state:MOR = {
+		}
+		region_state:SPA = {
+		}
+	}
+	s:STATE_INNER_MOROCCO = {
+		region_state:MOR = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:MOR"
+						levels = 1
+						region = "STATE_INNER_MOROCCO"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:MOR"
+						levels = 1
+						region = "STATE_INNER_MOROCCO"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:SAH = {
+		}
+	}
+	s:STATE_ALGIERS = {
+		region_state:MAS = {
+		}
+		region_state:FRA = {
+		}
+	}
+	s:STATE_CONSTANTINE = {
+		region_state:CON = {
+		}
+		region_state:FRA = {
+		}
+		region_state:AIT = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:AIT"
+						levels = 1
+						region = "STATE_CONSTANTINE"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:AIT"
+						levels = 1
+						region = "STATE_CONSTANTINE"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_ORAN = {
+		region_state:MAS = {
+		}
+		region_state:FRA = {
+		}
+	}
+	s:STATE_TUNISIA = {
+		region_state:TUN = {
+		}
+	}
+	s:STATE_TRIPOLI = {
+		region_state:TRI = {
+		}
+	}
+	s:STATE_LIBYA = {
+		region_state:TRI = {
+		}
+	}
+	s:STATE_LIBYAN_DESERT = {
+		region_state:TRI = {
+		}
+	}
+	s:STATE_SAHARA = {
+		region_state:TUA = {
+		}
+	}
+	s:STATE_EAST_SAHARA = {
+		region_state:AHG = {
+		}
+		region_state:TUG = {
+		}
+	}
+	s:STATE_WEST_SAHARA = {
+		region_state:SAH = {
+		}
+	}
+	s:STATE_MAURITANIA = {
+		region_state:OUA = {
+		}
+		region_state:TRZ = {
+		}
+		region_state:FTR = {
+		}
+	}
+	s:STATE_INNER_MAURITANIA = {
+		region_state:OUA = {
+		}
+	}
+	s:STATE_EASTERN_MALI = {
+		region_state:MSN = {
+		}
+	}
+	s:STATE_WESTERN_MALI = {
+		region_state:SGU = {
+		}
+		region_state:KRT = {
+		}
+	}
+	s:STATE_TIMBUKTU = {
+		region_state:ADG = {
+		}
+		region_state:MSN = {
+		}
+	}
+	s:STATE_NIGER = {
+		region_state:AIR = {
+		}
+	}
+	s:STATE_CHAD = {
+		region_state:WAD = {
+		}
+		region_state:TBI = {
+		}
+		region_state:BOR = {
+		}
+	}
+}

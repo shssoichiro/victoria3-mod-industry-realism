@@ -1,0 +1,312 @@
+﻿BUILDINGS={
+	s:STATE_MALAYA = {
+		region_state:JOH = {
+		}
+		region_state:SIA = {
+		}
+		region_state:BIC = {
+		}
+		region_state:GBR = {
+		}
+		region_state:PRK = {
+		}
+		region_state:SEL = {
+		}
+	}
+	s:STATE_NORTH_BORNEO = {
+		region_state:BRU = {
+		}
+		region_state:SUL = {
+		}
+		region_state:BLG = {
+		}
+	}
+	s:STATE_WEST_BORNEO = {
+		region_state:LAN = {
+		}
+		region_state:DEI = {
+		}
+		region_state:SMB = {
+		}
+		region_state:PON = {
+		}
+		region_state:STG = {
+		}
+	}
+	s:STATE_EAST_BORNEO = {
+		region_state:DEI = {
+		}
+		region_state:BLG = {
+		}
+		region_state:BNJ = {
+		}
+		region_state:KTI = {
+		}
+	}
+	s:STATE_WEST_JAVA = {
+		region_state:DEI = {
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 8
+						region = "STATE_HOLLAND"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 2
+						region = "STATE_GELRE"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 2
+						region = "STATE_FRIESLAND"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:DEI"
+						levels = 2
+						region = "STATE_WEST_JAVA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 2
+						region = "STATE_HOLLAND"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 1
+						region = "STATE_GELRE"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_EAST_JAVA = {
+		region_state:DEI = {
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 3
+						region = "STATE_HOLLAND"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 2
+						region = "STATE_FRIESLAND"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:DEI"
+						levels = 2
+						region = "STATE_EAST_JAVA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 1
+						region = "STATE_HOLLAND"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_CENTRAL_JAVA = {
+		region_state:DEI = {
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 3
+						region = "STATE_HOLLAND"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:DEI"
+						levels = 1
+						region = "STATE_CENTRAL_JAVA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 1
+						region = "STATE_HOLLAND"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:YOG = {
+		}
+		region_state:SRK = {
+		}
+	}
+	s:STATE_NORTH_SUMATRA = {
+		region_state:DEI = {
+		}
+		region_state:SAK = {
+		}
+		region_state:JMB = {
+		}
+	}
+	s:STATE_SOUTH_SUMATRA = {
+		region_state:DEI = {
+		}
+	}
+	s:STATE_ACEH = {
+		region_state:ACE = {
+		}
+		region_state:SAK = {
+		}
+		region_state:DEI = {
+		}
+	}
+	s:STATE_WESTERN_NEW_GUINEA = {
+		region_state:PPU = {
+		}
+		region_state:TID = {
+		}
+	}
+	s:STATE_MOLUCCAS = {
+		region_state:DEI = {
+		}
+		region_state:TID = {
+		}
+	}
+	s:STATE_CELEBES = {
+		region_state:SLW = {
+		}
+		region_state:DEI = {
+		}
+		region_state:BTN = {
+		}
+		region_state:TID = {
+		}
+	}
+	s:STATE_EASTERN_NEW_GUINEA = {
+		region_state:PPU = {
+		}
+	}
+	s:STATE_SUNDA_ISLANDS = {
+		region_state:BAL = {
+		}
+		region_state:POR = {
+		}
+		region_state:DEI = {
+		}
+	}
+	s:STATE_MINDANAO = {
+		region_state:PHI = {
+		}
+		region_state:SUL = {
+		}
+		region_state:MGD = {
+		}
+	}
+	s:STATE_LUZON = {
+		region_state:PHI = {
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:PHI"
+						levels = 8
+						region = "STATE_LUZON"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:PHI"
+						levels = 2
+						region = "STATE_LUZON"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:SUL = {
+		}
+	}
+	s:STATE_VISAYAS = {
+		region_state:PHI = {
+		}
+	}
+	s:STATE_WEST_MICRONESIA = {
+		region_state:MCR = {
+		}
+	}
+	s:STATE_EAST_MICRONESIA = {
+		region_state:MCR = {
+		}
+	}
+	s:STATE_SOLOMON_ISLANDS = {
+		region_state:BLA = {
+		}
+	}
+	s:STATE_NAURU = {
+		region_state:NRU = {
+		}
+	}
+	s:STATE_FIJI = {
+		region_state:FJI = {
+		}
+	}
+	s:STATE_VANUATU = {
+		region_state:VNT = {
+		}
+	}
+	s:STATE_KANAK = {
+		region_state:KNK = {
+		}
+	}
+	s:STATE_BOUGAINVILLE = {
+		region_state:HLA = {
+		}
+	}
+	s:STATE_TAHITI = {
+		region_state:PLY = {
+		}
+	}
+	s:STATE_TONGA = {
+		region_state:TNG = {
+		}
+	}
+}

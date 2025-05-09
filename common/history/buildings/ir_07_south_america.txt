@@ -1,0 +1,516 @@
+﻿BUILDINGS={
+	s:STATE_ECUADOR = {
+		region_state:ECU = {
+		}
+	}
+	s:STATE_GUAYANA = {
+		region_state:NET = {
+		}
+		region_state:FRA = {
+		}
+		region_state:GBR = {
+		}
+	}
+	s:STATE_ZULIA = {
+		region_state:VNZ = {
+		}
+	}
+	s:STATE_MIRANDA = {
+		region_state:VNZ = {
+		}
+	}
+	s:STATE_BOLIVAR = {
+		region_state:VNZ = {
+		}
+	}
+	s:STATE_ANTIOQUIA = {
+		region_state:CLM = {
+		}
+	}
+	s:STATE_GUAVIARE = {
+		region_state:CLM = {
+		}
+	}
+	s:STATE_CUNDINAMARCA = {
+		region_state:CLM = {
+		}
+	}
+	s:STATE_CAUCA = {
+		region_state:CLM = {
+		}
+	}
+	s:STATE_PASTAZA = {
+		region_state:NPU = {
+		}
+		region_state:ECU = {
+		}
+	}
+	s:STATE_TARAPACA = {
+		region_state:SPU = {
+		}
+	}
+	s:STATE_ANTOFAGASTA = {
+		region_state:BOL = {
+		}
+	}
+	s:STATE_SANTA_CRUZ = {
+		region_state:BOL = {
+		}
+	}
+	s:STATE_LA_PAZ = {
+		region_state:BOL = {
+		}
+	}
+	s:STATE_POTOSI = {
+		region_state:BOL = {
+		}
+	}
+	s:STATE_CAJAMARCA = {
+		region_state:NPU = {
+		}
+	}
+	s:STATE_LIMA = {
+		region_state:NPU = {
+		}
+	}
+	s:STATE_ICA = {
+		region_state:SPU = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_livestock_ranch"
+						country = "c:SPU"
+						levels = 0
+						region = "STATE_ICA"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:SPU"
+						levels = 1
+						region = "STATE_ICA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_wool_farms"
+						country = "c:SPU"
+						levels = 1
+						region = "STATE_ICA"
+					}
+				}
+				reserves = 1
+			}
+		}
+		region_state:IQU = {
+		}
+	}
+	s:STATE_AREQUIPA = {
+		region_state:SPU = {
+		}
+	}
+	s:STATE_URUGUAY = {
+		region_state:URU = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:URU"
+						levels = 1
+						region = "STATE_URUGUAY"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:URU"
+						levels = 1
+						region = "STATE_URUGUAY"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_JUJUY = {
+		region_state:BOL = {
+		}
+		region_state:ARG = {
+		}
+	}
+	s:STATE_ALTO_PARAGUAY = {
+		region_state:GNI = {
+		}
+	}
+	s:STATE_BAJO_PARAGUAY = {
+		region_state:PRG = {
+		}
+	}
+	s:STATE_BUENOS_AIRES = {
+		region_state:ARG = {
+		}
+		region_state:PAT = {
+		}
+	}
+	s:STATE_PATAGONIA = {
+		region_state:THL = {
+		}
+		region_state:PAT = {
+		}
+	}
+	s:STATE_RIO_NEGRO = {
+		region_state:ARG = {
+		}
+		region_state:PAT = {
+		}
+	}
+	s:STATE_LA_PAMPA = {
+		region_state:ARG = {
+		}
+	}
+	s:STATE_SANTA_FE = {
+		region_state:GNI = {
+		}
+		region_state:ARG = {
+		}
+	}
+	s:STATE_CORRIENTES = {
+		region_state:ARG = {
+		}
+	}
+	s:STATE_TUCUMAN = {
+		region_state:ARG = {
+		}
+	}
+	s:STATE_CHACO = {
+		region_state:GNI = {
+		}
+		region_state:ARG = {
+		}
+	}
+	s:STATE_SANTIAGO = {
+		region_state:CHL = {
+		}
+	}
+	s:STATE_LOS_RIOS = {
+		region_state:CHL = {
+		}
+	}
+	s:STATE_ARAUCANIA = {
+		region_state:CHL = {
+		}
+		region_state:THL = {
+		}
+		region_state:SLK = {
+		}
+	}
+	s:STATE_SOUTH_ATLANTIC_ISLANDS = {
+		region_state:GBR = {
+		}
+	}
+	s:STATE_PARA = {
+		region_state:PRA = {
+		}
+	}
+	s:STATE_MARANHAO = {
+		region_state:BRZ = {
+		}
+	}
+	s:STATE_AMAZONAS = {
+		region_state:CLM = {
+		}
+		region_state:PRA = {
+		}
+		region_state:BOL = {
+		}
+	}
+	s:STATE_ACRE = {
+		region_state:BOL = {
+		}
+	}
+	s:STATE_GOIAS = {
+		region_state:BRZ = {
+		}
+	}
+	s:STATE_MATO_GROSSO = {
+		region_state:PRG = {
+		}
+		region_state:BRZ = {
+		}
+		region_state:BOL = {
+		}
+	}
+	s:STATE_RIO_GRANDE_DO_SUL = {
+		region_state:PNI = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:PNI"
+						levels = 1
+						region = "STATE_RIO_GRANDE_DO_SUL"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:PNI"
+						levels = 1
+						region = "STATE_RIO_GRANDE_DO_SUL"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_PARANA = {
+		region_state:BRZ = {
+		}
+	}
+	s:STATE_SANTA_CATARINA = {
+		region_state:BRZ = {
+		}
+	}
+	s:STATE_SAO_PAULO = {
+		region_state:BRZ = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BRZ"
+						levels = 1
+						region = "STATE_RIO_DE_JANEIRO"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BRZ"
+						levels = 1
+						region = "STATE_RIO_DE_JANEIRO"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_maize_farm
+			create_building = {
+				building = "building_maize_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BRZ"
+						levels = 3
+						region = "STATE_RIO_DE_JANEIRO"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BRZ"
+						levels = 1
+						region = "STATE_RIO_DE_JANEIRO"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_MINAS_GERAIS = {
+		region_state:BRZ = {
+			remove_building = building_maize_farm
+			create_building = {
+				building = "building_maize_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BRZ"
+						levels = 1
+						region = "STATE_MINAS_GERAIS"
+					}
+					building = {
+						type = "building_maize_farm"
+						country = "c:BRZ"
+						levels = 2
+						region = "STATE_MINAS_GERAIS"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BRZ"
+						levels = 1
+						region = "STATE_MINAS_GERAIS"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_RIO_DE_JANEIRO = {
+		region_state:BRZ = {
+			remove_building = building_maize_farm
+			create_building = {
+				building = "building_maize_farm"
+				add_ownership = {
+					building = {
+						type = "building_maize_farm"
+						country = "c:BRZ"
+						levels = 3
+						region = "STATE_RIO_DE_JANEIRO"
+					}
+					building = {
+						type = "building_manor_house"
+						country = "c:BRZ"
+						levels = 2
+						region = "STATE_RIO_DE_JANEIRO"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_fruit_orchard"
+						country = "c:BRZ"
+						levels = 1
+						region = "STATE_RIO_DE_JANEIRO"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_BAHIA = {
+		region_state:BRZ = {
+			remove_building = building_maize_farm
+			create_building = {
+				building = "building_maize_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BRZ"
+						levels = 3
+						region = "STATE_BAHIA"
+					}
+					building = {
+						type = "building_maize_farm"
+						country = "c:BRZ"
+						levels = 2
+						region = "STATE_BAHIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BRZ"
+						levels = 1
+						region = "STATE_BAHIA"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_RIO_GRANDE_DO_NORTE = {
+		region_state:BRZ = {
+		}
+	}
+	s:STATE_CEARA = {
+		region_state:BRZ = {
+		}
+	}
+	s:STATE_PIAUI = {
+		region_state:BRZ = {
+		}
+	}
+	s:STATE_PARAIBA = {
+		region_state:BRZ = {
+		}
+	}
+	s:STATE_PERNAMBUCO = {
+		region_state:BRZ = {
+			remove_building = building_textile_mills
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_textile_mills"
+						country = "c:BRZ"
+						levels = 2
+						region = "STATE_PERNAMBUCO"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshops"
+				add_ownership = {
+					building = {
+						type = "building_tailoring_workshops"
+						country = "c:BRZ"
+						levels = 1
+						region = "STATE_PERNAMBUCO"
+					}
+				}
+				reserves = 1
+			}
+			remove_building = building_maize_farm
+			create_building = {
+				building = "building_maize_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BRZ"
+						levels = 1
+						region = "STATE_PERNAMBUCO"
+					}
+					building = {
+						type = "building_maize_farm"
+						country = "c:BRZ"
+						levels = 2
+						region = "STATE_PERNAMBUCO"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BRZ"
+						levels = 1
+						region = "STATE_PERNAMBUCO"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+}
