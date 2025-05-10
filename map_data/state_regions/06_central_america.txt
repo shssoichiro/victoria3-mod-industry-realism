@@ -18,14 +18,14 @@
 	arable_land = 25
 	arable_resources = {
 		"bg_maize_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 7
@@ -79,15 +79,15 @@ STATE_GUATEMALA = {
 	arable_land = 40
 	arable_resources = {
 		"bg_maize_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 30
@@ -140,15 +140,15 @@ STATE_HONDURAS = {
 	arable_land = 35
 	arable_resources = {
 		"bg_maize_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 15
@@ -200,15 +200,15 @@ STATE_NICARAGUA = {
 	arable_land = 50
 	arable_resources = {
 		"bg_maize_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 14
@@ -248,14 +248,14 @@ STATE_COSTA_RICA = {
 	arable_land = 15
 	arable_resources = {
 		"bg_maize_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 24
@@ -296,12 +296,12 @@ STATE_PANAMA = {
 	arable_land = 20
 	arable_resources = {
 		"bg_maize_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_tobacco_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 36
@@ -336,14 +336,14 @@ STATE_HAITI = {
 	arable_land = 35
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
 		"bg_dye_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 7
@@ -377,14 +377,14 @@ STATE_SANTO_DOMINGO = {
 	arable_land = 30
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
 		"bg_dye_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 11
@@ -413,13 +413,13 @@ STATE_PUERTO_RICO = {
 	arable_land = 15
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 2
@@ -448,12 +448,12 @@ STATE_BAHAMAS = {
 	arable_land = 10
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_fishing = 5
@@ -493,13 +493,13 @@ STATE_WEST_INDIES = {
 	arable_land = 30
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_fishing = 8
@@ -528,13 +528,13 @@ STATE_JAMAICA = {
 	arable_land = 20
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 4
@@ -585,13 +585,13 @@ STATE_CUBA = {
 	arable_land = 105
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 16

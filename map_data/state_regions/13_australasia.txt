@@ -211,13 +211,13 @@
 	arable_land = 40
 	arable_resources = {
 		"bg_wheat_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tea_plantations"
 		"bg_sugar_plantations"
 		"bg_vineyard_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 80
@@ -313,13 +313,13 @@ STATE_VICTORIA = {
 	arable_land = 40
 	arable_resources = {
 		"bg_wheat_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tea_plantations"
 		"bg_sugar_plantations"
 		"bg_vineyard_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_sulfur_mining = 24
@@ -372,13 +372,13 @@ STATE_TASMANIA = {
 	arable_land = 15
 	arable_resources = {
 		"bg_wheat_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tea_plantations"
 		"bg_sugar_plantations"
 		"bg_opium_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 15
@@ -867,12 +867,12 @@ STATE_QUEENSLAND = {
 	arable_land = 20
 	arable_resources = {
 		"bg_wheat_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_cotton_plantations"
 		"bg_tea_plantations"
 		"bg_sugar_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 45
@@ -1206,10 +1206,10 @@ STATE_SOUTH_AUSTRALIA = {
 	arable_land = 30
 	arable_resources = {
 		"bg_wheat_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_vineyard_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 30
@@ -1955,10 +1955,10 @@ STATE_WESTERN_AUSTRALIA = {
 	arable_land = 30
 	arable_resources = {
 		"bg_wheat_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_vineyard_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 40
@@ -2424,8 +2424,8 @@ STATE_NORTHERN_TERRITORY = {
 	arable_land = 10
 	arable_resources = {
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_cotton_plantations"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 5
@@ -2486,8 +2486,8 @@ STATE_NORTH_ISLAND = {
 	arable_land = 30
 	arable_resources = {
 		"bg_wheat_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
+		"bg_fruit_orchards"
 		"bg_wool_farms"
 	}
 	capped_resources = {
@@ -2572,8 +2572,8 @@ STATE_SOUTH_ISLAND = {
 	arable_land = 30
 	arable_resources = {
 		"bg_wheat_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
+		"bg_fruit_orchards"
 		"bg_wool_farms"
 	}
 	capped_resources = {

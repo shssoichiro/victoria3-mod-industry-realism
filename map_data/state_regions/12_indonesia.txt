@@ -34,13 +34,13 @@
 	arable_land = 35
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_tea_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 32
@@ -116,14 +116,14 @@ STATE_NORTH_BORNEO = {
 	arable_land = 20
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
 		"bg_tobacco_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 24
@@ -212,14 +212,14 @@ STATE_WEST_BORNEO = {
 	arable_land = 22
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
 		"bg_tobacco_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_lead_mining = 30
@@ -326,14 +326,14 @@ STATE_EAST_BORNEO = {
 	arable_land = 40
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
 		"bg_tobacco_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 28
@@ -375,9 +375,7 @@ STATE_WEST_JAVA = {
 	arable_land = 110
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
@@ -385,6 +383,8 @@ STATE_WEST_JAVA = {
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 20
@@ -434,9 +434,7 @@ STATE_EAST_JAVA = {
 	arable_land = 60
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
@@ -444,6 +442,8 @@ STATE_EAST_JAVA = {
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_sulfur_mining = 40
@@ -488,9 +488,7 @@ STATE_CENTRAL_JAVA = {
 	arable_land = 80
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
@@ -498,6 +496,8 @@ STATE_CENTRAL_JAVA = {
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_sulfur_mining = 32
@@ -573,15 +573,15 @@ STATE_NORTH_SUMATRA = {
 	arable_land = 60
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 40
@@ -639,15 +639,15 @@ STATE_SOUTH_SUMATRA = {
 	arable_land = 40
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_coal_mining = 40
@@ -700,15 +700,15 @@ STATE_ACEH = {
 	arable_land = 40
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 15
@@ -818,13 +818,13 @@ STATE_WESTERN_NEW_GUINEA = {
 	arable_land = 40
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 18
@@ -872,14 +872,14 @@ STATE_MOLUCCAS = {
 	arable_land = 20
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
 		"bg_tobacco_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_logging = 4
@@ -942,14 +942,14 @@ STATE_CELEBES = {
 	arable_land = 40
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
 		"bg_tobacco_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 27
@@ -1064,13 +1064,13 @@ STATE_EASTERN_NEW_GUINEA = {
 	arable_land = 30
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 24
@@ -1123,14 +1123,14 @@ STATE_SUNDA_ISLANDS = {
 	arable_land = 60
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
 		"bg_tobacco_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 24
@@ -1178,15 +1178,15 @@ STATE_MINDANAO = {
 	arable_land = 40
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
 		"bg_tobacco_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 36
@@ -1241,9 +1241,7 @@ STATE_LUZON = {
 	arable_land = 80
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
@@ -1251,6 +1249,8 @@ STATE_LUZON = {
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 24
@@ -1292,9 +1292,7 @@ STATE_VISAYAS = {
 	arable_land = 60
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_livestock_ranches"
-		"bg_wool_farms"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
@@ -1302,6 +1300,8 @@ STATE_VISAYAS = {
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
+		"bg_wool_farms"
 	}
 	capped_resources = {
 		bg_iron_mining = 30
@@ -1339,8 +1339,8 @@ STATE_WEST_MICRONESIA = {
 	arable_land = 5
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
 	}
 	capped_resources = {
 		bg_logging = 2
@@ -1376,8 +1376,8 @@ STATE_EAST_MICRONESIA = {
 	arable_land = 5
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
 	}
 	capped_resources = {
 		bg_logging = 2
@@ -1413,9 +1413,9 @@ STATE_SOLOMON_ISLANDS = {
 	arable_land = 5
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_coffee_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
 	}
 	capped_resources = {
 		bg_logging = 2
@@ -1441,9 +1441,9 @@ STATE_NAURU = {
 	arable_land = 5
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_coffee_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
 	}
 	capped_resources = {
 		bg_logging = 2
@@ -1471,9 +1471,9 @@ STATE_FIJI = {
 	arable_land = 5
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_coffee_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
 	}
 	capped_resources = {
 		bg_logging = 2
@@ -1501,9 +1501,9 @@ STATE_VANUATU = {
 	arable_land = 5
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_coffee_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
 	}
 	capped_resources = {
 		bg_logging = 2
@@ -1534,9 +1534,9 @@ STATE_KANAK = {
 	arable_land = 5
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_coffee_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
 	}
 	capped_resources = {
 		bg_lead_mining = 8
@@ -1566,9 +1566,9 @@ STATE_BOUGAINVILLE = {
 	arable_land = 5
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_coffee_plantations"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
 	}
 	capped_resources = {
 		bg_logging = 2
@@ -1621,8 +1621,8 @@ STATE_TAHITI = {
 	arable_land = 10
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
 	}
 	capped_resources = {
 		bg_logging = 4
@@ -1652,8 +1652,8 @@ STATE_TONGA = {
 	arable_land = 5
 	arable_resources = {
 		"bg_rice_farms"
-		"bg_fruit_orchards"
 		"bg_banana_plantations"
+		"bg_fruit_orchards"
 	}
 	capped_resources = {
 		bg_logging = 2
