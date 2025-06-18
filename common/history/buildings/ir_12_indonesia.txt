@@ -6,8 +6,6 @@
 		}
 		region_state:BIC = {
 		}
-		region_state:GBR = {
-		}
 		region_state:PRK = {
 		}
 		region_state:SEL = {

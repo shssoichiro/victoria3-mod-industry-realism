@@ -272,12 +272,12 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:GBR"
-						levels = 13
+						levels = 8
 						region = "STATE_HOME_COUNTIES"
 					}
 					country = {
 						country = "c:GBR"
-						levels = 4
+						levels = 2
 					}
 				}
 			}
@@ -287,12 +287,12 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:GBR"
-						levels = 4
+						levels = 2
 						region = "STATE_HOME_COUNTIES"
 					}
 					country = {
 						country = "c:GBR"
-						levels = 2
+						levels = 1
 					}
 				}
 				reserves = 1
@@ -380,19 +380,19 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:GBR"
-						levels = 9
+						levels = 6
 						region = "STATE_HOME_COUNTIES"
 					}
 					building = {
 						type = "building_textile_mills"
 						country = "c:GBR"
-						levels = 3
+						levels = 2
 						region = "STATE_LANCASHIRE"
 					}
 					building = {
 						type = "building_financial_district"
 						country = "c:GBR"
-						levels = 3
+						levels = 2
 						region = "STATE_LANCASHIRE"
 					}
 				}
@@ -403,17 +403,11 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:GBR"
-						levels = 3
+						levels = 2
 						region = "STATE_HOME_COUNTIES"
 					}
 					building = {
 						type = "building_tailoring_workshops"
-						country = "c:GBR"
-						levels = 1
-						region = "STATE_LANCASHIRE"
-					}
-					building = {
-						type = "building_financial_district"
 						country = "c:GBR"
 						levels = 1
 						region = "STATE_LANCASHIRE"
@@ -799,22 +793,18 @@
 			create_building = {
 				building = "building_food_industry"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
+					country = {
 						country = "c:GBR"
-						levels = 3
-						region = "STATE_EAST_ANGLIA"
+						levels = 4
 					}
 				}
 			}
 			create_building = {
 				building = "building_distillery"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
+					country = {
 						country = "c:GBR"
 						levels = 1
-						region = "STATE_EAST_ANGLIA"
 					}
 				}
 				reserves = 1
@@ -889,36 +879,6 @@
 	}
 	s:STATE_WEST_COUNTRY = {
 		region_state:GBR = {
-			remove_building = building_textile_mills
-			create_building = {
-				building = "building_textile_mills"
-				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:GBR"
-						levels = 2
-						region = "STATE_WEST_COUNTRY"
-					}
-					building = {
-						type = "building_financial_district"
-						country = "c:GBR"
-						levels = 1
-						region = "STATE_WEST_COUNTRY"
-					}
-				}
-			}
-			create_building = {
-				building = "building_tailoring_workshops"
-				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:GBR"
-						levels = 1
-						region = "STATE_WEST_COUNTRY"
-					}
-				}
-				reserves = 1
-			}
 			remove_building = building_livestock_ranch
 			create_building = {
 				building = "building_livestock_ranch"
@@ -954,7 +914,7 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:GBR"
-						levels = 3
+						levels = 2
 						region = "STATE_LOWLANDS"
 					}
 				}
@@ -1747,6 +1707,36 @@
 	}
 	s:STATE_AUVERGNE_LIMOUSIN = {
 		region_state:FRA = {
+			remove_building = building_furniture_manufacturies
+			create_building = {
+				building = "building_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_AUVERGNE_LIMOUSIN"
+					}
+					building = {
+						type = "building_furniture_manufacturies"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_AUVERGNE_LIMOUSIN"
+					}
+				}
+			}
+			create_building = {
+				building = "building_luxury_furniture_manufacturies"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_AUVERGNE_LIMOUSIN"
+					}
+				}
+				reserves = 1
+			}
 			remove_building = building_wheat_farm
 			create_building = {
 				building = "building_wheat_farm"
@@ -1894,22 +1884,22 @@
 				building = "building_furniture_manufacturies"
 				add_ownership = {
 					building = {
-						type = "building_financial_district"
-						country = "c:FRA"
-						levels = 2
-						region = "STATE_ILE_DE_FRANCE"
-					}
-					building = {
-						type = "building_financial_district"
-						country = "c:FRA"
-						levels = 2
-						region = "STATE_FRANCHE_COMTE"
-					}
-					building = {
 						type = "building_furniture_manufacturies"
 						country = "c:FRA"
+						levels = 1
+						region = "STATE_FRANCHE_COMTE"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
 						levels = 2
 						region = "STATE_FRANCHE_COMTE"
+					}
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_ILE_DE_FRANCE"
 					}
 				}
 			}
@@ -1917,13 +1907,7 @@
 				building = "building_luxury_furniture_manufacturies"
 				add_ownership = {
 					building = {
-						type = "building_financial_district"
-						country = "c:FRA"
-						levels = 1
-						region = "STATE_ILE_DE_FRANCE"
-					}
-					building = {
-						type = "building_financial_district"
+						type = "building_luxury_furniture_manufacturies"
 						country = "c:FRA"
 						levels = 1
 						region = "STATE_FRANCHE_COMTE"
