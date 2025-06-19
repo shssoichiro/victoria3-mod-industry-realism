@@ -12,11 +12,19 @@ pmg_automobile_production = {
 	}
 }
 
-pmg_automation_building_automobile_factories = {
+pmg_automation_building_war_machine_industry = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_automation_disabled
-		pm_assembly_lines_building_motor_industry
+		pm_assembly_lines_building_war_machine_industry
+	}
+}
+
+pmg_automation_building_aircraft_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled
+		pm_assembly_lines_building_aircraft_industry
 	}
 }
 

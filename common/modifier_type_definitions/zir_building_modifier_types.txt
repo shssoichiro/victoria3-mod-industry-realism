@@ -43,7 +43,7 @@ building_rayon_plants_throughput_add = {
 	}
 }
 
-building_automobile_factories_throughput_add = {
+building_automotive_industry_throughput_add = {
 	decimals = 0
 	color = good
 	percent = yes

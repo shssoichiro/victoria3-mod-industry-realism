@@ -13,9 +13,7 @@ land_ownership_law_events.4 = {
 	}
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
-	cooldown = {
-		months = normal_modifier_time
-	}
+	cooldown = { days = normal_modifier_time }
 	trigger = {
 		OR = {
 			has_law = law_type:law_homesteading
@@ -123,13 +121,13 @@ land_ownership_law_events.4 = {
 		ig:ig_landowners = {
 			add_modifier = {
 				name = farmland_consolidation_modifier_pos
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		ig:ig_rural_folk = {
 			add_modifier = {
 				name = farmland_consolidation_modifier_neg
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		add_loyalists = {
@@ -153,13 +151,13 @@ land_ownership_law_events.4 = {
 		ig:ig_industrialists = {
 			add_modifier = {
 				name = farmland_consolidation_modifier_pos
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		ig:ig_rural_folk = {
 			add_modifier = {
 				name = farmland_consolidation_modifier_neg
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		add_loyalists = {
@@ -190,7 +188,7 @@ land_ownership_law_events.7 = {
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	cooldown = {
-		months = normal_modifier_time
+		days = normal_modifier_time
 	}
 	trigger = {
 		has_law = law_type:law_homesteading
@@ -240,7 +238,7 @@ land_ownership_law_events.7 = {
 		}
 		add_modifier = {
 			name = rural_financial_inducements
-			months = normal_modifier_time
+			days = normal_modifier_time
 			multiplier = money_amount_multiplier_small
 		}
 	}
@@ -252,7 +250,7 @@ land_ownership_law_events.7 = {
 		ig:ig_landowners = {
 			add_modifier = {
 				name = farmland_consolidation_modifier_pos
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 	}
@@ -282,7 +280,7 @@ land_ownership_law_events.8 = {
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	cooldown = {
-		months = normal_modifier_time
+		days = normal_modifier_time
 	}
 	trigger = {
 		has_law = law_type:law_homesteading
@@ -354,7 +352,7 @@ land_ownership_law_events.8 = {
 		ig:ig_landowners = {
 			add_modifier = {
 				name = narratives_of_victimhood
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 	}
@@ -378,7 +376,7 @@ land_ownership_law_events.8 = {
 		ig:ig_rural_folk = {
 			add_modifier = {
 				name = peasant_crackdowns_modifier
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 	}

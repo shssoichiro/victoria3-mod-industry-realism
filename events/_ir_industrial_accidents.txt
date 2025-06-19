@@ -50,7 +50,7 @@ industrial_accident_events.2 = {
 		scope:dyeworks_state = {
 			add_modifier = {
 				name = modifier_state_dyeworks_accident
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 			add_radicals_in_state = {
 				pop_type = laborers
@@ -69,13 +69,13 @@ industrial_accident_events.2 = {
 		scope:dyeworks_state = {
 			add_modifier = {
 				name = modifier_state_dyeworks_accident
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		ig:ig_trade_unions = {
 			add_modifier = {
 				name = ig_gaining_support
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 	}
@@ -128,7 +128,7 @@ industrial_accident_events.4 = {
 		scope:molasses_flood_state = {
 			add_modifier = {
 				name = modifier_bg_diminished_rum_production
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 	}

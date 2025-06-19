@@ -36,7 +36,7 @@ decree_events.100 = {
 					is_building_type = building_rayon_plants
 					is_building_type = building_steel_mills
 					is_building_type = building_motor_industry
-					is_building_type = building_automobile_factories
+					is_building_type = building_automotive_industry
 					is_building_type = building_shipyards
 					is_building_type = building_war_machine_industry
 					is_building_type = building_aircraft_industry
@@ -87,7 +87,7 @@ decree_events.100 = {
 						is_building_type = building_rayon_plants
 						is_building_type = building_steel_mills
 						is_building_type = building_motor_industry
-						is_building_type = building_automobile_factories
+						is_building_type = building_automotive_industry
 						is_building_type = building_shipyards
 						is_building_type = building_war_machine_industry
 						is_building_type = building_aircraft_industry
@@ -111,7 +111,7 @@ decree_events.100 = {
 		scope:decree_manufacturing_industry = {
 			add_modifier = {
 				name = decree_manufacturing_throughput
-				months = short_modifier_time
+				days = short_modifier_time
 			}
 		}
 	}
@@ -127,7 +127,7 @@ decree_events.100 = {
 		scope:decree_manufacturing_industry = {
 			add_modifier = {
 				name = decree_minimum_wealth
-				months = short_modifier_time
+				days = short_modifier_time
 			}
 		}
 	}
@@ -170,7 +170,7 @@ decree_events.101 = {
 					is_building_type = building_rayon_plants
 					is_building_type = building_steel_mills
 					is_building_type = building_motor_industry
-					is_building_type = building_automobile_factories
+					is_building_type = building_automotive_industry
 					is_building_type = building_shipyards
 					is_building_type = building_war_machine_industry
 					is_building_type = building_aircraft_industry
@@ -223,7 +223,7 @@ decree_events.101 = {
 						is_building_type = building_rayon_plants
 						is_building_type = building_steel_mills
 						is_building_type = building_motor_industry
-						is_building_type = building_automobile_factories
+						is_building_type = building_automotive_industry
 						is_building_type = building_shipyards
 						is_building_type = building_war_machine_industry
 						is_building_type = building_aircraft_industry
@@ -249,7 +249,7 @@ decree_events.101 = {
 		default_option = yes
 		add_modifier = {
 			name = decree_manufacturing_industrialist_attraction
-			months = short_modifier_time
+			days = short_modifier_time
 		}
 	}
 	option = {
@@ -257,7 +257,7 @@ decree_events.101 = {
 		name = decree_events.101.b
 		add_modifier = {
 			name = decree_manufacturing_trade_attraction
-			months = short_modifier_time
+			days = short_modifier_time
 		}
 	}
 	option = {
@@ -265,7 +265,7 @@ decree_events.101 = {
 		name = decree_events.101.c
 		add_modifier = {
 			name = decree_manufacturing_petty_bourgeoisie_attraction
-			months = short_modifier_time
+			days = short_modifier_time
 		}
 	}
 }
@@ -362,7 +362,7 @@ decree_events.102 = {
 		scope:decree_agricultural_industry = {
 			add_modifier = {
 				name = decree_agricultural_throughput
-				months = short_modifier_time
+				days = short_modifier_time
 			}
 		}
 	}
@@ -378,7 +378,7 @@ decree_events.102 = {
 		scope:decree_agricultural_industry = {
 			add_modifier = {
 				name = decree_minimum_wealth
-				months = short_modifier_time
+				days = short_modifier_time
 			}
 		}
 	}
@@ -480,7 +480,7 @@ decree_events.103 = {
 		default_option = yes
 		add_modifier = {
 			name = decree_agricultural_landowners_attraction
-			months = short_modifier_time
+			days = short_modifier_time
 		}
 	}
 	option = {
@@ -488,7 +488,7 @@ decree_events.103 = {
 		name = decree_events.103.b
 		add_modifier = {
 			name = decree_agricultural_rural_folk_attraction
-			months = short_modifier_time
+			days = short_modifier_time
 		}
 	}
 	option = {
@@ -496,7 +496,7 @@ decree_events.103 = {
 		name = decree_events.103.c
 		add_modifier = {
 			name = decree_agricultural_devout_attraction
-			months = short_modifier_time
+			days = short_modifier_time
 		}
 	}
 }
@@ -579,7 +579,7 @@ decree_events.104 = {
 		scope:decree_resource_industry = {
 			add_modifier = {
 				name = decree_resource_throughput
-				months = short_modifier_time
+				days = short_modifier_time
 			}
 		}
 	}
@@ -595,7 +595,7 @@ decree_events.104 = {
 		scope:decree_resource_industry = {
 			add_modifier = {
 				name = decree_minimum_wealth
-				months = short_modifier_time
+				days = short_modifier_time
 			}
 		}
 	}
@@ -686,7 +686,7 @@ decree_events.105 = {
 		default_option = yes
 		add_modifier = {
 			name = decree_resource_industrialists_attraction
-			months = short_modifier_time
+			days = short_modifier_time
 		}
 	}
 	option = {
@@ -694,7 +694,7 @@ decree_events.105 = {
 		name = decree_events.105.b
 		add_modifier = {
 			name = decree_resource_landowners_attraction
-			months = short_modifier_time
+			days = short_modifier_time
 		}
 	}
 	option = {
@@ -702,7 +702,7 @@ decree_events.105 = {
 		name = decree_events.105.c
 		add_modifier = {
 			name = decree_resource_trade_union_attraction
-			months = short_modifier_time
+			days = short_modifier_time
 		}
 	}
 }

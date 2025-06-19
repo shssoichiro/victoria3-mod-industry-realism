@@ -12,7 +12,7 @@ pm_events.3 = {
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	duration = 3
 	cooldown = {
-		months = normal_modifier_time
+		days = normal_modifier_time
 	}
 	trigger = {
 		any_scope_state = {
@@ -46,7 +46,7 @@ pm_events.3 = {
 		scope:liquor_making_state = {
 			add_modifier = {
 				name = liquor_production_ban
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		if = {
@@ -65,13 +65,13 @@ pm_events.3 = {
 		scope:liquor_making_state = {
 			add_modifier = {
 				name = liquor_production_restrictions
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		ig:ig_devout = {
 			add_modifier = {
 				name = permitted_limited_liquor_production
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		if = {
@@ -90,7 +90,7 @@ pm_events.3 = {
 		ig:ig_devout = {
 			add_modifier = {
 				name = permitted_unrestricted_liquor_production
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		default_option = yes

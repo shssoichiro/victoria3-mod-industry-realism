@@ -107,7 +107,7 @@
 	building_rayon_plants = {
 		"arabic_factory_glassworks_01_mesh"
 	}
-	building_automobile_factories = {
+	building_automotive_industry = {
 		"arabic_factory_colonial_02_mesh"
 	}
 	building_aircraft_industry = {

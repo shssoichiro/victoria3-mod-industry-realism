@@ -93,6 +93,7 @@ building_war_machine_industry = {
 	}
 	production_method_groups = {
 		pmg_tanks
+		pmg_automation_building_war_machine_industry
 	}
 	required_construction = construction_cost_very_high
 	possible = {
@@ -120,6 +121,7 @@ building_aircraft_industry = {
 	}
 	production_method_groups = {
 		pmg_aeroplanes
+		pmg_automation_building_aircraft_industry
 	}
 	required_construction = construction_cost_very_high
 	possible = {

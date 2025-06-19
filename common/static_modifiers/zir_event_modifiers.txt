@@ -10,5 +10,5 @@ modifier_haute_couture_competition = {
 
 automobile_regulations = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
-	building_automobile_factories_throughput_add = -0.1
+	building_automotive_industry_throughput_add = -0.1
 }
