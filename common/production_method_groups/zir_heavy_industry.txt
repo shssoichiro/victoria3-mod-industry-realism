@@ -35,6 +35,13 @@ pmg_tanks = {
 	}
 }
 
+pmg_aeroplanes = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_aeroplane_production
+	}
+}
+
 pmg_radios_category = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {

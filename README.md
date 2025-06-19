@@ -4,6 +4,8 @@
 
 **Tested With V3 Version: 1.8.3**
 
+## What the mod does
+
 - Reworks buildings that have multiple potential outputs to only have one primary output
   - Except shipyards. Why? Shipyards represent a technological progression. All of the other buildings represent _two separate outputs_ that should be coming from two separate factories.
 - Creates a new building type for the alternate outputs
@@ -12,7 +14,7 @@
 - Updates companies and events around those buildings in ways that hopefully make sense
 - Adds some buildings for artificially creating oil and rubber, quite far in the tech tree, to make playing tall more viable
 
-### Full list of building changes:
+### Full list of building changes
 
 - Food Industry: now only produces groceries
 - Distillery: new building uses sugar to produce rum, or grain to produce grain alcohol (vodka, beer, sake, etc.), both represented by generic "liquor" good
@@ -25,13 +27,13 @@
 - Synthetics Plants: now called dye plants, they produce dye from coal
 - Rayon Plants: new building, produces synthetic silk from wood
 - Motor Industry: now only makes engines
-- Automobile Factory: new building, makes automobiles from engines, oil, rubber, and steel
-- War Machines Industry: now only makes tanks
+- Automobile Factory: now only makes automobiles
+- War Machines Industry: new building, makes tanks
 - Aircraft Industry: new building, makes aeroplanes
 - Electrics Industry: renamed to Telephone Industry, now only makes telephones
 - Radio Industry: new building, makes radios
 - All Farms: no longer have the option to produce fruit
-- Rye Farms: no longer magically produce potatoes
+- Rye Farms: no longer produce potatoes
 - Fruit Orchards: new farm building, produces fruit and a small amount of sugar
 - Livestock Ranches: now produce meat and a small amount of fabric (leather) and fertilizer. input goods have also been rebalanced. cows and pigs eat a lot.
 - Wool Farms: new building, produces fabric and a small amount of fertilizer

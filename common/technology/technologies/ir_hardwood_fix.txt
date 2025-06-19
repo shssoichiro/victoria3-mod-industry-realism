@@ -1,4 +1,4 @@
-pneumatic_tools = {
+﻿pneumatic_tools = {
 	# +15% construction throughput
 	# Countries get a +25% chance of discovering new resources
 	era = era_4

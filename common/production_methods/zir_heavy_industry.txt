@@ -95,11 +95,9 @@ pm_assembly_lines_building_war_machine_industry = {
 			state_pollution_generation_add = 15
 		}
 	}
-
 	unlocking_technologies = {
 		conveyors
 	}
-
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -107,13 +105,11 @@ pm_assembly_lines_building_war_machine_industry = {
 			goods_input_oil_add = 5
 			goods_input_electricity_add = 5
 		}
-
 		level_scaled = {
 			building_employment_laborers_add = -1500
 			building_employment_machinists_add = -500
 		}
 	}
-
 	required_input_goods = electricity
 }
 
@@ -124,11 +120,9 @@ pm_assembly_lines_building_aircraft_industry = {
 			state_pollution_generation_add = 15
 		}
 	}
-
 	unlocking_technologies = {
 		conveyors
 	}
-
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -136,16 +130,13 @@ pm_assembly_lines_building_aircraft_industry = {
 			goods_input_oil_add = 5
 			goods_input_electricity_add = 5
 		}
-
 		level_scaled = {
 			building_employment_laborers_add = -1500
 			building_employment_machinists_add = -500
 		}
 	}
-
 	required_input_goods = electricity
 }
-
 
 pm_telephones = {
 	texture = "gfx/interface/icons/production_method_icons/telephones.dds"

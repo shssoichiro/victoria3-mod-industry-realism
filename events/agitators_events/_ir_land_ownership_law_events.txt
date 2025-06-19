@@ -13,7 +13,9 @@ land_ownership_law_events.4 = {
 	}
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
-	cooldown = { days = normal_modifier_time }
+	cooldown = {
+		days = normal_modifier_time
+	}
 	trigger = {
 		OR = {
 			has_law = law_type:law_homesteading
