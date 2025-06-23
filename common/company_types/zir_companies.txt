@@ -272,12 +272,12 @@ company_basic_fabrics = {
 		building_textile_mills
 	}
 	possible_prestige_goods = {
-		prestige_good_generic_meat
+		prestige_good_generic_clothes
 	}
 	prestige_goods_trigger = {
 		custom_tooltip = {
-			text = je_prestige_goods_meat_complete_tt
-			has_variable = prestige_good_generic_meat_var
+			text = je_prestige_goods_clothes_complete_tt
+			has_variable = prestige_good_generic_clothes_var
 		}
 	}
 	possible = {
@@ -738,7 +738,7 @@ company_maison_worth = {
 		building_tailoring_workshops
 	}
 	extension_building_types = {
-		building_cotton_plantation
+		building_silk_plantation
 		building_arts_academy
 	}
 	possible_prestige_goods = {
