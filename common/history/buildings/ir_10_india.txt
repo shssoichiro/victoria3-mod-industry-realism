@@ -228,6 +228,8 @@
 	s:STATE_CEYLON = {
 		region_state:BCE = {
 		}
+		region_state:GBR = {
+		}
 	}
 	s:STATE_INDIAN_OCEAN_TERRITORY = {
 		region_state:FRA = {

@@ -14,6 +14,12 @@ company_san_miguel = {
 	possible_prestige_goods = {
 		prestige_good_generic_groceries
 	}
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_groceries_complete_tt
+			has_variable = prestige_good_generic_groceries_var
+		}
+	}
 	potential = {
 		has_interest_marker_in_region = region_indonesia
 	}
@@ -75,6 +81,7 @@ company_vodka_monopoly = {
 	}
 	extension_building_types = {
 		building_wheat_farm
+		building_rye_farm
 	}
 	possible_prestige_goods = {
 		prestige_good_smirnoff_vodka
@@ -137,9 +144,16 @@ company_guinness = {
 	}
 	extension_building_types = {
 		building_wheat_farm
+		building_rye_farm
 	}
 	possible_prestige_goods = {
 		prestige_good_generic_groceries
+	}
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_groceries_complete_tt
+			has_variable = prestige_good_generic_groceries_var
+		}
 	}
 	potential = {
 		has_interest_marker_in_region = region_north_sea_coast
@@ -206,6 +220,12 @@ company_pernambuco_textiles = {
 	}
 	possible_prestige_goods = {
 		prestige_good_generic_clothes
+	}
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_clothes_complete_tt
+			has_variable = prestige_good_generic_clothes_var
+		}
 	}
 	potential = {
 		has_dlc_feature = rp1_content
@@ -326,6 +346,12 @@ company_skoda = {
 	}
 	possible_prestige_goods = {
 		prestige_good_generic_steel
+	}
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_steel_complete_tt
+			has_variable = prestige_good_generic_steel_var
+		}
 	}
 	potential = {
 		has_interest_marker_in_region = region_south_germany
@@ -544,6 +570,9 @@ company_philips = {
 		building_power_plant
 		building_motor_industry
 	}
+	possible_prestige_goods = {
+		prestige_good_philips_chapel_radio
+	}
 	potential = {
 		has_interest_marker_in_region = region_rhine
 	}
@@ -720,6 +749,65 @@ company_basic_electrics = {
 		any_scope_state = {
 			any_scope_building = {
 				is_building_type = building_electrics_industry
+				level >= 5
+			}
+		}
+	}
+}
+
+company_basic_weapons = {
+	icon = "gfx/interface/icons/company_icons/basic_weapons.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	flavored_company = no
+	uses_dynamic_naming = yes
+	dynamic_company_type_names = {
+		"dynamic_company_type_company"
+		"dynamic_company_type_consortium"
+		"dynamic_company_type_corporation"
+		"dynamic_company_type_conglomerate"
+		"dynamic_company_type_syndicate"
+		"dynamic_company_type_combine"
+	}
+	building_types = {
+		building_arms_industry
+		building_artillery_foundries
+	}
+	extension_building_types = {
+		building_war_machine_industry
+		building_steel_mills
+	}
+	possible_prestige_goods = {
+		prestige_good_generic_small_arms
+	}
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_small_arms_complete_tt
+			has_variable = prestige_good_generic_small_arms_var
+		}
+	}
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_arms_industry
+					is_building_type = building_artillery_foundries
+				}
+				level >= 5
+			}
+		}
+	}
+	prosperity_modifier = {
+		unit_army_offense_mult = 0.05
+	}
+	ai_will_do = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_arms_industry
+					is_building_type = building_artillery_foundries
+				}
 				level >= 5
 			}
 		}
