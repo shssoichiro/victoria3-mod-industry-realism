@@ -2,7 +2,7 @@
 
 ![Preview](thumbnail.png)
 
-**Tested With V3 Version: 1.8.3**
+**Tested With V3 Version: 1.9.7**
 
 ## What the mod does
 
@@ -37,9 +37,9 @@
 - Fruit Orchards: new farm building, produces fruit and a small amount of sugar
 - Livestock Ranches: now produce meat and a small amount of fabric (leather) and fertilizer. input goods have also been rebalanced. cows and pigs eat a lot.
 - Wool Farms: new building, produces fabric and a small amount of fertilizer
-- Logging Camps: now only produce wood
-  - Hardwood is no longer a good. It has been consolidated into Wood. The line between what items should be made of hardwood or softwood, both in real life and in game, is blurry, and how to produce hardwood and softwood has been a pain point in this mod since the beginning. Therefore, the simplest approach has been to merge them into one good.
-  - This change has been added in a backwards-compatible way. After the update, any hardwood logging camps in your existing saves will now produce wood instead. When you start a new game, there will only be logging camps. In both cases, nothing in the world will produce or require hardwood.
+- Logging Camps: now produce both wood and hardwood at a 70/30 split
+  - Previous revisions have attempted to either distribute hardwood across the world in realistic locations, but this led to balance issues, or to remove hardwood as a resource, but this led to incompatibility issues with several mods and made maintaining the mod more painful. So this approach seems to be the most reasonable one at the moment.
+  - This change has been added in a backwards-compatible way. Trade routes may need a few in-game months to respond after loading an existing save, but the game will reach an equilibirium with hardwood as a resource again.
 - Synthetic Rubber Plants: new building, unlocks from Plastics, produces rubber from liquor and sulfur ([historical precedent](https://en.wikipedia.org/wiki/Polybutadiene#History))
 - Synthetic Fuel Plants: new building, unlocks from Electric Arc Process, produces oil from coal and iron ([historical precedent](https://en.wikipedia.org/wiki/Fischer%E2%80%93Tropsch_process#History))
 
