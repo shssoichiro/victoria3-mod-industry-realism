@@ -1,12 +1,10 @@
 pm_simple_forestry = {
 	texture = "gfx/interface/icons/production_method_icons/simple_forestry.dds"
-
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_wood_add = 21
-            goods_output_hardwood_add = 9
+			goods_output_wood_add = 24
+			goods_output_hardwood_add = 6
 		}
-
 		level_scaled = {
 			# employment
 			building_employment_shopkeepers_add = 500
@@ -20,17 +18,14 @@ pm_saw_mills = {
 	unlocking_technologies = {
 		steelworking
 	}
-
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
 			goods_input_tools_add = 5
-
 			# output goods
-			goods_output_wood_add = 42
-            goods_output_hardwood_add = 18
+			goods_output_wood_add = 48
+			goods_output_hardwood_add = 12
 		}
-
 		level_scaled = {
 			# employment
 			building_employment_shopkeepers_add = 500
@@ -45,18 +40,15 @@ pm_electric_saw_mills = {
 	unlocking_technologies = {
 		electrical_generation
 	}
-
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
 			goods_input_tools_add = 10
 			goods_input_electricity_add = 5
-
 			# output goods
-			goods_output_wood_add = 70
-            goods_output_hardwood_add = 30
+			goods_output_wood_add = 80
+			goods_output_hardwood_add = 20
 		}
-
 		level_scaled = {
 			# employment
 			building_employment_shopkeepers_add = 500
@@ -65,6 +57,5 @@ pm_electric_saw_mills = {
 			building_employment_engineers_add = 500
 		}
 	}
-
 	required_input_goods = electricity
 }

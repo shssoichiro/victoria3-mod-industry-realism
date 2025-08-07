@@ -37,7 +37,7 @@
 - Fruit Orchards: new farm building, produces fruit and a small amount of sugar
 - Livestock Ranches: now produce meat and a small amount of fabric (leather) and fertilizer. input goods have also been rebalanced. cows and pigs eat a lot.
 - Wool Farms: new building, produces fabric and a small amount of fertilizer
-- Logging Camps: now produce both wood and hardwood at a 70/30 split
+- Logging Camps: now produce both wood and hardwood at a 80/20 split
   - Previous revisions have attempted to either distribute hardwood across the world in realistic locations, but this led to balance issues, or to remove hardwood as a resource, but this led to incompatibility issues with several mods and made maintaining the mod more painful. So this approach seems to be the most reasonable one at the moment.
   - This change has been added in a backwards-compatible way. Trade routes may need a few in-game months to respond after loading an existing save, but the game will reach an equilibirium with hardwood as a resource again.
 - Synthetic Rubber Plants: new building, unlocks from Plastics, produces rubber from liquor and sulfur ([historical precedent](https://en.wikipedia.org/wiki/Polybutadiene#History))
