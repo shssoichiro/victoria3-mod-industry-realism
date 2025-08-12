@@ -288,6 +288,8 @@
 	s:STATE_MADRAS = {
 		region_state:FRA = {
 		}
+		region_state:DEN = {
+		}
 		region_state:BIC = {
 			remove_building = building_textile_mills
 			create_building = {
