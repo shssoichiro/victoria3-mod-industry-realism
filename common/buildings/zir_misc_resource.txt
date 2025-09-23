@@ -4,7 +4,7 @@
 	city_type = wood
 	required_construction = construction_cost_low
 	terrain_manipulator = forestry
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	production_method_groups = {
 		pmg_base_building_logging_camp
 		pmg_equipment

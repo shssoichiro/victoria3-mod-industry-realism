@@ -2385,7 +2385,7 @@
 						type = "building_financial_district"
 						country = "c:AUS"
 						levels = 1
-						region = "STATE_AUSTRIA"
+						region = "STATE_BOHEMIA"
 					}
 				}
 			}
@@ -2415,7 +2415,7 @@
 						type = "building_financial_district"
 						country = "c:AUS"
 						levels = 1
-						region = "STATE_AUSTRIA"
+						region = "STATE_BOHEMIA"
 					}
 				}
 			}
@@ -2438,7 +2438,7 @@
 					building = {
 						type = "building_rye_farm"
 						country = "c:AUS"
-						levels = 6
+						levels = 5
 						region = "STATE_BOHEMIA"
 					}
 				}
@@ -2521,7 +2521,7 @@
 						type = "building_manor_house"
 						country = "c:AUS"
 						levels = 1
-						region = "STATE_AUSTRIA"
+						region = "STATE_MORAVIA"
 					}
 					building = {
 						type = "building_manor_house"
@@ -2538,7 +2538,7 @@
 						type = "building_manor_house"
 						country = "c:AUS"
 						levels = 1
-						region = "STATE_AUSTRIA"
+						region = "STATE_MORAVIA"
 					}
 				}
 				reserves = 1

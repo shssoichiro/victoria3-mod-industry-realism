@@ -248,7 +248,7 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:RUS"
-						levels = 3
+						levels = 7
 						region = "STATE_ORYOL"
 					}
 				}

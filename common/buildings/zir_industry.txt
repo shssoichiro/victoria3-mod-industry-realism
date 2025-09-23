@@ -2,7 +2,7 @@
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/food_industry.dds"
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
 	unlocking_technologies = {
 		manufacturies
@@ -21,7 +21,7 @@ building_distillery = {
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/distillery.dds"
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
 	unlocking_technologies = {
 		manufacturies
@@ -39,7 +39,7 @@ building_textile_mills = {
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/textile_industry.dds"
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
 	unlocking_technologies = {
 		manufacturies
@@ -57,7 +57,7 @@ building_tailoring_workshops = {
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/tailoring_workshop.dds"
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
 	unlocking_technologies = {
 		manufacturies
@@ -75,7 +75,7 @@ building_furniture_manufacturies = {
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/furniture_manufacturies.dds"
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
 	unlocking_technologies = {
 		manufacturies
@@ -93,7 +93,7 @@ building_luxury_furniture_manufacturies = {
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/luxury_furniture_manufacturies.dds"
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
 	unlocking_technologies = {
 		manufacturies
@@ -111,7 +111,7 @@ building_glassworks = {
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/glassworks.dds"
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	unlocking_technologies = {
 		manufacturies
 	}
@@ -128,7 +128,7 @@ building_pottery_mills = {
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/pottery_mills.dds"
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
 	unlocking_technologies = {
 		manufacturies

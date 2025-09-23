@@ -220,6 +220,16 @@
 	s:STATE_KENYA = {
 		region_state:KKY = {
 		}
+		region_state:OMA = {
+		}
+		region_state:WTU = {
+		}
+		region_state:MBS = {
+		}
+		region_state:AJR = {
+		}
+		region_state:AUL = {
+		}
 	}
 	s:STATE_RIFT_VALLEY = {
 		region_state:MSI = {
@@ -234,15 +244,19 @@
 		}
 		region_state:SHW = {
 		}
+		region_state:ARS = {
+		}
 	}
 	s:STATE_AMHARA = {
 		region_state:WLG = {
 		}
-		region_state:SHW = {
+		region_state:HDY = {
 		}
 		region_state:BRN = {
 		}
 		region_state:KFA = {
+		}
+		region_state:WLT = {
 		}
 		region_state:SDM = {
 		}
@@ -274,7 +288,7 @@
 				reserves = 1
 			}
 		}
-		region_state:WLO = {
+		region_state:QWR = {
 		}
 		region_state:AWS = {
 		}
@@ -340,8 +354,6 @@
 		}
 		region_state:ANK = {
 		}
-		region_state:ACH = {
-		}
 	}
 	s:STATE_EQUATORIA = {
 		region_state:DNK = {
@@ -355,6 +367,8 @@
 	}
 	s:STATE_MOCAMBIQUE = {
 		region_state:POR = {
+		}
+		region_state:TGI = {
 		}
 		region_state:MRV = {
 		}

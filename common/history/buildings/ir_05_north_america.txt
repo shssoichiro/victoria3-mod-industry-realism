@@ -748,6 +748,10 @@
 	s:STATE_BRITISH_COLUMBIA = {
 		region_state:ORG = {
 		}
+		region_state:ATB = {
+		}
+		region_state:HBC = {
+		}
 	}
 	s:STATE_SASKATCHEWAN = {
 		region_state:HBC = {

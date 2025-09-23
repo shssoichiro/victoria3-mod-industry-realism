@@ -21,8 +21,8 @@ industrial_accident_events.2 = {
 		}
 		NOT = {
 			OR = {
-				has_law = law_type:law_worker_protections
-				has_law = law_type:law_regulatory_bodies
+				has_law_or_variant = law_type:law_worker_protections
+				has_law_or_variant = law_type:law_regulatory_bodies
 			}
 		}
 		NOT = {
@@ -61,7 +61,7 @@ industrial_accident_events.2 = {
 	option = {
 		name = industrial_accident_events.2.b
 		trigger = {
-			ig:ig_trade_unions = {
+			ig:ig_trade_unions ?= {
 				is_insurrectionary = no
 				is_revolutionary = no
 			}
@@ -72,7 +72,7 @@ industrial_accident_events.2 = {
 				days = normal_modifier_time
 			}
 		}
-		ig:ig_trade_unions = {
+		ig:ig_trade_unions ?= {
 			add_modifier = {
 				name = ig_gaining_support
 				days = normal_modifier_time

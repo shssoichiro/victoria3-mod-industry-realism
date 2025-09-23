@@ -18,8 +18,8 @@ land_ownership_law_events.4 = {
 	}
 	trigger = {
 		OR = {
-			has_law = law_type:law_homesteading
-			has_law = law_type:law_tenant_farmers
+			has_law_or_variant = law_type:law_homesteading
+			has_law_or_variant = law_type:law_tenant_farmers
 		}
 		is_enacting_law = law_type:law_commercialized_agriculture
 		any_scope_state = {
@@ -38,11 +38,11 @@ land_ownership_law_events.4 = {
 				occupancy > 0.8
 			}
 		}
-		ig:ig_rural_folk = {
+		ig:ig_rural_folk ?= {
 			is_marginal = no
 		}
 		OR = {
-			ig:ig_landowners = {
+			ig:ig_landowners ?= {
 				is_marginal = no
 			}
 			ig:ig_industrialists = {
@@ -64,7 +64,7 @@ land_ownership_law_events.4 = {
 		currently_enacting_law = {
 			save_scope_as = current_law_scope
 		}
-		ig:ig_landowners = {
+		ig:ig_landowners ?= {
 			save_scope_as = landowners_scope
 		}
 		ig:ig_industrialists = {
@@ -116,17 +116,17 @@ land_ownership_law_events.4 = {
 	option = {
 		name = land_ownership_law_events.4.b
 		trigger = {
-			ig:ig_landowners = {
+			ig:ig_landowners ?= {
 				is_marginal = no
 			}
 		}
-		ig:ig_landowners = {
+		ig:ig_landowners ?= {
 			add_modifier = {
 				name = farmland_consolidation_modifier_pos
 				days = normal_modifier_time
 			}
 		}
-		ig:ig_rural_folk = {
+		ig:ig_rural_folk ?= {
 			add_modifier = {
 				name = farmland_consolidation_modifier_neg
 				days = normal_modifier_time
@@ -156,7 +156,7 @@ land_ownership_law_events.4 = {
 				days = normal_modifier_time
 			}
 		}
-		ig:ig_rural_folk = {
+		ig:ig_rural_folk ?= {
 			add_modifier = {
 				name = farmland_consolidation_modifier_neg
 				days = normal_modifier_time
@@ -193,7 +193,7 @@ land_ownership_law_events.7 = {
 		days = normal_modifier_time
 	}
 	trigger = {
-		has_law = law_type:law_homesteading
+		has_law_or_variant = law_type:law_homesteading
 		OR = {
 			is_enacting_law = law_type:law_tenant_farmers
 			is_enacting_law = law_type:law_commercialized_agriculture
@@ -249,7 +249,7 @@ land_ownership_law_events.7 = {
 		add_enactment_modifier = {
 			name = big_farmer_corruption
 		}
-		ig:ig_landowners = {
+		ig:ig_landowners ?= {
 			add_modifier = {
 				name = farmland_consolidation_modifier_pos
 				days = normal_modifier_time
@@ -285,12 +285,12 @@ land_ownership_law_events.8 = {
 		days = normal_modifier_time
 	}
 	trigger = {
-		has_law = law_type:law_homesteading
+		has_law_or_variant = law_type:law_homesteading
 		OR = {
 			is_enacting_law = law_type:law_tenant_farmers
 			is_enacting_law = law_type:law_commercialized_agriculture
 		}
-		ig:ig_landowners = {
+		ig:ig_landowners ?= {
 			is_marginal = no
 		}
 		any_scope_state = {
@@ -351,7 +351,7 @@ land_ownership_law_events.8 = {
 	}
 	option = {
 		name = land_ownership_law_events.8.b
-		ig:ig_landowners = {
+		ig:ig_landowners ?= {
 			add_modifier = {
 				name = narratives_of_victimhood
 				days = normal_modifier_time
@@ -363,19 +363,19 @@ land_ownership_law_events.8 = {
 		highlighted_option = yes
 		trigger = {
 			OR = {
-				has_law = law_type:law_secret_police
-				has_law = law_type:law_national_guard
+				has_law_or_variant = law_type:law_secret_police
+				has_law_or_variant = law_type:law_national_guard
 			}
 			institution_investment_level = {
 				institution = institution_home_affairs
 				value >= 2
 			}
-			ig:ig_rural_folk = {
+			ig:ig_rural_folk ?= {
 				is_in_government = no
 				is_marginal = no
 			}
 		}
-		ig:ig_rural_folk = {
+		ig:ig_rural_folk ?= {
 			add_modifier = {
 				name = peasant_crackdowns_modifier
 				days = normal_modifier_time

@@ -7,7 +7,7 @@
 		region_state:RUS = {
 		}
 	}
-	s:STATE_SILESIA = {
+	s:STATE_LOWER_SILESIA = {
 		region_state:PRU = {
 			remove_building = building_textile_mills
 			create_building = {
@@ -17,13 +17,13 @@
 						type = "building_financial_district"
 						country = "c:PRU"
 						levels = 4
-						region = "STATE_SILESIA"
+						region = "STATE_LOWER_SILESIA"
 					}
 					building = {
 						type = "building_textile_mills"
 						country = "c:PRU"
-						levels = 2
-						region = "STATE_SILESIA"
+						levels = 1
+						region = "STATE_LOWER_SILESIA"
 					}
 				}
 			}
@@ -33,8 +33,8 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:PRU"
-						levels = 2
-						region = "STATE_SILESIA"
+						levels = 1
+						region = "STATE_LOWER_SILESIA"
 					}
 				}
 				reserves = 1
@@ -47,7 +47,7 @@
 						type = "building_manor_house"
 						country = "c:PRU"
 						levels = 2
-						region = "STATE_SILESIA"
+						region = "STATE_LOWER_SILESIA"
 					}
 				}
 			}
@@ -57,12 +57,18 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:PRU"
-						levels = 2
-						region = "STATE_SILESIA"
+						levels = 1
+						region = "STATE_LOWER_SILESIA"
 					}
 				}
 				reserves = 1
 			}
+		}
+	}
+	s:STATE_UPPER_SILESIA = {
+		region_state:PRU = {
+		}
+		region_state:AUS = {
 		}
 	}
 	s:STATE_GREATER_POLAND = {
@@ -192,14 +198,14 @@
 		}
 	}
 	s:STATE_CENTRAL_HUNGARY = {
-		region_state:AUS = {
+		region_state:HUN = {
 			remove_building = building_livestock_ranch
 			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:AUS"
+						country = "c:HUN"
 						levels = 2
 						region = "STATE_CENTRAL_HUNGARY"
 					}
@@ -210,7 +216,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:AUS"
+						country = "c:HUN"
 						levels = 1
 						region = "STATE_CENTRAL_HUNGARY"
 					}
@@ -220,16 +226,16 @@
 		}
 	}
 	s:STATE_BEKES = {
-		region_state:AUS = {
+		region_state:HUN = {
 			remove_building = building_livestock_ranch
 			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:AUS"
+						country = "c:HUN"
 						levels = 1
-						region = "STATE_AUSTRIA"
+						region = "STATE_BEKES"
 					}
 				}
 			}
@@ -238,9 +244,9 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:AUS"
+						country = "c:HUN"
 						levels = 1
-						region = "STATE_AUSTRIA"
+						region = "STATE_BEKES"
 					}
 				}
 				reserves = 1
@@ -248,7 +254,7 @@
 		}
 	}
 	s:STATE_TRANSDANUBIA = {
-		region_state:AUS = {
+		region_state:HUN = {
 			remove_building = building_livestock_ranch
 			create_building = {
 				building = "building_livestock_ranch"
@@ -261,7 +267,7 @@
 					}
 					building = {
 						type = "building_manor_house"
-						country = "c:AUS"
+						country = "c:HUN"
 						levels = 1
 						region = "STATE_TRANSDANUBIA"
 					}
@@ -282,14 +288,14 @@
 		}
 	}
 	s:STATE_DELVIDEK = {
-		region_state:AUS = {
+		region_state:HUN = {
 			remove_building = building_livestock_ranch
 			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:AUS"
+						country = "c:HUN"
 						levels = 2
 						region = "STATE_DELVIDEK"
 					}
@@ -300,7 +306,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:AUS"
+						country = "c:HUN"
 						levels = 1
 						region = "STATE_DELVIDEK"
 					}
@@ -310,7 +316,7 @@
 		}
 	}
 	s:STATE_BANAT = {
-		region_state:AUS = {
+		region_state:HUN = {
 			remove_building = building_livestock_ranch
 			create_building = {
 				building = "building_livestock_ranch"
@@ -323,7 +329,7 @@
 					}
 					building = {
 						type = "building_manor_house"
-						country = "c:AUS"
+						country = "c:HUN"
 						levels = 1
 						region = "STATE_BANAT"
 					}
@@ -343,23 +349,23 @@
 			}
 		}
 	}
-	s:STATE_WEST_SLOVAKIA = {
-		region_state:AUS = {
+	s:STATE_SLOVAKIA = {
+		region_state:HUN = {
 		}
 	}
-	s:STATE_EAST_SLOVAKIA = {
-		region_state:AUS = {
+	s:STATE_RUTHENIA = {
+		region_state:HUN = {
 		}
 	}
 	s:STATE_SOUTHERN_TRANSYLVANIA = {
-		region_state:AUS = {
+		region_state:TRS = {
 		}
 	}
 	s:STATE_NORTHERN_TRANSYLVANIA = {
-		region_state:AUS = {
+		region_state:TRS = {
 		}
 	}
-	s:STATE_MOLDAVIA = {
+	s:STATE_BUKOVINA = {
 		region_state:AUS = {
 			remove_building = building_livestock_ranch
 			create_building = {
@@ -386,6 +392,8 @@
 				reserves = 1
 			}
 		}
+	}
+	s:STATE_MOLDAVIA = {
 		region_state:MOL = {
 			remove_building = building_livestock_ranch
 			create_building = {

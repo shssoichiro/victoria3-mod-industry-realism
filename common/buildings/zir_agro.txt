@@ -2,7 +2,7 @@
 	building_group = bg_rye_farms
 	icon = "gfx/interface/icons/building_icons/rye_farm.dds"
 	city_type = farm
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	unlocking_technologies = {
 		enclosure
 	}
@@ -20,7 +20,7 @@ building_wheat_farm = {
 	building_group = bg_wheat_farms
 	icon = "gfx/interface/icons/building_icons/wheat_farm.dds"
 	city_type = farm
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	unlocking_technologies = {
 		enclosure
 	}
@@ -38,7 +38,7 @@ building_rice_farm = {
 	building_group = bg_rice_farms
 	icon = "gfx/interface/icons/building_icons/rice_farm.dds"
 	city_type = farm
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	unlocking_technologies = {
 		enclosure
 	}
@@ -56,7 +56,7 @@ building_maize_farm = {
 	building_group = bg_maize_farms
 	icon = "gfx/interface/icons/building_icons/maize_farm.dds"
 	city_type = farm
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	unlocking_technologies = {
 		enclosure
 	}
@@ -74,7 +74,7 @@ building_millet_farm = {
 	building_group = bg_millet_farms
 	icon = "gfx/interface/icons/building_icons/millet_farm.dds"
 	city_type = farm
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	unlocking_technologies = {
 		enclosure
 	}
@@ -92,7 +92,7 @@ building_fruit_orchard = {
 	building_group = bg_fruit_orchards
 	icon = "gfx/interface/icons/building_icons/fruit_orchard.dds"
 	city_type = farm
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	unlocking_technologies = {
 		enclosure
 	}
@@ -110,7 +110,7 @@ building_livestock_ranch = {
 	building_group = bg_livestock_ranches
 	icon = "gfx/interface/icons/building_icons/cattle_ranch.dds"
 	city_type = farm
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	unlocking_technologies = {
 		enclosure
 	}
@@ -129,7 +129,7 @@ building_wool_farms = {
 	building_group = bg_wool_farms
 	icon = "gfx/interface/icons/building_icons/wool_ranch.dds"
 	city_type = farm
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	unlocking_technologies = {
 		enclosure
 	}

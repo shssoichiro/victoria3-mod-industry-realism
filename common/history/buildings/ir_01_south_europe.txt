@@ -35,9 +35,9 @@
 	}
 	s:STATE_PIEDMONT = {
 		region_state:SAR = {
-			remove_building = building_wheat_farm
+			remove_building = building_rice_farm
 			create_building = {
-				building = "building_wheat_farm"
+				building = "building_rice_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -1217,6 +1217,30 @@
 				}
 				reserves = 1
 			}
+			remove_building = building_wheat_farm
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:TUR"
+						levels = 3
+						region = "STATE_BULGARIA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:TUR"
+						levels = 1
+						region = "STATE_BULGARIA"
+					}
+				}
+				reserves = 1
+			}
 		}
 	}
 	s:STATE_SLOVENIA = {
@@ -1228,11 +1252,11 @@
 		}
 	}
 	s:STATE_CROATIA = {
-		region_state:AUS = {
+		region_state:CRO = {
 		}
 	}
 	s:STATE_SLAVONIA = {
-		region_state:AUS = {
+		region_state:CRO = {
 		}
 	}
 	s:STATE_ISTRIA = {
@@ -1243,15 +1267,39 @@
 		region_state:TUR = {
 		}
 		region_state:MON = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:MON"
+						levels = 1
+						region = "STATE_MONTENEGRO"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farms"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:MON"
+						levels = 1
+						region = "STATE_MONTENEGRO"
+					}
+				}
+				reserves = 1
+			}
 		}
 		region_state:AUS = {
 		}
 	}
-	s:STATE_NORTHERN_SERBIA = {
+	s:STATE_WESTERN_SERBIA = {
 		region_state:SER = {
 		}
 	}
-	s:STATE_SOUTHERN_SERBIA = {
+	s:STATE_EASTERN_SERBIA = {
 		region_state:TUR = {
 			remove_building = building_livestock_ranch
 			create_building = {
@@ -1267,7 +1315,7 @@
 						type = "building_manor_house"
 						country = "c:TUR"
 						levels = 1
-						region = "STATE_SOUTHERN_SERBIA"
+						region = "STATE_EASTERN_SERBIA"
 					}
 				}
 			}

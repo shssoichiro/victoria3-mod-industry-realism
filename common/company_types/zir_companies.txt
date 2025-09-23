@@ -70,6 +70,7 @@ company_san_miguel = {
 company_vodka_monopoly = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/russian_vodka_monopoly.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
+	category = bureaucrat_owned
 	flavored_company = yes
 	preferred_headquarters = {
 		STATE_INGRIA
@@ -91,7 +92,7 @@ company_vodka_monopoly = {
 	}
 	possible = {
 		NOT = {
-			has_law = law_type:law_laissez_faire
+			has_law_or_variant = law_type:law_laissez_faire
 		}
 		any_scope_state = {
 			is_incorporated = yes
@@ -106,7 +107,7 @@ company_vodka_monopoly = {
 	}
 	ai_will_do = {
 		NOT = {
-			has_law = law_type:law_laissez_faire
+			has_law_or_variant = law_type:law_laissez_faire
 		}
 		any_scope_state = {
 			OR = {
@@ -275,6 +276,7 @@ company_pernambuco_textiles = {
 company_basic_fabrics = {
 	icon = "gfx/interface/icons/company_icons/basic_fabrics.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	category = aristocrat_owned
 	flavored_company = no
 	uses_dynamic_naming = yes
 	dynamic_company_type_names = {
@@ -818,6 +820,7 @@ company_basic_weapons = {
 company_maison_worth = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/company_maison_worth.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	category = shopkeeper_owned
 	flavored_company = yes
 	preferred_headquarters = {
 		STATE_ILE_DE_FRANCE
@@ -941,6 +944,7 @@ company_mantero_seta = {
 company_basic_silk_and_dye = {
 	icon = "gfx/interface/icons/company_icons/basic_silk_and_dye.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+	category = aristocrat_owned
 	flavored_company = no
 	uses_dynamic_naming = yes
 	dynamic_company_type_names = {
@@ -1107,6 +1111,7 @@ company_jingdezhen = {
 company_konigliche_porzellan_manufaktur_meissen = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/company_konigliche_porzellan_manufaktur_meissen.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	category = bureaucrat_owned
 	flavored_company = yes
 	preferred_headquarters = {
 		STATE_SAXONY

@@ -2,7 +2,7 @@
 
 ![Preview](thumbnail.png)
 
-**Tested With V3 Version: 1.9.7**
+**Tested With V3 Version: 1.10.0**
 
 ## What the mod does
 
