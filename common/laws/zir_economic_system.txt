@@ -139,6 +139,10 @@ law_extraction_economy = {
 	unlocking_technologies = {
 		colonization
 	}
+	disallowing_laws = {
+		law_anarchy
+		law_women_in_the_fields
+	}
 	can_enact = {
 		is_subject = yes
 	}
