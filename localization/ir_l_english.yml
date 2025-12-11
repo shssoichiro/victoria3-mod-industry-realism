@@ -1,4 +1,5 @@
-﻿l_english: building_distillery:1 "Distillery"
+﻿l_english:
+  building_distillery:1 "Distillery"
   building_tailoring_workshop:1 "Tailoring Workshop"
   building_luxury_furniture_manufactory:1 "Luxury Furniture Manufactories"
   building_pottery_mill:1 "Pottery Mills"

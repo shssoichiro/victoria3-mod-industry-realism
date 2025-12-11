@@ -1,4 +1,5 @@
-﻿l_spanish: building_distillery:1 "Destilería"
+﻿l_spanish:
+  building_distillery:1 "Destilería"
   building_tailoring_workshop:1 "Taller de Ropa de Alta Costura"
   building_luxury_furniture_manufactory:1 "Manufacturas de Muebles de Lujo"
   building_pottery_mill:1 "Fábricas de Cerámica"

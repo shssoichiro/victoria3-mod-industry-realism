@@ -1,4 +1,5 @@
-﻿l_korean: building_distillery:1 "증류소"
+﻿l_korean:
+  building_distillery:1 "증류소"
   building_tailoring_workshop:1 "고급 의류 공방"
   building_luxury_furniture_manufactory:1 "고급 가구 제조 공장"
   building_pottery_mill:1 "도기 공장"

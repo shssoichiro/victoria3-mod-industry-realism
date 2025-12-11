@@ -1,4 +1,5 @@
-﻿l_turkish: building_distillery:1 "Damıtma Tesisi"
+﻿l_turkish:
+  building_distillery:1 "Damıtma Tesisi"
   building_tailoring_workshop:1 "Kaliteli Giysi Atölyesi"
   building_luxury_furniture_manufactory:1 "Lüks Mobilya Üretim Fabrikaları"
   building_pottery_mill:1 "Seramik Fabrikaları"

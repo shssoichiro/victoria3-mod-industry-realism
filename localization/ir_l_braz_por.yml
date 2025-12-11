@@ -1,4 +1,5 @@
-﻿l_braz_por: building_distillery:1 "Destilaria"
+﻿l_braz_por:
+  building_distillery:1 "Destilaria"
   building_tailoring_workshop:1 "Oficina de Roupas de Alta Qualidade"
   building_luxury_furniture_manufactory:1 "Manufaturas de Móveis de Luxo"
   building_pottery_mill:1 "Fábricas de Cerâmica"

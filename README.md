@@ -2,7 +2,7 @@
 
 ![Preview](thumbnail.png)
 
-**Tested With V3 Version: 1.10.0**
+**Tested With V3 Version: 1.12.0**
 
 ## What the mod does
 
@@ -62,10 +62,6 @@ I wanted a mod that does not introduce any new goods. Industry Expanded is a gre
 This mod is compatible with most mods that do not touch the buildings above or alter the start locations of buildings on the map.
 
 - Compatible with BPM.
-- Compatible with Pop Demand Tweak (includes fix to remove hardwood from pop needs).
-- UH: Politics Compatch: https://steamcommunity.com/sharedfiles/filedetails/?id=3214936638 (update for 1.8 coming once UH updated)
-- UH: Diplomacy Compatch: No longer needed as of 1.8
-- VTM Compatch: https://steamcommunity.com/sharedfiles/filedetails/?id=3219765729 (update for 1.8 coming once VTM updated)
-- Political & Economic Changes Compatch: https://steamcommunity.com/sharedfiles/filedetails/?id=3241308181
 - Incompatible with Industry Expanded, for obvious reasons.
 - Incompatible with any mods that alter locations of states or goods on the map
+- Updating list of compatches for 1.12 coming soon

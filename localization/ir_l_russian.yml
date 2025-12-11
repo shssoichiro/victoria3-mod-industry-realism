@@ -1,4 +1,5 @@
-﻿l_russian: building_distillery:1 "Дистиллерия"
+﻿l_russian:
+  building_distillery:1 "Дистиллерия"
   building_tailoring_workshop:1 "Мастерская изысканной одежды"
   building_luxury_furniture_manufactory:1 "Мануфактуры роскошной мебели"
   building_pottery_mill:1 "Фарфоровые заводы"

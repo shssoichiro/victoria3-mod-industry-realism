@@ -1,4 +1,4 @@
-﻿has_industry_building = {
+﻿REPLACE:has_industry_building = {
 	OR = {
 		has_building = building_food_industry
 		has_building = building_distillery
@@ -13,7 +13,7 @@
 	}
 }
 
-is_industry_building = {
+REPLACE:is_industry_building = {
 	OR = {
 		is_building_type = building_food_industry
 		is_building_type = building_distillery
@@ -28,7 +28,7 @@ is_industry_building = {
 	}
 }
 
-has_heavy_industry_building = {
+REPLACE:has_heavy_industry_building = {
 	OR = {
 		has_building = building_chemical_plant
 		has_building = building_synthetics_plant
@@ -46,7 +46,7 @@ has_heavy_industry_building = {
 	}
 }
 
-is_heavy_industry_building = {
+REPLACE:is_heavy_industry_building = {
 	OR = {
 		is_building_type = building_chemical_plant
 		is_building_type = building_synthetics_plant
@@ -64,7 +64,7 @@ is_heavy_industry_building = {
 	}
 }
 
-is_farm_building = {
+REPLACE:is_farm_building = {
 	or = {
 		is_building_type = building_rye_farm
 		is_building_type = building_wheat_farm
@@ -77,7 +77,7 @@ is_farm_building = {
 	}
 }
 
-has_farm_building = {
+REPLACE:has_farm_building = {
 	OR = {
 		has_building = building_rye_farm
 		has_building = building_wheat_farm
@@ -90,8 +90,8 @@ has_farm_building = {
 	}
 }
 
-is_production_building = {
-	or = {
+REPLACE:is_production_building = {
+	OR = {
 		is_building_type = building_coal_mine
 		is_building_type = building_iron_mine
 		is_building_type = building_lead_mine
@@ -149,7 +149,7 @@ is_production_building = {
 	}
 }
 
-has_industrialized_pm = {
+REPLACE:has_industrialized_pm = {
 	OR = {
 		# Textile Mills
 		is_production_method_active = {
@@ -243,26 +243,5 @@ has_industrialized_pm = {
 			building_type = building_motor_industry
 			production_method = pm_rotary_valve_engine_building_motor_industry
 		}
-	}
-}
-
-default_auto_expand_rule = {
-	# stricter than vanilla: don't expand if market access is not 100% because expanding strains low infra (implied from low market access) even more
-	state.market_access > 0.99
-	# vanilla
-	occupancy >= 0.95
-	# expanding while short on goods increases that issue even more, so don't do it
-	building_has_goods_shortage = no
-	OR = {
-		# subsidized OR profitable
-		is_subsidized = yes
-		AND = {
-			cash_reserves_ratio > 0.95
-			weekly_profit > 0
-		}
-	}
-	# don't build if already is building
-	NOT = {
-		is_under_construction = yes
 	}
 }

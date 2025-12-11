@@ -1,6 +1,6 @@
 ﻿namespace = belle_epoque_events
 #Sortie de l'usine Lumière de Lyon
-belle_epoque_events.6 = {
+REPLACE:belle_epoque_events.6 = {
 	type = country_event
 	placement = scope:belle_epoque_state
 	title = {
@@ -96,7 +96,7 @@ belle_epoque_events.6 = {
 }
 
 # Peugeot Serpollet
-belle_epoque_events.8 = {
+REPLACE:belle_epoque_events.8 = {
 	type = country_event
 	placement = scope:belle_epoque_state
 	title = {
@@ -193,7 +193,7 @@ belle_epoque_events.8 = {
 }
 
 #Haute Couture - Foreign Country
-belle_epoque_events.14 = {
+REPLACE:belle_epoque_events.14 = {
 	type = country_event
 	placement = scope:belle_epoque_state
 	title = {

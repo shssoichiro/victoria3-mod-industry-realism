@@ -1,4 +1,4 @@
-﻿save_industrialized_pm_building_and_state = {
+﻿REPLACE:save_industrialized_pm_building_and_state = {
 	random_scope_building = {
 		limit = {
 			OR = {

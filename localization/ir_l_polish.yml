@@ -1,4 +1,5 @@
-﻿l_polish: building_distillery:1 "Destylarnia"
+﻿l_polish:
+  building_distillery:1 "Destylarnia"
   building_tailoring_workshop:1 "Warsztat eleganckich ubrań"
   building_luxury_furniture_manufactory:1 "Manufaktury Mebli Luksusowych"
   building_pottery_mill:1 "Fabryki Ceramiki"

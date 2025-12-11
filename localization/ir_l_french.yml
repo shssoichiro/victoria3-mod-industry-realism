@@ -1,4 +1,5 @@
-﻿l_french: building_distillery:1 "Distilleries"
+﻿l_french:
+  building_distillery:1 "Distilleries"
   building_tailoring_workshop:1 "Ateliers de Haute Couture"
   building_luxury_furniture_manufactory:1 "Manufactures de meubles de luxe"
   building_pottery_mill:1 "Faïenceries"

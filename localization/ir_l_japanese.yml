@@ -1,4 +1,5 @@
-﻿l_japanese: building_distillery:1 "蒸留所"
+﻿l_japanese:
+  building_distillery:1 "蒸留所"
   building_tailoring_workshop:1 "上質な衣類の工房"
   building_luxury_furniture_manufactory:1 "高級家具製造工場"
   building_pottery_mill:1 "陶器工場"
