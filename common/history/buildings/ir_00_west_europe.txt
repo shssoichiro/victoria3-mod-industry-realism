@@ -1,12 +1,12 @@
 ﻿BUILDINGS={
 	s:STATE_SVEALAND = {
 		region_state:SWE = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:SWE"
 						levels = 2
 						region = "STATE_SVEALAND"
@@ -14,10 +14,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:SWE"
 						levels = 1
 						region = "STATE_SVEALAND"
@@ -42,7 +42,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -94,7 +94,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -154,7 +154,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -206,7 +206,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -242,7 +242,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -265,9 +265,9 @@
 	}
 	s:STATE_HOME_COUNTIES = {
 		region_state:GBR = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -282,7 +282,7 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -297,9 +297,9 @@
 				}
 				reserves = 1
 			}
-			remove_building = building_furniture_manufacturies
+			remove_building = building_furniture_manufactory
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -310,7 +310,7 @@
 				}
 			}
 			create_building = {
-				building = "building_luxury_furniture_manufacturies"
+				building = "building_luxury_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -358,7 +358,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -373,9 +373,9 @@
 	}
 	s:STATE_LANCASHIRE = {
 		region_state:GBR = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -384,7 +384,7 @@
 						region = "STATE_HOME_COUNTIES"
 					}
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:GBR"
 						levels = 2
 						region = "STATE_LANCASHIRE"
@@ -398,7 +398,7 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -407,7 +407,7 @@
 						region = "STATE_HOME_COUNTIES"
 					}
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:GBR"
 						levels = 1
 						region = "STATE_LANCASHIRE"
@@ -452,7 +452,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -480,7 +480,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -495,9 +495,9 @@
 	}
 	s:STATE_YORKSHIRE = {
 		region_state:GBR = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -514,7 +514,7 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -568,7 +568,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -587,9 +587,9 @@
 	}
 	s:STATE_MIDLANDS = {
 		region_state:GBR = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -604,7 +604,7 @@
 						region = "STATE_HOME_COUNTIES"
 					}
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:GBR"
 						levels = 5
 						region = "STATE_MIDLANDS"
@@ -612,7 +612,7 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -627,7 +627,7 @@
 						region = "STATE_HOME_COUNTIES"
 					}
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:GBR"
 						levels = 1
 						region = "STATE_MIDLANDS"
@@ -635,9 +635,9 @@
 				}
 				reserves = 1
 			}
-			remove_building = building_furniture_manufacturies
+			remove_building = building_furniture_manufactory
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -646,7 +646,7 @@
 						region = "STATE_MIDLANDS"
 					}
 					building = {
-						type = "building_furniture_manufacturies"
+						type = "building_furniture_manufactory"
 						country = "c:GBR"
 						levels = 2
 						region = "STATE_MIDLANDS"
@@ -654,7 +654,7 @@
 				}
 			}
 			create_building = {
-				building = "building_luxury_furniture_manufacturies"
+				building = "building_luxury_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -714,7 +714,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -729,9 +729,9 @@
 	}
 	s:STATE_EAST_ANGLIA = {
 		region_state:GBR = {
-			remove_building = building_furniture_manufacturies
+			remove_building = building_furniture_manufactory
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -748,7 +748,7 @@
 				}
 			}
 			create_building = {
-				building = "building_luxury_furniture_manufacturies"
+				building = "building_luxury_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -778,7 +778,7 @@
 				}
 			}
 			create_building = {
-				building = "building_pottery_mills"
+				building = "building_pottery_mill"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -864,7 +864,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -892,7 +892,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -950,7 +950,7 @@
 				}
 			}
 			create_building = {
-				building = "building_pottery_mills"
+				building = "building_pottery_mill"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -1008,7 +1008,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -1083,9 +1083,9 @@
 	}
 	s:STATE_ILE_DE_FRANCE = {
 		region_state:FRA = {
-			remove_building = building_furniture_manufacturies
+			remove_building = building_furniture_manufactory
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -1094,7 +1094,7 @@
 						region = "STATE_ILE_DE_FRANCE"
 					}
 					building = {
-						type = "building_furniture_manufacturies"
+						type = "building_furniture_manufactory"
 						country = "c:FRA"
 						levels = 3
 						region = "STATE_ILE_DE_FRANCE"
@@ -1102,7 +1102,7 @@
 				}
 			}
 			create_building = {
-				building = "building_luxury_furniture_manufacturies"
+				building = "building_luxury_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -1111,7 +1111,7 @@
 						region = "STATE_ILE_DE_FRANCE"
 					}
 					building = {
-						type = "building_luxury_furniture_manufacturies"
+						type = "building_luxury_furniture_manufactory"
 						country = "c:FRA"
 						levels = 1
 						region = "STATE_ILE_DE_FRANCE"
@@ -1156,7 +1156,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -1173,12 +1173,12 @@
 		region_state:SAR = {
 		}
 		region_state:FRA = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:FRA"
 						levels = 1
 						region = "STATE_PROVENCE"
@@ -1192,10 +1192,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:FRA"
 						levels = 1
 						region = "STATE_PROVENCE"
@@ -1231,12 +1231,12 @@
 	}
 	s:STATE_NORMANDY = {
 		region_state:FRA = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:FRA"
 						levels = 3
 						region = "STATE_NORMANDY"
@@ -1250,10 +1250,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:FRA"
 						levels = 1
 						region = "STATE_NORMANDY"
@@ -1298,7 +1298,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -1332,7 +1332,7 @@
 				}
 			}
 			create_building = {
-				building = "building_pottery_mills"
+				building = "building_pottery_mill"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -1380,10 +1380,10 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
-						type = "building_wool_farms"
+						type = "building_wool_farm"
 						country = "c:FRA"
 						levels = 1
 						region = "STATE_LANGUEDOC"
@@ -1395,12 +1395,12 @@
 	}
 	s:STATE_RHONE = {
 		region_state:FRA = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:FRA"
 						levels = 2
 						region = "STATE_RHONE"
@@ -1414,10 +1414,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:FRA"
 						levels = 1
 						region = "STATE_RHONE"
@@ -1490,7 +1490,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -1505,12 +1505,12 @@
 	}
 	s:STATE_PICARDY = {
 		region_state:FRA = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:FRA"
 						levels = 4
 						region = "STATE_PICARDY"
@@ -1518,10 +1518,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:FRA"
 						levels = 1
 						region = "STATE_PICARDY"
@@ -1572,7 +1572,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -1619,9 +1619,9 @@
 	}
 	s:STATE_GUYENNE = {
 		region_state:FRA = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -1632,7 +1632,7 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -1692,7 +1692,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -1707,9 +1707,9 @@
 	}
 	s:STATE_AUVERGNE_LIMOUSIN = {
 		region_state:FRA = {
-			remove_building = building_furniture_manufacturies
+			remove_building = building_furniture_manufactory
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -1718,7 +1718,7 @@
 						region = "STATE_AUVERGNE_LIMOUSIN"
 					}
 					building = {
-						type = "building_furniture_manufacturies"
+						type = "building_furniture_manufactory"
 						country = "c:FRA"
 						levels = 2
 						region = "STATE_AUVERGNE_LIMOUSIN"
@@ -1726,7 +1726,7 @@
 				}
 			}
 			create_building = {
-				building = "building_luxury_furniture_manufacturies"
+				building = "building_luxury_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -1796,7 +1796,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -1879,12 +1879,12 @@
 	}
 	s:STATE_FRANCHE_COMTE = {
 		region_state:FRA = {
-			remove_building = building_furniture_manufacturies
+			remove_building = building_furniture_manufactory
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = "building_furniture_manufacturies"
+						type = "building_furniture_manufactory"
 						country = "c:FRA"
 						levels = 1
 						region = "STATE_FRANCHE_COMTE"
@@ -1904,10 +1904,10 @@
 				}
 			}
 			create_building = {
-				building = "building_luxury_furniture_manufacturies"
+				building = "building_luxury_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = "building_luxury_furniture_manufacturies"
+						type = "building_luxury_furniture_manufactory"
 						country = "c:FRA"
 						levels = 1
 						region = "STATE_FRANCHE_COMTE"
@@ -2012,7 +2012,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -2027,9 +2027,9 @@
 	}
 	s:STATE_HOLLAND = {
 		region_state:NET = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -2038,7 +2038,7 @@
 						region = "STATE_HOLLAND"
 					}
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:NET"
 						levels = 2
 						region = "STATE_HOLLAND"
@@ -2046,7 +2046,7 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -2070,7 +2070,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -2126,7 +2126,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -2171,9 +2171,9 @@
 	}
 	s:STATE_FLANDERS = {
 		region_state:BEL = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -2182,7 +2182,7 @@
 						region = "STATE_FLANDERS"
 					}
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:BEL"
 						levels = 1
 						region = "STATE_FLANDERS"
@@ -2190,7 +2190,7 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -2201,12 +2201,12 @@
 				}
 				reserves = 1
 			}
-			remove_building = building_furniture_manufacturies
+			remove_building = building_furniture_manufactory
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = "building_furniture_manufacturies"
+						type = "building_furniture_manufactory"
 						country = "c:BEL"
 						levels = 1
 						region = "STATE_FLANDERS"
@@ -2220,10 +2220,10 @@
 				}
 			}
 			create_building = {
-				building = "building_luxury_furniture_manufacturies"
+				building = "building_luxury_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = "building_luxury_furniture_manufacturies"
+						type = "building_luxury_furniture_manufactory"
 						country = "c:BEL"
 						levels = 1
 						region = "STATE_FLANDERS"
@@ -2274,7 +2274,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -2289,12 +2289,12 @@
 	}
 	s:STATE_AUSTRIA = {
 		region_state:AUS = {
-			remove_building = building_furniture_manufacturies
+			remove_building = building_furniture_manufactory
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = "building_furniture_manufacturies"
+						type = "building_furniture_manufactory"
 						country = "c:AUS"
 						levels = 3
 						region = "STATE_AUSTRIA"
@@ -2308,10 +2308,10 @@
 				}
 			}
 			create_building = {
-				building = "building_luxury_furniture_manufacturies"
+				building = "building_luxury_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = "building_luxury_furniture_manufacturies"
+						type = "building_luxury_furniture_manufactory"
 						country = "c:AUS"
 						levels = 1
 						region = "STATE_AUSTRIA"
@@ -2356,7 +2356,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -2420,10 +2420,10 @@
 				}
 			}
 			create_building = {
-				building = "building_pottery_mills"
+				building = "building_pottery_mill"
 				add_ownership = {
 					building = {
-						type = "building_pottery_mills"
+						type = "building_pottery_mill"
 						country = "c:AUS"
 						levels = 1
 						region = "STATE_BOHEMIA"
@@ -2459,12 +2459,12 @@
 	}
 	s:STATE_MORAVIA = {
 		region_state:AUS = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:AUS"
 						levels = 1
 						region = "STATE_MORAVIA"
@@ -2478,10 +2478,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:AUS"
 						levels = 1
 						region = "STATE_MORAVIA"
@@ -2560,7 +2560,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -2596,7 +2596,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -2632,7 +2632,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -2660,7 +2660,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -2683,12 +2683,12 @@
 	}
 	s:STATE_ANHALT = {
 		region_state:PRU = {
-			remove_building = building_furniture_manufacturies
+			remove_building = building_furniture_manufactory
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = "building_furniture_manufacturies"
+						type = "building_furniture_manufactory"
 						country = "c:PRU"
 						levels = 1
 						region = "STATE_ANHALT"
@@ -2702,10 +2702,10 @@
 				}
 			}
 			create_building = {
-				building = "building_luxury_furniture_manufacturies"
+				building = "building_luxury_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = "building_luxury_furniture_manufacturies"
+						type = "building_luxury_furniture_manufactory"
 						country = "c:PRU"
 						levels = 1
 						region = "STATE_ANHALT"
@@ -2749,9 +2749,9 @@
 	}
 	s:STATE_NORTH_RHINE = {
 		region_state:PRU = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -2760,7 +2760,7 @@
 						region = "STATE_NORTH_RHINE"
 					}
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:PRU"
 						levels = 1
 						region = "STATE_NORTH_RHINE"
@@ -2768,7 +2768,7 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -2819,9 +2819,9 @@
 	}
 	s:STATE_BRANDENBURG = {
 		region_state:PRU = {
-			remove_building = building_furniture_manufacturies
+			remove_building = building_furniture_manufactory
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -2830,7 +2830,7 @@
 						region = "STATE_BRANDENBURG"
 					}
 					building = {
-						type = "building_furniture_manufacturies"
+						type = "building_furniture_manufactory"
 						country = "c:PRU"
 						levels = 2
 						region = "STATE_BRANDENBURG"
@@ -2838,7 +2838,7 @@
 				}
 			}
 			create_building = {
-				building = "building_luxury_furniture_manufacturies"
+				building = "building_luxury_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -2868,7 +2868,7 @@
 				}
 			}
 			create_building = {
-				building = "building_pottery_mills"
+				building = "building_pottery_mill"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -2896,7 +2896,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -2924,7 +2924,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -2976,7 +2976,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -3108,7 +3108,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -3123,18 +3123,18 @@
 	}
 	s:STATE_FRANCONIA = {
 		region_state:BAV = {
-			remove_building = building_furniture_manufacturies
+			remove_building = building_furniture_manufactory
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = "building_furniture_manufacturies"
+						type = "building_furniture_manufactory"
 						country = "c:BAV"
 						levels = 1
 						region = "STATE_FRANCONIA"
 					}
 					building = {
-						type = "building_furniture_manufacturies"
+						type = "building_furniture_manufactory"
 						country = "c:BAV"
 						levels = 1
 						region = "STATE_FRANCONIA"
@@ -3142,10 +3142,10 @@
 				}
 			}
 			create_building = {
-				building = "building_luxury_furniture_manufacturies"
+				building = "building_luxury_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = "building_luxury_furniture_manufacturies"
+						type = "building_luxury_furniture_manufactory"
 						country = "c:BAV"
 						levels = 1
 						region = "STATE_FRANCONIA"
@@ -3206,7 +3206,7 @@
 				}
 			}
 			create_building = {
-				building = "building_pottery_mills"
+				building = "building_pottery_mill"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -3230,7 +3230,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -3268,7 +3268,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"

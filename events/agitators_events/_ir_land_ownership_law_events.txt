@@ -33,7 +33,7 @@ land_ownership_law_events.4 = {
 					is_building_type = building_millet_farm
 					is_building_type = building_fruit_orchard
 					is_building_type = building_livestock_ranch
-					is_building_type = building_wool_farms
+					is_building_type = building_wool_farm
 				}
 				occupancy > 0.8
 			}
@@ -82,7 +82,7 @@ land_ownership_law_events.4 = {
 						is_building_type = building_millet_farm
 						is_building_type = building_fruit_orchard
 						is_building_type = building_livestock_ranch
-						is_building_type = building_wool_farms
+						is_building_type = building_wool_farm
 					}
 					occupancy > 0.8
 				}
@@ -97,7 +97,7 @@ land_ownership_law_events.4 = {
 						is_building_type = building_millet_farm
 						is_building_type = building_fruit_orchard
 						is_building_type = building_livestock_ranch
-						is_building_type = building_wool_farms
+						is_building_type = building_wool_farm
 						occupancy > 0.8
 					}
 				}
@@ -225,7 +225,7 @@ land_ownership_law_events.7 = {
 						is_building_type = building_millet_farm
 						is_building_type = building_fruit_orchard
 						is_building_type = building_livestock_ranch
-						is_building_type = building_wool_farms
+						is_building_type = building_wool_farm
 					}
 				}
 			}
@@ -304,7 +304,7 @@ land_ownership_law_events.8 = {
 					is_building_type = building_millet_farm
 					is_building_type = building_fruit_orchard
 					is_building_type = building_livestock_ranch
-					is_building_type = building_wool_farms
+					is_building_type = building_wool_farm
 				}
 			}
 		}
@@ -335,7 +335,7 @@ land_ownership_law_events.8 = {
 						is_building_type = building_millet_farm
 						is_building_type = building_fruit_orchard
 						is_building_type = building_livestock_ranch
-						is_building_type = building_wool_farms
+						is_building_type = building_wool_farm
 					}
 				}
 			}

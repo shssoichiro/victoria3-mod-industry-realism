@@ -1,4 +1,4 @@
-﻿farmland_orchard = {
+﻿INJECT_OR_CREATE:farmland_orchard = {
 	created_terrain = farmland_orchard
 	terrain_mask = "mask_dynamic_forestry"
 	preferred_terrain = plains

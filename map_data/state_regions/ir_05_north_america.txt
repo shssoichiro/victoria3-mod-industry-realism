@@ -1,0 +1,234 @@
+﻿INJECT:STATE_DISTRICT_OF_COLUMBIA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_LOUISIANA = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_NEW_YORK = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_vineyard" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_VIRGINIA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ALASKA = {
+    arable_resources = { "building_livestock_ranch" "building_wool_farm" }
+}
+INJECT:STATE_WASHINGTON = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_OREGON = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_IDAHO = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_COLORADO = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_WYOMING = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_MONTANA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_NORTH_DAKOTA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_SOUTH_DAKOTA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_NEBRASKA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_KANSAS = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_OKLAHOMA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ARKANSAS = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_MISSOURI = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_IOWA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_MINNESOTA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_WISCONSIN = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_INDIANA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_vineyard" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_MICHIGAN = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_OHIO = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_KENTUCKY = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_TENNESSEE = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_MISSISSIPPI = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ALABAMA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_FLORIDA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_sugar_plantation" "building_dye_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_GEORGIA = {
+    arable_resources = { "building_rice_farm" "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_dye_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_WEST_VIRGINIA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_MARYLAND = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_DELAWARE = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_PENNSYLVANIA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_NEW_JERSEY = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ILLINOIS = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_RHODE_ISLAND = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_CONNECTICUT = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_MASSACHUSETTS = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_NEW_HAMPSHIRE = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_VERMONT = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_MAINE = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_NORTH_CAROLINA = {
+    arable_resources = { "building_rice_farm" "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_UTAH = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_SOUTH_CAROLINA = {
+    arable_resources = { "building_rice_farm" "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_dye_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_HAWAIIAN_ISLANDS = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ONTARIO = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_NEW_BRUNSWICK = {
+    arable_resources = { "building_livestock_ranch" "building_wool_farm" }
+}
+INJECT:STATE_QUEBEC = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_NEWFOUNDLAND = {
+    arable_resources = { "building_livestock_ranch" "building_wool_farm" }
+}
+INJECT:STATE_ALBERTA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_BRITISH_COLUMBIA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_SASKATCHEWAN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_MANITOBA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_YUKON_TERRITORY = {
+    arable_resources = { "building_livestock_ranch" "building_wool_farm" }
+}
+INJECT:STATE_NORTHWEST_TERRITORIES = {
+    arable_resources = { "building_livestock_ranch" "building_wool_farm" }
+}
+INJECT:STATE_NUNAVUT = {
+    arable_resources = { "building_livestock_ranch" "building_wool_farm" }
+}
+INJECT:STATE_BERMUDA = {
+    arable_resources = { "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_wool_farm" }
+}
+INJECT:STATE_TEXAS = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_sugar_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_NEVADA = {
+    arable_resources = { "building_livestock_ranch" "building_wool_farm" }
+}
+INJECT:STATE_ARIZONA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_NEW_MEXICO = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_CALIFORNIA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_SONORA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_CHIHUAHUA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_dye_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_RIO_GRANDE = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_dye_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_DURANGO = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_SINALOA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_opium_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_BAJIO = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_YUCATAN = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_MEXICO = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_VERACRUZ = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_GUERRERO = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_OAXACA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_JALISCO = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ZACATECAS = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_CHIAPAS = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_BAJA_CALIFORNIA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}

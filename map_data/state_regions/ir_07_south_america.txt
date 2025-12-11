@@ -1,0 +1,159 @@
+﻿INJECT:STATE_ECUADOR = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_GUAYANA = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ZULIA = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_MIRANDA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_BOLIVAR = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ANTIOQUIA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_GUAVIARE = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_CUNDINAMARCA = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_opium_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_CAUCA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_PASTAZA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_sugar_plantation" "building_banana_plantation" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_TARAPACA = {
+    arable_resources = { "building_livestock_ranch" "building_dye_plantation" "building_banana_plantation" "building_wool_farm" }
+}
+INJECT:STATE_ANTOFAGASTA = {
+    arable_resources = { "building_livestock_ranch" "building_wool_farm" }
+}
+INJECT:STATE_SANTA_CRUZ = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_LA_PAZ = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_POTOSI = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_CAJAMARCA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_LIMA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ICA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_AREQUIPA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_URUGUAY = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_JUJUY = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ALTO_PARAGUAY = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_BAJO_PARAGUAY = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_BUENOS_AIRES = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_PATAGONIA = {
+    arable_resources = { "building_livestock_ranch" "building_wool_farm" }
+}
+INJECT:STATE_RIO_NEGRO = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_dye_plantation" "building_sugar_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_LA_PAMPA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_dye_plantation" "building_sugar_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_SANTA_FE = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_dye_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_CORRIENTES = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_TUCUMAN = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_CHACO = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_SANTIAGO = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_sugar_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_LOS_RIOS = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_sugar_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ARAUCANIA = {
+    arable_resources = { "building_livestock_ranch" "building_wool_farm" }
+}
+INJECT:STATE_SOUTH_ATLANTIC_ISLANDS = {
+    arable_resources = { "building_livestock_ranch" "building_wool_farm" }
+}
+INJECT:STATE_PARA = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_MARANHAO = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_AMAZONAS = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ACRE = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_GOIAS = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_coffee_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_MATO_GROSSO = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_RIO_GRANDE_DO_SUL = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_PARANA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_SANTA_CATARINA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_SAO_PAULO = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_MINAS_GERAIS = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_RIO_DE_JANEIRO = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tea_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_BAHIA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_RIO_GRANDE_DO_NORTE = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_CEARA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_PIAUI = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_PARAIBA = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_PERNAMBUCO = {
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}

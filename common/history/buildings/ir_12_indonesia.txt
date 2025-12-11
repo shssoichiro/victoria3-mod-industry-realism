@@ -270,6 +270,8 @@
 	s:STATE_WEST_MICRONESIA = {
 		region_state:MCR = {
 		}
+		region_state:PHI = {
+		}
 	}
 	s:STATE_EAST_MICRONESIA = {
 		region_state:MCR = {

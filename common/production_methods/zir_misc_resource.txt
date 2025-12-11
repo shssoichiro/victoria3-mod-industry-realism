@@ -1,5 +1,5 @@
-pm_simple_forestry = {
-	texture = "gfx/interface/icons/production_method_icons/simple_forestry.dds"
+# Existing PMs
+INJECT:pm_simple_forestry = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_output_wood_add = 24
@@ -13,11 +13,7 @@ pm_simple_forestry = {
 	}
 }
 
-pm_saw_mills = {
-	texture = "gfx/interface/icons/production_method_icons/saw_mills.dds"
-	unlocking_technologies = {
-		steelworking
-	}
+INJECT:pm_saw_mills = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -35,11 +31,7 @@ pm_saw_mills = {
 	}
 }
 
-pm_electric_saw_mills = {
-	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
-	unlocking_technologies = {
-		electrical_generation
-	}
+INJECT:pm_electric_saw_mills = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -57,5 +49,4 @@ pm_electric_saw_mills = {
 			building_employment_engineers_add = 500
 		}
 	}
-	required_input_goods = electricity
 }

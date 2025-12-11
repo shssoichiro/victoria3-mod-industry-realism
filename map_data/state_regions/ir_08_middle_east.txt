@@ -1,0 +1,120 @@
+﻿INJECT:STATE_NEJD = {
+    arable_resources = { "building_livestock_ranch" "building_wool_farm" }
+}
+INJECT:STATE_OMAN = {
+    arable_resources = { "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_wool_farm" }
+}
+INJECT:STATE_ABU_DHABI = {
+    arable_resources = { "building_livestock_ranch" "building_tobacco_plantation" "building_wool_farm" }
+}
+INJECT:STATE_YEMEN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_HEDJAZ = {
+    arable_resources = { "building_livestock_ranch" "building_wool_farm" }
+}
+INJECT:STATE_HAIL = {
+    arable_resources = { "building_livestock_ranch" "building_wool_farm" }
+}
+INJECT:STATE_CYPRUS = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_banana_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_TRANSJORDAN = {
+    arable_resources = { "building_millet_farm" "building_livestock_ranch" "building_banana_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_PALESTINE = {
+    arable_resources = { "building_millet_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tobacco_plantation" "building_banana_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_LEBANON = {
+    arable_resources = { "building_millet_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_banana_plantation" "building_vineyard" "building_silk_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_SYRIA = {
+    arable_resources = { "building_millet_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ALEPPO = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_banana_plantation" "building_cotton_plantation" "building_silk_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_BAGHDAD = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_silk_plantation" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_MOSUL = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_DEIR_EZ_ZOR = {
+    arable_resources = { "building_millet_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_BASRA = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_silk_plantation" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_FARS = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_opium_plantation" "building_vineyard" "building_tobacco_plantation" "building_dye_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_LARISTAN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_opium_plantation" "building_dye_plantation" "building_cotton_plantation" "building_silk_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_KERMAN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_opium_plantation" "building_dye_plantation" "building_cotton_plantation" "building_silk_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_SISTAN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_dye_plantation" "building_tobacco_plantation" "building_opium_plantation" "building_cotton_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_KHORASAN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_dye_plantation" "building_opium_plantation" "building_tobacco_plantation" "building_cotton_plantation" "building_silk_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_KHUZESTAN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_opium_plantation" "building_tobacco_plantation" "building_dye_plantation" "building_sugar_plantation" "building_silk_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ISFAHAN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_opium_plantation" "building_dye_plantation" "building_cotton_plantation" "building_silk_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_MAZANDARAN = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_opium_plantation" "building_tea_plantation" "building_sugar_plantation" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_IRAKAJEMI = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_opium_plantation" "building_dye_plantation" "building_cotton_plantation" "building_silk_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_SEMNAN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_opium_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_TABRIZ = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_vineyard" "building_tobacco_plantation" "building_opium_plantation" "building_dye_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_URMIA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_vineyard" "building_tobacco_plantation" "building_opium_plantation" "building_dye_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_LURISTAN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_opium_plantation" "building_dye_plantation" "building_silk_plantation" "building_vineyard" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_PERSIAN_KURDISTAN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_opium_plantation" "building_dye_plantation" "building_silk_plantation" "building_vineyard" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_HUDAVENDIGAR = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_opium_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_AYDIN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_KONYA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_opium_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_KASTAMONU = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_opium_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_DIYARBAKIR = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ADANA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_TRABZON = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ERZURUM = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ANKARA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_KARS = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}

@@ -1,0 +1,75 @@
+﻿INJECT:STATE_DAGESTAN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_KUBAN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ARMENIA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_silk_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_AZERBAIJAN = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_GREATER_CAUCASUS = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_SAMARA = {
+    arable_resources = { "building_rye_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_TARTARIA = {
+    arable_resources = { "building_rye_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_ASTRAKHAN = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_UZBEKIA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_silk_plantation" "building_opium_plantation" "building_cotton_plantation" "building_tea_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_TAJIKISTAN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tea_plantation" "building_opium_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_KIRGHIZIA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tea_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_TURKMENIA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_silk_plantation" "building_opium_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_PASHTUNISTAN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_opium_plantation" "building_tea_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_CENTRAL_HIGHLANDS = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_opium_plantation" "building_tea_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_NORTHERN_BALUCHISTAN = {
+    arable_resources = { "building_livestock_ranch" "building_wool_farm" }
+}
+INJECT:STATE_HERAT = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_opium_plantation" "building_tea_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_BALKH = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_opium_plantation" "building_tea_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_QUETTA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_dye_plantation" "building_opium_plantation" "building_tea_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_KANDAHAR = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_opium_plantation" "building_tea_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_KABUL = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_opium_plantation" "building_tea_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_BALUCHISTAN = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_dye_plantation" "building_opium_plantation" "building_tea_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_LHASA = {
+    arable_resources = { "building_rye_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_NGARI = {
+    arable_resources = { "building_livestock_ranch" "building_wool_farm" }
+}
+INJECT:STATE_HIMALAYAS = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_opium_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_EASTERN_HIMALAYAS = {
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_opium_plantation" "building_tea_plantation" "building_fruit_orchard" "building_wool_farm" }
+}

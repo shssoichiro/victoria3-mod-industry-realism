@@ -18,7 +18,7 @@
 				}
 			}
 			create_building = {
-				building = "building_pottery_mills"
+				building = "building_pottery_mill"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -29,12 +29,12 @@
 				}
 				reserves = 1
 			}
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:BIC"
 						levels = 5
 						region = "STATE_WEST_BENGAL"
@@ -42,10 +42,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:BIC"
 						levels = 2
 						region = "STATE_WEST_BENGAL"
@@ -57,12 +57,12 @@
 	}
 	s:STATE_EAST_BENGAL = {
 		region_state:BIC = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:BIC"
 						levels = 3
 						region = "STATE_EAST_BENGAL"
@@ -70,10 +70,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:BIC"
 						levels = 1
 						region = "STATE_EAST_BENGAL"
@@ -118,6 +118,8 @@
 		}
 		region_state:NAW = {
 		}
+		region_state:POR = {
+		}
 	}
 	s:STATE_BUNDELKHAND = {
 		region_state:BUN = {
@@ -141,12 +143,12 @@
 	}
 	s:STATE_PUNJAB = {
 		region_state:PAN = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:PAN"
 						levels = 2
 						region = "STATE_PUNJAB"
@@ -154,10 +156,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:PAN"
 						levels = 1
 						region = "STATE_PUNJAB"
@@ -178,7 +180,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -247,12 +249,12 @@
 		region_state:JEY = {
 		}
 		region_state:BIC = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:BIC"
 						levels = 4
 						region = "STATE_CIRCARS"
@@ -260,10 +262,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:BIC"
 						levels = 1
 						region = "STATE_CIRCARS"
@@ -291,12 +293,12 @@
 		region_state:DEN = {
 		}
 		region_state:BIC = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:BIC"
 						levels = 3
 						region = "STATE_MADRAS"
@@ -304,10 +306,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:BIC"
 						levels = 1
 						region = "STATE_MADRAS"
@@ -329,12 +331,12 @@
 		region_state:POR = {
 		}
 		region_state:BIC = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:BIC"
 						levels = 3
 						region = "STATE_BOMBAY"
@@ -342,10 +344,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:BIC"
 						levels = 1
 						region = "STATE_BOMBAY"

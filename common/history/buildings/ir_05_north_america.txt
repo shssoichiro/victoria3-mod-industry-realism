@@ -15,9 +15,9 @@
 	}
 	s:STATE_NEW_YORK = {
 		region_state:USA = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -28,7 +28,7 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -92,7 +92,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -298,7 +298,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -505,9 +505,9 @@
 	}
 	s:STATE_PENNSYLVANIA = {
 		region_state:USA = {
-			remove_building = building_furniture_manufacturies
+			remove_building = building_furniture_manufactory
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -516,7 +516,7 @@
 						region = "STATE_PENNSYLVANIA"
 					}
 					building = {
-						type = "building_furniture_manufacturies"
+						type = "building_furniture_manufactory"
 						country = "c:USA"
 						levels = 2
 						region = "STATE_PENNSYLVANIA"
@@ -524,7 +524,7 @@
 				}
 			}
 			create_building = {
-				building = "building_luxury_furniture_manufacturies"
+				building = "building_luxury_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -554,7 +554,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -563,7 +563,7 @@
 						region = "STATE_PENNSYLVANIA"
 					}
 					building = {
-						type = "building_wool_farms"
+						type = "building_wool_farm"
 						country = "c:USA"
 						levels = 1
 						region = "STATE_PENNSYLVANIA"
@@ -591,12 +591,12 @@
 	}
 	s:STATE_MASSACHUSETTS = {
 		region_state:USA = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:USA"
 						levels = 1
 						region = "STATE_MASSACHUSETTS"
@@ -610,10 +610,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:USA"
 						levels = 1
 						region = "STATE_MASSACHUSETTS"

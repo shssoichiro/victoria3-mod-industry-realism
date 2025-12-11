@@ -63,12 +63,12 @@
 	}
 	s:STATE_MOSCOW = {
 		region_state:RUS = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:RUS"
 						levels = 2
 						region = "STATE_MOSCOW"
@@ -76,10 +76,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:RUS"
 						levels = 1
 						region = "STATE_MOSCOW"
@@ -87,12 +87,12 @@
 				}
 				reserves = 1
 			}
-			remove_building = building_furniture_manufacturies
+			remove_building = building_furniture_manufactory
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = "building_furniture_manufacturies"
+						type = "building_furniture_manufactory"
 						country = "c:RUS"
 						levels = 4
 						region = "STATE_MOSCOW"
@@ -100,10 +100,10 @@
 				}
 			}
 			create_building = {
-				building = "building_luxury_furniture_manufacturies"
+				building = "building_luxury_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = "building_luxury_furniture_manufacturies"
+						type = "building_luxury_furniture_manufactory"
 						country = "c:RUS"
 						levels = 1
 						region = "STATE_MOSCOW"
@@ -160,7 +160,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -207,12 +207,12 @@
 				}
 				reserves = 1
 			}
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:RUS"
 						levels = 1
 						region = "STATE_KIEV"
@@ -226,10 +226,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:RUS"
 						levels = 1
 						region = "STATE_KIEV"
@@ -326,7 +326,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -410,7 +410,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -624,7 +624,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -836,7 +836,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"

@@ -1,0 +1,27 @@
+﻿INJECT:STATE_NEW_SOUTH_WALES = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_sugar_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_VICTORIA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_sugar_plantation" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_TASMANIA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_sugar_plantation" "building_opium_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_QUEENSLAND = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_sugar_plantation" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_SOUTH_AUSTRALIA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_WESTERN_AUSTRALIA = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_vineyard" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_NORTHERN_TERRITORY = {
+    arable_resources = { "building_livestock_ranch" "building_cotton_plantation" "building_wool_farm" }
+}
+INJECT:STATE_NORTH_ISLAND = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}
+INJECT:STATE_SOUTH_ISLAND = {
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_fruit_orchard" "building_wool_farm" }
+}

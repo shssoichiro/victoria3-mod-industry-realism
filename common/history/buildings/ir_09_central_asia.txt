@@ -100,7 +100,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -144,7 +144,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -202,7 +202,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -236,7 +236,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -264,7 +264,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -300,7 +300,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"

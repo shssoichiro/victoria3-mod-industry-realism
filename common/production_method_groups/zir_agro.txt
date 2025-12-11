@@ -1,4 +1,5 @@
-﻿pmg_base_building_fruit_orchard = {
+﻿# New PMGs
+INJECT_OR_CREATE:pmg_base_building_fruit_orchard = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_simple_farming_orchard
@@ -8,7 +9,7 @@
 	}
 }
 
-pmg_harvesting_process_building_orchard = {
+INJECT_OR_CREATE:pmg_harvesting_process_building_orchard = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_tools_disabled
@@ -16,7 +17,7 @@ pmg_harvesting_process_building_orchard = {
 	}
 }
 
-pmg_base_building_wool_farms = {
+INJECT_OR_CREATE:pmg_base_building_wool_farm = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
 		pm_hand_shearing

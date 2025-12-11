@@ -1,18 +1,36 @@
-﻿pmg_synthetic_silk = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+﻿# Existing PMGs
+INJECT:pmg_synthetic_silk = {
 	production_methods = {
 		pm_rayon
 	}
 }
 
-pmg_automobile_production = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+INJECT:pmg_automobile_production = {
 	production_methods = {
 		pm_automobile_production
 	}
 }
 
-pmg_automation_building_war_machine_industry = {
+INJECT:pmg_tanks = {
+	production_methods = {
+		pm_tank_production
+	}
+}
+
+INJECT:pmg_aeroplanes = {
+	production_methods = {
+		pm_aeroplane_production
+	}
+}
+
+INJECT:pmg_radios_category = {
+	production_methods = {
+		pm_radios
+	}
+}
+
+# New PMGs
+INJECT_OR_CREATE:pmg_automation_building_war_machine_industry = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_automation_disabled
@@ -20,7 +38,7 @@ pmg_automation_building_war_machine_industry = {
 	}
 }
 
-pmg_automation_building_aircraft_industry = {
+INJECT_OR_CREATE:pmg_automation_building_aircraft_industry = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_automation_disabled
@@ -28,35 +46,14 @@ pmg_automation_building_aircraft_industry = {
 	}
 }
 
-pmg_tanks = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
-	production_methods = {
-		pm_tank_production
-	}
-}
-
-pmg_aeroplanes = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_aeroplane_production
-	}
-}
-
-pmg_radios_category = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
-	production_methods = {
-		pm_radios
-	}
-}
-
-pmg_synthetic_rubber = {
+INJECT_OR_CREATE:pmg_synthetic_rubber = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
 		pm_synthetic_rubber
 	}
 }
 
-pmg_synthetic_fuel = {
+INJECT_OR_CREATE:pmg_synthetic_fuel = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
 		pm_fischer_tropsch

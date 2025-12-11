@@ -94,10 +94,10 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
-						type = "building_wool_farms"
+						type = "building_wool_farm"
 						country = "c:SPU"
 						levels = 1
 						region = "STATE_ICA"
@@ -128,7 +128,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -264,7 +264,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -300,7 +300,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -457,12 +457,12 @@
 	}
 	s:STATE_PERNAMBUCO = {
 		region_state:BRZ = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:BRZ"
 						levels = 2
 						region = "STATE_PERNAMBUCO"
@@ -470,10 +470,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:BRZ"
 						levels = 1
 						region = "STATE_PERNAMBUCO"

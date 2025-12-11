@@ -1,5 +1,5 @@
-﻿pm_pot_stills = {
-	texture = "gfx/interface/icons/production_method_icons/pot_stills.dds"
+﻿# Existing PMs
+INJECT:pm_pot_stills = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -16,11 +16,7 @@
 	}
 }
 
-pm_patent_stills = {
-	texture = "gfx/interface/icons/production_method_icons/patent_stills.dds"
-	unlocking_technologies = {
-		fractional_distillation
-	}
+INJECT:pm_patent_stills = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -39,11 +35,50 @@ pm_patent_stills = {
 	}
 }
 
-pm_rum = {
+INJECT:pm_ceramics = {
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_lead_add = 25
+			goods_input_dye_add = 5
+			# output goods
+			goods_output_porcelain_add = 30
+		}
+		level_scaled = {
+			building_employment_shopkeepers_add = 250
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+			building_employment_shopkeepers_add = 1000
+		}
+	}
+}
+
+INJECT:pm_bone_china = {
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_lead_add = 35
+			goods_input_dye_add = 10
+			# output goods
+			goods_output_porcelain_add = 60
+		}
+		level_scaled = {
+			building_employment_shopkeepers_add = 250
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+			building_employment_shopkeepers_add = 1000
+		}
+	}
+}
+
+# New PMs
+INJECT_OR_CREATE:pm_rum = {
 	texture = "gfx/interface/icons/production_method_icons/rum.dds"
 }
 
-pm_vodka = {
+INJECT_OR_CREATE:pm_vodka = {
 	texture = "gfx/interface/icons/production_method_icons/vodka.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -54,7 +89,7 @@ pm_vodka = {
 	}
 }
 
-pm_handsewn_clothes_luxury = {
+INJECT_OR_CREATE:pm_handsewn_clothes_luxury = {
 	texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -70,7 +105,7 @@ pm_handsewn_clothes_luxury = {
 	}
 }
 
-pm_dye_workshops_luxury = {
+INJECT_OR_CREATE:pm_dye_workshops_luxury = {
 	texture = "gfx/interface/icons/production_method_icons/dye_workshops.dds"
 	unlocking_technologies = {
 		lathe
@@ -91,7 +126,7 @@ pm_dye_workshops_luxury = {
 	}
 }
 
-pm_sewing_machines_luxury = {
+INJECT_OR_CREATE:pm_sewing_machines_luxury = {
 	texture = "gfx/interface/icons/production_method_icons/sewing_machines.dds"
 	unlocking_technologies = {
 		mechanized_workshops
@@ -114,7 +149,7 @@ pm_sewing_machines_luxury = {
 	}
 }
 
-pm_electric_sewing_machines_luxury = {
+INJECT_OR_CREATE:pm_electric_sewing_machines_luxury = {
 	texture = "gfx/interface/icons/production_method_icons/electric_sewing_machines.dds"
 	unlocking_technologies = {
 		electrical_capacitors
@@ -139,7 +174,7 @@ pm_electric_sewing_machines_luxury = {
 	required_input_goods = electricity
 }
 
-pm_handcrafted_furniture_luxury = {
+INJECT_OR_CREATE:pm_handcrafted_furniture_luxury = {
 	texture = "gfx/interface/icons/production_method_icons/furniture_handicraft.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -157,7 +192,7 @@ pm_handcrafted_furniture_luxury = {
 	}
 }
 
-pm_lathe_luxury = {
+INJECT_OR_CREATE:pm_lathe_luxury = {
 	texture = "gfx/interface/icons/production_method_icons/lathes.dds"
 	unlocking_technologies = {
 		lathe
@@ -181,7 +216,7 @@ pm_lathe_luxury = {
 	}
 }
 
-pm_mechanized_workshops_luxury = {
+INJECT_OR_CREATE:pm_mechanized_workshops_luxury = {
 	texture = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
 	unlocking_technologies = {
 		mechanized_workshops
@@ -205,49 +240,6 @@ pm_mechanized_workshops_luxury = {
 			building_employment_laborers_add = 3000
 			building_employment_machinists_add = 1250
 			building_employment_engineers_add = 750
-		}
-	}
-}
-
-pm_ceramics = {
-	texture = "gfx/interface/icons/production_method_icons/ceramics.dds"
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_lead_add = 25
-			goods_input_dye_add = 5
-			# output goods
-			goods_output_porcelain_add = 30
-		}
-		level_scaled = {
-			building_employment_shopkeepers_add = 250
-			building_employment_laborers_add = 3000
-			building_employment_machinists_add = 1000
-			building_employment_engineers_add = 500
-			building_employment_shopkeepers_add = 1000
-		}
-	}
-}
-
-pm_bone_china = {
-	texture = "gfx/interface/icons/production_method_icons/bone_china.dds"
-	unlocking_technologies = {
-		chemical_bleaching
-	}
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_lead_add = 35
-			goods_input_dye_add = 10
-			# output goods
-			goods_output_porcelain_add = 60
-		}
-		level_scaled = {
-			building_employment_shopkeepers_add = 250
-			building_employment_laborers_add = 3000
-			building_employment_machinists_add = 1000
-			building_employment_engineers_add = 500
-			building_employment_shopkeepers_add = 1000
 		}
 	}
 }

@@ -80,12 +80,12 @@ belle_epoque_events.6 = {
 		name = belle_epoque_events.6.b
 		trigger = {
 			any_scope_state = {
-				has_building = building_arts_academy
+				has_building = building_art_academy
 			}
 		}
 		random_scope_state = {
 			limit = {
-				has_building = building_arts_academy
+				has_building = building_art_academy
 			}
 			add_modifier = {
 				name = modifier_trad_arts_bonus
@@ -262,7 +262,7 @@ belle_epoque_events.14 = {
 						this = root
 					}
 					has_journal_entry = je_belle_epoque
-					has_building = building_tailoring_workshops
+					has_building = building_tailoring_workshop
 				}
 			}
 			has_building = building_railway
@@ -305,7 +305,7 @@ belle_epoque_events.14 = {
 		name = belle_epoque_events.14.b
 		random_scope_state = {
 			limit = {
-				has_building = building_tailoring_workshops
+				has_building = building_tailoring_workshop
 			}
 			add_modifier = {
 				name = modifier_haute_couture_competition

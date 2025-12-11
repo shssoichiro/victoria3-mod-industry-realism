@@ -20,23 +20,13 @@
 	s:STATE_SENEGAL = {
 		region_state:FRA = {
 		}
+		region_state:SIL = {
+		}
 		region_state:JLF = {
 		}
 		region_state:CAY = {
 		}
 		region_state:FTR = {
-		}
-	}
-	s:STATE_GAMBIA = {
-		region_state:POR = {
-		}
-		region_state:GBR = {
-		}
-		region_state:SRR = {
-		}
-		region_state:BND = {
-		}
-		region_state:KBU = {
 		}
 	}
 	s:STATE_SIERRA_LEONE = {
@@ -68,7 +58,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -112,7 +102,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -150,7 +140,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -164,6 +154,8 @@
 		}
 	}
 	s:STATE_GUINEA = {
+		region_state:POR = {
+		}
 		region_state:MDK = {
 		}
 		region_state:SSU = {
@@ -171,17 +163,17 @@
 		region_state:FTJ = {
 		}
 	}
-	s:STATE_GHANA = {
-		region_state:GBR = {
+	s:STATE_GOLD_COAST = {
+		region_state:SIL = {
 		}
 		region_state:NET = {
+		}
+		region_state:DEN = {
 		}
 		region_state:ASH = {
 		}
 	}
 	s:STATE_TOGO = {
-		region_state:DEN = {
-		}
 		region_state:ASH = {
 		}
 		region_state:EWE = {
@@ -276,7 +268,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -306,7 +298,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -388,7 +380,9 @@
 		}
 	}
 	s:STATE_SOUTH_CAMEROON = {
-		region_state:SPA = {
+		region_state:SIL = {
+		}
+		region_state:POR = {
 		}
 		region_state:FNG = {
 		}
@@ -488,8 +482,6 @@
 		}
 	}
 	s:STATE_ZAMBEZI = {
-		region_state:MTB = {
-		}
 		region_state:MSH = {
 		}
 		region_state:MNC = {
@@ -501,6 +493,8 @@
 	}
 	s:STATE_HEREROLAND = {
 		region_state:HRO = {
+		}
+		region_state:OVB = {
 		}
 	}
 	s:STATE_ZULULAND = {
@@ -518,7 +512,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -531,18 +525,100 @@
 			}
 		}
 		region_state:BST = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BST"
+						levels = 1
+						region = "STATE_ZULULAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BST"
+						levels = 1
+						region = "STATE_ZULULAND"
+					}
+				}
+				reserves = 1
+			}
 		}
 	}
 	s:STATE_VRYSTAAT = {
 		region_state:ORA = {
 		}
+		region_state:PHL = {
+		}
+		region_state:BST = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BST"
+						levels = 1
+						region = "STATE_VRYSTAAT"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:BST"
+						levels = 1
+						region = "STATE_VRYSTAAT"
+					}
+				}
+				reserves = 1
+			}
+		}
 	}
 	s:STATE_TRANSVAAL = {
 		region_state:TRN = {
 		}
+		region_state:MTB = {
+		}
+		region_state:SWZ = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SWZ"
+						levels = 1
+						region = "STATE_TRANSVAAL"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SWZ"
+						levels = 1
+						region = "STATE_TRANSVAAL"
+					}
+				}
+				reserves = 1
+			}
+		}
 	}
 	s:STATE_EASTERN_CAPE = {
 		region_state:SAF = {
+		}
+		region_state:XHO = {
 		}
 	}
 	s:STATE_CAPE_COLONY = {

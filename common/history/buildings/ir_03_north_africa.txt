@@ -1,12 +1,12 @@
 ﻿BUILDINGS={
 	s:STATE_LOWER_EGYPT = {
 		region_state:EGY = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:EGY"
 						levels = 2
 						region = "STATE_LOWER_EGYPT"
@@ -14,10 +14,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:EGY"
 						levels = 1
 						region = "STATE_LOWER_EGYPT"
@@ -104,7 +104,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -136,7 +136,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -170,7 +170,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -181,8 +181,6 @@
 				}
 				reserves = 1
 			}
-		}
-		region_state:SAH = {
 		}
 	}
 	s:STATE_ALGIERS = {
@@ -210,7 +208,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -236,13 +234,15 @@
 	s:STATE_TRIPOLI = {
 		region_state:TRI = {
 		}
+		region_state:FZN = {
+		}
 	}
 	s:STATE_LIBYA = {
 		region_state:TRI = {
 		}
 	}
 	s:STATE_LIBYAN_DESERT = {
-		region_state:TRI = {
+		region_state:FZN = {
 		}
 	}
 	s:STATE_SAHARA = {
@@ -253,10 +253,6 @@
 		region_state:AHG = {
 		}
 		region_state:TUG = {
-		}
-	}
-	s:STATE_WEST_SAHARA = {
-		region_state:SAH = {
 		}
 	}
 	s:STATE_MAURITANIA = {

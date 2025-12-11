@@ -1,3 +1,2 @@
-﻿l_simp_chinese:
-  building_electrics_industry:1 "电话行业"
-  building_synthetics_plants:1 "染料工厂"
+﻿l_simp_chinese: building_electrics_industry:1 "电话行业"
+  building_synthetics_plant:1 "染料工厂"

@@ -1,10 +1,5 @@
-﻿pm_dye_production = {
-	texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 5
-		}
-	}
+﻿# Existing PMs
+INJECT:pm_dye_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -22,13 +17,7 @@
 	}
 }
 
-pm_rayon = {
-	texture = "gfx/interface/icons/production_method_icons/rayon.dds"
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 5
-		}
-	}
+INJECT:pm_rayon = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -45,8 +34,7 @@ pm_rayon = {
 	}
 }
 
-pm_aeroplane_production = {
-	texture = "gfx/interface/icons/production_method_icons/aeroplanes.dds"
+INJECT:pm_aeroplane_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -67,8 +55,7 @@ pm_aeroplane_production = {
 	}
 }
 
-pm_tank_production = {
-	texture = "gfx/interface/icons/production_method_icons/tanks.dds"
+INJECT:pm_tank_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -88,58 +75,7 @@ pm_tank_production = {
 	}
 }
 
-pm_assembly_lines_building_war_machine_industry = {
-	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 15
-		}
-	}
-	unlocking_technologies = {
-		conveyors
-	}
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_tools_add = 5
-			goods_input_oil_add = 5
-			goods_input_electricity_add = 5
-		}
-		level_scaled = {
-			building_employment_laborers_add = -1500
-			building_employment_machinists_add = -500
-		}
-	}
-	required_input_goods = electricity
-}
-
-pm_assembly_lines_building_aircraft_industry = {
-	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 15
-		}
-	}
-	unlocking_technologies = {
-		conveyors
-	}
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_tools_add = 5
-			goods_input_oil_add = 5
-			goods_input_electricity_add = 5
-		}
-		level_scaled = {
-			building_employment_laborers_add = -1500
-			building_employment_machinists_add = -500
-		}
-	}
-	required_input_goods = electricity
-}
-
-pm_telephones = {
-	texture = "gfx/interface/icons/production_method_icons/telephones.dds"
+INJECT:pm_telephones = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_iron_add = 20
@@ -157,8 +93,7 @@ pm_telephones = {
 	}
 }
 
-pm_radios = {
-	texture = "gfx/interface/icons/production_method_icons/radios.dds"
+INJECT:pm_radios = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_iron_add = 20
@@ -175,10 +110,60 @@ pm_radios = {
 			building_employment_engineers_add = 1000
 		}
 	}
+}
+
+# New PMs
+INJECT_OR_CREATE:pm_assembly_lines_building_war_machine_industry = {
+	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+	unlocking_technologies = {
+		conveyors
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 5
+			goods_input_oil_add = 5
+			goods_input_electricity_add = 5
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1500
+			building_employment_machinists_add = -500
+		}
+	}
 	required_input_goods = electricity
 }
 
-pm_synthetic_rubber = {
+INJECT_OR_CREATE:pm_assembly_lines_building_aircraft_industry = {
+	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+	unlocking_technologies = {
+		conveyors
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 5
+			goods_input_oil_add = 5
+			goods_input_electricity_add = 5
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1500
+			building_employment_machinists_add = -500
+		}
+	}
+	required_input_goods = electricity
+}
+
+INJECT_OR_CREATE:pm_synthetic_rubber = {
 	texture = "gfx/interface/icons/production_method_icons/synthetic_rubber.dds"
 	state_modifiers = {
 		workforce_scaled = {
@@ -204,7 +189,7 @@ pm_synthetic_rubber = {
 	}
 }
 
-pm_fischer_tropsch = {
+INJECT_OR_CREATE:pm_fischer_tropsch = {
 	texture = "gfx/interface/icons/production_method_icons/synthetic_fuel.dds"
 	state_modifiers = {
 		workforce_scaled = {

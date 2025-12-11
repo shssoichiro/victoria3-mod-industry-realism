@@ -1,12 +1,12 @@
 ﻿BUILDINGS={
 	s:STATE_LOMBARDY = {
 		region_state:AUS = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:AUS"
 						levels = 2
 						region = "STATE_LOMBARDY"
@@ -20,10 +20,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:AUS"
 						levels = 1
 						region = "STATE_LOMBARDY"
@@ -72,7 +72,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -103,12 +103,12 @@
 	}
 	s:STATE_CAMPANIA = {
 		region_state:SIC = {
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:SIC"
 						levels = 1
 						region = "STATE_CAMPANIA"
@@ -122,10 +122,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:SIC"
 						levels = 1
 						region = "STATE_CAMPANIA"
@@ -170,7 +170,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -198,7 +198,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -226,7 +226,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -278,7 +278,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -306,7 +306,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -334,10 +334,10 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
-						type = "building_wool_farms"
+						type = "building_wool_farm"
 						country = "c:PAR"
 						levels = 1
 						region = "STATE_EMILIA"
@@ -360,7 +360,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -438,7 +438,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -490,7 +490,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -528,10 +528,10 @@
 				}
 			}
 			create_building = {
-				building = "building_pottery_mills"
+				building = "building_pottery_mill"
 				add_ownership = {
 					building = {
-						type = "building_pottery_mills"
+						type = "building_pottery_mill"
 						country = "c:AUS"
 						levels = 1
 						region = "STATE_VENETIA"
@@ -539,12 +539,12 @@
 				}
 				reserves = 1
 			}
-			remove_building = building_textile_mills
+			remove_building = building_textile_mill
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_textile_mill"
 						country = "c:AUS"
 						levels = 3
 						region = "STATE_VENETIA"
@@ -564,10 +564,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_tailoring_workshop"
 						country = "c:AUS"
 						levels = 1
 						region = "STATE_VENETIA"
@@ -611,56 +611,8 @@
 			}
 		}
 	}
-	s:STATE_TOLEDO = {
+	s:STATE_NEW_CASTILE = {
 		region_state:SPA = {
-			remove_building = building_wheat_farm
-			create_building = {
-				building = "building_wheat_farm"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:SPA"
-						levels = 5
-						region = "STATE_TOLEDO"
-					}
-				}
-			}
-			create_building = {
-				building = "building_fruit_orchard"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:SPA"
-						levels = 1
-						region = "STATE_TOLEDO"
-					}
-				}
-				reserves = 1
-			}
-			remove_building = building_livestock_ranch
-			create_building = {
-				building = "building_livestock_ranch"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:SPA"
-						levels = 3
-						region = "STATE_TOLEDO"
-					}
-				}
-			}
-			create_building = {
-				building = "building_wool_farms"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:SPA"
-						levels = 2
-						region = "STATE_TOLEDO"
-					}
-				}
-				reserves = 1
-			}
 		}
 	}
 	s:STATE_GALICIA = {
@@ -670,20 +622,26 @@
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
+						type = "building_livestock_ranch"
+						country = "c:SPA"
+						levels = 1
+						region = "STATE_GALICIA"
+					}
+					building = {
 						type = "building_manor_house"
 						country = "c:SPA"
-						levels = 3
+						levels = 1
 						region = "STATE_GALICIA"
 					}
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
-						type = "building_manor_house"
+						type = "building_wool_farm"
 						country = "c:SPA"
-						levels = 3
+						levels = 2
 						region = "STATE_GALICIA"
 					}
 				}
@@ -698,18 +656,24 @@
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
+						type = "building_livestock_ranch"
+						country = "c:SPA"
+						levels = 1
+						region = "STATE_ASTURIAS"
+					}
+					building = {
 						type = "building_manor_house"
 						country = "c:SPA"
-						levels = 2
+						levels = 1
 						region = "STATE_ASTURIAS"
 					}
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
-						type = "building_manor_house"
+						type = "building_wool_farm"
 						country = "c:SPA"
 						levels = 1
 						region = "STATE_ASTURIAS"
@@ -719,28 +683,34 @@
 			}
 		}
 	}
-	s:STATE_CASTILE = {
+	s:STATE_OLD_CASTILE = {
 		region_state:SPA = {
-			remove_building = building_textile_mills
+			remove_building = building_wheat_farm
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_wheat_farm"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_wheat_farm"
+						country = "c:SPA"
+						levels = 4
+						region = "STATE_OLD_CASTILE"
+					}
+					building = {
+						type = "building_manor_house"
 						country = "c:SPA"
 						levels = 2
-						region = "STATE_CASTILE"
+						region = "STATE_OLD_CASTILE"
 					}
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_fruit_orchard"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_fruit_orchard"
 						country = "c:SPA"
 						levels = 1
-						region = "STATE_CASTILE"
+						region = "STATE_OLD_CASTILE"
 					}
 				}
 				reserves = 1
@@ -750,107 +720,65 @@
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
-						type = "building_manor_house"
+						type = "building_livestock_ranch"
 						country = "c:SPA"
-						levels = 2
-						region = "STATE_CASTILE"
+						levels = 1
+						region = "STATE_OLD_CASTILE"
 					}
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
-						type = "building_manor_house"
+						type = "building_wool_farm"
 						country = "c:SPA"
-						levels = 2
-						region = "STATE_CASTILE"
+						levels = 1
+						region = "STATE_OLD_CASTILE"
 					}
 				}
 				reserves = 1
 			}
 		}
 	}
-	s:STATE_NAVARRA = {
-		region_state:SPA = {
-			remove_building = building_livestock_ranch
-			create_building = {
-				building = "building_livestock_ranch"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:SPA"
-						levels = 2
-						region = "STATE_NAVARRA"
-					}
-				}
-			}
-			create_building = {
-				building = "building_wool_farms"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:SPA"
-						levels = 1
-						region = "STATE_NAVARRA"
-					}
-				}
-				reserves = 1
-			}
+	s:STATE_BASQUE_COUNTRY = {
+		region_state:SPC = {
 		}
 	}
 	s:STATE_ARAGON = {
 		region_state:SPA = {
-			remove_building = building_furniture_manufacturies
-			create_building = {
-				building = "building_furniture_manufacturies"
-				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:SPA"
-						levels = 1
-						region = "STATE_TOLEDO"
-					}
-					building = {
-						type = "building_furniture_manufacturies"
-						country = "c:SPA"
-						levels = 2
-						region = "STATE_ARAGON"
-					}
-				}
-			}
-			create_building = {
-				building = "building_luxury_furniture_manufacturies"
-				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:SPA"
-						levels = 1
-						region = "STATE_TOLEDO"
-					}
-				}
-				reserves = 1
-			}
+		}
+		region_state:SPC = {
+		}
+	}
+	s:STATE_LEON = {
+		region_state:SPA = {
 			remove_building = building_livestock_ranch
 			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
-						type = "building_manor_house"
+						type = "building_livestock_ranch"
 						country = "c:SPA"
-						levels = 1
-						region = "STATE_ARAGON"
+						levels = 0
+						region = "STATE_LEON"
 					}
-				}
-			}
-			create_building = {
-				building = "building_wool_farms"
-				add_ownership = {
 					building = {
 						type = "building_manor_house"
 						country = "c:SPA"
 						levels = 1
-						region = "STATE_ARAGON"
+						region = "STATE_LEON"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farm"
+				add_ownership = {
+					building = {
+						type = "building_wool_farm"
+						country = "c:SPA"
+						levels = 1
+						region = "STATE_LEON"
 					}
 				}
 				reserves = 1
@@ -864,16 +792,11 @@
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
-						type = "building_manor_house"
+						type = "building_livestock_ranch"
 						country = "c:SPA"
-						levels = 2
+						levels = 0
 						region = "STATE_CATALONIA"
 					}
-				}
-			}
-			create_building = {
-				building = "building_wool_farms"
-				add_ownership = {
 					building = {
 						type = "building_manor_house"
 						country = "c:SPA"
@@ -881,31 +804,42 @@
 						region = "STATE_CATALONIA"
 					}
 				}
-				reserves = 1
 			}
-			remove_building = building_textile_mills
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
-						type = "building_textile_mills"
+						type = "building_wool_farm"
 						country = "c:SPA"
-						levels = 3
+						levels = 1
 						region = "STATE_CATALONIA"
 					}
+				}
+				reserves = 1
+			}
+			remove_building = building_textile_mill
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
 					building = {
 						type = "building_financial_district"
 						country = "c:SPA"
-						levels = 2
+						levels = 1
+						region = "STATE_CATALONIA"
+					}
+					building = {
+						type = "building_textile_mill"
+						country = "c:SPA"
+						levels = 1
 						region = "STATE_CATALONIA"
 					}
 				}
 			}
 			create_building = {
-				building = "building_tailoring_workshops"
+				building = "building_tailoring_workshop"
 				add_ownership = {
 					building = {
-						type = "building_tailoring_workshops"
+						type = "building_financial_district"
 						country = "c:SPA"
 						levels = 1
 						region = "STATE_CATALONIA"
@@ -914,12 +848,14 @@
 				reserves = 1
 			}
 		}
+		region_state:SPC = {
+		}
 	}
-	s:STATE_BALEARES = {
+	s:STATE_BALEARIC_ISLANDS = {
 		region_state:SPA = {
 		}
 	}
-	s:STATE_ANDALUSIA = {
+	s:STATE_LOWER_ANDALUSIA = {
 		region_state:SPA = {
 			remove_building = building_livestock_ranch
 			create_building = {
@@ -929,61 +865,31 @@
 						type = "building_manor_house"
 						country = "c:SPA"
 						levels = 1
-						region = "STATE_ANDALUSIA"
+						region = "STATE_LOWER_ANDALUSIA"
 					}
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
 						country = "c:SPA"
 						levels = 1
-						region = "STATE_ANDALUSIA"
+						region = "STATE_LOWER_ANDALUSIA"
 					}
 				}
 				reserves = 1
 			}
 		}
 	}
-	s:STATE_GRANADA = {
+	s:STATE_UPPER_ANDALUSIA = {
 		region_state:SPA = {
-			remove_building = building_rice_farm
-			create_building = {
-				building = "building_rice_farm"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:SPA"
-						levels = 1
-						region = "STATE_GRANADA"
-					}
-					building = {
-						type = "building_manor_house"
-						country = "c:SPA"
-						levels = 2
-						region = "STATE_GRANADA"
-					}
-				}
-			}
-			create_building = {
-				building = "building_fruit_orchard"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:SPA"
-						levels = 1
-						region = "STATE_GRANADA"
-					}
-				}
-				reserves = 1
-			}
 		}
 		region_state:GBR = {
 		}
 	}
-	s:STATE_BADAJOZ = {
+	s:STATE_EXTREMADURA = {
 		region_state:SPA = {
 			remove_building = building_livestock_ranch
 			create_building = {
@@ -992,57 +898,31 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:SPA"
-						levels = 3
-						region = "STATE_BADAJOZ"
+						levels = 1
+						region = "STATE_EXTREMADURA"
 					}
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
 						country = "c:SPA"
-						levels = 2
-						region = "STATE_BADAJOZ"
+						levels = 1
+						region = "STATE_EXTREMADURA"
 					}
 				}
 				reserves = 1
 			}
 		}
 	}
+	s:STATE_MURCIA = {
+		region_state:SPA = {
+		}
+	}
 	s:STATE_VALENCIA = {
 		region_state:SPA = {
-			remove_building = building_textile_mills
-			create_building = {
-				building = "building_textile_mills"
-				add_ownership = {
-					building = {
-						type = "building_textile_mills"
-						country = "c:SPA"
-						levels = 1
-						region = "STATE_VALENCIA"
-					}
-					building = {
-						type = "building_financial_district"
-						country = "c:SPA"
-						levels = 1
-						region = "STATE_VALENCIA"
-					}
-				}
-			}
-			create_building = {
-				building = "building_tailoring_workshops"
-				add_ownership = {
-					building = {
-						type = "building_tailoring_workshops"
-						country = "c:SPA"
-						levels = 1
-						region = "STATE_VALENCIA"
-					}
-				}
-				reserves = 1
-			}
 			remove_building = building_livestock_ranch
 			create_building = {
 				building = "building_livestock_ranch"
@@ -1056,7 +936,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -1067,6 +947,10 @@
 				}
 				reserves = 1
 			}
+		}
+	}
+	s:STATE_ENTRE_DOURO_E_MINHO = {
+		region_state:POR = {
 		}
 	}
 	s:STATE_BEIRA = {
@@ -1075,22 +959,24 @@
 			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
+					country = {
+						country = "c:POR"
+						levels = 0
+					}
 					building = {
 						type = "building_manor_house"
 						country = "c:POR"
-						levels = 2
+						levels = 1
 						region = "STATE_BEIRA"
 					}
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
-					building = {
-						type = "building_manor_house"
+					country = {
 						country = "c:POR"
-						levels = 2
-						region = "STATE_BEIRA"
+						levels = 1
 					}
 				}
 				reserves = 1
@@ -1103,6 +989,10 @@
 			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
+					country = {
+						country = "c:POR"
+						levels = 0
+					}
 					building = {
 						type = "building_manor_house"
 						country = "c:POR"
@@ -1112,13 +1002,11 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
-					building = {
-						type = "building_manor_house"
+					country = {
 						country = "c:POR"
 						levels = 1
-						region = "STATE_ESTREMADURA"
 					}
 				}
 				reserves = 1
@@ -1127,30 +1015,6 @@
 	}
 	s:STATE_ALENTEJO = {
 		region_state:POR = {
-			remove_building = building_livestock_ranch
-			create_building = {
-				building = "building_livestock_ranch"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:POR"
-						levels = 2
-						region = "STATE_ALENTEJO"
-					}
-				}
-			}
-			create_building = {
-				building = "building_wool_farms"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:POR"
-						levels = 1
-						region = "STATE_ALENTEJO"
-					}
-				}
-				reserves = 1
-			}
 		}
 	}
 	s:STATE_CAPE_VERDE = {
@@ -1193,9 +1057,9 @@
 	}
 	s:STATE_BULGARIA = {
 		region_state:TUR = {
-			remove_building = building_furniture_manufacturies
+			remove_building = building_furniture_manufactory
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -1206,7 +1070,7 @@
 				}
 			}
 			create_building = {
-				building = "building_luxury_furniture_manufacturies"
+				building = "building_luxury_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -1280,7 +1144,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -1320,7 +1184,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wool_farms"
+				building = "building_wool_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -1382,10 +1246,10 @@
 				}
 			}
 			create_building = {
-				building = "building_pottery_mills"
+				building = "building_pottery_mill"
 				add_ownership = {
 					building = {
-						type = "building_pottery_mills"
+						type = "building_pottery_mill"
 						country = "c:TUR"
 						levels = 1
 						region = "STATE_WESTERN_THRACE"
