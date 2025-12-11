@@ -1,5 +1,10 @@
 ﻿# Existing PMs
-INJECT:pm_pot_stills = {
+REPLACE:pm_pot_stills = {
+	texture = "gfx/interface/icons/production_method_icons/pot_stills.dds"
+	unlocking_technologies = {
+		distillation
+	}
+	# MODIFIED
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -16,7 +21,12 @@ INJECT:pm_pot_stills = {
 	}
 }
 
-INJECT:pm_patent_stills = {
+REPLACE:pm_patent_stills = {
+	texture = "gfx/interface/icons/production_method_icons/patent_stills.dds"
+	unlocking_technologies = {
+		fractional_distillation
+	}
+	# MODIFIED
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -35,7 +45,9 @@ INJECT:pm_patent_stills = {
 	}
 }
 
-INJECT:pm_ceramics = {
+REPLACE:pm_ceramics = {
+	texture = "gfx/interface/icons/production_method_icons/ceramics.dds"
+	# MODIFIED
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -54,7 +66,12 @@ INJECT:pm_ceramics = {
 	}
 }
 
-INJECT:pm_bone_china = {
+REPLACE:pm_bone_china = {
+	texture = "gfx/interface/icons/production_method_icons/bone_china.dds"
+	unlocking_technologies = {
+		chemical_bleaching
+	}
+	# MODIFIED
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -74,11 +91,11 @@ INJECT:pm_bone_china = {
 }
 
 # New PMs
-INJECT_OR_CREATE:pm_rum = {
+REPLACE_OR_CREATE:pm_rum = {
 	texture = "gfx/interface/icons/production_method_icons/rum.dds"
 }
 
-INJECT_OR_CREATE:pm_vodka = {
+REPLACE_OR_CREATE:pm_vodka = {
 	texture = "gfx/interface/icons/production_method_icons/vodka.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -89,7 +106,7 @@ INJECT_OR_CREATE:pm_vodka = {
 	}
 }
 
-INJECT_OR_CREATE:pm_handsewn_clothes_luxury = {
+REPLACE_OR_CREATE:pm_handsewn_clothes_luxury = {
 	texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -105,7 +122,7 @@ INJECT_OR_CREATE:pm_handsewn_clothes_luxury = {
 	}
 }
 
-INJECT_OR_CREATE:pm_dye_workshops_luxury = {
+REPLACE_OR_CREATE:pm_dye_workshops_luxury = {
 	texture = "gfx/interface/icons/production_method_icons/dye_workshops.dds"
 	unlocking_technologies = {
 		lathe
@@ -126,7 +143,7 @@ INJECT_OR_CREATE:pm_dye_workshops_luxury = {
 	}
 }
 
-INJECT_OR_CREATE:pm_sewing_machines_luxury = {
+REPLACE_OR_CREATE:pm_sewing_machines_luxury = {
 	texture = "gfx/interface/icons/production_method_icons/sewing_machines.dds"
 	unlocking_technologies = {
 		mechanized_workshops
@@ -149,7 +166,7 @@ INJECT_OR_CREATE:pm_sewing_machines_luxury = {
 	}
 }
 
-INJECT_OR_CREATE:pm_electric_sewing_machines_luxury = {
+REPLACE_OR_CREATE:pm_electric_sewing_machines_luxury = {
 	texture = "gfx/interface/icons/production_method_icons/electric_sewing_machines.dds"
 	unlocking_technologies = {
 		electrical_capacitors
@@ -174,7 +191,7 @@ INJECT_OR_CREATE:pm_electric_sewing_machines_luxury = {
 	required_input_goods = electricity
 }
 
-INJECT_OR_CREATE:pm_handcrafted_furniture_luxury = {
+REPLACE_OR_CREATE:pm_handcrafted_furniture_luxury = {
 	texture = "gfx/interface/icons/production_method_icons/furniture_handicraft.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -192,7 +209,7 @@ INJECT_OR_CREATE:pm_handcrafted_furniture_luxury = {
 	}
 }
 
-INJECT_OR_CREATE:pm_lathe_luxury = {
+REPLACE_OR_CREATE:pm_lathe_luxury = {
 	texture = "gfx/interface/icons/production_method_icons/lathes.dds"
 	unlocking_technologies = {
 		lathe
@@ -216,7 +233,7 @@ INJECT_OR_CREATE:pm_lathe_luxury = {
 	}
 }
 
-INJECT_OR_CREATE:pm_mechanized_workshops_luxury = {
+REPLACE_OR_CREATE:pm_mechanized_workshops_luxury = {
 	texture = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
 	unlocking_technologies = {
 		mechanized_workshops

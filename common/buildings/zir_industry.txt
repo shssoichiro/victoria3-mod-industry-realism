@@ -1,5 +1,17 @@
 ﻿### Existing Buildings
-INJECT:building_food_industry = {
+REPLACE:building_food_industry = {
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/food_industry.dds"
+	city_type = city
+	levels_per_mesh = 50
+	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
+	unlocking_technologies = {
+		manufacturies
+	}
+	required_construction = construction_cost_high
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	# MODIFIED
 	production_method_groups = {
 		pmg_base_building_food_industry
 		pmg_canning
@@ -7,21 +19,62 @@ INJECT:building_food_industry = {
 	}
 }
 
-INJECT:building_textile_mill = {
+REPLACE:building_textile_mill = {
+	aliases = {
+		building_textile_mill
+	}
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/textile_industry.dds"
+	city_type = city
+	levels_per_mesh = 50
+	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
+	unlocking_technologies = {
+		manufacturies
+	}
+	required_construction = construction_cost_high
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	# MODIFIED
 	production_method_groups = {
 		pmg_base_building_textile_mill
 		pmg_automation_building_textile_mill
 	}
 }
 
-INJECT:building_furniture_manufactory = {
+REPLACE:building_furniture_manufactory = {
+	aliases = {
+		building_furniture_manufacturies
+	}
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/furniture_manufacturies.dds"
+	city_type = city
+	levels_per_mesh = 50
+	ai_nationalization_desire = -0.25	# AI is generally fine with privatizing consumer goods industries
+	unlocking_technologies = {
+		manufacturies
+	}
+	required_construction = construction_cost_high
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	# MODIFIED
 	production_method_groups = {
 		pmg_base_building_furniture_manufactory
 		pmg_automation_building_furniture_manufactory
 	}
 }
 
-INJECT:building_glassworks = {
+REPLACE:building_glassworks = {
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/glassworks.dds"
+	city_type = city
+	levels_per_mesh = 50
+	unlocking_technologies = {
+		manufacturies
+	}
+	required_construction = construction_cost_high
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	# MODIFIED
 	production_method_groups = {
 		pmg_base_building_glassworks
 		pmg_glassblowing
@@ -29,7 +82,7 @@ INJECT:building_glassworks = {
 }
 
 ### New Buildings
-INJECT_OR_CREATE:building_distillery = {
+REPLACE_OR_CREATE:building_distillery = {
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/distillery.dds"
 	city_type = city
@@ -47,7 +100,7 @@ INJECT_OR_CREATE:building_distillery = {
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
-INJECT_OR_CREATE:building_tailoring_workshop = {
+REPLACE_OR_CREATE:building_tailoring_workshop = {
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/tailoring_workshop.dds"
 	city_type = city
@@ -65,7 +118,7 @@ INJECT_OR_CREATE:building_tailoring_workshop = {
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
-INJECT_OR_CREATE:building_luxury_furniture_manufactory = {
+REPLACE_OR_CREATE:building_luxury_furniture_manufactory = {
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/luxury_furniture_manufacturies.dds"
 	city_type = city
@@ -83,7 +136,7 @@ INJECT_OR_CREATE:building_luxury_furniture_manufactory = {
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
-INJECT_OR_CREATE:building_pottery_mill = {
+REPLACE_OR_CREATE:building_pottery_mill = {
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/pottery_mills.dds"
 	city_type = city

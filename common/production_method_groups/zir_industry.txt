@@ -1,5 +1,7 @@
 ﻿# Existing PMGs
-INJECT:pmg_luxury_building_textile_mill = {
+REPLACE:pmg_luxury_building_textile_mill = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	# MODIFIED
 	production_methods = {
 		pm_handsewn_clothes_luxury
 		pm_dye_workshops_luxury
@@ -8,7 +10,9 @@ INJECT:pmg_luxury_building_textile_mill = {
 	}
 }
 
-INJECT:pmg_luxury_building_furniture_manufactory = {
+REPLACE:pmg_luxury_building_furniture_manufactory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	# MODIFIED
 	production_methods = {
 		pm_handcrafted_furniture_luxury
 		pm_lathe_luxury
@@ -16,7 +20,9 @@ INJECT:pmg_luxury_building_furniture_manufactory = {
 	}
 }
 
-INJECT:pmg_luxury_building_glassworks = {
+REPLACE:pmg_luxury_building_glassworks = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	# MODIFIED
 	production_methods = {
 		pm_ceramics
 		pm_bone_china
@@ -24,7 +30,7 @@ INJECT:pmg_luxury_building_glassworks = {
 }
 
 # New PMGs
-INJECT_OR_CREATE:pmg_base_building_distillery = {
+REPLACE_OR_CREATE:pmg_base_building_distillery = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_pot_stills
@@ -32,7 +38,7 @@ INJECT_OR_CREATE:pmg_base_building_distillery = {
 	}
 }
 
-INJECT_OR_CREATE:pmg_base_building_distillery_type = {
+REPLACE_OR_CREATE:pmg_base_building_distillery_type = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_rum

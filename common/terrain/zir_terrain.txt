@@ -1,4 +1,4 @@
-﻿INJECT_OR_CREATE:farmland_orchard = {
+﻿REPLACE_OR_CREATE:farmland_orchard = {
 	label = label_forested
 	label = label_developed
 	weight = {

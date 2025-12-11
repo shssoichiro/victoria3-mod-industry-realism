@@ -1,5 +1,10 @@
 ﻿# Change Production Method
-INJECT:sg_change_production_method = {
+REPLACE:sg_change_production_method = {
+	category = sgcat_tutorial
+	unlocking_subgoals_all = {
+		sg_expand_basic_building
+	}
+	# MODIFIED
 	trigger = {
 		any_scope_state = {
 			OR = {

@@ -1,36 +1,46 @@
 ﻿# Existing PMGs
-INJECT:pmg_synthetic_silk = {
+REPLACE:pmg_synthetic_silk = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	# MODIFIED
 	production_methods = {
 		pm_rayon
 	}
 }
 
-INJECT:pmg_automobile_production = {
+REPLACE:pmg_automobile_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	# MODIFIED
 	production_methods = {
 		pm_automobile_production
 	}
 }
 
-INJECT:pmg_tanks = {
+REPLACE:pmg_tanks = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	# MODIFIED
 	production_methods = {
 		pm_tank_production
 	}
 }
 
-INJECT:pmg_aeroplanes = {
+REPLACE:pmg_aeroplanes = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	# MODIFIED
 	production_methods = {
 		pm_aeroplane_production
 	}
 }
 
-INJECT:pmg_radios_category = {
+REPLACE:pmg_radios_category = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	# MODIFIED
 	production_methods = {
 		pm_radios
 	}
 }
 
 # New PMGs
-INJECT_OR_CREATE:pmg_automation_building_war_machine_industry = {
+REPLACE_OR_CREATE:pmg_automation_building_war_machine_industry = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_automation_disabled
@@ -38,7 +48,7 @@ INJECT_OR_CREATE:pmg_automation_building_war_machine_industry = {
 	}
 }
 
-INJECT_OR_CREATE:pmg_automation_building_aircraft_industry = {
+REPLACE_OR_CREATE:pmg_automation_building_aircraft_industry = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_automation_disabled
@@ -46,14 +56,14 @@ INJECT_OR_CREATE:pmg_automation_building_aircraft_industry = {
 	}
 }
 
-INJECT_OR_CREATE:pmg_synthetic_rubber = {
+REPLACE_OR_CREATE:pmg_synthetic_rubber = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
 		pm_synthetic_rubber
 	}
 }
 
-INJECT_OR_CREATE:pmg_synthetic_fuel = {
+REPLACE_OR_CREATE:pmg_synthetic_fuel = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
 		pm_fischer_tropsch

@@ -79,35 +79,35 @@
 					}
 				}
 				AND = {
-					is_building_type = building_tooling_workshops
+					is_building_type = building_tooling_workshop
 					state = {
 						OR = {
 							is_production_method_active = {
-								building_type = building_tooling_workshops
-								production_method = pm_watertube_boiler_building_tooling_workshops
+								building_type = building_tooling_workshop
+								production_method = pm_watertube_boiler_building_tooling_workshop
 							}
 							is_production_method_active = {
-								building_type = building_tooling_workshops
-								production_method = pm_rotary_valve_engine_building_tooling_workshops
+								building_type = building_tooling_workshop
+								production_method = pm_rotary_valve_engine_building_tooling_workshop
 							}
 							is_production_method_active = {
-								building_type = building_tooling_workshops
-								production_method = pm_assembly_lines_building_tooling_workshops
+								building_type = building_tooling_workshop
+								production_method = pm_assembly_lines_building_tooling_workshop
 							}
 						}
 					}
 				}
 				AND = {
-					is_building_type = building_paper_mills
+					is_building_type = building_paper_mill
 					state = {
 						OR = {
 							is_production_method_active = {
-								building_type = building_paper_mills
-								production_method = pm_watertube_boiler_building_paper_mills
+								building_type = building_paper_mill
+								production_method = pm_watertube_boiler_building_paper_mill
 							}
 							is_production_method_active = {
-								building_type = building_paper_mills
-								production_method = pm_rotary_valve_engine_building_paper_mills
+								building_type = building_paper_mill
+								production_method = pm_rotary_valve_engine_building_paper_mill
 							}
 						}
 					}

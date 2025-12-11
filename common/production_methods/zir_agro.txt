@@ -1,5 +1,7 @@
 ﻿# Existing PMs
-INJECT:pm_open_air_stockyards = {
+REPLACE:pm_open_air_stockyards = {
+	texture = "gfx/interface/icons/production_method_icons/open_air_stockyards.dds"
+	# MODIFIED
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_grain_add = 10
@@ -13,7 +15,9 @@ INJECT:pm_open_air_stockyards = {
 	}
 }
 
-INJECT:pm_butchering_tools = {
+REPLACE:pm_butchering_tools = {
+	texture = "gfx/interface/icons/production_method_icons/butchering_tools.dds"
+	# MODIFIED
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_tools_add = 2
@@ -30,7 +34,17 @@ INJECT:pm_butchering_tools = {
 	}
 }
 
-INJECT:pm_slaughterhouses = {
+REPLACE:pm_slaughterhouses = {
+	texture = "gfx/interface/icons/production_method_icons/slaughterhouses.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	unlocking_technologies = {
+		mechanical_tools
+	}
+	# MODIFIED
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_tools_add = 5
@@ -47,7 +61,17 @@ INJECT:pm_slaughterhouses = {
 	}
 }
 
-INJECT:pm_mechanized_slaughtering = {
+REPLACE:pm_mechanized_slaughtering = {
+	texture = "gfx/interface/icons/production_method_icons/mechanized_slaughtering.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+	unlocking_technologies = {
+		mechanized_farming
+	}
+	# MODIFIED
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_tools_add = 5
@@ -66,7 +90,7 @@ INJECT:pm_mechanized_slaughtering = {
 }
 
 # New PMs
-INJECT_OR_CREATE:pm_simple_farming_orchard = {
+REPLACE_OR_CREATE:pm_simple_farming_orchard = {
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -81,7 +105,7 @@ INJECT_OR_CREATE:pm_simple_farming_orchard = {
 	}
 }
 
-INJECT_OR_CREATE:pm_soil_enriching_farming_orchard = {
+REPLACE_OR_CREATE:pm_soil_enriching_farming_orchard = {
 	texture = "gfx/interface/icons/production_method_icons/soil_enriching_farming.dds"
 	unlocking_technologies = {
 		intensive_agriculture
@@ -102,7 +126,7 @@ INJECT_OR_CREATE:pm_soil_enriching_farming_orchard = {
 	}
 }
 
-INJECT_OR_CREATE:pm_fertilization_orchard = {
+REPLACE_OR_CREATE:pm_fertilization_orchard = {
 	texture = "gfx/interface/icons/production_method_icons/fertilization.dds"
 	unlocking_technologies = {
 		improved_fertilizer
@@ -128,7 +152,7 @@ INJECT_OR_CREATE:pm_fertilization_orchard = {
 	}
 }
 
-INJECT_OR_CREATE:pm_chemical_fertilizer_orchard = {
+REPLACE_OR_CREATE:pm_chemical_fertilizer_orchard = {
 	texture = "gfx/interface/icons/production_method_icons/chemical_fertilizers.dds"
 	unlocking_technologies = {
 		nitrogen_fixation
@@ -154,7 +178,7 @@ INJECT_OR_CREATE:pm_chemical_fertilizer_orchard = {
 	}
 }
 
-INJECT_OR_CREATE:pm_hand_shearing = {
+REPLACE_OR_CREATE:pm_hand_shearing = {
 	texture = "gfx/interface/icons/production_method_icons/open_air_stockyards.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -168,7 +192,7 @@ INJECT_OR_CREATE:pm_hand_shearing = {
 	}
 }
 
-INJECT_OR_CREATE:pm_specialized_shears = {
+REPLACE_OR_CREATE:pm_specialized_shears = {
 	texture = "gfx/interface/icons/production_method_icons/butchering_tools.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -185,7 +209,7 @@ INJECT_OR_CREATE:pm_specialized_shears = {
 	}
 }
 
-INJECT_OR_CREATE:pm_electric_shears = {
+REPLACE_OR_CREATE:pm_electric_shears = {
 	texture = "gfx/interface/icons/production_method_icons/mechanized_slaughtering.dds"
 	unlocking_technologies = {
 		mechanized_farming
