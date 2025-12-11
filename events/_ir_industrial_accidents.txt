@@ -1,6 +1,6 @@
 ﻿namespace = industrial_accident_events
 # Dyeworks
-REPLACE:industrial_accident_events.2 = {
+industrial_accident_events.2 = {
 	type = country_event
 	placement = scope:dyeworks_state
 	title = industrial_accident_events.2.t
@@ -82,7 +82,7 @@ REPLACE:industrial_accident_events.2 = {
 }
 
 # The Great Molasses Flood
-REPLACE:industrial_accident_events.4 = {
+industrial_accident_events.4 = {
 	type = country_event
 	placement = scope:molasses_flood_state
 	title = industrial_accident_events.4.t

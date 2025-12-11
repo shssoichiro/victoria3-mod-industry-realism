@@ -1,5 +1,5 @@
 ﻿namespace = decree_events
-REPLACE:decree_events.100 = {
+decree_events.100 = {
 	#Throughput vs minimum sol
 	type = country_event
 	placement = scope:decree_manufacturing_industry
@@ -133,7 +133,7 @@ REPLACE:decree_events.100 = {
 	}
 }
 
-REPLACE:decree_events.101 = {
+decree_events.101 = {
 	#Choose who gets the credit
 	type = country_event
 	placement = scope:decree_manufacturing_politics
@@ -270,7 +270,7 @@ REPLACE:decree_events.101 = {
 	}
 }
 
-REPLACE:decree_events.102 = {
+decree_events.102 = {
 	#Throughput vs minimum sol
 	type = country_event
 	placement = scope:decree_agricultural_industry
@@ -384,7 +384,7 @@ REPLACE:decree_events.102 = {
 	}
 }
 
-REPLACE:decree_events.103 = {
+decree_events.103 = {
 	#Choose who gets the credit
 	type = country_event
 	placement = scope:decree_agricultural_politics
@@ -501,7 +501,7 @@ REPLACE:decree_events.103 = {
 	}
 }
 
-REPLACE:decree_events.104 = {
+decree_events.104 = {
 	#Throughput vs minimum sol
 	type = country_event
 	placement = scope:decree_resource_industry
@@ -601,7 +601,7 @@ REPLACE:decree_events.104 = {
 	}
 }
 
-REPLACE:decree_events.105 = {
+decree_events.105 = {
 	#choose who gets attraction
 	type = country_event
 	placement = scope:decree_resource_politics

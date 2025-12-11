@@ -1,6 +1,6 @@
 ﻿namespace = land_ownership_law_events
 # Debate Event - The Plight of the Second Sons
-REPLACE:land_ownership_law_events.4 = {
+land_ownership_law_events.4 = {
 	type = country_event
 	placement = root
 	duration = 3
@@ -176,7 +176,7 @@ REPLACE:land_ownership_law_events.4 = {
 }
 
 # Debate Event - Barn House Dealings
-REPLACE:land_ownership_law_events.7 = {
+land_ownership_law_events.7 = {
 	type = country_event
 	placement = scope:farmer_wealth_concentration_state_scope
 	duration = 3
@@ -268,7 +268,7 @@ REPLACE:land_ownership_law_events.7 = {
 }
 
 # Advance Event - A Tragedy in the Commons
-REPLACE:land_ownership_law_events.8 = {
+land_ownership_law_events.8 = {
 	type = country_event
 	placement = scope:a_tragedy_in_the_commons_state_scope
 	duration = 3
