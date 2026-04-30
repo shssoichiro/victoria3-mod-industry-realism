@@ -1065,6 +1065,162 @@
 			}
 		}
 	}
+	s:STATE_SAKHALIN = {
+		region_state:EZO = {
+		}
+		region_state:ALK = {
+		}
+		region_state:SKH = {
+		}
+		region_state:AIN = {
+		}
+		region_state:ULT = {
+		}
+	}
+	s:STATE_HOKKAIDO = {
+		region_state:EZO = {
+		}
+		region_state:JAP = {
+		}
+	}
+	s:STATE_TOHOKU = {
+		region_state:JAP = {
+		}
+	}
+	s:STATE_HOKUSHINETSU = {
+		region_state:JAP = {
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:JAP"
+						levels = 3
+						region = "STATE_HOKUSHINETSU"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:JAP"
+						levels = 1
+						region = "STATE_HOKUSHINETSU"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_KANTO = {
+		region_state:JAP = {
+		}
+	}
+	s:STATE_KYOTO = {
+		region_state:JAP = {
+			remove_building = building_livestock_ranch
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_livestock_ranch"
+						country = "c:JAP"
+						levels = 1
+						region = "STATE_KYOTO"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wool_farm"
+				add_ownership = {
+					building = {
+						type = "building_wool_farm"
+						country = "c:JAP"
+						levels = 1
+						region = "STATE_KYOTO"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_TOKAI = {
+		region_state:JAP = {
+		}
+	}
+	s:STATE_KANSAI = {
+		region_state:JAP = {
+			remove_building = building_textile_mill
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = "building_textile_mill"
+						country = "c:JAP"
+						levels = 2
+						region = "STATE_KANSAI"
+					}
+				}
+			}
+			create_building = {
+				building = "building_tailoring_workshop"
+				add_ownership = {
+					building = {
+						type = "building_tailoring_workshop"
+						country = "c:JAP"
+						levels = 1
+						region = "STATE_KANSAI"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_KYUSHU = {
+		region_state:JAP = {
+			remove_building = building_rice_farm
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:JAP"
+						levels = 3
+						region = "STATE_KYUSHU"
+					}
+				}
+			}
+			create_building = {
+				building = "building_fruit_orchard"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:JAP"
+						levels = 1
+						region = "STATE_KYUSHU"
+					}
+				}
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_RYUKYU_ISLANDS = {
+		region_state:JAP = {
+		}
+		region_state:RYU = {
+		}
+	}
+	s:STATE_CHUGOKU = {
+		region_state:JAP = {
+		}
+	}
+	s:STATE_SHIKOKU = {
+		region_state:JAP = {
+		}
+	}
 	s:STATE_CAMBODIA = {
 		region_state:SIA = {
 		}
@@ -1151,120 +1307,6 @@
 	}
 	s:STATE_ARAKAN = {
 		region_state:BIC = {
-		}
-	}
-	s:STATE_SAKHALIN = {
-		region_state:SKH = {
-		}
-	}
-	s:STATE_HOKKAIDO = {
-		region_state:AIN = {
-		}
-		region_state:JAP = {
-		}
-	}
-	s:STATE_TOHOKU = {
-		region_state:JAP = {
-		}
-	}
-	s:STATE_KANTO = {
-		region_state:JAP = {
-		}
-	}
-	s:STATE_CHUBU = {
-		region_state:JAP = {
-			remove_building = building_livestock_ranch
-			create_building = {
-				building = "building_livestock_ranch"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:JAP"
-						levels = 1
-						region = "STATE_CHUBU"
-					}
-				}
-			}
-			create_building = {
-				building = "building_wool_farm"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:JAP"
-						levels = 1
-						region = "STATE_CHUBU"
-					}
-				}
-				reserves = 1
-			}
-		}
-	}
-	s:STATE_KANSAI = {
-		region_state:JAP = {
-			remove_building = building_textile_mill
-			create_building = {
-				building = "building_textile_mill"
-				add_ownership = {
-					building = {
-						type = "building_textile_mill"
-						country = "c:JAP"
-						levels = 3
-						region = "STATE_KANSAI"
-					}
-				}
-			}
-			create_building = {
-				building = "building_tailoring_workshop"
-				add_ownership = {
-					building = {
-						type = "building_tailoring_workshop"
-						country = "c:JAP"
-						levels = 1
-						region = "STATE_KANSAI"
-					}
-				}
-				reserves = 1
-			}
-			remove_building = building_livestock_ranch
-			create_building = {
-				building = "building_livestock_ranch"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:JAP"
-						levels = 1
-						region = "STATE_KANSAI"
-					}
-				}
-			}
-			create_building = {
-				building = "building_wool_farm"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:JAP"
-						levels = 1
-						region = "STATE_KANSAI"
-					}
-				}
-				reserves = 1
-			}
-		}
-	}
-	s:STATE_KYUSHU = {
-		region_state:JAP = {
-		}
-	}
-	s:STATE_RYUKYU_ISLANDS = {
-		region_state:JAP = {
-		}
-	}
-	s:STATE_CHUGOKU = {
-		region_state:JAP = {
-		}
-	}
-	s:STATE_SHIKOKU = {
-		region_state:JAP = {
 		}
 	}
 	s:STATE_SEOUL = {

@@ -4,7 +4,7 @@
 		}
 		region_state:SIA = {
 		}
-		region_state:BIC = {
+		region_state:GBR = {
 		}
 		region_state:PRK = {
 		}
