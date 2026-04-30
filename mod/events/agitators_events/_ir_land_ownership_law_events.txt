@@ -18,7 +18,7 @@ land_ownership_law_events.4 = {
 	}
 	trigger = {
 		OR = {
-			has_law_or_variant = law_type:law_homesteading
+			has_law_or_variant = law_type:law_peasant_proprietorship
 			has_law_or_variant = law_type:law_tenant_farmers
 		}
 		is_enacting_law = law_type:law_commercialized_agriculture
@@ -193,7 +193,7 @@ land_ownership_law_events.7 = {
 		days = normal_modifier_time
 	}
 	trigger = {
-		has_law_or_variant = law_type:law_homesteading
+		has_law_or_variant = law_type:law_peasant_proprietorship
 		OR = {
 			is_enacting_law = law_type:law_tenant_farmers
 			is_enacting_law = law_type:law_commercialized_agriculture
@@ -285,7 +285,7 @@ land_ownership_law_events.8 = {
 		days = normal_modifier_time
 	}
 	trigger = {
-		has_law_or_variant = law_type:law_homesteading
+		has_law_or_variant = law_type:law_peasant_proprietorship
 		OR = {
 			is_enacting_law = law_type:law_tenant_farmers
 			is_enacting_law = law_type:law_commercialized_agriculture

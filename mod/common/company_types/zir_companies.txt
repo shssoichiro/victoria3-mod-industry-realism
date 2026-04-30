@@ -18,7 +18,7 @@ REPLACE:company_san_miguel = {
 		}
 	}
 	potential = {
-		has_interest_marker_in_region = region_indonesia
+		has_interest_marker_in_region = sr:region_indonesia
 	}
 	attainable = {
 		hidden_trigger = {
@@ -156,7 +156,7 @@ REPLACE:company_guinness = {
 		}
 	}
 	potential = {
-		has_interest_marker_in_region = region_north_sea_coast
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 	attainable = {
 		hidden_trigger = {
@@ -237,7 +237,7 @@ REPLACE:company_pernambuco_textiles = {
 	}
 	potential = {
 		has_dlc_feature = rp1_content
-		has_interest_marker_in_region = region_brazil
+		has_interest_marker_in_region = sr:region_brazil
 	}
 	attainable = {
 		hidden_trigger = {
@@ -354,7 +354,7 @@ REPLACE:company_fcm = {
 		building_steel_mill
 	}
 	potential = {
-		has_interest_marker_in_region = region_occitania
+		has_interest_marker_in_region = sr:region_southern_europe
 	}
 	attainable = {
 		hidden_trigger = {
@@ -370,16 +370,13 @@ REPLACE:company_fcm = {
 			state_region = s:STATE_PROVENCE
 			is_incorporated = yes
 			any_scope_building = {
-				OR = {
-					is_building_type = building_shipyard
-					is_building_type = building_military_shipyard
-				}
+				is_building_type = building_shipyard
 				level >= 5
 			}
 		}
 	}
 	prosperity_modifier = {
-		unit_navy_offense_mult = 0.05
+		ship_hull_damage_mult = 0.025
 		unit_combat_unit_type_heavy_tank_offense_mult = 0.1
 	}
 	ai_will_do = {
@@ -396,12 +393,6 @@ REPLACE:company_fcm = {
 				state_region = s:STATE_PROVENCE
 			}
 		}
-		building_military_shipyard = {
-			level = 5
-			state_trigger = {
-				state_region = s:STATE_PROVENCE
-			}
-		}
 	}
 	ai_weight = {
 		value = 3		# Higher base value for flavored companies
@@ -409,7 +400,6 @@ REPLACE:company_fcm = {
 	# MODIFIED
 	building_types = {
 		building_shipyard
-		building_military_shipyard
 		building_war_machine_industry		# Produced the Char 2C
 	}
 }
@@ -439,7 +429,7 @@ REPLACE:company_philips = {
 		prestige_good_philips_chapel_radio
 	}
 	potential = {
-		has_interest_marker_in_region = region_rhine
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 	attainable = {
 		hidden_trigger = {
@@ -517,7 +507,7 @@ REPLACE:company_general_electric = {
 		prestige_good_radiola_radios
 	}
 	potential = {
-		has_interest_marker_in_region = region_new_england
+		has_interest_marker_in_region = sr:region_atlantic_coast
 	}
 	attainable = {
 		hidden_trigger = {
@@ -704,9 +694,17 @@ REPLACE:company_maison_worth = {
 	}
 	potential = {
 		has_dlc_feature = mp1_content
-		has_interest_marker_in_region = region_france
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 	attainable = {
+		hidden_trigger = {
+			# Hide attainable if it's always fulfilled by possible
+			s:STATE_ILE_DE_FRANCE = {
+				any_scope_state = {
+					owner = root
+				}
+			}
+		}
 	}
 	prosperity_modifier = {
 		country_influence_mult = 0.05
@@ -766,9 +764,17 @@ REPLACE:company_mantero_seta = {
 	}
 	potential = {
 		has_dlc_feature = mp1_content
-		has_interest_marker_in_region = region_italy
+		has_interest_marker_in_region = sr:region_southern_europe
 	}
 	attainable = {
+		hidden_trigger = {
+			# Hide attainable if it's always fulfilled by possible
+			s:STATE_LOMBARDY = {
+				any_scope_state = {
+					owner = root
+				}
+			}
+		}
 	}
 	prosperity_modifier = {
 		country_prestige_mult = 0.05
@@ -882,9 +888,17 @@ REPLACE:company_maple_and_co = {
 	}
 	potential = {
 		has_dlc_feature = mp1_content
-		has_interest_marker_in_region = region_england
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 	attainable = {
+		hidden_trigger = {
+			# Hide attainable if it's always fulfilled by possible
+			s:STATE_HOME_COUNTIES = {
+				any_scope_state = {
+					owner = root
+				}
+			}
+		}
 	}
 	prosperity_modifier = {
 		country_prestige_mult = 0.05
@@ -935,7 +949,7 @@ REPLACE:company_jingdezhen = {
 		building_lead_mine
 	}
 	potential = {
-		has_interest_marker_in_region = region_south_china
+		has_interest_marker_in_region = sr:region_south_china
 	}
 	possible_prestige_goods = {
 		prestige_good_canton_porcelain
@@ -1004,9 +1018,17 @@ REPLACE:company_konigliche_porzellan_manufaktur_meissen = {
 	}
 	potential = {
 		has_dlc_feature = mp1_content
-		has_interest_marker_in_region = region_north_germany
+		has_interest_marker_in_region = sr:region_central_europe
 	}
 	attainable = {
+		hidden_trigger = {
+			# Hide attainable if it's always fulfilled by possible
+			s:STATE_SAXONY = {
+				any_scope_state = {
+					owner = root
+				}
+			}
+		}
 	}
 	prosperity_modifier = {
 		country_prestige_mult = 0.1
@@ -1064,9 +1086,17 @@ REPLACE:company_kinkozan_sobei = {
 	}
 	potential = {
 		has_dlc_feature = mp1_content
-		has_interest_marker_in_region = region_japan
+		has_interest_marker_in_region = sr:region_northeast_asia
 	}
 	attainable = {
+		hidden_trigger = {
+			# Hide attainable if it's always fulfilled by possible
+			s:STATE_KANSAI = {
+				any_scope_state = {
+					owner = root
+				}
+			}
+		}
 	}
 	prosperity_modifier = {
 		country_influence_mult = 0.05
@@ -1109,7 +1139,7 @@ REPLACE:company_kinkozan_sobei = {
 # Bacardí y Compañía
 REPLACE:company_bacardi = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/company_bacardi.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"	# TODO Art
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	flavored_company = yes
 	extension_building_types = {
 		building_vineyard
@@ -1118,7 +1148,7 @@ REPLACE:company_bacardi = {
 		prestige_good_bacardi_rum
 	}
 	potential = {
-		has_interest_marker_in_region = region_caribbean
+		has_interest_marker_in_region = sr:region_central_america
 		has_dlc_feature = ip4_content
 	}
 	attainable = {
@@ -1132,6 +1162,19 @@ REPLACE:company_bacardi = {
 	prosperity_modifier = {
 		country_liberty_desire_add = 0.1
 		building_art_academy_throughput_add = 0.1
+	}
+	ai_will_do = {
+		any_scope_state = {
+			state_region = s:STATE_EASTERN_CUBA
+		}
+	}
+	ai_construction_targets = {
+		building_food_industry = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_EASTERN_CUBA
+			}
+		}
 	}
 	ai_weight = {
 		value = 3		# Higher base value for flavored companies
