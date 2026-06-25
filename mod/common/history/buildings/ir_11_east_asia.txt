@@ -1304,6 +1304,10 @@
 	s:STATE_PEGU = {
 		region_state:BUR = {
 		}
+		region_state:DEN = {
+		}
+		region_state:BIC = {
+		}
 	}
 	s:STATE_ARAKAN = {
 		region_state:BIC = {

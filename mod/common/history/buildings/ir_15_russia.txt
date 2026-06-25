@@ -184,7 +184,7 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:RUS"
-						levels = 7
+						levels = 10
 						region = "STATE_INGRIA"
 					}
 				}
@@ -201,7 +201,7 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:RUS"
-						levels = 1
+						levels = 2
 						region = "STATE_INGRIA"
 					}
 				}
